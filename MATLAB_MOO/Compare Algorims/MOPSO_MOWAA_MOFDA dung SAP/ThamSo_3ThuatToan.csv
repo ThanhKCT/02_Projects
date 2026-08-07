@@ -1,0 +1,4 @@
+Name,PopulationSize,Iterations,ArchiveCap,NFE,HyperparamStr
+MOPSO,50,50,100,2550,"w=0.40, c1=1.50, c2=1.50"
+MOWAA,50,50,100,2550,"alpha=0.10, nGrid=10, beta=4, gamma1=2"
+MOFDA,10,50,100,2510,"beta_dim=4, Alpha_Grid=0.10, nGrid=10, Beta_Leader=4, gamma_del=2"

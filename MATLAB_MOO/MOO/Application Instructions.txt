@@ -1,0 +1,17 @@
+These files including the following benchmark functions: 
+
+CEC19+23: F1-F23( twenty-three classical benchmark functions); F31-F40(ten CEC2019 benchmark functions); 
+                  others: several engineering problems;
+
+CEC2014: thirty CEC2014 benchmark functions for two dimensionality scale D=50 and D=100;
+
+CEC2017: twenty-nine CEC2017 benchmark functions;
+
+CEC2020: CEC2020 benchmark functions;
+
+CEC2022: CEC2022 benchmark functions;
+
+If you have any questions, please contact the author at "Jun.Cheng@UGent.be" or via their ResearchGate profile:
+https://www.researchgate.net/profile/Jun-Cheng-43.
+
+Regarding the WAA data used in these functions, you can also reach out to the author for access to the relevant data.

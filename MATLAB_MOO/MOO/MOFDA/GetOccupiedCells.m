@@ -1,0 +1,42 @@
+
+%__________________________________________________________________     %
+%        Multi-Objective Flow Direction Algorithm  (MOFDA)              %
+%                                                                       %
+%                                                                       %
+%                  Developed in MATLAB R2024b (MacOs)                   %
+%                                                                       %
+%                      Author and programmer                            %
+%                ---------------------------------                      %
+%                Nima Khodadadi (ʘ‿ʘ)   University of Miami             %
+%                             e-Mail                                    %
+%                ---------------------------------                      %
+%                      Nima.khodadadi@miami.edu                         %
+%                                                                       %
+%                                                                       %
+%                            Homepage                                   %
+%                ---------------------------------                      %
+%                    https://nimakhodadadi.com                          %
+%                                                                       %
+%                                                                       %
+%                                                                       %
+%                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% ----------------------------------------------------------------------- %
+
+
+function [occ_cell_index occ_cell_member_count]=GetOccupiedCells(pop)
+
+    GridIndices=[pop.GridIndex];
+    
+    occ_cell_index=unique(GridIndices);
+    
+    occ_cell_member_count=zeros(size(occ_cell_index));
+
+    m=numel(occ_cell_index);
+    for k=1:m
+        occ_cell_member_count(k)=sum(GridIndices==occ_cell_index(k));
+    end
+    
+end

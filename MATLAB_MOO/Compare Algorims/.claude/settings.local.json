@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where matlab *)",
+      "Bash(matlab -help)",
+      "Bash(ls \"C:/Program Files/MATLAB/R2023b/bin/matlab.exe\" 2>&1)",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"run\\('verify_deflection.m'\\)\")",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"addpath\\('D:\\\\1_MATLAB\\\\MOPSO - NSGA2 - PESA2'\\); x=[0.3,0.5,0.006,0.012,0.3,0.7,0.008,0.01]; [U,NoiLuc,DoVong,W]=TinhNoiLucKhung2T1N\\(x\\); disp\\(NoiLuc.Cot1\\); disp\\(NoiLuc.Cot2\\); disp\\(NoiLuc.Cot3\\); disp\\(NoiLuc.Cot4\\);\")",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"addpath\\('D:\\\\1_MATLAB\\\\MOPSO - NSGA2 - PESA2'\\); x=[0.50,0.80,0.014,0.022,0.40,0.60,0.012,0.016]; [U,NoiLuc,DoVong,W]=TinhNoiLucKhung2T1N\\(x\\); r=Check_TCVN5575\\(x,NoiLuc,DoVong\\); fprintf\\('Max_Stress_Ratio \\(tiet dien lon nhat VarMax\\) = %.4f\\\\n', r\\);\")",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"addpath\\('D:\\\\1_MATLAB\\\\MOPSO - NSGA2 - PESA2'\\); x=[0.3,0.5,0.006,0.012,0.3,0.7,0.008,0.01]; Cost=HamMucTieuToiUu\\(x\\); disp\\(Cost\\);\")",
+      "Bash('/c/Program Files/MATLAB/R2023b/bin/matlab.exe' -batch ' *)",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"run\\('Compare_MOPSO_MOWAA_MOFDA.m'\\)\")",
+      "Bash(powershell -Command \"Get-Process EXCEL -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"run\\('Compare_Algorithms.m'\\)\")",
+      "Bash(\"/c/Program Files/MATLAB/R2023b/bin/matlab.exe\" -batch \"run\\('Statistical_Compare.m'\\)\")",
+      "Bash(mkdir -p \"/c/Users/Admin/AppData/Local/Temp/claude/D--1-MATLAB-MOPSO---NSGA2---PESA2/29bf8638-fbb9-47be-8e1b-6932bf331334/scratchpad\")",
+      "Bash(node build_doc.js \"Bai_Hoc_SAP2000_vs_FEM.docx\")",
+      "PowerShell($dir = \"C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--1-MATLAB-MOPSO---NSGA2---PESA2\\\\29bf8638-fbb9-47be-8e1b-6932bf331334\\\\scratchpad\"; node \"$dir\\\\build_doc.js\" \"$dir\\\\Bai_Hoc_SAP2000_vs_FEM.docx\")",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files/Microsoft Office/**)",
+      "Bash(which soffice.exe libreoffice 2>&1 *)",
+      "Bash(find \"/c/Users/Admin/AppData/Local/Temp/claude/D--1-MATLAB-MOPSO---NSGA2---PESA2/29bf8638-fbb9-47be-8e1b-6932bf331334\" -iname \"*.odc\" 2>/dev/null)",
+      "Read(//c/Users/Admin/AppData/Local/Temp/claude/D--1-MATLAB-MOPSO---NSGA2---PESA2/**)",
+      "Bash(find \"/c/Users/Admin/AppData/Local/Temp/claude\" -iname \"*.odc\" 2>/dev/null)",
+      "Bash(find \"/c/Users/Admin/AppData/Local/Temp/claude/D--1-MATLAB-MOPSO---NSGA2---PESA2/a59bb0ea-e2ea-4a50-ac12-286aa03d4731\" 2>/dev/null; echo \"---recent downloads---\"; find \"/c/Users/Admin/Downloads\" -maxdepth 1 -iname \"*.pdf\" -newer \"/c/Users/Admin/AppData/Local/Temp\" 2>/dev/null | head -50)"
+    ]
+  }
+}

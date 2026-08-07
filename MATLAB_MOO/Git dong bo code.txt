@@ -1,0 +1,8 @@
+
+* lệnh đẩy: 
+git add .
+git commit -m "Hoan thanh code tren PC"
+git push
+
+* Lệnh tải
+git pull

@@ -1,0 +1,48 @@
+Nghiên cứu MOFDA — Nhận xét bài báo & bộ code MATLAB
+1. Tóm tắt bài báo
+C4.12 - MOFDA.pdf (Khodadadi et al., Results in Engineering 25 (2025) 103670) mở rộng Flow Direction Algorithm (FDA) — thuật toán đơn mục tiêu mô phỏng dòng chảy nước mưa trên lưu vực — sang phiên bản đa mục tiêu (MOFDA) theo hướng a posteriori (không cần trọng số chuyên gia trước). Ba cơ chế được thêm vào, mượn gần như nguyên bản từ MOGWO (Mirjalili et al. 2016):
+
+Archive lưu tập nghiệm không bị trội (non-dominated), giới hạn kích thước.
+Grid mechanism chia không gian mục tiêu thành lưới để đo độ "đông đúc" và loại bớt nghiệm khi archive đầy.
+Leader selection chọn "flow" dẫn đường bằng roulette-wheel ưu tiên các ô lưới thưa nghiệm.
+Thử nghiệm trên 27 bài toán (CEC-09 UF1–10, ZDT1–4/6, DTLZ2/4, 8 bài toán kỹ thuật, 2 dàn giáo/truss 120‑bar và 200‑bar), so với MOPSO/MOGWO/MOMVO/MOHO/MOMVO2arc/MOCO qua 7 chỉ số (GD, IGD, MS, S, HV, STE, WRST). Kết luận: MOFDA thắng đa số chỉ số.
+
+2. Đối chiếu code với mô tả thuật toán
+Bộ code gồm MOFDA.m (vòng lặp chính) + các hàm phụ trợ archive/grid/leader (DetermineDominations.m, Dominates.m, GetNonDominatedParticles.m, CreateHypercubes.m, GetGridIndex.m, GetOccupiedCells.m, SelectLeader.m, RouletteWheelSelection.m, DeleteFromRep.m) và driver MainFDA.m.
+
+Khớp tốt: cơ chế archive/grid/leader-selection đúng với mô tả mục 3.2 của bài báo và là bản port khá chuẩn từ code Yarpiz MOGWO/MOPSO — phần này đáng tin cậy.
+
+3. Các điểm bất nhất / vấn đề đáng lưu ý
+a) Bước chọn "neighbor tốt nhất" dùng scalar hoá, mâu thuẫn với tuyên bố "không tổng hợp mục tiêu"
+MOFDA.m:97-101 xếp hạng các neighbor bằng norm(neighbor_x(j).Cost) (chuẩn Euclid của vector chi phí) rồi lấy neighbor có norm nhỏ nhất — tức là quy về tổng hợp trọng số bằng nhau, đúng cách tiếp cận a priori mà chính bài báo phê phán ở phần Introduction. Đây là điểm mâu thuẫn nội tại quan trọng nhất giữa lý thuyết và code.
+
+b) So sánh "tốt hơn" giữa các Cost dùng phép < phần tử, không dùng Dominates()
+MOFDA.m:100 (if neighbor_x(indx(1)).Cost<flow_x(i).Cost) và MOFDA.m:112 (if flow_x(r).Cost<=flow_x(i).Cost) so sánh vector nhiều phần tử trong if — MATLAB coi là đúng chỉ khi tất cả phần tử thoả điều kiện. Điều này chặt hơn định nghĩa Pareto-dominance (Eq. 5-6 trong bài báo, vốn chỉ cần tốt-hơn-hoặc-bằng ở mọi mục tiêu và tốt hơn thực sự ở ít nhất một). Trong khi đó hàm Dominates.m đã viết đúng logic Pareto nhưng không được gọi ở đây — thiếu nhất quán trong chính codebase.
+
+c) Số lưới (nGrid) không khớp bảng tham số của bài báo
+Table 1 trong bài báo ghi rõ "number of archive grids for each objective = 30" cho mọi thuật toán kể cả MOFDA, nhưng MOFDA.m:42 đặt nGrid=10.
+
+d) beta = dim khiến số lần đánh giá hàm mục tiêu vượt xa con số công bố
+MOFDA.m:48 gán số lân cận mỗi flow (β) bằng đúng số biến quyết định (dim), không phải một hằng số độc lập như FDA gốc. Với các bài CEC-09/ZDT (dim=30), mỗi vòng lặp tốn alpha*(beta+1) lần gọi hàm mục tiêu; với alpha=100, max_iter=100 → khoảng 310.000 lần đánh giá, trong khi bài báo (mục 4.2) khẳng định giới hạn 100.000 function evaluations. Chỉ với bài toán 2 biến (P8/SRN) con số mới khớp khoảng 30.000. Đáng để tác giả xác minh lại.
+
+e) Công thức delta/ω lệch so với Eq. 13 và có rủi ro số học
+MOFDA.m:89: (((1-iter/maxiter+eps)^(2*randn)).*(rand.*iter/maxiter).*rand). Bài báo Eq. 13 dùng rand (0–1) ở số mũ, code dùng randn (không giới hạn, có thể âm) — khi cơ số nhỏ dần về 0 ở cuối vòng lặp mà số mũ là số âm lớn, kết quả có thể bùng nổ (Inf/NaN). Ngoài ra code còn nhân thêm một rand(1,dim) không có trong Eq. 13 — dấu hiệu công thức bị copy/chỉnh tay cho một hàm test cụ thể (comment %for 56 còn sót lại trong code xác nhận điều này).
+
+f) Clamp vận tốc "đảo dấu" thay vì cắt ngưỡng thông thường
+MOFDA.m:104-108: khi V<Vmin thì gán V=-Vmin (không phải V=Vmin), tương tự V>Vmax → V=-Vmax. Đây là kiểu "bật ngược" sang cực còn lại chứ không phải clamp chuẩn, và hoàn toàn không được nhắc tới trong bài báo (Eq. 14-16) — cần xác nhận đây là chủ ý hay lỗi gõ.
+
+g) Bộ code chỉ chạy được 1/25+ bài toán trong bài báo
+Ptest.m và xboundaryP.m chỉ định nghĩa case 'P8' (chính là bài toán kỹ thuật SRN), và MainFDA.m:33 hard-code for j=8. Không có code cho CEC-09 (UF1-10), ZDT/DTLZ, 7 bài toán kỹ thuật còn lại, hay 2 bài toán truss 120-bar/200-bar — dù đây là phần lõi minh chứng hiệu năng của bài báo. Không có bất kỳ cài đặt nào cho 7 chỉ số hiệu năng (GD/IGD/MS/S/HV/STE/WRST) hay thống kê Wilcoxon. Đây rõ ràng chỉ là gói demo rút gọn, không phải mã nguồn đầy đủ dùng để tạo ra các bảng kết quả trong bài báo.
+
+h) Chi tiết linh tinh khác
+
+HandleFullArchive.m tồn tại nhưng không được gọi ở đâu trong MOFDA.m (dùng DeleteFromRep.m thay thế) — code thừa/rác còn sót từ template gốc.
+flow_x(i).Best.Position/.Best.Cost (MOFDA.m:59-60) được khởi tạo nhưng không bao giờ cập nhật/dùng lại — trường dữ liệu chết còn sót từ bản đơn mục tiêu.
+save results bên trong vòng lặp chính (MOFDA.m:162) ghi đè file results.mat ở thư mục hiện hành mỗi vòng lặp — tốn I/O vô ích và có thể âm thầm ghi đè dữ liệu khác của người dùng nếu trùng tên.
+Đặt tên biến trùng nhưng khác hoa/thường rất dễ gây nhầm (alpha = kích thước quần thể vs Alpha = tham số grid inflation; beta=dim vs Beta=4 leader pressure) — không sai về mặt kỹ thuật (MATLAB phân biệt hoa/thường) nhưng là rủi ro bảo trì lớn.
+MainFDA.m:43 hard-code chỉ 1 lần chạy độc lập (for i=1), trong khi bài báo báo cáo 20 lần chạy độc lập cho mọi thống kê.
+GetGridIndex.m:36-52 dùng eval() để dựng lệnh gọi sub2ind từ chuỗi ký tự — chậm và giòn (fragile), có thể thay bằng gọi trực tiếp sub2ind với cell array; đây là tàn dư từ code MOGWO/MOPSO gốc (Yarpiz), không phải lỗi riêng của MOFDA nhưng đáng cải thiện.
+4. Đánh giá tổng thể
+Về mặt ý tưởng, MOFDA là một biến thể đa mục tiêu khá chuẩn mực theo khuôn mẫu MOGWO (archive + grid + leader roulette-wheel) — phần này cài đặt đúng. Tuy nhiên, điểm yếu cốt lõi là bước cập nhật vị trí "flow" lại dùng chuẩn Euclid của vector chi phí để xếp hạng neighbor, tức ngầm quy về tối ưu tổng hợp một mục tiêu — đi ngược lại chính luận điểm "không cần biết trước trọng số mục tiêu" mà bài báo dùng làm động lực chính. Ngoài ra bộ code đính kèm chỉ là bản demo tối giản (1/25+ bài toán, thiếu toàn bộ code tính chỉ số hiệu năng và thống kê), nên không thể dùng để tái lập trực tiếp các bảng số liệu trong bài báo — nếu bạn cần verify kết quả, sẽ phải tự viết lại phần benchmark/metrics và xác minh lại các tham số (đặc biệt nGrid=10 vs 30, và beta=dim gây tăng vọt số lần gọi hàm mục tiêu).
+
+Nếu bạn muốn, tôi có thể tiếp tục: (1) sửa các bug cụ thể trên (so sánh dominance, velocity clamp, nGrid) và chạy thử để so sánh trước/sau, hoặc (2) viết thêm phần Ptest/xboundary cho vài bài toán khác (ZDT1, BNH...) để mở rộng khả năng test của bộ code.
