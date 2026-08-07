@@ -1,0 +1,5 @@
+# Thay link bên dưới bằng link repository mới của bạn
+git remote add origin https://github.com/ThanhKCT/02_Projects
+
+# Đẩy toàn bộ lên GitHub
+git push -u origin main
