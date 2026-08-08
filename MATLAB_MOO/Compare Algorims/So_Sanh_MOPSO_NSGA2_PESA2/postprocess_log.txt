@@ -1,0 +1,29 @@
+Diem tham chieu (nadir) CHUNG: Mass=7922.98 kg, Drift=0.01892 m
+
+=== 5.1 MIN-MASS (best cua 30 lan; TB +/- SD qua 30 lan) ===
+MOPSO    best=1983.71 kg (drift=16.737 mm) | TB=2108.21+/-78.89 kg, drift TB=16.331+/-1.003 mm
+NSGA-II  best=2040.56 kg (drift=16.526 mm) | TB=2141.15+/-70.29 kg, drift TB=15.318+/-0.825 mm
+PESA-II  best=1983.16 kg (drift=17.923 mm) | TB=2074.20+/-58.27 kg, drift TB=16.170+/-1.048 mm
+
+=== 5.2 MIN-DISPLACEMENT (best cua 30 lan; TB +/- SD) ===
+MOPSO    best drift=3.144 mm (mass=6978.53 kg) | TB drift=4.103+/-0.526 mm, mass TB=5571.64+/-601.70 kg
+NSGA-II  best drift=3.079 mm (mass=6988.90 kg) | TB drift=3.676+/-0.288 mm, mass TB=5997.97+/-428.84 kg
+PESA-II  best drift=2.889 mm (mass=7545.69 kg) | TB drift=2.989+/-0.058 mm, mass TB=7233.86+/-178.08 kg
+
+=== 5.3 KNEE-POINT (per-run TB +/- SD | tren front tong hop 30 lan) ===
+MOPSO    per-run TB=3213.45+/-219.31 kg, 8.065+/-0.778 mm | pooled-front=3503.29 kg, 6.910 mm
+NSGA-II  per-run TB=3365.91+/-144.44 kg, 7.352+/-0.447 mm | pooled-front=3524.53 kg, 6.773 mm
+PESA-II  per-run TB=3581.21+/-89.71 kg, 6.683+/-0.230 mm | pooled-front=3535.24 kg, 6.753 mm
+
+=== 5.4 HYPERVOLUME & SPACING (TB +/- SD qua 30 lan) ===
+MOPSO    HV=74.49+/-1.27 | Spacing=0.0083+/-0.0015 | so nghiem TB/lan=97.0
+NSGA-II  HV=76.15+/-0.69 | Spacing=0.0068+/-0.0006 | so nghiem TB/lan=100.0
+PESA-II  HV=77.25+/-0.19 | Spacing=0.0087+/-0.0012 | so nghiem TB/lan=100.0
+
+=== 5.5 THOI GIAN CHAY (giay, qua 30 lan) ===
+MOPSO    mean=32.95 | std=7.84 | min=20.44 | max=49.39
+NSGA-II  mean=120.82 | std=20.92 | min=69.23 | max=149.21
+PESA-II  mean=75.49 | std=16.05 | min=39.64 | max=92.15
+>> Da xuat BangKetQua_30Lan.xlsx
+>> Da xuat Pareto_Plot_30Runs.png
+>> Da luu PostProcess_Results.mat
