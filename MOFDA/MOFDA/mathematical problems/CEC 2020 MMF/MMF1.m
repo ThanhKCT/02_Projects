@@ -1,0 +1,10 @@
+function y = MMF1(x)
+% dim=2;
+% lb=[1,-1];
+% ub=[3,1];
+% obj=2;
+y=zeros(2,1);
+x(1)=abs((x(1)-2));
+y(1)      = x(1);             
+y(2)      = 1.0 - sqrt(x(1)) + 2.0*(x(2)-sin(6*pi*x(1)+pi))^2; 
+end
