@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\OneDrive\Nature-Insp...ms\Multiobjectives\MOSFOA\MPJ_Sap\W02\MPJ_2.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+     574 TO     624    A   A   A   A   A   A
+     625               -   -   A   -   -   -
+     626               A   A   -   A   A   A
+     627               A   A   A   A   A   A
+     628               -   -   A   -   -   -
+     629               A   A   -   A   A   A
+     630               A   A   A   A   A   A
+     631               -   -   A   -   -   -
+     632               A   A   -   A   A   A
+     633               A   A   A   A   A   A
+     634               -   -   A   -   -   -
+     635               A   A   -   A   A   A
+     636               A   A   A   A   A   A
+     637               -   -   A   -   -   -
+     638               A   A   -   A   A   A
+     639               A   A   A   A   A   A
+     640               -   -   A   -   -   -
+     641               A   A   -   A   A   A
+     642               A   A   A   A   A   A
+     643               -   -   A   -   -   -
+     644               A   A   -   A   A   A
+     645               -   -   A   -   -   -
+     646               A   A   -   A   A   A
+     647               -   -   A   -   -   -
+     648               A   A   -   A   A   A
+     649               -   -   A   -   -   -
+     650               A   A   -   A   A   A
+     651               -   -   A   -   -   -
+     652               A   A   -   A   A   A
+     653               -   -   A   -   -   -
+     654               A   A   -   A   A   A
+     655               -   -   A   -   -   -
+     656               A   A   -   A   A   A
+     657               -   -   A   -   -   -
+     658               A   A   -   A   A   A
+     659               -   -   A   -   -   -
+     660               A   A   -   A   A   A
+     661               -   -   A   -   -   -
+     662               A   A   -   A   A   A
+     663               -   -   A   -   -   -
+     664               A   A   -   A   A   A
+     665               -   -   A   -   -   -
+     666               A   A   -   A   A   A
+     667               -   -   A   -   -   -
+     668               A   A   -   A   A   A
+     669               -   -   A   -   -   -
+     670               A   A   -   A   A   A
+     671               -   -   A   -   -   -
+     672               A   A   -   A   A   A
+     673               -   -   A   -   -   -
+     674               A   A   -   A   A   A
+     675               -   -   A   -   -   -
+     676               A   A   -   A   A   A
+     677               -   -   A   -   -   -
+     678               A   A   -   A   A   A
+     679               -   -   A   -   -   -
+     680               A   A   -   A   A   A
+     681               -   -   A   -   -   -
+     682               A   A   -   A   A   A
+     683               -   -   A   -   -   -
+     684               A   A   -   A   A   A
+     685               -   -   A   -   -   -
+     686               A   A   -   A   A   A
+     687 TO    ~346    A   A   A   A   A   A

@@ -1,0 +1,4 @@
+
+=== Session start 13-Aug-2026 17:08:35 (mode=smoke, Nrun=1) ===
+[13-Aug-2026 17:13:22] run01 it=1/1 best(penalized)=32940.1315 raw=32940.1315 FEs=16 elapsed=32.4s
+[13-Aug-2026 17:13:22] run01 DONE best(penalized)=32940.1315 raw=32940.1315 elapsed=32.4s -> saved D:\ResearchLab\02_Projects\Tap chi XD_SFOA\code\SOO_BD\results\BD_SOO_Cost_run01_SMOKE.mat

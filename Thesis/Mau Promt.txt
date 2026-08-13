@@ -1,0 +1,7 @@
+Hãy viết [tên/nội dung tài liệu] dưới dạng file Markdown (.md) trước,
+với mọi công thức toán học viết bằng LaTeX chuẩn:
+- Công thức trong câu: $...$
+- Công thức hiển thị riêng dòng: $$...$$
+
+Sau đó dùng pandoc chuyển file .md đó thành file Word (.docx) để công thức
+hiển thị dưới dạng phương trình Word thật (không phải text thô dạng code).

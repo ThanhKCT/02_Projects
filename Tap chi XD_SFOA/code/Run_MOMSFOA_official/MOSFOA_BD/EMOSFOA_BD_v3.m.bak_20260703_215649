@@ -1,0 +1,171 @@
+clear all; close all; clc
+addpath Functions
+addpath BD_Sap\
+addpath Pile_TCVN10304_2014\
+% data = readmatrix('Prestress_Pile_TCVN7888_2014.xlsx'); save X1_X2.mat data
+load('X1_X2.mat');
+fun    = @Sap_BD_HL_v3;
+    %X1,X2       X3  X4     
+lb=[1            6   16];
+ub=[size(data,1) 8   39];
+st=[1 1 0.1];
+D=NaN.*ones(500,length(lb));
+for i=1:length(lb)
+    DD=[lb(i):st(i):ub(i)];
+    D(1:length(DD),i) = DD';
+end
+
+nVar   = length(lb);
+numObj = 2;
+
+GP=0.5;     % parameter 
+
+Max_it=300;
+Nr          = 100;    % Repository size
+ngrid       = 10;
+Nrun        = 1;
+Num_work    = 25;
+Npop        = Num_work*2;
+%% ng ton b ca s SAP2000 ang m (nu c)
+system('taskkill /F /IM SAP2000.exe');
+pause(2);
+%% Bo m Parallel Pool khp vi Num_work
+p = gcp('nocreate');
+if isempty(p) || p.NumWorkers ~= Num_work
+    delete(p);
+    parpool('local', Num_work);
+end
+spmd (Num_work)
+    open_Sap2000(1);
+    pause(2);
+    SM.Hide;
+    Sap_name0 = 'BD.sdb';
+    Sap_path0 = fullfile(pwd,'BD_Sap',Sap_name0);
+    SM.File.OpenFile(Sap_path0);
+    Sap_name_new = sprintf('BD_%d.sdb', spmdIndex);
+    workerFolder = fullfile(pwd,'BD_Sap', sprintf('W%02d',spmdIndex));
+    if ~exist(workerFolder,'dir'); mkdir(workerFolder); end
+    Sap_path_save = fullfile(workerFolder, Sap_name_new);
+    SM.File.Save('FileName', Sap_path_save);
+    maxNumCompThreads(1);
+end
+Fitness = zeros(Npop, numObj);
+newFit = zeros(Npop, numObj);
+
+for iloop=1:Nrun
+
+Xpos = lhsdesign(Npop,nVar).*(ub - lb) + lb;
+    for jj=1:size(Xpos,1)    
+        for ii=1:nVar
+            [~,b]=min(abs(D(:,ii)-Xpos(jj,ii))); 
+            Xpos(jj,ii)=D(b,ii);
+        end
+    end
+
+    % Gi d liu n cc worker
+    idx = mod(0:Npop-1, Num_work) + 1;
+    
+    spmd (Num_work)
+        Xpart = Xpos(idx == spmdIndex, :);
+        FitLoc = fun(Xpart, data);
+    end
+    for i=1:Num_work
+        Fitness(idx==i,:) = FitLoc{i};
+    end
+DOM2            = checkDomination(Fitness); % 0 vt tri (tt hn); 1 b vt tri - (t hn)
+REP{iloop}.Xpos                 = Xpos(~DOM2,:); % Lu nhng c th vt tri (tt hn)
+REP{iloop}.Fitness             = Fitness(~DOM2,:); % Lu nhng fitness vt tri (tt hn)
+REP{iloop}                     = updateGrid(REP{iloop},ngrid);
+plotting(REP{iloop},Fitness)
+display(['Generation #0 - Repository size: ' num2str(size(REP{iloop}.Xpos,1))]);
+newX = zeros(Npop,nVar);
+%% Evolution
+T = 1;
+while T <= Max_it
+    theta = (pi/2)*(T./Max_it)^1.5;
+    tEO = (Max_it-T)/Max_it*cos(theta);
+    h = selectLeader(REP{iloop});
+    Xposbest = REP{iloop}.Xpos(h,:);
+    GPt = GP*0.5*(1 + cos(pi*T/Max_it)); 
+    if rand < GPt %  exploration of starfish
+        for i = 1:Npop
+            if nVar > 5
+                r = randperm(Npop,3);
+                F = 0.5 * (1 - T/Max_it);  % gim dn
+                mutant = Xpos(r(1),:) + F*(Xpos(r(2),:) - Xpos(r(3),:));
+                mutant = mutant + 0.3*(Xposbest - Xpos(r(1),:));
+                cross_points = rand(1,nVar) < 0.5;
+                trial = Xpos(i,:);
+                trial(cross_points) = mutant(cross_points);
+                newX(i,:) = max(min(trial, ub), lb);
+            else
+                jp2 = randi(nVar);
+                im = randperm(Npop);
+                rand1 = 2*rand-1; rand2 = 2*rand-1;
+                newX(i,jp2) = Xpos(i,jp2) + tEO*(Xposbest(jp2) - Xpos(i,jp2)) + ...
+                    rand1*(Xpos(im(1),jp2)-Xpos(i,jp2)) + rand2*(Xpos(im(2),jp2)-Xpos(i,jp2));
+                newX(i,:) = max(min(newX(i,:),ub),lb);
+            end
+        end
+    else % exploitation of starfish
+        df = randperm(Npop,5);
+        for i = 1:Npop
+            kp = randperm(5,2);
+            dm_comb = 0.6*(Xposbest - Xpos(df(kp(1)),:)) + 0.4*(Xposbest - Xpos(df(kp(2)),:));
+            newX(i,:) = Xpos(i,:) + dm_comb;
+            if rand < 0.1
+                newX(i,:) = newX(i,:) + 0.01*randn(1,nVar).*(ub - lb);
+            end
+            if i == Npop
+                newX(i,:) = exp(-T*Npop/Max_it).*Xpos(i,:);
+            end
+            newX(i,:) = max(min(newX(i,:), ub), lb);
+        end
+    end
+    if T > 0.8*Max_it
+        [~, best_idx] = min(sum(REP{iloop}.Fitness,2));
+        bestX = REP{iloop}.Xpos(best_idx,:);
+        for i = 1:round(0.1*Npop)
+            newX(i,:) = bestX + 0.01*randn(1,nVar).*(ub - lb);
+            newX(i,:) = max(min(newX(i,:), ub), lb);
+        end
+    end
+    for jj=1:size(newX,1)    
+        for ii=1:nVar
+            [~,b]=min(abs(D(:,ii)-newX(jj,ii))); 
+            newX(jj,ii)=D(b,ii);
+        end
+    end
+    idx = mod(0:Npop-1, Num_work) + 1;
+    spmd (Num_work)
+        Xpart = newX(idx == spmdIndex, :);
+        FitLoc = fun(Xpart, data);
+    end
+    for i=1:Num_work
+        newFit(idx==i,:) = FitLoc{i};
+    end
+    % Fitness evaluation
+    DOM3=dominates(newFit,Fitness);
+    Xpos(DOM3,:)=newX(DOM3,:);
+    Fitness(DOM3,:)=newFit(DOM3,:);
+    REP{iloop} = updateRepository(REP{iloop},newX,newFit,ngrid);
+    if(size(REP{iloop}.Xpos,1)>Nr)
+        REP{iloop} = deleteFromRepository(REP{iloop},size(REP{iloop}.Xpos,1)-Nr,ngrid);
+    end
+    plotting(REP{iloop},Fitness)
+    display(['Iteration #' num2str(T) ' - Repository size: ' num2str(size(REP{iloop}.Xpos,1))]);
+    elapsed = toc/60;
+    if T>1
+        time_left = (elapsed - time_consumption)*(Max_it - T);
+        time_left = max(0, time_left/60); % gi
+        fprintf('Estimated time left: %.2f hours\n', time_left);
+    end
+    time_consumption = elapsed;
+    [hv(T)] = hypervolume(REP{iloop}.Fitness,[1 1]);
+    T = T+1;
+end
+end % end Nrun
+system('taskkill /F /IM SAP2000.exe');
+timestamp = datestr(now, 'yyyy-mm-dd_HH');  % v d: 20250621_143015
+Name_res = sprintf('BD_EMOSFOA_%s_Npop%d_Nvar%d_Max_it%d.mat', timestamp,Npop,nVar,Max_it);
+save(Name_res,'REP','hv')
