@@ -1,0 +1,37 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...FOA\code\SOO_MPJ\MPJ_Sap\SOO_Cost_W05\MPJ_5.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   49756 TO   49776    A   A   A   A   A   A
+   49777               -   -   A   -   -   -
+   49778               A   A   -   A   A   A
+   49779               A   A   A   A   A   A
+   49780               -   -   A   -   -   -
+   49781               A   A   -   A   A   A
+   49782               A   A   A   A   A   A
+   49783               -   -   A   -   -   -
+   49784               A   A   -   A   A   A
+   49785               A   A   A   A   A   A
+   49786               -   -   A   -   -   -
+   49787               A   A   -   A   A   A
+   49788               -   -   A   -   -   -
+   49789               A   A   -   A   A   A
+   49790               -   -   A   -   -   -
+   49791               A   A   -   A   A   A
+   49792               -   -   A   -   -   -
+   49793               A   A   -   A   A   A
+   49794               -   -   A   -   -   -
+   49795               A   A   -   A   A   A
+   49796 TO    ~136    A   A   A   A   A   A

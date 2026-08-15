@@ -1,0 +1,18 @@
+
+=== Session start 14-Aug-2026 21:27:25 (mode=pilot, Nrun=1) ===
+[14-Aug-2026 21:36:19] run901 it=10/150 best(penalized)=11119.5517 raw=11119.5517 FEs=1100 elapsed=445.2s
+[14-Aug-2026 21:43:47] run901 it=20/150 best(penalized)=9920.0418 raw=9920.0418 FEs=2100 elapsed=893.2s
+[14-Aug-2026 21:52:45] run901 it=30/150 best(penalized)=9835.7147 raw=9835.7147 FEs=3100 elapsed=1431.6s
+[14-Aug-2026 22:02:05] run901 it=40/150 best(penalized)=9577.4070 raw=9577.4070 FEs=4100 elapsed=1991.0s
+[14-Aug-2026 22:12:19] run901 it=50/150 best(penalized)=6414.8315 raw=6414.8315 FEs=5100 elapsed=2605.5s
+[14-Aug-2026 22:22:29] run901 it=60/150 best(penalized)=6414.8315 raw=6414.8315 FEs=6100 elapsed=3215.5s
+[14-Aug-2026 22:34:16] run901 it=70/150 best(penalized)=5369.8022 raw=5369.8022 FEs=7100 elapsed=3922.6s
+[14-Aug-2026 22:45:42] run901 it=80/150 best(penalized)=5304.8481 raw=5304.8481 FEs=8100 elapsed=4607.9s
+[14-Aug-2026 22:57:14] run901 it=90/150 best(penalized)=5304.8481 raw=5304.8481 FEs=9100 elapsed=5300.5s
+[14-Aug-2026 23:09:26] run901 it=100/150 best(penalized)=5304.8481 raw=5304.8481 FEs=10100 elapsed=6032.0s
+[14-Aug-2026 23:21:16] run901 it=110/150 best(penalized)=5304.8481 raw=5304.8481 FEs=11100 elapsed=6742.7s
+[14-Aug-2026 23:33:17] run901 it=120/150 best(penalized)=5298.3527 raw=5298.3527 FEs=12100 elapsed=7462.9s
+[14-Aug-2026 23:45:10] run901 it=130/150 best(penalized)=5298.3527 raw=5298.3527 FEs=13100 elapsed=8175.8s
+[14-Aug-2026 23:57:06] run901 it=140/150 best(penalized)=5291.8573 raw=5291.8573 FEs=14100 elapsed=8891.8s
+[15-Aug-2026 00:08:06] run901 it=150/150 best(penalized)=5291.8573 raw=5291.8573 FEs=15100 elapsed=9552.6s
+[15-Aug-2026 00:08:06] run901 DONE best(penalized)=5291.8573 raw=5291.8573 elapsed=9552.6s -> saved D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results\MPJ_SOO_Cost_run901_PILOT.mat

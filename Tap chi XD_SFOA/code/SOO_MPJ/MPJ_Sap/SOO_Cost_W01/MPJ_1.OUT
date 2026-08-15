@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...FOA\code\SOO_MPJ\MPJ_Sap\SOO_Cost_W01\MPJ_1.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   64379 TO   64429    A   A   A   A   A   A
+   64430               -   -   A   -   -   -
+   64431               A   A   -   A   A   A
+   64432               A   A   A   A   A   A
+   64433               -   -   A   -   -   -
+   64434               A   A   -   A   A   A
+   64435               A   A   A   A   A   A
+   64436               -   -   A   -   -   -
+   64437               A   A   -   A   A   A
+   64438               A   A   A   A   A   A
+   64439               -   -   A   -   -   -
+   64440               A   A   -   A   A   A
+   64441               A   A   A   A   A   A
+   64442               -   -   A   -   -   -
+   64443               A   A   -   A   A   A
+   64444               A   A   A   A   A   A
+   64445               -   -   A   -   -   -
+   64446               A   A   -   A   A   A
+   64447               A   A   A   A   A   A
+   64448               -   -   A   -   -   -
+   64449               A   A   -   A   A   A
+   64450               -   -   A   -   -   -
+   64451               A   A   -   A   A   A
+   64452               -   -   A   -   -   -
+   64453               A   A   -   A   A   A
+   64454               -   -   A   -   -   -
+   64455               A   A   -   A   A   A
+   64456               -   -   A   -   -   -
+   64457               A   A   -   A   A   A
+   64458               -   -   A   -   -   -
+   64459               A   A   -   A   A   A
+   64460               -   -   A   -   -   -
+   64461               A   A   -   A   A   A
+   64462               -   -   A   -   -   -
+   64463               A   A   -   A   A   A
+   64464               -   -   A   -   -   -
+   64465               A   A   -   A   A   A
+   64466               -   -   A   -   -   -
+   64467               A   A   -   A   A   A
+   64468               -   -   A   -   -   -
+   64469               A   A   -   A   A   A
+   64470               -   -   A   -   -   -
+   64471               A   A   -   A   A   A
+   64472               -   -   A   -   -   -
+   64473               A   A   -   A   A   A
+   64474               -   -   A   -   -   -
+   64475               A   A   -   A   A   A
+   64476               -   -   A   -   -   -
+   64477               A   A   -   A   A   A
+   64478               -   -   A   -   -   -
+   64479               A   A   -   A   A   A
+   64480               -   -   A   -   -   -
+   64481               A   A   -   A   A   A
+   64482               -   -   A   -   -   -
+   64483               A   A   -   A   A   A
+   64484               -   -   A   -   -   -
+   64485               A   A   -   A   A   A
+   64486               -   -   A   -   -   -
+   64487               A   A   -   A   A   A
+   64488               -   -   A   -   -   -
+   64489               A   A   -   A   A   A
+   64490               -   -   A   -   -   -
+   64491               A   A   -   A   A   A
+   64492 TO    ~346    A   A   A   A   A   A

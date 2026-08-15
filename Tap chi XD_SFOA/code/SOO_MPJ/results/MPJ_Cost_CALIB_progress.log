@@ -1,0 +1,16 @@
+
+=== Session start 14-Aug-2026 09:33:38 (mode=calib, Nrun=1) ===
+
+=== Session start 14-Aug-2026 09:51:59 (mode=calib, Nrun=1) ===
+[14-Aug-2026 09:54:11] run102 DONE best(penalized)=19993.0836 raw=19993.0836 elapsed=36.2s -> saved D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results\MPJ_SOO_Cost_run102_CALIB.mat
+
+=== Session start 14-Aug-2026 09:55:47 (mode=calib, Nrun=1) ===
+[14-Aug-2026 09:57:54] run103 DONE best(penalized)=19993.0836 raw=19993.0836 elapsed=36.0s -> saved D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results\MPJ_SOO_Cost_run103_CALIB.mat
+
+=== Session start 14-Aug-2026 10:23:11 (mode=calib, Nrun=1) ===
+[14-Aug-2026 10:25:51] run111 it=1/5 best(penalized)=16884.0848 raw=16884.0848 FEs=200 elapsed=80.9s
+[14-Aug-2026 10:26:39] run111 it=2/5 best(penalized)=15153.0998 raw=15153.0998 FEs=300 elapsed=128.9s
+[14-Aug-2026 10:27:30] run111 it=3/5 best(penalized)=15153.0998 raw=15153.0998 FEs=400 elapsed=180.8s
+[14-Aug-2026 10:28:17] run111 it=4/5 best(penalized)=15153.0998 raw=15153.0998 FEs=500 elapsed=227.7s
+[14-Aug-2026 10:28:48] run111 it=5/5 best(penalized)=15153.0998 raw=15153.0998 FEs=600 elapsed=258.1s
+[14-Aug-2026 10:28:48] run111 DONE best(penalized)=15153.0998 raw=15153.0998 elapsed=258.1s -> saved D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results\MPJ_SOO_Cost_run111_CALIB.mat

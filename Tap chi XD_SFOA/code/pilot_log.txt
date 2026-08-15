@@ -1,0 +1,171 @@
+=== MD pilot start 14/08/2026 16:47:22.81 ===
+[SOO-MD-Cost] Run mode: PILOT; Npop=100; Max_it=150; Nrun=1; expected FEs=15100.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+[SOO-MD-Cost] run901 complete: best(penalized)=2422.2269 raw=2422.2269 elapsed=16636.4s
+SUCCESS: The process "SAP2000.exe" with PID 22944 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22952 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22960 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22976 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22984 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22992 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23000 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23008 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23020 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23016 has been terminated. 
+[SOO-MD-Cost] All 1 run(s) complete. Results in D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MD\results
+=== MD pilot end 14/08/2026 21:26:58.58, exit=0 ===
+=== MPJ pilot start 14/08/2026 21:26:58.58 ===
+[SOO-MPJ-Cost] Run mode: PILOT; Npop=100; Max_it=150; Nrun=1; expected FEs=15100.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+[SOO-MPJ-Cost] run901 complete: best(penalized)=5291.8573 raw=5291.8573 elapsed=9552.6s
+SUCCESS: The process "SAP2000.exe" with PID 23468 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20916 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20056 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22620 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 15912 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20048 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21656 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13916 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4704 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 11596 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22008 has been terminated. 
+[SOO-MPJ-Cost] All 1 run(s) complete. Results in D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results
+=== MPJ pilot end 15/08/2026  0:08:16.24, exit=0 ===
+=== ALL PILOTS DONE ===

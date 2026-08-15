@@ -1,0 +1,47 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...FOA\code\SOO_MPJ\MPJ_Sap\SOO_Cost_W07\MPJ_7.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   50222 TO   50250    A   A   A   A   A   A
+   50251               -   -   A   -   -   -
+   50252               A   A   -   A   A   A
+   50253               A   A   A   A   A   A
+   50254               -   -   A   -   -   -
+   50255               A   A   -   A   A   A
+   50256               A   A   A   A   A   A
+   50257               -   -   A   -   -   -
+   50258               A   A   -   A   A   A
+   50259               A   A   A   A   A   A
+   50260               -   -   A   -   -   -
+   50261               A   A   -   A   A   A
+   50262               A   A   A   A   A   A
+   50263               -   -   A   -   -   -
+   50264               A   A   -   A   A   A
+   50265               A   A   A   A   A   A
+   50266               -   -   A   -   -   -
+   50267               A   A   -   A   A   A
+   50268               -   -   A   -   -   -
+   50269               A   A   -   A   A   A
+   50270               -   -   A   -   -   -
+   50271               A   A   -   A   A   A
+   50272               -   -   A   -   -   -
+   50273               A   A   -   A   A   A
+   50274               -   -   A   -   -   -
+   50275               A   A   -   A   A   A
+   50276               -   -   A   -   -   -
+   50277               A   A   -   A   A   A
+   50278               -   -   A   -   -   -
+   50279               A   A   -   A   A   A
+   50280 TO    ~188    A   A   A   A   A   A

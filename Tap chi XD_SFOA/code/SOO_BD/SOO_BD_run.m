@@ -46,10 +46,12 @@ GP = 0.5;
 switch lower(runMode)
     case 'smoke'
         Max_it = 1;  Npop = 8;
+    case 'pilot'
+        Max_it = 150; Npop = 100; % convergence-check pilot, NOT paper data -- see SESSION_HANDOFF
     case 'full'
         Max_it = 300; Npop = 100;
     otherwise
-        error('runMode must be ''smoke'' or ''full''.');
+        error('runMode must be ''smoke'', ''pilot'', or ''full''.');
 end
 fprintf('[SOO-BD-%s] Run mode: %s; Npop=%d; Max_it=%d; Nrun=%d; expected FEs=%d.\n', ...
     objName, upper(runMode), Npop, Max_it, Nrun, Nrun*Npop*(Max_it+1));

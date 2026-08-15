@@ -1,0 +1,66 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...FOA\code\SOO_MPJ\MPJ_Sap\SOO_Cost_W08\MPJ_8.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   46298 TO   46339    A   A   A   A   A   A
+   46340               -   -   A   -   -   -
+   46341               A   A   -   A   A   A
+   46342               A   A   A   A   A   A
+   46343               -   -   A   -   -   -
+   46344               A   A   -   A   A   A
+   46345               A   A   A   A   A   A
+   46346               -   -   A   -   -   -
+   46347               A   A   -   A   A   A
+   46348               A   A   A   A   A   A
+   46349               -   -   A   -   -   -
+   46350               A   A   -   A   A   A
+   46351               A   A   A   A   A   A
+   46352               -   -   A   -   -   -
+   46353               A   A   -   A   A   A
+   46354               A   A   A   A   A   A
+   46355               -   -   A   -   -   -
+   46356               A   A   -   A   A   A
+   46357               A   A   A   A   A   A
+   46358               -   -   A   -   -   -
+   46359               A   A   -   A   A   A
+   46360               -   -   A   -   -   -
+   46361               A   A   -   A   A   A
+   46362               -   -   A   -   -   -
+   46363               A   A   -   A   A   A
+   46364               -   -   A   -   -   -
+   46365               A   A   -   A   A   A
+   46366               -   -   A   -   -   -
+   46367               A   A   -   A   A   A
+   46368               -   -   A   -   -   -
+   46369               A   A   -   A   A   A
+   46370               -   -   A   -   -   -
+   46371               A   A   -   A   A   A
+   46372               -   -   A   -   -   -
+   46373               A   A   -   A   A   A
+   46374               -   -   A   -   -   -
+   46375               A   A   -   A   A   A
+   46376               -   -   A   -   -   -
+   46377               A   A   -   A   A   A
+   46378               -   -   A   -   -   -
+   46379               A   A   -   A   A   A
+   46380               -   -   A   -   -   -
+   46381               A   A   -   A   A   A
+   46382               -   -   A   -   -   -
+   46383               A   A   -   A   A   A
+   46384               -   -   A   -   -   -
+   46385               A   A   -   A   A   A
+   46386               -   -   A   -   -   -
+   46387               A   A   -   A   A   A
+   46388 TO    ~280    A   A   A   A   A   A

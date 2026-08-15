@@ -2,3 +2,16 @@
 === Session start 13-Aug-2026 17:08:35 (mode=smoke, Nrun=1) ===
 [13-Aug-2026 17:13:22] run01 it=1/1 best(penalized)=32940.1315 raw=32940.1315 FEs=16 elapsed=32.4s
 [13-Aug-2026 17:13:22] run01 DONE best(penalized)=32940.1315 raw=32940.1315 elapsed=32.4s -> saved D:\ResearchLab\02_Projects\Tap chi XD_SFOA\code\SOO_BD\results\BD_SOO_Cost_run01_SMOKE.mat
+
+=== Session start 14-Aug-2026 10:33:00 (mode=pilot, Nrun=1) ===
+[14-Aug-2026 10:55:46] run901 it=10/150 best(penalized)=12086.8492 raw=12086.8492 FEs=1100 elapsed=1286.9s
+[14-Aug-2026 11:17:38] run901 it=20/150 best(penalized)=10225.9195 raw=10225.9195 FEs=2100 elapsed=2598.6s
+[14-Aug-2026 11:46:47] run901 it=30/150 best(penalized)=10164.8212 raw=10164.8212 FEs=3100 elapsed=4347.7s
+[14-Aug-2026 12:17:47] run901 it=40/150 best(penalized)=10164.8212 raw=10164.8212 FEs=4100 elapsed=6207.2s
+[14-Aug-2026 12:50:09] run901 it=50/150 best(penalized)=10164.8212 raw=10164.8212 FEs=5100 elapsed=8149.3s
+[14-Aug-2026 13:22:45] run901 it=60/150 best(penalized)=10164.8212 raw=10164.8212 FEs=6100 elapsed=10105.7s
+[14-Aug-2026 13:55:39] run901 it=70/150 best(penalized)=10164.8212 raw=10164.8212 FEs=7100 elapsed=12079.4s
+[14-Aug-2026 14:31:02] run901 it=80/150 best(penalized)=10164.8212 raw=10164.8212 FEs=8100 elapsed=14202.9s
+[14-Aug-2026 15:05:48] run901 it=90/150 best(penalized)=10164.8212 raw=10164.8212 FEs=9100 elapsed=16288.7s
+[14-Aug-2026 15:43:26] run901 it=100/150 best(penalized)=10164.8212 raw=10164.8212 FEs=10100 elapsed=18546.8s
+[14-Aug-2026 16:22:25] run901 it=110/150 best(penalized)=10164.8212 raw=10164.8212 FEs=11100 elapsed=20886.0s

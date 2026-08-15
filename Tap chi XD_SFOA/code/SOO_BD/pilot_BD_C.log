@@ -1,0 +1,70 @@
+[SOO-BD-Cost] Run mode: PILOT; Npop=100; Max_it=150; Nrun=1; expected FEs=15100.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  

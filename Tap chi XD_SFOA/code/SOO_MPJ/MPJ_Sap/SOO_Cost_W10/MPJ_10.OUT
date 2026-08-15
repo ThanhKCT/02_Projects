@@ -1,0 +1,52 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...OA\code\SOO_MPJ\MPJ_Sap\SOO_Cost_W10\MPJ_10.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   52863 TO   52894    A   A   A   A   A   A
+   52895               -   -   A   -   -   -
+   52896               A   A   -   A   A   A
+   52897               A   A   A   A   A   A
+   52898               -   -   A   -   -   -
+   52899               A   A   -   A   A   A
+   52900               A   A   A   A   A   A
+   52901               -   -   A   -   -   -
+   52902               A   A   -   A   A   A
+   52903               A   A   A   A   A   A
+   52904               -   -   A   -   -   -
+   52905               A   A   -   A   A   A
+   52906               A   A   A   A   A   A
+   52907               -   -   A   -   -   -
+   52908               A   A   -   A   A   A
+   52909               -   -   A   -   -   -
+   52910               A   A   -   A   A   A
+   52911               -   -   A   -   -   -
+   52912               A   A   -   A   A   A
+   52913               -   -   A   -   -   -
+   52914               A   A   -   A   A   A
+   52915               -   -   A   -   -   -
+   52916               A   A   -   A   A   A
+   52917               -   -   A   -   -   -
+   52918               A   A   -   A   A   A
+   52919               -   -   A   -   -   -
+   52920               A   A   -   A   A   A
+   52921               -   -   A   -   -   -
+   52922               A   A   -   A   A   A
+   52923               -   -   A   -   -   -
+   52924               A   A   -   A   A   A
+   52925               -   -   A   -   -   -
+   52926               A   A   -   A   A   A
+   52927               -   -   A   -   -   -
+   52928               A   A   -   A   A   A
+   52929 TO    ~212    A   A   A   A   A   A

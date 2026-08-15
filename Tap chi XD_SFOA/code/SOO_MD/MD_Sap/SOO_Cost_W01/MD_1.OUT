@@ -1,0 +1,50 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...D_SFOA\code\SOO_MD\MD_Sap\SOO_Cost_W01\MD_1.OUT
+                                                                     
+                                                                       
+
+ BODY1, CONSTR = RIGID, DOF = U1 U2 U3 R1 R2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+           10.592355   10.592355   10.592355   26.128503   26.128503   41.079951
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     -2.03E-17   -2.03E-17   -2.03E-17
+     Y     -3.87E-17   -3.87E-17   -3.87E-17
+     Z     11.936815   11.936815   11.936815
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+      S4               A   A   -   A   A   A
+       1               +   +   +   +   +   +
+      S9               A   A   -   A   A   A
+       2               +   +   +   +   +   +
+      S2               A   A   -   A   A   A
+       4 TO       5    +   +   +   +   +   +
+      S8               A   A   -   A   A   A
+       6 TO      10    +   +   +   +   +   +
+      S6               A   A   -   A   A   A
+      12 TO      84    +   +   +   +   +   +
+      S5 TO      S1    A   A   -   A   A   A
+      D4 TO      D1    -   -   A   -   -   -
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ BODY1                 A   A   A   A   A   A
