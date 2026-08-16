@@ -1,0 +1,64 @@
+﻿Figure,Panel,FigureTitle_DOCX,PanelContent,File,WidthPx,HeightPx,DpiX,DpiY
+1,Complete figure,Algorithmic workflow of the proposed B-MOSFOA and E-MOSFOA.,Complete B-MOSFOA/E-MOSFOA algorithmic workflow,Fig01_MOSFOA_flowchart_600dpi.tiff,7019,3544,600,600
+2,(a),Approximated Pareto fronts for IMOP problems.,IMOP1,Fig02\Fig02a_IMOP1_30_compare_revised.tiff,2524,2568,600,600
+2,(b),Approximated Pareto fronts for IMOP problems.,IMOP2,Fig02\Fig02b_IMOP2_30_compare_revised.tiff,2524,2568,600,600
+2,(c),Approximated Pareto fronts for IMOP problems.,IMOP3,Fig02\Fig02c_IMOP3_30_compare_revised.tiff,2632,2575,600,600
+2,(d),Approximated Pareto fronts for IMOP problems.,IMOP4,Fig02\Fig02d_IMOP4_10_compare_revised.tiff,2667,2492,600,600
+2,(e),Approximated Pareto fronts for IMOP problems.,IMOP5,Fig02\Fig02e_IMOP5_10_compare_revised.tiff,2881,2510,600,600
+2,(f),Approximated Pareto fronts for IMOP problems.,IMOP6,Fig02\Fig02f_IMOP6_10_compare_revised.tiff,2785,2515,600,600
+2,(g),Approximated Pareto fronts for IMOP problems.,IMOP7,Fig02\Fig02g_IMOP7_10_compare_revised.tiff,2714,2512,600,600
+2,(h),Approximated Pareto fronts for IMOP problems.,IMOP8,Fig02\Fig02h_IMOP8_10_compare_revised.tiff,2685,2520,600,600
+3,(a),IGD comparison on IMOPs,IGD results for IMOP1,Fig03\Fig03a_IMOP1_revised_boxIGD.tiff,4538,4964,600,600
+3,(b),IGD comparison on IMOPs,IGD results for IMOP2,Fig03\Fig03b_IMOP2_revised_boxIGD.tiff,4538,4964,600,600
+3,(c),IGD comparison on IMOPs,IGD results for IMOP3,Fig03\Fig03c_IMOP3_revised_boxIGD.tiff,4538,4964,600,600
+3,(d),IGD comparison on IMOPs,IGD results for IMOP4,Fig03\Fig03d_IMOP4_revised_boxIGD.tiff,4538,4964,600,600
+3,(e),IGD comparison on IMOPs,IGD results for IMOP5,Fig03\Fig03e_IMOP5_revised_boxIGD.tiff,4538,4964,600,600
+3,(f),IGD comparison on IMOPs,IGD results for IMOP6,Fig03\Fig03f_IMOP6_revised_boxIGD.tiff,4538,4964,600,600
+3,(g),IGD comparison on IMOPs,IGD results for IMOP7,Fig03\Fig03g_IMOP7_revised_boxIGD.tiff,4538,4964,600,600
+3,(h),IGD comparison on IMOPs,IGD results for IMOP8,Fig03\Fig03h_IMOP8_revised_boxIGD.tiff,4445,4964,600,600
+4,(a),Approximated Pareto fronts for UF problems.,UF1,Fig04\Fig04a_UF1_30_compare_revised.tiff,2983,3024,600,600
+4,(b),Approximated Pareto fronts for UF problems.,UF2,Fig04\Fig04b_UF2_30_compare_revised.tiff,2983,3024,600,600
+4,(c),Approximated Pareto fronts for UF problems.,UF3,Fig04\Fig04c_UF3_30_compare_revised.tiff,2983,3024,600,600
+4,(d),Approximated Pareto fronts for UF problems.,UF4,Fig04\Fig04d_UF4_30_compare_revised.tiff,2983,3024,600,600
+4,(e),Approximated Pareto fronts for UF problems.,UF5,Fig04\Fig04e_UF5_30_compare_revised.tiff,2983,3024,600,600
+4,(f),Approximated Pareto fronts for UF problems.,UF6,Fig04\Fig04f_UF6_30_compare_revised.tiff,2983,3024,600,600
+4,(g),Approximated Pareto fronts for UF problems.,UF7,Fig04\Fig04g_UF7_30_compare_revised.tiff,2983,3024,600,600
+4,(h),Approximated Pareto fronts for UF problems.,UF8,Fig04\Fig04h_UF8_30_compare_revised.tiff,2860,2926,600,600
+4,(i),Approximated Pareto fronts for UF problems.,UF9,Fig04\Fig04i_UF9_30_compare_revised.tiff,3205,2942,600,600
+5,(a),IGD comparison on UFs,IGD results for UF1,Fig05\Fig05a_UF1_revised_boxIGD.tiff,4218,4999,600,600
+5,(b),IGD comparison on UFs,IGD results for UF2,Fig05\Fig05b_UF2_revised_boxIGD.tiff,4357,4999,600,600
+5,(c),IGD comparison on UFs,IGD results for UF3,Fig05\Fig05c_UF3_revised_boxIGD.tiff,4538,4962,600,600
+5,(d),IGD comparison on UFs,IGD results for UF4,Fig05\Fig05d_UF4_revised_boxIGD.tiff,4354,4999,600,600
+5,(e),IGD comparison on UFs,IGD results for UF5,Fig05\Fig05e_UF5_revised_boxIGD.tiff,4445,4961,600,600
+5,(f),IGD comparison on UFs,IGD results for UF6,Fig05\Fig05f_UF6_revised_boxIGD.tiff,4445,4962,600,600
+5,(g),IGD comparison on UFs,IGD results for UF7,Fig05\Fig05g_UF7_revised_boxIGD.tiff,4538,4961,600,600
+5,(h),IGD comparison on UFs,IGD results for UF8,Fig05\Fig05h_UF8_revised_boxIGD.tiff,4538,4962,600,600
+5,(i),IGD comparison on UFs,IGD results for UF9,Fig05\Fig05i_UF9_revised_boxIGD.tiff,4538,4962,600,600
+6,(a),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F1,Fig06\Fig06a_RMMEDA_F1_10_compare_revised.tiff,2983,3024,600,600
+6,(b),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F2,Fig06\Fig06b_RMMEDA_F2_10_compare_revised.tiff,2983,3024,600,600
+6,(c),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F3,Fig06\Fig06c_RMMEDA_F3_10_compare_revised.tiff,2983,3024,600,600
+6,(d),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F4,Fig06\Fig06d_RMMEDA_F4_10_compare_revised.tiff,2950,2915,600,600
+6,(e),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F5,Fig06\Fig06e_RMMEDA_F5_10_compare_revised.tiff,2983,3024,600,600
+6,(f),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F6,Fig06\Fig06f_RMMEDA_F6_10_compare_revised.tiff,2983,3024,600,600
+6,(g),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F7,Fig06\Fig06g_RMMEDA_F7_10_compare_revised.tiff,2899,3024,600,600
+6,(h),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F8,Fig06\Fig06h_RMMEDA_F8_10_compare_revised.tiff,2934,2917,600,600
+6,(i),Approximated Pareto fronts for RM-MEDA problems.,RM-MEDA-F9,Fig06\Fig06i_RMMEDA_F9_10_compare_revised.tiff,2977,3024,600,600
+7,(a),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F1,Fig07\Fig07a_RMMEDA_F1_revised_boxIGD.tiff,4357,4999,600,600
+7,(b),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F2,Fig07\Fig07b_RMMEDA_F2_revised_boxIGD.tiff,4295,5000,600,600
+7,(c),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F3,Fig07\Fig07c_RMMEDA_F3_revised_boxIGD.tiff,4295,4999,600,600
+7,(d),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F4,Fig07\Fig07d_RMMEDA_F4_revised_boxIGD.tiff,4354,4999,600,600
+7,(e),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F5,Fig07\Fig07e_RMMEDA_F5_revised_boxIGD.tiff,4295,5000,600,600
+7,(f),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F6,Fig07\Fig07f_RMMEDA_F6_revised_boxIGD.tiff,4295,4999,600,600
+7,(g),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F7,Fig07\Fig07g_RMMEDA_F7_revised_boxIGD.tiff,4295,4999,600,600
+7,(h),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F8,Fig07\Fig07h_RMMEDA_F8_revised_boxIGD.tiff,4218,5000,600,600
+7,(i),IGD comparison on RM-MEDAs.,IGD results for RM-MEDA-F9,Fig07\Fig07i_RMMEDA_F9_revised_boxIGD.tiff,4295,5000,600,600
+8,(a),Location and structural idealization of the Hai Linh liquid-bulk jetty.,Annotated Google Earth location image,Fig08\Fig08a_Fig8a_Hai_Linh_Google_Earth_manual.tiff,3614,1808,600,600
+8,(b),Location and structural idealization of the Hai Linh liquid-bulk jetty.,BD SAP2000 model,Fig08\Fig08b_BD_SAP2000_model_300dpi.tiff,828,1117,300,300
+8,(c),Location and structural idealization of the Hai Linh liquid-bulk jetty.,MD SAP2000 model,Fig08\Fig08c_MD_SAP2000_model_300dpi.tiff,828,1220,300,300
+8,(d),Location and structural idealization of the Hai Linh liquid-bulk jetty.,MJP SAP2000 model,Fig08\Fig08d_MJP_SAP2000_model_300dpi.tiff,1139,1240,349,349
+8,(e),Location and structural idealization of the Hai Linh liquid-bulk jetty.,BD cross-section,Fig08\Fig08e_BD_cross_section_300dpi.tiff,1431,1267,357,357
+8,(f),Location and structural idealization of the Hai Linh liquid-bulk jetty.,MD cross-section,Fig08\Fig08f_MD_cross_section_300dpi.tiff,930,1277,337,337
+8,(g),Location and structural idealization of the Hai Linh liquid-bulk jetty.,MJP cross-section,Fig08\Fig08g_MJP_cross_section_300dpi.tiff,1401,1266,357,357
+9,Complete figure,Optimization results for BD structure.,Combined BD optimization results (HV history and final Pareto solutions/current design),Fig09_Fig9_BD_original_results.tiff,4166,1847,600,600
+10,Complete figure,"PFs for (a) MD and (b) MJP structures obtained by B-MOSFOA and E-MOSFOA, compared with current designs.",Combined PFs for (a) MD and (b) MJP structures,Fig10_Fig10_MD_MJP_original_results.tiff,4074,1862,600,600
+A1,Complete figure,"Overall research workflow for algorithm development, benchmark evaluation, and marine-jetty design optimization.",Complete overall research workflow,FigA1_MOSFOA_study_workflow_600dpi.tiff,4500,2490,600,600
