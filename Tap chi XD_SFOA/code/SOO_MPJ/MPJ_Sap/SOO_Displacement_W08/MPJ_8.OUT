@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W08\MPJ_8.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+ 1108628 TO 1108678    A   A   A   A   A   A
+ 1108679               -   -   A   -   -   -
+ 1108680               A   A   -   A   A   A
+ 1108681               A   A   A   A   A   A
+ 1108682               -   -   A   -   -   -
+ 1108683               A   A   -   A   A   A
+ 1108684               A   A   A   A   A   A
+ 1108685               -   -   A   -   -   -
+ 1108686               A   A   -   A   A   A
+ 1108687               A   A   A   A   A   A
+ 1108688               -   -   A   -   -   -
+ 1108689               A   A   -   A   A   A
+ 1108690               A   A   A   A   A   A
+ 1108691               -   -   A   -   -   -
+ 1108692               A   A   -   A   A   A
+ 1108693               A   A   A   A   A   A
+ 1108694               -   -   A   -   -   -
+ 1108695               A   A   -   A   A   A
+ 1108696               A   A   A   A   A   A
+ 1108697               -   -   A   -   -   -
+ 1108698               A   A   -   A   A   A
+ 1108699               -   -   A   -   -   -
+ 1108700               A   A   -   A   A   A
+ 1108701               -   -   A   -   -   -
+ 1108702               A   A   -   A   A   A
+ 1108703               -   -   A   -   -   -
+ 1108704               A   A   -   A   A   A
+ 1108705               -   -   A   -   -   -
+ 1108706               A   A   -   A   A   A
+ 1108707               -   -   A   -   -   -
+ 1108708               A   A   -   A   A   A
+ 1108709               -   -   A   -   -   -
+ 1108710               A   A   -   A   A   A
+ 1108711               -   -   A   -   -   -
+ 1108712               A   A   -   A   A   A
+ 1108713               -   -   A   -   -   -
+ 1108714               A   A   -   A   A   A
+ 1108715               -   -   A   -   -   -
+ 1108716               A   A   -   A   A   A
+ 1108717               -   -   A   -   -   -
+ 1108718               A   A   -   A   A   A
+ 1108719               -   -   A   -   -   -
+ 1108720               A   A   -   A   A   A
+ 1108721               -   -   A   -   -   -
+ 1108722               A   A   -   A   A   A
+ 1108723               -   -   A   -   -   -
+ 1108724               A   A   -   A   A   A
+ 1108725               -   -   A   -   -   -
+ 1108726               A   A   -   A   A   A
+ 1108727               -   -   A   -   -   -
+ 1108728               A   A   -   A   A   A
+ 1108729               -   -   A   -   -   -
+ 1108730               A   A   -   A   A   A
+ 1108731               -   -   A   -   -   -
+ 1108732               A   A   -   A   A   A
+ 1108733               -   -   A   -   -   -
+ 1108734               A   A   -   A   A   A
+ 1108735               -   -   A   -   -   -
+ 1108736               A   A   -   A   A   A
+ 1108737               -   -   A   -   -   -
+ 1108738               A   A   -   A   A   A
+ 1108739               -   -   A   -   -   -
+ 1108740               A   A   -   A   A   A
+ 1108741 TO    ~346    A   A   A   A   A   A

@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W02\MPJ_2.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+  937028 TO  937078    A   A   A   A   A   A
+  937079               -   -   A   -   -   -
+  937080               A   A   -   A   A   A
+  937081               A   A   A   A   A   A
+  937082               -   -   A   -   -   -
+  937083               A   A   -   A   A   A
+  937084               A   A   A   A   A   A
+  937085               -   -   A   -   -   -
+  937086               A   A   -   A   A   A
+  937087               A   A   A   A   A   A
+  937088               -   -   A   -   -   -
+  937089               A   A   -   A   A   A
+  937090               A   A   A   A   A   A
+  937091               -   -   A   -   -   -
+  937092               A   A   -   A   A   A
+  937093               A   A   A   A   A   A
+  937094               -   -   A   -   -   -
+  937095               A   A   -   A   A   A
+  937096               A   A   A   A   A   A
+  937097               -   -   A   -   -   -
+  937098               A   A   -   A   A   A
+  937099               -   -   A   -   -   -
+  937100               A   A   -   A   A   A
+  937101               -   -   A   -   -   -
+  937102               A   A   -   A   A   A
+  937103               -   -   A   -   -   -
+  937104               A   A   -   A   A   A
+  937105               -   -   A   -   -   -
+  937106               A   A   -   A   A   A
+  937107               -   -   A   -   -   -
+  937108               A   A   -   A   A   A
+  937109               -   -   A   -   -   -
+  937110               A   A   -   A   A   A
+  937111               -   -   A   -   -   -
+  937112               A   A   -   A   A   A
+  937113               -   -   A   -   -   -
+  937114               A   A   -   A   A   A
+  937115               -   -   A   -   -   -
+  937116               A   A   -   A   A   A
+  937117               -   -   A   -   -   -
+  937118               A   A   -   A   A   A
+  937119               -   -   A   -   -   -
+  937120               A   A   -   A   A   A
+  937121               -   -   A   -   -   -
+  937122               A   A   -   A   A   A
+  937123               -   -   A   -   -   -
+  937124               A   A   -   A   A   A
+  937125               -   -   A   -   -   -
+  937126               A   A   -   A   A   A
+  937127               -   -   A   -   -   -
+  937128               A   A   -   A   A   A
+  937129               -   -   A   -   -   -
+  937130               A   A   -   A   A   A
+  937131               -   -   A   -   -   -
+  937132               A   A   -   A   A   A
+  937133               -   -   A   -   -   -
+  937134               A   A   -   A   A   A
+  937135               -   -   A   -   -   -
+  937136               A   A   -   A   A   A
+  937137               -   -   A   -   -   -
+  937138               A   A   -   A   A   A
+  937139               -   -   A   -   -   -
+  937140               A   A   -   A   A   A
+  937141 TO    ~346    A   A   A   A   A   A

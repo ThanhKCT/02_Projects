@@ -14,24 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   49756 TO   49776    A   A   A   A   A   A
-   49777               -   -   A   -   -   -
-   49778               A   A   -   A   A   A
-   49779               A   A   A   A   A   A
-   49780               -   -   A   -   -   -
-   49781               A   A   -   A   A   A
-   49782               A   A   A   A   A   A
-   49783               -   -   A   -   -   -
-   49784               A   A   -   A   A   A
-   49785               A   A   A   A   A   A
-   49786               -   -   A   -   -   -
-   49787               A   A   -   A   A   A
-   49788               -   -   A   -   -   -
-   49789               A   A   -   A   A   A
-   49790               -   -   A   -   -   -
-   49791               A   A   -   A   A   A
-   49792               -   -   A   -   -   -
-   49793               A   A   -   A   A   A
-   49794               -   -   A   -   -   -
-   49795               A   A   -   A   A   A
-   49796 TO    ~136    A   A   A   A   A   A
+  697777 TO  697809    A   A   A   A   A   A
+  697810               -   -   A   -   -   -
+  697811               A   A   -   A   A   A
+  697812               A   A   A   A   A   A
+  697813               -   -   A   -   -   -
+  697814               A   A   -   A   A   A
+  697815               A   A   A   A   A   A
+  697816               -   -   A   -   -   -
+  697817               A   A   -   A   A   A
+  697818               A   A   A   A   A   A
+  697819               -   -   A   -   -   -
+  697820               A   A   -   A   A   A
+  697821               A   A   A   A   A   A
+  697822               -   -   A   -   -   -
+  697823               A   A   -   A   A   A
+  697824               A   A   A   A   A   A
+  697825               -   -   A   -   -   -
+  697826               A   A   -   A   A   A
+  697827               A   A   A   A   A   A
+  697828               -   -   A   -   -   -
+  697829               A   A   -   A   A   A
+  697830               -   -   A   -   -   -
+  697831               A   A   -   A   A   A
+  697832               -   -   A   -   -   -
+  697833               A   A   -   A   A   A
+  697834               -   -   A   -   -   -
+  697835               A   A   -   A   A   A
+  697836               -   -   A   -   -   -
+  697837               A   A   -   A   A   A
+  697838               -   -   A   -   -   -
+  697839               A   A   -   A   A   A
+  697840               -   -   A   -   -   -
+  697841               A   A   -   A   A   A
+  697842               -   -   A   -   -   -
+  697843               A   A   -   A   A   A
+  697844 TO    ~214    A   A   A   A   A   A

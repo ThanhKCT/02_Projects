@@ -54,8 +54,32 @@ switch lower(runMode)
         Max_it = 150; Npop = 100; % convergence-check pilot, NOT paper data -- see SESSION_HANDOFF
     case 'full'
         Max_it = 300; Npop = 100;
+    case 'campaign'
+        % 2026-08-17 CONFIRMED via real 'pilot30' run at the actual campaign
+        % population size (Npop=30, Max_it=250, Nrun=1, both objectives --
+        % see SOO_MPJ/results/MPJ_SOO_{Cost,Displacement}_run01_PILOT30.mat):
+        %   Cost: absolute convergence by it~=125-130, flat for 120+ more
+        %         iterations up to it=250 (final=6928.6400).
+        %   Displacement: flat by it~=50-100, changes beyond that are
+        %         O(1e-8) m -- physically meaningless.
+        % Max_it=150 gives Cost (the slower-converging objective) a ~20
+        % iteration safety margin past its real observed convergence point,
+        % the same margin logic used for BD/MD in the earlier (superseded)
+        % 3-system plan. BD/MD are no longer in scope (see draft 2026-08-17
+        % scope note); freed compute budget was spent on Nrun=30 instead
+        % (see run_mpj_campaign_watchdog.ps1). Measured real cost: ~28s/it
+        % at Npop=30/Num_work=11 (~33% slower than the earlier Npop=100
+        % extrapolation) -> ~70h total for Nrun=30 x 2 objectives.
+        Max_it = 150; Npop = 30;
+    case 'pilot30'
+        % 2026-08-17: BD/MD dropped from paper scope; freed compute budget
+        % lets us verify convergence at the ACTUAL campaign population size
+        % (Npop=30) instead of trusting the Npop=100->Npop=30 extrapolation
+        % that produced Max_it=150 above. Generous Max_it=250 to see the
+        % real curve. NOT paper data -- Nrun=1, purely diagnostic.
+        Max_it = 250; Npop = 30;
     otherwise
-        error('runMode must be ''smoke'', ''pilot'', or ''full''.');
+        error('runMode must be ''smoke'', ''pilot'', ''pilot30'', ''campaign'', or ''full''.');
 end
 fprintf('[SOO-MPJ-%s] Run mode: %s; Npop=%d; Max_it=%d; Nrun=%d; expected FEs=%d.\n', ...
     objName, upper(runMode), Npop, Max_it, Nrun, Nrun*Npop*(Max_it+1));
@@ -110,36 +134,74 @@ end
 
 for iloop = (1:Nrun) + runIdOffset
     runTag = sprintf('run%02d', iloop);
-    runTimer = tic;
-    Curve = nan(1,Max_it);
-    RawCurve = nan(1,Max_it); % raw (un-penalized) value of the tracked objective at the running best
-    FEcount = 0;
+    % --- Resilience (2026-08-17): power/crash-safe run resume ---
+    % saveName/ckptFile are computed FIRST so this loop iteration is
+    % idempotent: (1) if the final result already exists, skip the run
+    % entirely (lets a watchdog just re-invoke the same Nrun/runIdOffset
+    % range after any interruption without having to compute offsets);
+    % (2) if a mid-run checkpoint exists (saved every CkptEvery
+    % iterations), resume from there instead of redoing the whole run
+    % from iteration 1. See run_mpj_campaign_watchdog.ps1 for the outer
+    % auto-relaunch loop that survives process crashes / reboots.
+    saveName = fullfile(outDir, sprintf('MPJ_SOO_%s_%s_%s.mat', objName, runTag, upper(runMode)));
+    ckptFile = fullfile(outDir, sprintf('MPJ_SOO_%s_%s_%s_CKPT.mat', objName, runTag, upper(runMode)));
+    CkptEvery = 20;
+    if exist(saveName,'file')
+        fprintf('[SOO-MPJ-%s] %s already complete (found %s) -- skipping.\n', objName, runTag, saveName);
+        continue;
+    end
 
-    Xpos = rand(Npop,nVar).*(ub-lb)+lb;
-    for jj = 1:Npop
-        for ii = 1:nVar
-            [~,b] = min(abs(D(:,ii)-Xpos(jj,ii))); Xpos(jj,ii) = D(b,ii);
+    resumed = false;
+    if exist(ckptFile,'file')
+        try
+            Sckpt = load(ckptFile,'CKPT'); CKPT = Sckpt.CKPT;
+            Xpos = CKPT.Xpos; Fitness = CKPT.Fitness; xposbest = CKPT.xposbest;
+            fvalbest = CKPT.fvalbest; BestDiag = CKPT.BestDiag;
+            Curve = CKPT.Curve; RawCurve = CKPT.RawCurve; FEcount = CKPT.FEcount;
+            Tstart = CKPT.T + 1; elapsedOffset = CKPT.elapsedSoFar;
+            resumed = true;
+            fprintf('[SOO-MPJ-%s] %s RESUMED from checkpoint at it=%d/%d (already %.1fs elapsed).\n', ...
+                objName, runTag, CKPT.T, Max_it, elapsedOffset);
+        catch ME
+            warning('Checkpoint %s failed to load (%s) -- restarting run %s from scratch.', ckptFile, ME.message, runTag);
+            resumed = false;
         end
     end
-    idx = mod(0:Npop-1, Num_work) + 1;
-    spmd (Num_work)
-        Xpart = Xpos(idx == spmdIndex, :);
-        [FitLoc, DiagLoc] = fun(Xpart, data);
+
+    runTimer = tic;
+    if ~resumed
+        elapsedOffset = 0;
+        Curve = nan(1,Max_it);
+        RawCurve = nan(1,Max_it); % raw (un-penalized) value of the tracked objective at the running best
+        FEcount = 0;
+
+        Xpos = rand(Npop,nVar).*(ub-lb)+lb;
+        for jj = 1:Npop
+            for ii = 1:nVar
+                [~,b] = min(abs(D(:,ii)-Xpos(jj,ii))); Xpos(jj,ii) = D(b,ii);
+            end
+        end
+        idx = mod(0:Npop-1, Num_work) + 1;
+        spmd (Num_work)
+            Xpart = Xpos(idx == spmdIndex, :);
+            [FitLoc, DiagLoc] = fun(Xpart, data);
+        end
+        FitAll = zeros(Npop,2); DiagAll = nan(Npop,numel(DiagnosticColumns));
+        for i = 1:Num_work
+            FitAll(idx==i,:) = FitLoc{i}; DiagAll(idx==i,:) = DiagLoc{i};
+        end
+        FEcount = FEcount + Npop;
+        Fitness = FitAll(:,objCol);
+        [fvalbest,order] = min(Fitness);
+        xposbest = Xpos(order,:);
+        rawbest = DiagAll(order, objCol); % DiagnosticColumns{1}=RawCost, {2}=RawDisplacement
+        Curve(1) = fvalbest; RawCurve(1) = rawbest;
+        BestDiag = DiagAll(order,:);
+        Tstart = 1;
     end
-    FitAll = zeros(Npop,2); DiagAll = nan(Npop,numel(DiagnosticColumns));
-    for i = 1:Num_work
-        FitAll(idx==i,:) = FitLoc{i}; DiagAll(idx==i,:) = DiagLoc{i};
-    end
-    FEcount = FEcount + Npop;
-    Fitness = FitAll(:,objCol);
-    [fvalbest,order] = min(Fitness);
-    xposbest = Xpos(order,:);
-    rawbest = DiagAll(order, objCol); % DiagnosticColumns{1}=RawCost, {2}=RawDisplacement
-    Curve(1) = fvalbest; RawCurve(1) = rawbest;
-    BestDiag = DiagAll(order,:);
 
     newX = zeros(Npop,nVar);
-    T = 1;
+    T = Tstart;
     while T <= Max_it
         theta = pi/2*T/Max_it; tEO = (Max_it-T)/Max_it*cos(theta);
         if rand < GP
@@ -189,11 +251,25 @@ for iloop = (1:Nrun) + runIdOffset
             end
         end
         Curve(T) = fvalbest; RawCurve(T) = BestDiag(objCol);
+        elapsedNow = toc(runTimer) + elapsedOffset;
         if mod(T,10)==0 || T==Max_it
             flog = fopen(logFile,'a');
             fprintf(flog,'[%s] %s it=%d/%d best(penalized)=%.4f raw=%.4f FEs=%d elapsed=%.1fs\n', ...
-                datestr(now), runTag, T, Max_it, fvalbest, BestDiag(objCol), FEcount, toc(runTimer));
+                datestr(now), runTag, T, Max_it, fvalbest, BestDiag(objCol), FEcount, elapsedNow);
             fclose(flog);
+        end
+        if mod(T,CkptEvery)==0 && T < Max_it
+            % Mid-run checkpoint so a power loss/crash costs at most
+            % CkptEvery iterations of this one run, not the whole run.
+            % Atomic write: save to .tmp then rename, so a write caught
+            % mid-flush by a power cut can never leave a corrupt/partial
+            % checkpoint that fails to load on resume.
+            CKPT = struct('Xpos',Xpos,'Fitness',Fitness,'xposbest',xposbest, ...
+                'fvalbest',fvalbest,'BestDiag',BestDiag,'Curve',Curve, ...
+                'RawCurve',RawCurve,'FEcount',FEcount,'T',T,'elapsedSoFar',elapsedNow);
+            ckptTmp = [ckptFile '.tmp'];
+            save(ckptTmp,'CKPT');
+            movefile(ckptTmp, ckptFile, 'f');
         end
         T = T + 1;
     end
@@ -211,11 +287,19 @@ for iloop = (1:Nrun) + runIdOffset
     RunResult.Curve = Curve;
     RunResult.RawCurve = RawCurve;
     RunResult.FEcount = FEcount;
-    RunResult.ElapsedSeconds = toc(runTimer);
+    RunResult.ElapsedSeconds = toc(runTimer) + elapsedOffset;
     RunResult.Timestamp = datestr(now,'yyyy-mm-dd HH:MM:SS');
 
-    saveName = fullfile(outDir, sprintf('MPJ_SOO_%s_%s_%s.mat', objName, runTag, upper(runMode)));
-    save(saveName,'RunResult');
+    % Atomic final save (same tmp+rename reasoning as the checkpoint above)
+    % so a power cut mid-save can never corrupt/truncate a completed run's
+    % result file -- either the old saveName is untouched, or the fully
+    % written .tmp gets renamed in. Checkpoint is deleted only AFTER the
+    % final result is safely on disk, so nothing is ever lost in between.
+    saveTmp = [saveName '.tmp'];
+    save(saveTmp,'RunResult');
+    movefile(saveTmp, saveName, 'f');
+    if exist(ckptFile,'file'); delete(ckptFile); end
+
     flog = fopen(logFile,'a');
     fprintf(flog,'[%s] %s DONE best(penalized)=%.4f raw=%.4f elapsed=%.1fs -> saved %s\n', ...
         datestr(now), runTag, fvalbest, BestDiag(objCol), RunResult.ElapsedSeconds, saveName);

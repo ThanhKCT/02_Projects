@@ -14,32 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   50459 TO   50485    A   A   A   A   A   A
-   50486               -   -   A   -   -   -
-   50487               A   A   -   A   A   A
-   50488               A   A   A   A   A   A
-   50489               -   -   A   -   -   -
-   50490               A   A   -   A   A   A
-   50491               A   A   A   A   A   A
-   50492               -   -   A   -   -   -
-   50493               A   A   -   A   A   A
-   50494               A   A   A   A   A   A
-   50495               -   -   A   -   -   -
-   50496               A   A   -   A   A   A
-   50497               -   -   A   -   -   -
-   50498               A   A   -   A   A   A
-   50499               -   -   A   -   -   -
-   50500               A   A   -   A   A   A
-   50501               -   -   A   -   -   -
-   50502               A   A   -   A   A   A
-   50503               -   -   A   -   -   -
-   50504               A   A   -   A   A   A
-   50505               -   -   A   -   -   -
-   50506               A   A   -   A   A   A
-   50507               -   -   A   -   -   -
-   50508               A   A   -   A   A   A
-   50509               -   -   A   -   -   -
-   50510               A   A   -   A   A   A
-   50511               -   -   A   -   -   -
-   50512               A   A   -   A   A   A
-   50513 TO    ~178    A   A   A   A   A   A
+  671913 TO  671945    A   A   A   A   A   A
+  671946               -   -   A   -   -   -
+  671947               A   A   -   A   A   A
+  671948               A   A   A   A   A   A
+  671949               -   -   A   -   -   -
+  671950               A   A   -   A   A   A
+  671951               A   A   A   A   A   A
+  671952               -   -   A   -   -   -
+  671953               A   A   -   A   A   A
+  671954               A   A   A   A   A   A
+  671955               -   -   A   -   -   -
+  671956               A   A   -   A   A   A
+  671957               A   A   A   A   A   A
+  671958               -   -   A   -   -   -
+  671959               A   A   -   A   A   A
+  671960               A   A   A   A   A   A
+  671961               -   -   A   -   -   -
+  671962               A   A   -   A   A   A
+  671963               A   A   A   A   A   A
+  671964               -   -   A   -   -   -
+  671965               A   A   -   A   A   A
+  671966               -   -   A   -   -   -
+  671967               A   A   -   A   A   A
+  671968               -   -   A   -   -   -
+  671969               A   A   -   A   A   A
+  671970               -   -   A   -   -   -
+  671971               A   A   -   A   A   A
+  671972               -   -   A   -   -   -
+  671973               A   A   -   A   A   A
+  671974               -   -   A   -   -   -
+  671975               A   A   -   A   A   A
+  671976               -   -   A   -   -   -
+  671977               A   A   -   A   A   A
+  671978               -   -   A   -   -   -
+  671979               A   A   -   A   A   A
+  671980 TO    ~214    A   A   A   A   A   A

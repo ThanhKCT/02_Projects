@@ -1,0 +1,112 @@
+[SOO-MPJ-Cost] Run mode: CAMPAIGN; Npop=30; Max_it=150; Nrun=30; expected FEs=135900.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+[SOO-MPJ-Cost] run01 complete: best(penalized)=9423.7058 raw=9423.7058 elapsed=4021.3s
+[SOO-MPJ-Cost] run02 complete: best(penalized)=6414.8315 raw=6414.8315 elapsed=3714.6s
+[SOO-MPJ-Cost] run03 complete: best(penalized)=5304.8481 raw=5304.8481 elapsed=4021.9s
+[SOO-MPJ-Cost] run04 complete: best(penalized)=8804.4393 raw=8804.4393 elapsed=3279.8s
+[SOO-MPJ-Cost] run05 complete: best(penalized)=8800.8041 raw=8800.8041 elapsed=3742.7s
+[SOO-MPJ-Cost] run06 complete: best(penalized)=8734.9841 raw=8734.9841 elapsed=3305.8s
+[SOO-MPJ-Cost] run07 complete: best(penalized)=5291.8573 raw=5291.8573 elapsed=3516.4s
+[SOO-MPJ-Cost] run08 complete: best(penalized)=8309.3701 raw=8309.3701 elapsed=3751.7s
+[SOO-MPJ-Cost] run09 complete: best(penalized)=8861.3598 raw=8861.3598 elapsed=3352.2s
+[SOO-MPJ-Cost] run10 complete: best(penalized)=8059.5644 raw=8059.5644 elapsed=3695.3s
+[SOO-MPJ-Cost] run11 complete: best(penalized)=8666.3763 raw=8666.3763 elapsed=3405.9s
+[SOO-MPJ-Cost] run12 complete: best(penalized)=7634.4521 raw=7634.4521 elapsed=3212.2s
+[SOO-MPJ-Cost] run13 complete: best(penalized)=6928.6400 raw=6928.6400 elapsed=4321.8s
+[SOO-MPJ-Cost] run14 complete: best(penalized)=8309.3701 raw=8309.3701 elapsed=4345.8s
+[SOO-MPJ-Cost] run15 complete: best(penalized)=9212.8753 raw=9212.8753 elapsed=3879.8s
+[SOO-MPJ-Cost] run16 complete: best(penalized)=10073.9390 raw=10073.9390 elapsed=4772.1s
+[SOO-MPJ-Cost] run17 complete: best(penalized)=8645.7517 raw=8645.7517 elapsed=3555.9s
+[SOO-MPJ-Cost] run18 complete: best(penalized)=5369.8022 raw=5369.8022 elapsed=3969.7s
+[SOO-MPJ-Cost] run19 complete: best(penalized)=5298.3527 raw=5298.3527 elapsed=4296.9s
+[SOO-MPJ-Cost] run20 complete: best(penalized)=9165.8161 raw=9165.8161 elapsed=4722.9s
+[SOO-MPJ-Cost] run21 complete: best(penalized)=10073.9390 raw=10073.9390 elapsed=4592.3s
+[SOO-MPJ-Cost] run22 complete: best(penalized)=8059.5644 raw=8059.5644 elapsed=4145.6s
+[SOO-MPJ-Cost] run23 complete: best(penalized)=6405.7325 raw=6405.7325 elapsed=4312.6s
+[SOO-MPJ-Cost] run24 complete: best(penalized)=8093.6653 raw=8093.6653 elapsed=3575.0s
+[SOO-MPJ-Cost] run25 complete: best(penalized)=8309.3701 raw=8309.3701 elapsed=4051.1s
+[SOO-MPJ-Cost] run26 complete: best(penalized)=10073.9390 raw=10073.9390 elapsed=4675.8s
+[SOO-MPJ-Cost] run27 complete: best(penalized)=8821.0956 raw=8821.0956 elapsed=4322.2s
+[SOO-MPJ-Cost] run28 complete: best(penalized)=8491.2416 raw=8491.2416 elapsed=4567.3s
+[SOO-MPJ-Cost] run29 complete: best(penalized)=6414.8315 raw=6414.8315 elapsed=3314.4s
+[SOO-MPJ-Cost] run30 complete: best(penalized)=8320.7371 raw=8320.7371 elapsed=3923.9s
+SUCCESS: The process "SAP2000.exe" with PID 2420 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21996 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21264 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5980 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19876 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13488 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23860 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20820 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17292 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4604 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2340 has been terminated. 
+[SOO-MPJ-Cost] All 30 run(s) complete. Results in D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results

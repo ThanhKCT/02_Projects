@@ -14,24 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   59673 TO   59693    A   A   A   A   A   A
-   59694               -   -   A   -   -   -
-   59695               A   A   -   A   A   A
-   59696               A   A   A   A   A   A
-   59697               -   -   A   -   -   -
-   59698               A   A   -   A   A   A
-   59699               A   A   A   A   A   A
-   59700               -   -   A   -   -   -
-   59701               A   A   -   A   A   A
-   59702               A   A   A   A   A   A
-   59703               -   -   A   -   -   -
-   59704               A   A   -   A   A   A
-   59705               -   -   A   -   -   -
-   59706               A   A   -   A   A   A
-   59707               -   -   A   -   -   -
-   59708               A   A   -   A   A   A
-   59709               -   -   A   -   -   -
-   59710               A   A   -   A   A   A
-   59711               -   -   A   -   -   -
-   59712               A   A   -   A   A   A
-   59713 TO    ~136    A   A   A   A   A   A
+  711126 TO  711158    A   A   A   A   A   A
+  711159               -   -   A   -   -   -
+  711160               A   A   -   A   A   A
+  711161               A   A   A   A   A   A
+  711162               -   -   A   -   -   -
+  711163               A   A   -   A   A   A
+  711164               A   A   A   A   A   A
+  711165               -   -   A   -   -   -
+  711166               A   A   -   A   A   A
+  711167               A   A   A   A   A   A
+  711168               -   -   A   -   -   -
+  711169               A   A   -   A   A   A
+  711170               A   A   A   A   A   A
+  711171               -   -   A   -   -   -
+  711172               A   A   -   A   A   A
+  711173               A   A   A   A   A   A
+  711174               -   -   A   -   -   -
+  711175               A   A   -   A   A   A
+  711176               A   A   A   A   A   A
+  711177               -   -   A   -   -   -
+  711178               A   A   -   A   A   A
+  711179               -   -   A   -   -   -
+  711180               A   A   -   A   A   A
+  711181               -   -   A   -   -   -
+  711182               A   A   -   A   A   A
+  711183               -   -   A   -   -   -
+  711184               A   A   -   A   A   A
+  711185               -   -   A   -   -   -
+  711186               A   A   -   A   A   A
+  711187               -   -   A   -   -   -
+  711188               A   A   -   A   A   A
+  711189               -   -   A   -   -   -
+  711190               A   A   -   A   A   A
+  711191               -   -   A   -   -   -
+  711192               A   A   -   A   A   A
+  711193 TO    ~214    A   A   A   A   A   A

@@ -1,21 +1,21 @@
 
 
  SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)
- File: D:\OneDrive\Nature-Insp...gorithms\Multiobjectives\MOSFOA\MPJ_Sap\MPJ.LOG
+ File: D:\ResearchLab\02_Proje...ts\Tap chi XD_SFOA\code\SOO_MPJ\MPJ_Sap\MPJ.LOG
 
 
 
 
- B E G I N   A N A L Y S I S                                2025/08/24  15:53:31
+ B E G I N   A N A L Y S I S                                2026/08/21  08:30:19
 
 
  RUNNING ANALYSIS WITHIN THE GUI PROCESS
  USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
 
- NUMBER OF JOINTS                          =         349
-    WITH RESTRAINTS                        =          40
- NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         196
- NUMBER OF SHELL ELEMENTS                  =         270
+ NUMBER OF JOINTS                          =         282
+    WITH RESTRAINTS                        =          30
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         153
+ NUMBER OF SHELL ELEMENTS                  =         216
  NUMBER OF LOAD PATTERNS                   =           2
  NUMBER OF ACCELERATION LOADS              =           9
  NUMBER OF LOAD CASES                      =           3
@@ -24,29 +24,29 @@
  UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = tonf, m, °C, sec
  GRAVITATIONAL ACCELERATION                =    9.806650
 
- ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.869 GB
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      47.905 GB
 
  PARALLELIZATION OF ANALYSIS OPERATIONS:
   (Env. variable SAPFIRE_NUM_THREADS not set)
- NUMBER OF THREADS: STATE (AUTOMATIC)      =           6
- NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           6
- NUMBER OF THREADS: EVENT (AUTOMATIC)      =           6
- NUMBER OF THREADS: MOVE (AUTOMATIC)       =           6
- NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           6
- NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           6
- NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          14
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =          14
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          14
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
 
 
- E L E M E N T   F O R M A T I O N                                      15:53:31
+ E L E M E N T   F O R M A T I O N                                      08:30:19
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        15:53:31
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        08:30:19
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
- TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        1974
- NUMBER OF NON-ZERO STIFFNESS TERMS        =       47421
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        1602
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =       38205
 
  ---------------------------------
  BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
@@ -58,7 +58,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  15:53:31
+ L I N E A R   S T A T I C   C A S E S                                  08:30:19
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -71,14 +71,14 @@
  CASE: LL
 
 
- E I G E N   M O D A L   A N A L Y S I S                                15:53:31
+ E I G E N   M O D A L   A N A L Y S I S                                08:30:19
 
  CASE: MODAL
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
- NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        1974
- NUMBER OF MASS DEGREES OF FREEDOM         =         987
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        1602
+ NUMBER OF MASS DEGREES OF FREEDOM         =         801
  MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
  MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
  NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
@@ -92,22 +92,28 @@
 
  Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
  Number of eigenvalues below shift =      0
- Found mode      1 of     12:  EV= 5.0413334E+03, f=   11.300375, T=    0.088493
- Found mode      2 of     12:  EV= 5.1094503E+03, f=   11.376462, T=    0.087901
- Found mode      3 of     12:  EV= 8.4624375E+03, f=   14.640903, T=    0.068302
- Found mode      4 of     12:  EV= 6.9734720E+04, f=   42.028575, T=    0.023793
- Found mode      5 of     12:  EV= 7.0443825E+04, f=   42.241720, T=    0.023673
- Found mode      6 of     12:  EV= 8.1398334E+04, f=   45.407531, T=    0.022023
- Found mode      7 of     12:  EV= 8.5418113E+04, f=   46.515224, T=    0.021498
- Found mode      8 of     12:  EV= 1.1448496E+05, f=   53.851072, T=    0.018570
- Found mode      9 of     12:  EV= 1.2178671E+05, f=   55.541816, T=    0.018004
- Found mode     10 of     12:  EV= 1.3502649E+05, f=   58.482997, T=    0.017099
- Found mode     11 of     12:  EV= 1.7229260E+05, f=   66.062262, T=    0.015137
- Found mode     12 of     12:  EV= 1.8241041E+05, f=   67.974330, T=    0.014711
+
+ Forming stiffness, new shift: EV= 3.7105251E+03, f=    9.694777, T=    0.103148
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     12:  EV= 3.9022873E+03, f=    9.942137, T=    0.100582
+ Found mode      2 of     12:  EV= 4.3872974E+03, f=   10.541895, T=    0.094860
+
+ Forming stiffness, new shift: EV= 6.5151857E+03, f=   12.846462, T=    0.077842
+ Number of eigenvalues below shift =      2
+ Found mode      3 of     12:  EV= 6.6556424E+03, f=   12.984198, T=    0.077017
+ Found mode      4 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode      5 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode      6 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode      7 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode      8 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode      9 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode     10 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode     11 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
+ Found mode     12 of     12:  EV= 6.9030785E+03, f=   13.223351, T=    0.075624
 
  NUMBER OF EIGEN MODES FOUND               =          12
- NUMBER OF ITERATIONS PERFORMED            =          16
- NUMBER OF STIFFNESS SHIFTS                =           0
+ NUMBER OF ITERATIONS PERFORMED            =          24
+ NUMBER OF STIFFNESS SHIFTS                =           2
 
 
- A N A L Y S I S   C O M P L E T E                          2025/08/24  15:53:31
+ A N A L Y S I S   C O M P L E T E                          2026/08/21  08:30:20

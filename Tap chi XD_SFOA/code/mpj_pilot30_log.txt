@@ -1,0 +1,157 @@
+=== MPJ PILOT30 START 17/08/2026 15:38:14.79 ===
+=== MPJ-Cost pilot30 start 17/08/2026 15:38:14.79 ===
+[SOO-MPJ-Cost] Run mode: PILOT30; Npop=30; Max_it=250; Nrun=1; expected FEs=7530.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+[SOO-MPJ-Cost] run01 complete: best(penalized)=6928.6400 raw=6928.6400 elapsed=6879.2s
+SUCCESS: The process "SAP2000.exe" with PID 15548 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24540 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17848 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 16304 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7980 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5760 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2632 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4840 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21152 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24564 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17756 has been terminated. 
+[SOO-MPJ-Cost] All 1 run(s) complete. Results in D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_MPJ\results
+=== MPJ-Cost pilot30 end 17/08/2026 17:35:19.61, exit=0 ===
+=== MPJ-Displacement pilot30 start 17/08/2026 17:35:19.62 ===
+[SOO-MPJ-Displacement] Run mode: PILOT30; Npop=30; Max_it=250; Nrun=1; expected FEs=7530.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  

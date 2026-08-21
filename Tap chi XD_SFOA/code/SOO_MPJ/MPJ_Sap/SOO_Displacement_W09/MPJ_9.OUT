@@ -1,0 +1,62 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W09\MPJ_9.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+  636483 TO  636521    A   A   A   A   A   A
+  636522               -   -   A   -   -   -
+  636523               A   A   -   A   A   A
+  636524               A   A   A   A   A   A
+  636525               -   -   A   -   -   -
+  636526               A   A   -   A   A   A
+  636527               A   A   A   A   A   A
+  636528               -   -   A   -   -   -
+  636529               A   A   -   A   A   A
+  636530               A   A   A   A   A   A
+  636531               -   -   A   -   -   -
+  636532               A   A   -   A   A   A
+  636533               A   A   A   A   A   A
+  636534               -   -   A   -   -   -
+  636535               A   A   -   A   A   A
+  636536               -   -   A   -   -   -
+  636537               A   A   -   A   A   A
+  636538               -   -   A   -   -   -
+  636539               A   A   -   A   A   A
+  636540               -   -   A   -   -   -
+  636541               A   A   -   A   A   A
+  636542               -   -   A   -   -   -
+  636543               A   A   -   A   A   A
+  636544               -   -   A   -   -   -
+  636545               A   A   -   A   A   A
+  636546               -   -   A   -   -   -
+  636547               A   A   -   A   A   A
+  636548               -   -   A   -   -   -
+  636549               A   A   -   A   A   A
+  636550               -   -   A   -   -   -
+  636551               A   A   -   A   A   A
+  636552               -   -   A   -   -   -
+  636553               A   A   -   A   A   A
+  636554               -   -   A   -   -   -
+  636555               A   A   -   A   A   A
+  636556               -   -   A   -   -   -
+  636557               A   A   -   A   A   A
+  636558               -   -   A   -   -   -
+  636559               A   A   -   A   A   A
+  636560               -   -   A   -   -   -
+  636561               A   A   -   A   A   A
+  636562               -   -   A   -   -   -
+  636563               A   A   -   A   A   A
+  636564               -   -   A   -   -   -
+  636565               A   A   -   A   A   A
+  636566 TO    ~262    A   A   A   A   A   A

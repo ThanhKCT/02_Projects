@@ -14,32 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   52652 TO   52678    A   A   A   A   A   A
-   52679               -   -   A   -   -   -
-   52680               A   A   -   A   A   A
-   52681               A   A   A   A   A   A
-   52682               -   -   A   -   -   -
-   52683               A   A   -   A   A   A
-   52684               A   A   A   A   A   A
-   52685               -   -   A   -   -   -
-   52686               A   A   -   A   A   A
-   52687               A   A   A   A   A   A
-   52688               -   -   A   -   -   -
-   52689               A   A   -   A   A   A
-   52690               -   -   A   -   -   -
-   52691               A   A   -   A   A   A
-   52692               -   -   A   -   -   -
-   52693               A   A   -   A   A   A
-   52694               -   -   A   -   -   -
-   52695               A   A   -   A   A   A
-   52696               -   -   A   -   -   -
-   52697               A   A   -   A   A   A
-   52698               -   -   A   -   -   -
-   52699               A   A   -   A   A   A
-   52700               -   -   A   -   -   -
-   52701               A   A   -   A   A   A
-   52702               -   -   A   -   -   -
-   52703               A   A   -   A   A   A
-   52704               -   -   A   -   -   -
-   52705               A   A   -   A   A   A
-   52706 TO    ~178    A   A   A   A   A   A
+  453618 TO  453650    A   A   A   A   A   A
+  453651               -   -   A   -   -   -
+  453652               A   A   -   A   A   A
+  453653               A   A   A   A   A   A
+  453654               -   -   A   -   -   -
+  453655               A   A   -   A   A   A
+  453656               A   A   A   A   A   A
+  453657               -   -   A   -   -   -
+  453658               A   A   -   A   A   A
+  453659               A   A   A   A   A   A
+  453660               -   -   A   -   -   -
+  453661               A   A   -   A   A   A
+  453662               A   A   A   A   A   A
+  453663               -   -   A   -   -   -
+  453664               A   A   -   A   A   A
+  453665               A   A   A   A   A   A
+  453666               -   -   A   -   -   -
+  453667               A   A   -   A   A   A
+  453668               A   A   A   A   A   A
+  453669               -   -   A   -   -   -
+  453670               A   A   -   A   A   A
+  453671               -   -   A   -   -   -
+  453672               A   A   -   A   A   A
+  453673               -   -   A   -   -   -
+  453674               A   A   -   A   A   A
+  453675               -   -   A   -   -   -
+  453676               A   A   -   A   A   A
+  453677               -   -   A   -   -   -
+  453678               A   A   -   A   A   A
+  453679               -   -   A   -   -   -
+  453680               A   A   -   A   A   A
+  453681               -   -   A   -   -   -
+  453682               A   A   -   A   A   A
+  453683               -   -   A   -   -   -
+  453684               A   A   -   A   A   A
+  453685 TO    ~214    A   A   A   A   A   A

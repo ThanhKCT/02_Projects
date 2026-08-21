@@ -14,34 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   50222 TO   50250    A   A   A   A   A   A
-   50251               -   -   A   -   -   -
-   50252               A   A   -   A   A   A
-   50253               A   A   A   A   A   A
-   50254               -   -   A   -   -   -
-   50255               A   A   -   A   A   A
-   50256               A   A   A   A   A   A
-   50257               -   -   A   -   -   -
-   50258               A   A   -   A   A   A
-   50259               A   A   A   A   A   A
-   50260               -   -   A   -   -   -
-   50261               A   A   -   A   A   A
-   50262               A   A   A   A   A   A
-   50263               -   -   A   -   -   -
-   50264               A   A   -   A   A   A
-   50265               A   A   A   A   A   A
-   50266               -   -   A   -   -   -
-   50267               A   A   -   A   A   A
-   50268               -   -   A   -   -   -
-   50269               A   A   -   A   A   A
-   50270               -   -   A   -   -   -
-   50271               A   A   -   A   A   A
-   50272               -   -   A   -   -   -
-   50273               A   A   -   A   A   A
-   50274               -   -   A   -   -   -
-   50275               A   A   -   A   A   A
-   50276               -   -   A   -   -   -
-   50277               A   A   -   A   A   A
-   50278               -   -   A   -   -   -
-   50279               A   A   -   A   A   A
-   50280 TO    ~188    A   A   A   A   A   A
+  670602 TO  670634    A   A   A   A   A   A
+  670635               -   -   A   -   -   -
+  670636               A   A   -   A   A   A
+  670637               A   A   A   A   A   A
+  670638               -   -   A   -   -   -
+  670639               A   A   -   A   A   A
+  670640               A   A   A   A   A   A
+  670641               -   -   A   -   -   -
+  670642               A   A   -   A   A   A
+  670643               A   A   A   A   A   A
+  670644               -   -   A   -   -   -
+  670645               A   A   -   A   A   A
+  670646               A   A   A   A   A   A
+  670647               -   -   A   -   -   -
+  670648               A   A   -   A   A   A
+  670649               A   A   A   A   A   A
+  670650               -   -   A   -   -   -
+  670651               A   A   -   A   A   A
+  670652               A   A   A   A   A   A
+  670653               -   -   A   -   -   -
+  670654               A   A   -   A   A   A
+  670655               -   -   A   -   -   -
+  670656               A   A   -   A   A   A
+  670657               -   -   A   -   -   -
+  670658               A   A   -   A   A   A
+  670659               -   -   A   -   -   -
+  670660               A   A   -   A   A   A
+  670661               -   -   A   -   -   -
+  670662               A   A   -   A   A   A
+  670663               -   -   A   -   -   -
+  670664               A   A   -   A   A   A
+  670665               -   -   A   -   -   -
+  670666               A   A   -   A   A   A
+  670667               -   -   A   -   -   -
+  670668               A   A   -   A   A   A
+  670669 TO    ~214    A   A   A   A   A   A

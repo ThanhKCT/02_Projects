@@ -50,8 +50,16 @@ switch lower(runMode)
         Max_it = 150; Npop = 100; % convergence-check pilot, NOT paper data -- see SESSION_HANDOFF
     case 'full'
         Max_it = 300; Npop = 100;
+    case 'campaign'
+        % 2026-08-15 decision: 2-day feasibility window on office machine.
+        % Npop=30 (standard SFOA/metaheuristic default; cuts SAP2000 batches
+        % per iter from ceil(100/11)=10 to ceil(30/11)=3, ~3.3x speedup)
+        % Max_it=50 chosen from real pilot evidence: BD objective flat at
+        % 10164.8212 from it=30 through it=110 (80 iters, no re-improvement)
+        % -- see SOO_BD/results/BD_Cost_progress.log. 20-iter safety margin.
+        Max_it = 50; Npop = 30;
     otherwise
-        error('runMode must be ''smoke'', ''pilot'', or ''full''.');
+        error('runMode must be ''smoke'', ''pilot'', ''campaign'', or ''full''.');
 end
 fprintf('[SOO-BD-%s] Run mode: %s; Npop=%d; Max_it=%d; Nrun=%d; expected FEs=%d.\n', ...
     objName, upper(runMode), Npop, Max_it, Nrun, Nrun*Npop*(Max_it+1));

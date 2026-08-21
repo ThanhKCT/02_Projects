@@ -14,24 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   42484 TO   42504    A   A   A   A   A   A
-   42505               -   -   A   -   -   -
-   42506               A   A   -   A   A   A
-   42507               A   A   A   A   A   A
-   42508               -   -   A   -   -   -
-   42509               A   A   -   A   A   A
-   42510               A   A   A   A   A   A
-   42511               -   -   A   -   -   -
-   42512               A   A   -   A   A   A
-   42513               A   A   A   A   A   A
-   42514               -   -   A   -   -   -
-   42515               A   A   -   A   A   A
-   42516               -   -   A   -   -   -
-   42517               A   A   -   A   A   A
-   42518               -   -   A   -   -   -
-   42519               A   A   -   A   A   A
-   42520               -   -   A   -   -   -
-   42521               A   A   -   A   A   A
-   42522               -   -   A   -   -   -
-   42523               A   A   -   A   A   A
-   42524 TO    ~136    A   A   A   A   A   A
+  444608 TO  444640    A   A   A   A   A   A
+  444641               -   -   A   -   -   -
+  444642               A   A   -   A   A   A
+  444643               A   A   A   A   A   A
+  444644               -   -   A   -   -   -
+  444645               A   A   -   A   A   A
+  444646               A   A   A   A   A   A
+  444647               -   -   A   -   -   -
+  444648               A   A   -   A   A   A
+  444649               A   A   A   A   A   A
+  444650               -   -   A   -   -   -
+  444651               A   A   -   A   A   A
+  444652               A   A   A   A   A   A
+  444653               -   -   A   -   -   -
+  444654               A   A   -   A   A   A
+  444655               A   A   A   A   A   A
+  444656               -   -   A   -   -   -
+  444657               A   A   -   A   A   A
+  444658               A   A   A   A   A   A
+  444659               -   -   A   -   -   -
+  444660               A   A   -   A   A   A
+  444661               -   -   A   -   -   -
+  444662               A   A   -   A   A   A
+  444663               -   -   A   -   -   -
+  444664               A   A   -   A   A   A
+  444665               -   -   A   -   -   -
+  444666               A   A   -   A   A   A
+  444667               -   -   A   -   -   -
+  444668               A   A   -   A   A   A
+  444669               -   -   A   -   -   -
+  444670               A   A   -   A   A   A
+  444671               -   -   A   -   -   -
+  444672               A   A   -   A   A   A
+  444673               -   -   A   -   -   -
+  444674               A   A   -   A   A   A
+  444675 TO    ~214    A   A   A   A   A   A

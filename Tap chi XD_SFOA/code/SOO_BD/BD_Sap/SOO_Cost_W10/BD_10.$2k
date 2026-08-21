@@ -687,9 +687,9 @@ TABLE:  "FRAME SECTION ASSIGNMENTS"
    Frame=38   AutoSelect=N.A.   AnalSect=COC   MatProp=Default
  
 TABLE:  "FRAME SECTION PROPERTIES 01 - GENERAL"
-   SectionName=COC   Material=BTCTCOC   Shape=Pipe   t3=0.8   tw=0.11   Area=0.238446882407465   TorsConst=0.0291024419978311   I33=0.0145512209989156   I22=0.0145512209989156   I23=0   AS2=0.121226500962918   AS3=0.121226500962918 _
-        S33Top=0.0363780524972889   S33Bot=0.0363780524972889   S22Left=0.0363780524972889   S22Right=0.0363780524972889   Z33=0.0528146666666667   Z22=0.0528146666666667   R33=0.247032386540713   R22=0.247032386540713   CGOffset3=0 _
-        CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Red   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName=COC   Material=BTCTCOC   Shape=Pipe   t3=0.7   tw=0.1   Area=0.188495559215388   TorsConst=0.0174358392274233   I33=0.00871791961371167   I22=0.00871791961371167   I23=0   AS2=0.0959770966647157   AS3=0.0959770966647157 _
+        S33Top=0.0249083417534619   S33Bot=0.0249083417534619   S22Left=0.0249083417534619   S22Right=0.0249083417534619   Z33=0.0363333333333333   Z22=0.0363333333333333   R33=0.215058131676066   R22=0.215058131676066   CGOffset3=0 _
+        CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Cyan   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
  
 TABLE:  "FRAME SECTION PROPERTIES 13 - TIME DEPENDENT"
    SectionName=COC   TypeSize=Auto   AutoSFSize=1
@@ -1755,24 +1755,24 @@ TABLE:  "JOINT COORDINATES"
    Joint=97   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1.5   Y=4.8   Z=0   SpecialJt=No
    Joint=98   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1.5   Y=6.9   Z=0   SpecialJt=No
    Joint=99   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1.5   Y=8.7   Z=0   SpecialJt=No
-   Joint=D1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=0.9   Z=-15.6648067468666   SpecialJt=No   GUID=1287e944-0a5e-4987-81fa-876dc6fd44e8
-   Joint=D2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=2.71894541264964   Z=-15.5515633011971   SpecialJt=No   GUID=6ec7ec20-44d1-4aef-9913-d92000318336
-   Joint=D3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=0.9   Z=-15.6648067468666   SpecialJt=No   GUID=575f160a-2f31-4263-922d-1d02a98f1884
-   Joint=D4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6.3   Y=2.71894541264964   Z=-15.5515633011971   SpecialJt=No   GUID=1ecb7f93-b621-4c1e-a61b-e95e9e37afdb
-   Joint=D5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=0.9   Z=-15.6648067468666   SpecialJt=No   GUID=ad3b6e0b-586a-4056-918d-0b49efc50095
-   Joint=D6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=0.757019852761156   Z=-15.5438411779107   SpecialJt=No   GUID=590a2749-1398-4cda-afee-099d0b96b46d
-   Joint=D7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=0.757019852761156   Z=-15.5438411779107   SpecialJt=No   GUID=80de9f52-e6f2-47f9-b86b-cbaf7b56e8fd
-   Joint=D8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.528509926380577   Y=1.61732983344233   Z=-15.5438411779107   SpecialJt=No   GUID=9fe290e2-09c1-43be-a53b-633a0470b813
-   Joint=D9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.87149007361942   Y=1.61732983344233   Z=-15.5438411779107   SpecialJt=No   GUID=1f1632e8-3d50-49b5-9f9a-dff23d97d520
+   Joint=D1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=0.9   Z=-15.3193970727196   SpecialJt=No   GUID=1287e944-0a5e-4987-81fa-876dc6fd44e8
+   Joint=D2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=3.25409437757839   Z=-15.1245662654704   SpecialJt=No   GUID=6ec7ec20-44d1-4aef-9913-d92000318336
+   Joint=D3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=0.9   Z=-15.3193970727196   SpecialJt=No   GUID=575f160a-2f31-4263-922d-1d02a98f1884
+   Joint=D4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6.3   Y=3.25409437757839   Z=-15.1245662654704   SpecialJt=No   GUID=1ecb7f93-b621-4c1e-a61b-e95e9e37afdb
+   Joint=D5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=0.9   Z=-15.3193970727196   SpecialJt=No   GUID=ad3b6e0b-586a-4056-918d-0b49efc50095
+   Joint=D6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=0.181506635116251   Z=-15.1109601893025   SpecialJt=No   GUID=590a2749-1398-4cda-afee-099d0b96b46d
+   Joint=D7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=0.181506635116251   Z=-15.1109601893025   SpecialJt=No   GUID=80de9f52-e6f2-47f9-b86b-cbaf7b56e8fd
+   Joint=D8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.240753317558124   Y=1.11892076674812   Z=-15.1109601893025   SpecialJt=No   GUID=9fe290e2-09c1-43be-a53b-633a0470b813
+   Joint=D9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.15924668244188   Y=1.11892076674812   Z=-15.1109601893025   SpecialJt=No   GUID=1f1632e8-3d50-49b5-9f9a-dff23d97d520
    Joint=S1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=0.9   Z=-16   SpecialJt=No
-   Joint=S2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=2.76052101883813   Z=-15.884168150705   SpecialJt=No
+   Joint=S2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=3.36598480958036   Z=-15.7959088574822   SpecialJt=No
    Joint=S3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=0.9   Z=-16   SpecialJt=No
-   Joint=S4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6.3   Y=2.76052101883813   Z=-15.884168150705   SpecialJt=No
+   Joint=S4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6.3   Y=3.36598480958036   Z=-15.7959088574822   SpecialJt=No
    Joint=S5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=0.9   Z=-16   SpecialJt=No
-   Joint=S6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=0.715444246572665   Z=-15.8764460274187   SpecialJt=No
-   Joint=S7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=0.715444246572665   Z=-15.8764460274187   SpecialJt=No
-   Joint=S8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.507722123286331   Y=1.58132430230536   Z=-15.8764460274187   SpecialJt=No
-   Joint=S9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.89227787671367   Y=1.58132430230536   Z=-15.8764460274187   SpecialJt=No
+   Joint=S6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=0.0696162031142835   Z=-15.7823027813143   SpecialJt=No
+   Joint=S7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=0.0696162031142835   Z=-15.7823027813143   SpecialJt=No
+   Joint=S8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.184808101557141   Y=1.022020810194   Z=-15.7823027813143   SpecialJt=No
+   Joint=S9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.21519189844286   Y=1.022020810194   Z=-15.7823027813143   SpecialJt=No
    Joint=100   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=0   Z=0   SpecialJt=No
    Joint=101   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=0.9   Z=0   SpecialJt=No
    Joint=102   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2.1   Y=1.8   Z=0   SpecialJt=No
@@ -2309,23 +2309,23 @@ TABLE:  "JOINT COORDINATES"
    Joint=633   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.4   Y=0   Z=-0.5   SpecialJt=No
    Joint=634   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.4   Y=0.9   Z=-0.5   SpecialJt=No
    Joint=635   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.4   Y=1.8   Z=-0.5   SpecialJt=No
-   Joint=D10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=4.8   Z=-15.6648067468666   SpecialJt=No   GUID=ac497b8d-e49a-447c-8844-1268f44fca4a
-   Joint=D11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=4.8   Z=-15.6648067468666   SpecialJt=No   GUID=fa75584a-65a5-4e5b-9d43-41edf42d9d5c
-   Joint=D12   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=4.8   Z=-15.6648067468666   SpecialJt=No   GUID=c1e9a09f-cf49-468b-9e42-7d5a2e19d465
-   Joint=D13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.528509926380579   Y=7.98267016655767   Z=-15.5438411779107   SpecialJt=No   GUID=9c9d31f4-00dc-46fa-92a8-6e6238d32cec
-   Joint=D14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.87149007361942   Y=7.98267016655767   Z=-15.5438411779107   SpecialJt=No   GUID=1e30eb9b-5f25-438f-ae85-6e6abb649a4e
-   Joint=D15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=8.84298014723884   Z=-15.5438411779107   SpecialJt=No   GUID=97c2b86a-ee67-4d6e-81a0-f6ca2c10f3c4
-   Joint=D16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=8.84298014723884   Z=-15.5438411779107   SpecialJt=No   GUID=abfd249f-5e6b-4936-9a62-97ef83145189
-   Joint=D17   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=8.7   Z=-15.6648067468666   SpecialJt=No   GUID=68938c85-0ff9-4666-9655-39f3382c25de
-   Joint=D18   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=8.7   Z=-15.6648067468666   SpecialJt=No   GUID=a9ca06f9-20b7-4d9a-b063-e1450dc47dcd
-   Joint=D19   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=8.7   Z=-15.6648067468666   SpecialJt=No   GUID=b4cf53c9-cd9c-468e-816c-111382efad6e
+   Joint=D10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=4.8   Z=-15.3193970727196   SpecialJt=No   GUID=ac497b8d-e49a-447c-8844-1268f44fca4a
+   Joint=D11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=4.8   Z=-15.3193970727196   SpecialJt=No   GUID=fa75584a-65a5-4e5b-9d43-41edf42d9d5c
+   Joint=D12   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=4.8   Z=-15.3193970727196   SpecialJt=No   GUID=c1e9a09f-cf49-468b-9e42-7d5a2e19d465
+   Joint=D13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.240753317558126   Y=8.48107923325188   Z=-15.1109601893025   SpecialJt=No   GUID=9c9d31f4-00dc-46fa-92a8-6e6238d32cec
+   Joint=D14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.15924668244188   Y=8.48107923325188   Z=-15.1109601893025   SpecialJt=No   GUID=1e30eb9b-5f25-438f-ae85-6e6abb649a4e
+   Joint=D15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=9.41849336488375   Z=-15.1109601893025   SpecialJt=No   GUID=97c2b86a-ee67-4d6e-81a0-f6ca2c10f3c4
+   Joint=D16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=9.41849336488375   Z=-15.1109601893025   SpecialJt=No   GUID=abfd249f-5e6b-4936-9a62-97ef83145189
+   Joint=D17   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=8.7   Z=-15.3193970727196   SpecialJt=No   GUID=68938c85-0ff9-4666-9655-39f3382c25de
+   Joint=D18   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=8.7   Z=-15.3193970727196   SpecialJt=No   GUID=a9ca06f9-20b7-4d9a-b063-e1450dc47dcd
+   Joint=D19   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=8.7   Z=-15.3193970727196   SpecialJt=No   GUID=b4cf53c9-cd9c-468e-816c-111382efad6e
    Joint=S10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=4.8   Z=-16   SpecialJt=No
    Joint=S11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=4.8   Z=-16   SpecialJt=No
    Joint=S12   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=4.8   Z=-16   SpecialJt=No
-   Joint=S13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.507722123286333   Y=8.01867569769464   Z=-15.8764460274187   SpecialJt=No
-   Joint=S14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.89227787671367   Y=8.01867569769464   Z=-15.8764460274187   SpecialJt=No
-   Joint=S15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=8.88455575342734   Z=-15.8764460274187   SpecialJt=No
-   Joint=S16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=8.88455575342734   Z=-15.8764460274187   SpecialJt=No
+   Joint=S13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.184808101557142   Y=8.577979189806   Z=-15.7823027813143   SpecialJt=No
+   Joint=S14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=8.21519189844286   Y=8.577979189806   Z=-15.7823027813143   SpecialJt=No
+   Joint=S15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=3   Y=9.53038379688572   Z=-15.7823027813143   SpecialJt=No
+   Joint=S16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5.4   Y=9.53038379688572   Z=-15.7823027813143   SpecialJt=No
    Joint=S17   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0.9   Y=8.7   Z=-16   SpecialJt=No
    Joint=S18   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4.2   Y=8.7   Z=-16   SpecialJt=No
    Joint=S19   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7.5   Y=8.7   Z=-16   SpecialJt=No

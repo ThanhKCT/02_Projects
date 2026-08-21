@@ -4,8 +4,21 @@
 
 **Mục đích:** xây dựng một bài báo nghiên cứu đơn mục tiêu
 (Single-Objective Optimization -- SOO) dùng **SFOA nguyên bản** để tối
-ưu 3 hệ kết cấu biển đã được sử dụng trong bài MOO/MOSFOA: Berthing
-Dolphin (BD), Mooring Dolphin (MD) và Main Jetty Platform (MJP).
+ưu hệ kết cấu **Main Jetty Platform (MJP)** — hệ kết cấu chính trong 3
+hệ kết cấu biển đã được sử dụng trong bài MOO/MOSFOA (Berthing Dolphin
+BD, Mooring Dolphin MD, MJP).
+
+> **CẬP NHẬT 2026-08-17 — THU HẸP PHẠM VI:** ban đầu đề cương khóa cả 3
+> hệ (6 case, 180 run). Do ràng buộc thời gian tính toán thực tế trên
+> máy cơ quan (xem SESSION_HANDOFF 2026-08-15/2026-08-17 — một lần
+> campaign 6-case đã chết giữa chừng, chỉ hoàn thành ~12% khối lượng
+> sau 35 giờ không giám sát), phạm vi được thu hẹp còn **chỉ MJP, 2 case
+> (Cost, Displacement)**. Đổi lại, toàn bộ ngân sách thời gian được dồn
+> cho MJP để đạt **Nrun=30** (chuẩn vàng, thay vì Nrun=10 dự tính lúc
+> đầu cho phương án 6-case rút gọn). Toàn bộ nội dung bên dưới vẫn giữ
+> cấu trúc gốc cho 3 hệ (giá trị tham khảo lịch sử) nhưng bản thảo cuối
+> ([02_Draft_SOO_SFOA_Marine_Jetty_TCXD.md](02_Draft_SOO_SFOA_Marine_Jetty_TCXD.md))
+> đã được viết lại theo đúng phạm vi 1-hệ/2-case này.
 
 **Vai trò trong chuỗi nghiên cứu:**
 

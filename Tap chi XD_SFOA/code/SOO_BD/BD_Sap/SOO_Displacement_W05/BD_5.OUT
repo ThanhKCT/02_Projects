@@ -1,0 +1,66 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...ode\SOO_BD\BD_Sap\SOO_Displacement_W05\BD_5.OUT
+                                                                     
+                                                                       
+
+ TRU, CONSTR = RIGID, DOF = U1 U2 U3 R1 R2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000     .000000    1.000000     .000000
+     Y       .000000    1.000000     .000000    0.996921     .000000    0.078414
+     Z       .000000     .000000    1.000000    0.078414     .000000   -0.996921
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+           62.191552   62.191552   62.191552  409.322510  553.990534  882.949792
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      4.200000    4.200000    4.200000
+     Y      4.459464    4.459464    4.459464
+     Z      0.528933    0.528933    0.528933
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1 TO      53    +   +   +   +   +   +
+      S1 TO      S6    A   A   -   A   A   A
+      60               +   +   +   +   +   +
+      S7               A   A   -   A   A   A
+      62               +   +   +   +   +   +
+      S8               A   A   -   A   A   A
+      64               +   +   +   +   +   +
+      S9               A   A   -   A   A   A
+      66 TO      67    +   +   +   +   +   +
+     S10               A   A   -   A   A   A
+      69               +   +   +   +   +   +
+     S11               A   A   -   A   A   A
+      71               +   +   +   +   +   +
+     S12 TO     S15    A   A   -   A   A   A
+      74               +   +   +   +   +   +
+     S16               A   A   -   A   A   A
+      76               +   +   +   +   +   +
+     S13               A   A   -   A   A   A
+      78               +   +   +   +   +   +
+     S14               A   A   -   A   A   A
+      80 TO      81    +   +   +   +   +   +
+     S17               A   A   -   A   A   A
+      83               +   +   +   +   +   +
+     S19               A   A   -   A   A   A
+      85               +   +   +   +   +   +
+     S18               A   A   -   A   A   A
+      87 TO     635    +   +   +   +   +   +
+      D1 TO     D18    -   -   A   -   -   -
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ TRU                   A   A   A   A   A   A

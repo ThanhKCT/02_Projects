@@ -66,7 +66,42 @@ Dùng dữ liệu pilot thật (không phải calibration lạc quan):
 | **Đề xuất chính (đã trình bày, đang chờ chốt)** | **180** | **20** | **100** | **~32 ngày** |
 | Phương án nhanh hơn | 150 | 20 | 100 | ~26 ngày (rủi ro nhỏ hơn về margin an toàn cho MPJ) |
 
-**Trạng thái**: tôi đã trình bày bảng này và đề xuất **Max_it=180, Nrun=20, Npop=100 (~32 ngày)** làm khuyến nghị chính, kèm lý do (MPJ — hệ hội tụ chậm nhất — có margin 30 vòng an toàn sau lần cải thiện cuối; Nrun=20 vẫn đủ mạnh cho kiểm định thống kê, là mức phổ biến trong các bài tối ưu kết cấu-FEM chi phí cao). **Người dùng CHƯA xác nhận** con số cuối cùng khi phiên bị ngắt — đây là việc đầu tiên cần làm ở phiên tiếp theo: hỏi lại người dùng có đồng ý Max_it=180/Nrun=20 hay muốn điều chỉnh.
+**Trạng thái**: tôi đã trình bày bảng này và đề xuất **Max_it=180, Nrun=20, Npop=100 (~32 ngày)** làm khuyến nghị chính, kèm lý do (MPJ — hệ hội tụ chậm nhất — có margin 30 vòng an toàn sau lần cải thiện cuối; Nrun=20 vẫn đủ mạnh cho kiểm định thống kê, là mức phổ biến trong các bài tối ưu kết cấu-FEM chi phí cao). **Người dùng CHƯA xác nhận** con số cuối cùng khi phiên bị ngắt.
+
+## 6.1. CẬP NHẬT CÙNG NGÀY: người dùng đổi yêu cầu — muốn xong trong 2 NGÀY, không phải 32 ngày
+
+Người dùng quay lại trong cùng ngày (2026-08-15) và yêu cầu: **rút xuống chạy được trong ~2 ngày**, chấp nhận đánh đổi để "kết quả tốt nhất có thể trong khung thời gian đó", và muốn **bài báo hoàn thiện sau 2 ngày**.
+
+**Đòn bẩy thời gian thật sự tìm ra**: không phải giảm Max_it (đã ở mức tối thiểu an toàn dựa trên hội tụ thật) mà là **giảm Npop**. Nút thắt cổ chai là số cá thể mỗi worker phải đánh giá tuần tự trong 1 vòng lặp = `ceil(Npop/Num_work)`. Với Num_work=11 (cố định do license SAP2000), Npop=100 → 10 cá thể/worker/vòng; Npop=30 → 3 cá thể/worker/vòng → **nhanh gấp ~3,3 lần**, mà Npop=30 vốn là giá trị mặc định chuẩn trong benchmark SFOA/metaheuristic (không phải cắt ẩu).
+
+Tính lại Max_it tối thiểu an toàn cho từng hệ (dùng đúng dữ liệu pilot thật, đọc lại từng dòng log, không phải ước tính):
+- **BD**: hội tụ tuyệt đối (giá trị đứng yên 10164,8212) từ it=30 đến it=110 (80 vòng liền không đổi) → chọn **Max_it=50** (margin 20 vòng).
+- **MD**: hội tụ tuyệt đối (2422,2269) từ it=10 đến it=150 (140 vòng liền không đổi) → chọn **Max_it=40** (margin 30 vòng).
+- **MPJ**: **vẫn đang cải thiện** ở it=120→130→140 (5304,85→5298,35→5291,86), chưa hẳn phẳng ở it=150 → **giữ nguyên Max_it=150** (không có margin dư, đây là hệ rủi ro nhất).
+
+**Đã chọn cùng người dùng**: **Npop=30, Nrun=10, Max_it=[BD:50, MD:40, MPJ:150]** (phương án khuyến nghị, người dùng xác nhận nguyên văn "chốt như bạn khuyến nghị: Npop=30, Nrun=10"). Ước tính tổng thời gian tính toán ~36 giờ (~1,5 ngày), còn dư ~10-12h cho phân tích + viết bài.
+
+### Đã làm ngay sau khi chốt (2026-08-15 tối):
+1. **Smoke-test Displacement (objCol=2) cho cả 3 hệ — CHƯA từng test trước đây, đã PASS cả 3, không lỗi**: BD best=0,0068 (27,1s), MD best=0,0087 (15,0s), MPJ best=0,0002 (21,7s). Rủi ro lớn nhất trước khi chạy thật đã được loại bỏ.
+2. Thêm `case 'campaign'` vào cả 3 driver (`SOO_BD_run.m`, `SOO_MD_run.m`, `SOO_MPJ_run.m`) với Npop=30 và Max_it riêng từng hệ như trên (kèm comment giải thích căn cứ ngay trong code).
+3. Viết [code/run_campaign_all6.bat](code/run_campaign_all6.bat): chạy tuần tự cả 6 case (BD-C, BD-D, MD-C, MD-D, MPJ-C, MPJ-D), mỗi case `runMode='campaign', Nrun=10, runIdOffset=0` → file kết quả `..._run01..10_CAMPAIGN.mat`.
+4. **Đã khởi chạy** qua PowerShell `Start-Process -WindowStyle Hidden` (tiến trình tách biệt, sống sót qua gián đoạn phiên chat — xem bài học mục 4) lúc **~22:39 ngày 15-08-2026**. Log: `code/campaign_log.txt`, `code/campaign_log_err.txt`. Xác nhận đã chạy (PID matlab/cmd riêng biệt), máy sạch trước khi chạy (không còn tiến trình SAP2000/MATLAB cũ).
+5. Đã tạo 7 task theo dõi qua TaskCreate (1 task/case + 1 task tổng hợp cuối).
+
+### Ước tính hoàn thành từng case (Npop=30, dựa trên tốc độ pilot Npop=100 chia cho hệ số ~3,33):
+| Case | Max_it | Ước tính/run | Ước tính Nrun=10 |
+|---|---|---|---|
+| BD-Cost, BD-Displacement | 50 | ~0,68h | ~6,8h/case |
+| MD-Cost, MD-Displacement | 40 | ~0,33h | ~3,3h/case |
+| MPJ-Cost, MPJ-Displacement | 150 | ~0,80h | ~8,0h/case |
+
+Tổng ước tính ~36h chạy tuần tự đúng thứ tự BD-C→BD-D→MD-C→MD-D→MPJ-C→MPJ-D. **Chưa kiểm chứng thực tế** — cần theo dõi `results/*_progress.log` để xác nhận đúng tiến độ, đặc biệt MPJ-Displacement (case cuối, rủi ro cao nhất nếu lịch trình bị trễ dồn từ các case trước).
+
+### VIỆC CẦN LÀM TIẾP (thay thế mục 7 cũ bên dưới — đã lỗi thời):
+1. Theo dõi tiến độ định kỳ qua `code/SOO_{BD,MD,MPJ}/results/*_progress.log` và `code/campaign_log.txt`/`campaign_log_err.txt`. Nếu MPJ (case cuối) có dấu hiệu trễ nhiều so với ước tính, cân nhắc báo người dùng để quyết định có cắt bớt Nrun cho case đó không.
+2. Khi mỗi case hoàn tất (đủ 10 file `..._run0X_CAMPAIGN.mat`), có thể bắt đầu tổng hợp Best/Mean/Max/STD/CV cho case đó ngay, không cần chờ hết cả 6 case.
+3. Khi đủ cả 6 case: điền bảng Kết quả/Thảo luận/Kết luận trong [02_Draft_SOO_SFOA_Marine_Jetty_TCXD.md](02_Draft_SOO_SFOA_Marine_Jetty_TCXD.md), sửa số cọc BD=19, bổ sung tác giả/đơn vị/trích dẫn [2], đưa phát hiện "Npop giảm để khả thi thời gian" + "batch-cost tăng khi hội tụ" vào phần Hiệu quả tính toán/Hạn chế — ghi trung thực đây là đánh đổi vì giới hạn thời gian, không giấu.
+4. **Lưu ý minh bạch khoa học**: Nrun=10 và Npop=30 thấp hơn chuẩn "vàng" (20-30 run, Npop=50-100) — phải ghi rõ trong phần Hạn chế/Thảo luận của bài báo, không trình bày như thể đây là lựa chọn tối ưu tuyệt đối.
 
 ## 7. VIỆC CẦN LÀM Ở PHIÊN TIẾP THEO (theo thứ tự)
 

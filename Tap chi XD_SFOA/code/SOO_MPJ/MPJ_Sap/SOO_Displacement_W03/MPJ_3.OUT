@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W03\MPJ_3.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+  953693 TO  953743    A   A   A   A   A   A
+  953744               -   -   A   -   -   -
+  953745               A   A   -   A   A   A
+  953746               A   A   A   A   A   A
+  953747               -   -   A   -   -   -
+  953748               A   A   -   A   A   A
+  953749               A   A   A   A   A   A
+  953750               -   -   A   -   -   -
+  953751               A   A   -   A   A   A
+  953752               A   A   A   A   A   A
+  953753               -   -   A   -   -   -
+  953754               A   A   -   A   A   A
+  953755               A   A   A   A   A   A
+  953756               -   -   A   -   -   -
+  953757               A   A   -   A   A   A
+  953758               A   A   A   A   A   A
+  953759               -   -   A   -   -   -
+  953760               A   A   -   A   A   A
+  953761               A   A   A   A   A   A
+  953762               -   -   A   -   -   -
+  953763               A   A   -   A   A   A
+  953764               -   -   A   -   -   -
+  953765               A   A   -   A   A   A
+  953766               -   -   A   -   -   -
+  953767               A   A   -   A   A   A
+  953768               -   -   A   -   -   -
+  953769               A   A   -   A   A   A
+  953770               -   -   A   -   -   -
+  953771               A   A   -   A   A   A
+  953772               -   -   A   -   -   -
+  953773               A   A   -   A   A   A
+  953774               -   -   A   -   -   -
+  953775               A   A   -   A   A   A
+  953776               -   -   A   -   -   -
+  953777               A   A   -   A   A   A
+  953778               -   -   A   -   -   -
+  953779               A   A   -   A   A   A
+  953780               -   -   A   -   -   -
+  953781               A   A   -   A   A   A
+  953782               -   -   A   -   -   -
+  953783               A   A   -   A   A   A
+  953784               -   -   A   -   -   -
+  953785               A   A   -   A   A   A
+  953786               -   -   A   -   -   -
+  953787               A   A   -   A   A   A
+  953788               -   -   A   -   -   -
+  953789               A   A   -   A   A   A
+  953790               -   -   A   -   -   -
+  953791               A   A   -   A   A   A
+  953792               -   -   A   -   -   -
+  953793               A   A   -   A   A   A
+  953794               -   -   A   -   -   -
+  953795               A   A   -   A   A   A
+  953796               -   -   A   -   -   -
+  953797               A   A   -   A   A   A
+  953798               -   -   A   -   -   -
+  953799               A   A   -   A   A   A
+  953800               -   -   A   -   -   -
+  953801               A   A   -   A   A   A
+  953802               -   -   A   -   -   -
+  953803               A   A   -   A   A   A
+  953804               -   -   A   -   -   -
+  953805               A   A   -   A   A   A
+  953806 TO    ~346    A   A   A   A   A   A

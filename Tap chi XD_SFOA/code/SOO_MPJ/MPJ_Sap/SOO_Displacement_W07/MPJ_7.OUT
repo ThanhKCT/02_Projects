@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W07\MPJ_7.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+  962809 TO  962859    A   A   A   A   A   A
+  962860               -   -   A   -   -   -
+  962861               A   A   -   A   A   A
+  962862               A   A   A   A   A   A
+  962863               -   -   A   -   -   -
+  962864               A   A   -   A   A   A
+  962865               A   A   A   A   A   A
+  962866               -   -   A   -   -   -
+  962867               A   A   -   A   A   A
+  962868               A   A   A   A   A   A
+  962869               -   -   A   -   -   -
+  962870               A   A   -   A   A   A
+  962871               A   A   A   A   A   A
+  962872               -   -   A   -   -   -
+  962873               A   A   -   A   A   A
+  962874               A   A   A   A   A   A
+  962875               -   -   A   -   -   -
+  962876               A   A   -   A   A   A
+  962877               A   A   A   A   A   A
+  962878               -   -   A   -   -   -
+  962879               A   A   -   A   A   A
+  962880               -   -   A   -   -   -
+  962881               A   A   -   A   A   A
+  962882               -   -   A   -   -   -
+  962883               A   A   -   A   A   A
+  962884               -   -   A   -   -   -
+  962885               A   A   -   A   A   A
+  962886               -   -   A   -   -   -
+  962887               A   A   -   A   A   A
+  962888               -   -   A   -   -   -
+  962889               A   A   -   A   A   A
+  962890               -   -   A   -   -   -
+  962891               A   A   -   A   A   A
+  962892               -   -   A   -   -   -
+  962893               A   A   -   A   A   A
+  962894               -   -   A   -   -   -
+  962895               A   A   -   A   A   A
+  962896               -   -   A   -   -   -
+  962897               A   A   -   A   A   A
+  962898               -   -   A   -   -   -
+  962899               A   A   -   A   A   A
+  962900               -   -   A   -   -   -
+  962901               A   A   -   A   A   A
+  962902               -   -   A   -   -   -
+  962903               A   A   -   A   A   A
+  962904               -   -   A   -   -   -
+  962905               A   A   -   A   A   A
+  962906               -   -   A   -   -   -
+  962907               A   A   -   A   A   A
+  962908               -   -   A   -   -   -
+  962909               A   A   -   A   A   A
+  962910               -   -   A   -   -   -
+  962911               A   A   -   A   A   A
+  962912               -   -   A   -   -   -
+  962913               A   A   -   A   A   A
+  962914               -   -   A   -   -   -
+  962915               A   A   -   A   A   A
+  962916               -   -   A   -   -   -
+  962917               A   A   -   A   A   A
+  962918               -   -   A   -   -   -
+  962919               A   A   -   A   A   A
+  962920               -   -   A   -   -   -
+  962921               A   A   -   A   A   A
+  962922 TO    ~346    A   A   A   A   A   A

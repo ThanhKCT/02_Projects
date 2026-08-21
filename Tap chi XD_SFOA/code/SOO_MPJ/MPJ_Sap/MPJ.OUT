@@ -1,7 +1,7 @@
 
 
  SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
- File: D:\OneDrive\Nature-Insp...gorithms\Multiobjectives\MOSFOA\MPJ_Sap\MPJ.OUT
+ File: D:\ResearchLab\02_Proje...ts\Tap chi XD_SFOA\code\SOO_MPJ\MPJ_Sap\MPJ.OUT
                                                                      
                                                                        
 
@@ -14,49 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-     371 TO     409    A   A   A   A   A   A
-     410               -   -   A   -   -   -
-     411               A   A   -   A   A   A
-     412               A   A   A   A   A   A
-     413               -   -   A   -   -   -
-     414               A   A   -   A   A   A
-     415               A   A   A   A   A   A
-     416               -   -   A   -   -   -
-     417               A   A   -   A   A   A
-     418               A   A   A   A   A   A
-     419               -   -   A   -   -   -
-     420               A   A   -   A   A   A
-     421               A   A   A   A   A   A
-     422               -   -   A   -   -   -
-     423               A   A   -   A   A   A
-     424               -   -   A   -   -   -
-     425               A   A   -   A   A   A
-     426               -   -   A   -   -   -
-     427               A   A   -   A   A   A
-     428               -   -   A   -   -   -
-     429               A   A   -   A   A   A
-     430               -   -   A   -   -   -
-     431               A   A   -   A   A   A
-     432               -   -   A   -   -   -
-     433               A   A   -   A   A   A
-     434               -   -   A   -   -   -
-     435               A   A   -   A   A   A
-     436               -   -   A   -   -   -
-     437               A   A   -   A   A   A
-     438               -   -   A   -   -   -
-     439               A   A   -   A   A   A
-     440               -   -   A   -   -   -
-     441               A   A   -   A   A   A
-     442               -   -   A   -   -   -
-     443               A   A   -   A   A   A
-     444               -   -   A   -   -   -
-     445               A   A   -   A   A   A
-     446               -   -   A   -   -   -
-     447               A   A   -   A   A   A
-     448               -   -   A   -   -   -
-     449               A   A   -   A   A   A
-     450               -   -   A   -   -   -
-     451               A   A   -   A   A   A
-     452               -   -   A   -   -   -
-     453               A   A   -   A   A   A
-     454 TO    ~262    A   A   A   A   A   A
+       1 TO      32    A   A   A   A   A   A
+      33               -   -   A   -   -   -
+      34               A   A   -   A   A   A
+      35               A   A   A   A   A   A
+      36               -   -   A   -   -   -
+      37               A   A   -   A   A   A
+      38               A   A   A   A   A   A
+      39               -   -   A   -   -   -
+      40               A   A   -   A   A   A
+      41               A   A   A   A   A   A
+      42               -   -   A   -   -   -
+      43               A   A   -   A   A   A
+      44               A   A   A   A   A   A
+      45               -   -   A   -   -   -
+      46               A   A   -   A   A   A
+      47               -   -   A   -   -   -
+      48               A   A   -   A   A   A
+      49               -   -   A   -   -   -
+      50               A   A   -   A   A   A
+      51               -   -   A   -   -   -
+      52               A   A   -   A   A   A
+      53               -   -   A   -   -   -
+      54               A   A   -   A   A   A
+      55               -   -   A   -   -   -
+      56               A   A   -   A   A   A
+      57               -   -   A   -   -   -
+      58               A   A   -   A   A   A
+      59               -   -   A   -   -   -
+      60               A   A   -   A   A   A
+      61               -   -   A   -   -   -
+      62               A   A   -   A   A   A
+      63               -   -   A   -   -   -
+      64               A   A   -   A   A   A
+      65               -   -   A   -   -   -
+      66               A   A   -   A   A   A
+      67 TO    ~212    A   A   A   A   A   A

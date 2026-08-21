@@ -14,24 +14,39 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   57379 TO   57399    A   A   A   A   A   A
-   57400               -   -   A   -   -   -
-   57401               A   A   -   A   A   A
-   57402               A   A   A   A   A   A
-   57403               -   -   A   -   -   -
-   57404               A   A   -   A   A   A
-   57405               A   A   A   A   A   A
-   57406               -   -   A   -   -   -
-   57407               A   A   -   A   A   A
-   57408               A   A   A   A   A   A
-   57409               -   -   A   -   -   -
-   57410               A   A   -   A   A   A
-   57411               -   -   A   -   -   -
-   57412               A   A   -   A   A   A
-   57413               -   -   A   -   -   -
-   57414               A   A   -   A   A   A
-   57415               -   -   A   -   -   -
-   57416               A   A   -   A   A   A
-   57417               -   -   A   -   -   -
-   57418               A   A   -   A   A   A
-   57419 TO    ~136    A   A   A   A   A   A
+  693982 TO  694014    A   A   A   A   A   A
+  694015               -   -   A   -   -   -
+  694016               A   A   -   A   A   A
+  694017               A   A   A   A   A   A
+  694018               -   -   A   -   -   -
+  694019               A   A   -   A   A   A
+  694020               A   A   A   A   A   A
+  694021               -   -   A   -   -   -
+  694022               A   A   -   A   A   A
+  694023               A   A   A   A   A   A
+  694024               -   -   A   -   -   -
+  694025               A   A   -   A   A   A
+  694026               A   A   A   A   A   A
+  694027               -   -   A   -   -   -
+  694028               A   A   -   A   A   A
+  694029               A   A   A   A   A   A
+  694030               -   -   A   -   -   -
+  694031               A   A   -   A   A   A
+  694032               A   A   A   A   A   A
+  694033               -   -   A   -   -   -
+  694034               A   A   -   A   A   A
+  694035               -   -   A   -   -   -
+  694036               A   A   -   A   A   A
+  694037               -   -   A   -   -   -
+  694038               A   A   -   A   A   A
+  694039               -   -   A   -   -   -
+  694040               A   A   -   A   A   A
+  694041               -   -   A   -   -   -
+  694042               A   A   -   A   A   A
+  694043               -   -   A   -   -   -
+  694044               A   A   -   A   A   A
+  694045               -   -   A   -   -   -
+  694046               A   A   -   A   A   A
+  694047               -   -   A   -   -   -
+  694048               A   A   -   A   A   A
+  694049 TO    ~214    A   A   A   A   A   A

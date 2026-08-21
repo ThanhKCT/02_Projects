@@ -1,0 +1,79 @@
+=== CAMPAIGN START 15/08/2026 22:39:55.25 ===
+=== BD-Cost start 15/08/2026 22:39:55.25 ===
+[SOO-BD-Cost] Run mode: CAMPAIGN; Npop=30; Max_it=50; Nrun=10; expected FEs=15300.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 11 workers.
+Worker  4: 
+  
+  ans =
+  
+       0
+  
+Worker  5: 
+  
+  ans =
+  
+       0
+  
+Worker  8: 
+  
+  ans =
+  
+       0
+  
+Worker 11: 
+  
+  ans =
+  
+       0
+  
+Worker  3: 
+  
+  ans =
+  
+       0
+  
+Worker  9: 
+  
+  ans =
+  
+       0
+  
+Worker  1: 
+  
+  ans =
+  
+       0
+  
+Worker  2: 
+  
+  ans =
+  
+       0
+  
+Worker  6: 
+  
+  ans =
+  
+       0
+  
+Worker  7: 
+  
+  ans =
+  
+       0
+  
+Worker 10: 
+  
+  ans =
+  
+       0
+  
+[SOO-BD-Cost] run01 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2413.7s
+[SOO-BD-Cost] run02 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2349.4s
+[SOO-BD-Cost] run03 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2557.2s
+[SOO-BD-Cost] run04 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2599.3s
+[SOO-BD-Cost] run05 complete: best(penalized)=12086.8492 raw=12086.8492 elapsed=2414.0s
+[SOO-BD-Cost] run06 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2594.1s
+[SOO-BD-Cost] run07 complete: best(penalized)=10164.8212 raw=10164.8212 elapsed=2492.0s

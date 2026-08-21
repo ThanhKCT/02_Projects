@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...\SOO_MPJ\MPJ_Sap\SOO_Displacement_W01\MPJ_1.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+  986391 TO  986441    A   A   A   A   A   A
+  986442               -   -   A   -   -   -
+  986443               A   A   -   A   A   A
+  986444               A   A   A   A   A   A
+  986445               -   -   A   -   -   -
+  986446               A   A   -   A   A   A
+  986447               A   A   A   A   A   A
+  986448               -   -   A   -   -   -
+  986449               A   A   -   A   A   A
+  986450               A   A   A   A   A   A
+  986451               -   -   A   -   -   -
+  986452               A   A   -   A   A   A
+  986453               A   A   A   A   A   A
+  986454               -   -   A   -   -   -
+  986455               A   A   -   A   A   A
+  986456               A   A   A   A   A   A
+  986457               -   -   A   -   -   -
+  986458               A   A   -   A   A   A
+  986459               A   A   A   A   A   A
+  986460               -   -   A   -   -   -
+  986461               A   A   -   A   A   A
+  986462               -   -   A   -   -   -
+  986463               A   A   -   A   A   A
+  986464               -   -   A   -   -   -
+  986465               A   A   -   A   A   A
+  986466               -   -   A   -   -   -
+  986467               A   A   -   A   A   A
+  986468               -   -   A   -   -   -
+  986469               A   A   -   A   A   A
+  986470               -   -   A   -   -   -
+  986471               A   A   -   A   A   A
+  986472               -   -   A   -   -   -
+  986473               A   A   -   A   A   A
+  986474               -   -   A   -   -   -
+  986475               A   A   -   A   A   A
+  986476               -   -   A   -   -   -
+  986477               A   A   -   A   A   A
+  986478               -   -   A   -   -   -
+  986479               A   A   -   A   A   A
+  986480               -   -   A   -   -   -
+  986481               A   A   -   A   A   A
+  986482               -   -   A   -   -   -
+  986483               A   A   -   A   A   A
+  986484               -   -   A   -   -   -
+  986485               A   A   -   A   A   A
+  986486               -   -   A   -   -   -
+  986487               A   A   -   A   A   A
+  986488               -   -   A   -   -   -
+  986489               A   A   -   A   A   A
+  986490               -   -   A   -   -   -
+  986491               A   A   -   A   A   A
+  986492               -   -   A   -   -   -
+  986493               A   A   -   A   A   A
+  986494               -   -   A   -   -   -
+  986495               A   A   -   A   A   A
+  986496               -   -   A   -   -   -
+  986497               A   A   -   A   A   A
+  986498               -   -   A   -   -   -
+  986499               A   A   -   A   A   A
+  986500               -   -   A   -   -   -
+  986501               A   A   -   A   A   A
+  986502               -   -   A   -   -   -
+  986503               A   A   -   A   A   A
+  986504 TO    ~346    A   A   A   A   A   A
