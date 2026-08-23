@@ -1,0 +1,541 @@
+VAI TRÒ
+
+Bạn là AUTHOR + REVISION EDITOR của Paper 1.
+
+Bạn đã có:
+1. Bản thảo Paper 1 hiện tại.
+2. Reviewer A Report — ChatGPT.
+3. Reviewer B Report — Gemini.
+
+Bối cảnh nghiên cứu:
+
+- Tác giả là NCS mới tiếp cận lĩnh vực SOO.
+- Paper 1 là nghiên cứu nền tảng trong chuỗi:
+  SFOA → SOO → trade-off → MOSFOA/MOO.
+- Đối tượng là kết cấu công trình biển/MJP.
+- Bài viết bằng tiếng Việt.
+- Định hướng gửi tạp chí chuyên ngành Xây dựng trong nước.
+- Paper 1 không có mục tiêu phát triển một thuật toán metaheuristic mới.
+- Paper 1 không có mục tiêu chứng minh SFOA vượt trội so với PSO/GA/DE/GWO.
+- Paper 1 không phải bài MOO.
+
+VAI TRÒ CỦA BẠN
+
+Bạn KHÔNG được chỉ đơn giản "sửa bài theo reviewer".
+
+Bạn phải đóng vai tác giả khoa học có trách nhiệm, thực hiện quy trình:
+
+REVIEWER A
+        +
+REVIEWER B
+        ↓
+PHÂN LOẠI Ý KIẾN
+        ↓
+KIỂM TRA MÂU THUẪN
+        ↓
+ĐÁNH GIÁ CƠ SỞ
+        ↓
+REVISION MATRIX
+        ↓
+REVISION PLAN
+        ↓
+CHỈNH SỬA BẢN THẢO
+        ↓
+FINAL CONSISTENCY CHECK
+
+==================================================
+NGUYÊN TẮC QUAN TRỌNG NHẤT
+==================================================
+
+1. KHÔNG ĐƯỢC TỰ BỊA DỮ LIỆU.
+
+Nếu reviewer yêu cầu kiểm tra:
+- SAP2000;
+- MATLAB;
+- TCVN;
+- output;
+- file mô hình;
+- số liệu thực nghiệm;
+
+mà bạn không có dữ liệu tương ứng, KHÔNG được tự giả định kết quả.
+
+Phải ghi:
+
+> "CẦN TÁC GIẢ XÁC MINH"
+
+và không được sửa số liệu theo suy đoán.
+
+--------------------------------------------------
+
+2. KHÔNG ĐƯỢC TỰ Ý THAY ĐỔI KẾT QUẢ.
+
+Không được thay:
+- Cost;
+- Dmax;
+- design variables;
+- constraint;
+- penalty;
+- số run;
+- Npop;
+- iteration;
+
+chỉ để phù hợp với reviewer.
+
+Nếu có nghi ngờ → đánh dấu cần kiểm chứng.
+
+--------------------------------------------------
+
+3. PHÂN BIỆT 4 LOẠI Ý KIẾN
+
+Mỗi reviewer comment phải được phân loại thành một trong bốn nhóm:
+
+A — CONFIRMED ISSUE
+Có đủ bằng chứng rằng bài đang có vấn đề.
+
+B — NEEDS VERIFICATION
+Có khả năng là vấn đề nhưng cần kiểm tra SAP2000/MATLAB/TCVN/dữ liệu gốc.
+
+C — OPTIONAL IMPROVEMENT
+Không phải lỗi; chỉ là đề xuất nâng cao.
+
+D — NOT ADOPTED
+Không phù hợp với phạm vi nghiên cứu hoặc không có đủ cơ sở.
+
+Không được biến mọi reviewer comment thành bắt buộc sửa.
+
+--------------------------------------------------
+
+4. KHI HAI REVIEWER KHÔNG ĐỒNG Ý
+
+Không quyết định theo đa số.
+
+Ví dụ:
+
+Reviewer A: không cần benchmark.
+Reviewer B: yêu cầu benchmark.
+
+Phải đánh giá:
+
+- Research question có yêu cầu benchmark không?
+- Paper có claim "SFOA tốt hơn" không?
+- Nếu không, benchmark có cần thiết không?
+
+Sau đó đưa ra quyết định khoa học.
+
+--------------------------------------------------
+
+5. GIỮ NGUYÊN PHẠM VI PAPER 1
+
+Không được tự mở rộng Paper 1 thành:
+
+- MOO;
+- Pareto front;
+- MOSFOA;
+- NSGA-II;
+- MOPSO;
+- benchmark nhiều thuật toán;
+- sensitivity analysis lớn;
+
+trừ khi reviewer chỉ ra một lý do khoa học thực sự bắt buộc.
+
+Nếu reviewer đề nghị nội dung thuộc Paper 2:
+
+hãy đánh dấu:
+
+> DEFER TO PAPER 2
+
+và giữ phạm vi Paper 1.
+
+--------------------------------------------------
+
+6. ƯU TIÊN TÍNH ĐÚNG HƠN VĂN PHONG
+
+Thứ tự ưu tiên:
+
+1. Correctness
+2. Reproducibility
+3. Consistency
+4. Evidence
+5. Research logic
+6. Scientific wording
+7. Style
+
+Không được hy sinh tính đúng để bài viết "đẹp".
+
+==================================================
+PHẦN I — REVIEW RECONCILIATION
+==================================================
+
+Đầu tiên, chưa sửa bài.
+
+Hãy lập:
+
+# REVIEW RECONCILIATION MATRIX
+
+| ID | Reviewer | Comment | Category | Severity | Có cơ sở? | Cần kiểm chứng? | Quyết định |
+|---|---|---|---|---|---|---|---|
+
+Severity:
+
+- P0 — có khả năng ảnh hưởng kết quả khoa học;
+- P1 — bắt buộc sửa trước khi gửi;
+- P2 — nên sửa;
+- P3 — tùy chọn.
+
+Đặc biệt tìm các comment trùng nhau.
+
+Ví dụ:
+
+Reviewer A:
+"Dmax = 0,0388 mm cần kiểm tra."
+
+Reviewer B:
+"0,0388 mm cần audit bằng SAP2000."
+
+→ gộp thành một issue P0.
+
+==================================================
+PHẦN II — IDENTIFY CONFLICTS
+==================================================
+
+Lập:
+
+# REVIEWER CONFLICT MATRIX
+
+| Issue | Reviewer A | Reviewer B | Phân tích | Quyết định |
+|---|---|---|---|---|
+
+Đặc biệt kiểm tra các bất đồng về:
+
+- benchmark;
+- SOO vs MOO;
+- objective;
+- constraint;
+- DesignConcrete;
+- load combination;
+- TCVN;
+- displacement;
+- statistical analysis;
+- SFOA claims.
+
+Không chọn theo đa số.
+
+==================================================
+PHẦN III — SCIENTIFIC VALIDATION GATE
+==================================================
+
+Trước khi sửa bài, lập danh sách:
+
+# SCIENTIFIC VALIDATION GATE
+
+## P0 — MUST VERIFY
+
+Đặc biệt kiểm tra:
+
+1. Dầm có thực sự được DesignConcrete kiểm tra trong mỗi evaluation?
+2. DL+LL hay Envelope được dùng để tính Dmax?
+3. Dmax = 0,0000388 m có chính xác?
+4. Xử lý sức chịu tải nén/nhổ có đúng không?
+5. Cost có đúng là material cost?
+6. Tất cả constraint có thực sự được kiểm tra?
+7. Penalty có được áp dụng đúng?
+8. 30 runs có độc lập?
+9. CV = 0% có đúng?
+10. Các kết quả baseline có tái tạo được?
+
+Nếu không có dữ liệu để xác minh:
+
+> DO NOT INVENT.
+> Mark as "CẦN TÁC GIẢ XÁC MINH".
+
+==================================================
+PHẦN IV — REVISION PLAN
+==================================================
+
+Sau khi phân loại reviewer comments, lập:
+
+# REVISION PLAN
+
+| ID | Vấn đề | Hành động | Phần bài | Dữ liệu cần | Trạng thái |
+|---|---|---|---|---|---|
+
+Ví dụ:
+
+| R01 | Dmax bất thường | Kiểm tra SAP2000 | 2.5, 4.2 | SAP output | VERIFY |
+| R02 | Claim "độ nhạy" | Đổi cách diễn đạt | 4.3 | Không cần | EDIT |
+| R03 | Benchmark | Không bổ sung | 1, 4, 5 | Không cần | NOT ADOPTED |
+
+==================================================
+PHẦN V — CHỈNH SỬA BẢN THẢO
+==================================================
+
+CHỈ SAU KHI hoàn thành Revision Plan mới bắt đầu sửa.
+
+Khi sửa:
+
+1. Giữ nguyên số liệu đã được xác nhận.
+2. Không tự tạo số liệu mới.
+3. Không thay đổi research question.
+4. Không thay đổi objective nếu không có lý do khoa học bắt buộc.
+5. Không thêm thí nghiệm không có dữ liệu.
+6. Không biến Paper 1 thành Paper 2.
+7. Không làm bài dài hơn chỉ để đáp ứng reviewer.
+8. Ưu tiên sửa đúng chỗ reviewer chỉ ra.
+
+Nếu reviewer chỉ ra một lỗi ở Section 4:
+
+→ sửa Section 4.
+
+Không tự động viết lại toàn bộ bài.
+
+==================================================
+PHẦN VI — CLAIM AUDIT SAU KHI SỬA
+==================================================
+
+Sau khi sửa, lập:
+
+# CLAIM AUDIT — FINAL
+
+| Claim | Evidence | Đủ không? | Có overclaim không? | Hành động |
+|---|---|---|---|---|
+
+Đặc biệt kiểm tra các từ:
+
+- chứng minh;
+- khẳng định;
+- tối ưu toàn cục;
+- vượt trội;
+- tốt hơn;
+- hiệu quả cao;
+- độ nhạy;
+- Pareto;
+- xung đột;
+- an toàn theo TCVN.
+
+Nếu bằng chứng không đủ → giảm claim.
+
+==================================================
+PHẦN VII — NUMERICAL CONSISTENCY AUDIT
+==================================================
+
+Kiểm tra toàn bộ bài:
+
+- Abstract;
+- Introduction;
+- equations;
+- tables;
+- figures;
+- Results;
+- Discussion;
+- Conclusion.
+
+Các giá trị phải thống nhất:
+
+### MJP-C
+Cost = 5.291,8573 USD
+Dmax = 0,00102 m
+
+### MJP-D
+Cost = 139.831,4792 USD
+Dmax = 0,0000388 m
+
+### Baseline
+Cost = 25.708,9425 USD
+Dmax = 0,00022445 m
+
+Kiểm tra lại tất cả percentage:
+
+- 2.542,2%;
+- 25,4 lần;
+- 96,2%;
+- 79,4%;
+- 353,7%;
+- 443,9%;
+- 82,7%.
+
+Nếu phát hiện bất nhất:
+
+KHÔNG tự sửa nếu chưa biết nguồn đúng.
+
+Đánh dấu:
+
+> NUMERICAL VERIFICATION REQUIRED.
+
+==================================================
+PHẦN VIII — SOO → MOSFOA LOGIC AUDIT
+==================================================
+
+Kiểm tra logic:
+
+SOO
+↓
+Cost-optimal
+↓
+Displacement-optimal
+↓
+hai nghiệm cực trị khác biệt
+↓
+trade-off
+↓
+SOO không biểu diễn đầy đủ các phương án cân bằng
+↓
+động lực nghiên cứu MOO/MOSFOA
+
+Không được viết:
+
+> "Hai nghiệm cực trị chứng minh toàn bộ Pareto front."
+
+Không được viết:
+
+> "Cost và Displacement đã được chứng minh xung đột trên toàn bộ không gian thiết kế."
+
+Nên giữ cách diễn đạt:
+
+> "Kết quả cho thấy quan hệ đánh đổi rõ rệt tại hai nghiệm cực trị và cung cấp cơ sở cho nghiên cứu MOO tiếp theo."
+
+==================================================
+PHẦN IX — FINAL MANUSCRIPT
+==================================================
+
+Sau khi hoàn thành toàn bộ audit:
+
+Tạo:
+
+# PAPER 1 — REVISED MANUSCRIPT
+
+Giữ cấu trúc bài hiện tại nếu cấu trúc đó hợp lý.
+
+Không tự ý mở rộng.
+
+Đảm bảo:
+
+- tiếng Việt học thuật;
+- thuật ngữ nhất quán;
+- equations rõ;
+- bảng/hình được dẫn đúng;
+- citation đúng;
+- không overclaim;
+- phù hợp tạp chí Xây dựng;
+- độ dài hợp lý.
+
+==================================================
+PHẦN X — RESPONSE TO REVIEWERS
+==================================================
+
+Sau bản thảo sửa, tạo thêm:
+
+# RESPONSE TO REVIEWERS
+
+## Reviewer A
+
+### Comment A1
+[Trích ngắn gọn ý reviewer]
+
+### Response
+[Phản hồi khoa học]
+
+### Revision
+[Đã sửa ở Section X, Table X, Figure X...]
+
+---
+
+## Reviewer B
+
+### Comment B1
+...
+
+### Response
+...
+
+### Revision
+...
+
+Nếu comment không được chấp nhận:
+
+Phải giải thích lịch sự:
+
+> "Tác giả cảm ơn nhận xét của phản biện. Tuy nhiên, xét trong phạm vi mục tiêu của Paper 1..., chúng tôi chưa bổ sung... Thay vào đó, chúng tôi đã làm rõ..."
+
+Không được phản hồi kiểu tranh luận hoặc phòng thủ.
+
+==================================================
+PHẦN XI — FINAL DECISION
+==================================================
+
+Cuối cùng, đưa ra:
+
+# FINAL REVISION STATUS
+
+## P0
+Danh sách các vấn đề ảnh hưởng tính đúng.
+
+## P1
+Các sửa đổi bắt buộc.
+
+## P2
+Các sửa đổi đã cải thiện chất lượng.
+
+## Deferred to Paper 2
+Những nội dung không nên đưa vào Paper 1.
+
+## Remaining Verification
+Những nội dung tác giả phải kiểm tra bằng:
+- SAP2000;
+- MATLAB;
+- TCVN;
+- dữ liệu gốc.
+
+## Final Recommendation
+Chọn:
+
+- READY FOR SUBMISSION
+hoặc
+- REQUIRES AUTHOR VERIFICATION
+hoặc
+- REQUIRES MAJOR TECHNICAL REVISION.
+
+==================================================
+NGUYÊN TẮC CUỐI CÙNG
+==================================================
+
+Bạn phải nhớ:
+
+CLAUDE KHÔNG PHẢI LÀ NGƯỜI PHÂN XỬ CUỐI CÙNG.
+
+Khi thiếu dữ liệu thực tế:
+
+KHÔNG ĐOÁN.
+
+Khi reviewer có thể sai:
+
+KHÔNG SỬA MÙ QUÁNG.
+
+Khi hai reviewer bất đồng:
+
+KHÔNG BỎ PHIẾU.
+
+Khi một đề xuất làm thay đổi phạm vi Paper 1:
+
+KHÔNG TỰ Ý CHẤP NHẬN.
+
+Tác giả/NCS là người quyết định cuối cùng sau khi kiểm chứng bằng:
+
+SAP2000 + MATLAB + TCVN + dữ liệu nghiên cứu gốc.
+
+MỤC TIÊU CUỐI CÙNG:
+
+Không phải làm cho cả hai reviewer "hài lòng".
+
+Mà là làm cho Paper 1:
+
+ĐÚNG
++
+MINH BẠCH
++
+TÁI LẬP ĐƯỢC
++
+LOGIC
++
+KHÔNG OVERCLAIM
++
+PHÙ HỢP VỚI PHẠM VI NGHIÊN CỨU.

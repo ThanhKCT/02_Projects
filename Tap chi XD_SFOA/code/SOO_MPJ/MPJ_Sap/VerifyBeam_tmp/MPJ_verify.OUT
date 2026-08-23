@@ -1,0 +1,80 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...e\SOO_MPJ\MPJ_Sap\VerifyBeam_tmp\MPJ_verify.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+      45 TO      95    A   A   A   A   A   A
+      96               -   -   A   -   -   -
+      97               A   A   -   A   A   A
+      98               A   A   A   A   A   A
+      99               -   -   A   -   -   -
+     100               A   A   -   A   A   A
+     101               A   A   A   A   A   A
+     102               -   -   A   -   -   -
+     103               A   A   -   A   A   A
+     104               A   A   A   A   A   A
+     105               -   -   A   -   -   -
+     106               A   A   -   A   A   A
+     107               A   A   A   A   A   A
+     108               -   -   A   -   -   -
+     109               A   A   -   A   A   A
+     110               A   A   A   A   A   A
+     111               -   -   A   -   -   -
+     112               A   A   -   A   A   A
+     113               A   A   A   A   A   A
+     114               -   -   A   -   -   -
+     115               A   A   -   A   A   A
+     116               -   -   A   -   -   -
+     117               A   A   -   A   A   A
+     118               -   -   A   -   -   -
+     119               A   A   -   A   A   A
+     120               -   -   A   -   -   -
+     121               A   A   -   A   A   A
+     122               -   -   A   -   -   -
+     123               A   A   -   A   A   A
+     124               -   -   A   -   -   -
+     125               A   A   -   A   A   A
+     126               -   -   A   -   -   -
+     127               A   A   -   A   A   A
+     128               -   -   A   -   -   -
+     129               A   A   -   A   A   A
+     130               -   -   A   -   -   -
+     131               A   A   -   A   A   A
+     132               -   -   A   -   -   -
+     133               A   A   -   A   A   A
+     134               -   -   A   -   -   -
+     135               A   A   -   A   A   A
+     136               -   -   A   -   -   -
+     137               A   A   -   A   A   A
+     138               -   -   A   -   -   -
+     139               A   A   -   A   A   A
+     140               -   -   A   -   -   -
+     141               A   A   -   A   A   A
+     142               -   -   A   -   -   -
+     143               A   A   -   A   A   A
+     144               -   -   A   -   -   -
+     145               A   A   -   A   A   A
+     146               -   -   A   -   -   -
+     147               A   A   -   A   A   A
+     148               -   -   A   -   -   -
+     149               A   A   -   A   A   A
+     150               -   -   A   -   -   -
+     151               A   A   -   A   A   A
+     152               -   -   A   -   -   -
+     153               A   A   -   A   A   A
+     154               -   -   A   -   -   -
+     155               A   A   -   A   A   A
+     156               -   -   A   -   -   -
+     157               A   A   -   A   A   A
+     158 TO    ~346    A   A   A   A   A   A
