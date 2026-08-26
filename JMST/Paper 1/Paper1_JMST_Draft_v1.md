@@ -46,7 +46,7 @@ CÒN THIẾU (chưa xử lý, xem GOP_Y_HOAN_THIEN_BAI_BAO_JMST.md để biết 
   làm ở bước này để ưu tiên đúng 7 trang trước).
 -->
 
-# ẢNH HƯỞNG CỦA PHƯƠNG PHÁP XÁC ĐỊNH ĐIỂM NGÀM CỌC ĐẾN CHIỀU DÀI TÍNH TOÁN VÀ ĐÁP ỨNG KẾT CẤU BẾN CẢNG TRÊN NỀN CỌC: NGHIÊN CỨU SỐ BẰNG MÔ HÌNH SAP2000 3D
+# ẢNH HƯỞNG CỦA PHƯƠNG PHÁP XÁC ĐỊNH ĐIỂM NGÀM CỌC ĐẾN CHIỀU DÀI TÍNH TOÁN VÀ ĐÁP ỨNG KẾT CẤU CẦU TÀU: NGHIÊN CỨU SỐ BẰNG MÔ HÌNH SAP2000 3D
 
 EFFECTS OF EQUIVALENT PILE FIXITY DETERMINATION METHODS ON EFFECTIVE PILE LENGTH AND STRUCTURAL RESPONSE OF A PILED WHARF: A THREE-DIMENSIONAL SAP2000 NUMERICAL STUDY
 
@@ -62,9 +62,9 @@ DOI: https://doi.org/10.65154/jmst.%ID *(tòa soạn cấp sau khi nộp)*
 
 **Tóm tắt**
 
-Cọc bến cảng trên nền cọc thường được mô hình hóa bằng một điểm ngàm tương đương thay cho tương tác đất–cọc thực tế; vị trí điểm ngàm quyết định chiều dài tính toán, ảnh hưởng độ cứng và nội lực toàn hệ, nhưng mức khác biệt giữa các phương pháp truyền vào đáp ứng kết cấu thực tế đến đâu chưa được lượng hóa. Bài báo trình bày thí nghiệm số kiểm soát trên mô hình SAP2000 3D của một phân đoạn tiêu chuẩn (~75 m) bến 100.000 DWT, Lạch Huyện, gồm 192 cọc: 178 cọc đổi điểm ngàm theo bốn phương pháp (22TCN 207-92; 20TCN21-86/TCXD 205-1998; TCVN 10304:2014; Nhật Bản), 14 cọc giữ nguyên làm nhóm kiểm soát; hình học, vật liệu, tải trọng không đổi giữa các mô hình. `l_tt` trung bình theo bốn phương pháp dao động 16,0–18,6 m, thấp hơn chiều dài điểm ngàm giả thiết (~24,5 m) của mô hình gốc. Chuyển vị toàn hệ giảm 18–49% so với mô hình gốc, độ nhạy vừa phải giữa bốn phương pháp (`S_R` = 18,5–26,5%); nội lực cực trị cọc lại rất nhạy (`S_R` = 86,3% cho mô men, 199,4% cho lực cắt lớn nhất), tập trung tại một số cọc biên do tái phân bố lực qua dầm/bản đỉnh bến. Lực cắt cực trị cọc nhạy nhất, chuyển vị toàn hệ ít nhạy nhất — cung cấp cơ sở định lượng lựa chọn giả thiết điểm ngàm khi mô hình hóa bến cảng.
+Cọc cầu tàu thường được mô hình hóa bằng một điểm ngàm tương đương thay cho tương tác đất–cọc thực tế; vị trí điểm ngàm quyết định chiều dài tính toán, ảnh hưởng độ cứng và nội lực toàn hệ, nhưng mức khác biệt giữa các phương pháp truyền vào đáp ứng kết cấu thực tế đến đâu chưa được lượng hóa. Bài báo trình bày thí nghiệm số kiểm soát trên mô hình SAP2000 3D của một phân đoạn tiêu chuẩn (~75 m) cầu tàu 100.000 DWT, Lạch Huyện, gồm 192 cọc: 178 cọc đổi điểm ngàm theo bốn phương pháp (22TCN 207-92; 20TCN21-86/TCXD 205-1998; TCVN 10304:2014; Nhật Bản), 14 cọc giữ nguyên làm nhóm kiểm soát; hình học, vật liệu, tải trọng không đổi giữa các mô hình. `l_tt` trung bình theo bốn phương pháp dao động 16,0–18,6 m, thấp hơn chiều dài điểm ngàm giả thiết (~24,5 m) của mô hình gốc. Chuyển vị toàn hệ giảm 18–49% so với mô hình gốc, độ nhạy vừa phải giữa bốn phương pháp (`S_R` = 18,5–26,5%); nội lực cực trị cọc lại rất nhạy (`S_R` = 86,3% cho mô men, 199,4% cho lực cắt lớn nhất), tập trung tại một số cọc biên do tái phân bố lực qua dầm/bản đỉnh bến. Lực cắt cực trị cọc nhạy nhất, chuyển vị toàn hệ ít nhạy nhất — cung cấp cơ sở định lượng lựa chọn giả thiết điểm ngàm khi mô hình hóa cầu tàu.
 
-**Từ khóa**: *bến cảng trên nền cọc, điểm ngàm tương đương của cọc, chiều dài tính toán, tương tác cọc–đất, độ nhạy kết cấu, SAP2000, nghiên cứu số.*
+**Từ khóa**: *cầu tàu, điểm ngàm tương đương của cọc, chiều dài tính toán, tương tác cọc–đất, độ nhạy kết cấu, SAP2000, nghiên cứu số.*
 
 **Abstract**
 
@@ -76,13 +76,13 @@ Piles of a piled wharf are commonly modeled with a single equivalent fixity poin
 
 ## 1. Mở đầu
 
-Bến cảng trên nền cọc là kết cấu phổ biến tại các cảng nước sâu, trong đó hệ dầm–bản đỉnh bến truyền tải trọng khai thác, tải trọng tàu và tải trọng môi trường xuống nền qua hệ cọc; cọc bến cảng chịu đồng thời tải đứng, tải ngang và mô men lớn (neo tàu, va tàu, cần trục, sóng/dòng chảy/gió), nên ứng xử ngang của cọc phụ thuộc rất lớn vào điều kiện liên kết cọc–đất, đặc biệt ở vùng địa chất yếu như cửa sông, cửa biển. Mô phỏng đầy đủ tương tác đất–cọc phi tuyến (lò xo p–y phân bố) làm tăng đáng kể độ phức tạp mô hình 3D; cách tiếp cận thực dụng, phổ biến trong thiết kế là thay thế toàn bộ ảnh hưởng của nền bằng một **điểm ngàm tương đương** tại độ sâu `h_z`, qua đó xác định chiều dài tính toán `l_tt` (đoạn cọc từ đỉnh đến điểm ngàm) — đại lượng quyết định độ cứng ngang, phân bố nội lực và chuyển vị của toàn hệ.
+Cầu tàu là kết cấu phổ biến tại các cảng nước sâu, trong đó hệ dầm–bản đỉnh bến truyền tải trọng khai thác, tải trọng tàu và tải trọng môi trường xuống nền qua hệ cọc; cọc cầu tàu chịu đồng thời tải đứng, tải ngang và mô men lớn (neo tàu, va tàu, cần trục, sóng/dòng chảy/gió), nên ứng xử ngang của cọc phụ thuộc rất lớn vào điều kiện liên kết cọc–đất, đặc biệt ở vùng địa chất yếu như cửa sông, cửa biển. Mô phỏng đầy đủ tương tác đất–cọc phi tuyến (lò xo p–y phân bố) làm tăng đáng kể độ phức tạp mô hình 3D; cách tiếp cận thực dụng, phổ biến trong thiết kế là thay thế toàn bộ ảnh hưởng của nền bằng một **điểm ngàm tương đương** tại độ sâu `h_z`, qua đó xác định chiều dài tính toán `l_tt` (đoạn cọc từ đỉnh đến điểm ngàm) — đại lượng quyết định độ cứng ngang, phân bố nội lực và chuyển vị của toàn hệ.
 
-Các tiêu chuẩn/tài liệu khác nhau — 22TCN 207-92, 20TCN21-86/TCXD 205-1998, TCVN 10304:2014, và phương pháp Nhật Bản — đưa ra công thức `h_z` khác nhau do khác cơ sở lý thuyết, dữ liệu đầu vào và phạm vi áp dụng, nên có thể cho `h_z` (và `l_tt`) khác nhau cho cùng một cọc, cùng điều kiện địa chất. Tuy nhiên, mức khác biệt đó thực sự truyền vào đáp ứng kết cấu (chuyển vị, nội lực cọc) của một bến cảng 3D thực tế đến đâu vẫn chưa được lượng hóa có kiểm soát — các nghiên cứu hiện có thường trình bày hoặc so sánh công thức một cách độc lập, không đặt trong một mô hình kết cấu thống nhất để đánh giá ảnh hưởng thực tế đến đáp ứng công trình. Đây là khoảng trống nghiên cứu mà bài báo giải quyết: **các phương pháp xác định điểm ngàm có thể cho giá trị khác nhau, nhưng cần lượng hóa có kiểm soát xem sự khác biệt đó có thực sự tạo ra sai khác đáng kể trong đáp ứng của một hệ bến cảng 3D thực tế hay không.**
+Các tiêu chuẩn/tài liệu khác nhau — 22TCN 207-92, 20TCN21-86/TCXD 205-1998, TCVN 10304:2014, và phương pháp Nhật Bản — đưa ra công thức `h_z` khác nhau do khác cơ sở lý thuyết, dữ liệu đầu vào và phạm vi áp dụng, nên có thể cho `h_z` (và `l_tt`) khác nhau cho cùng một cọc, cùng điều kiện địa chất. Tuy nhiên, mức khác biệt đó thực sự truyền vào đáp ứng kết cấu (chuyển vị, nội lực cọc) của một cầu tàu 3D thực tế đến đâu vẫn chưa được lượng hóa có kiểm soát — các nghiên cứu hiện có thường trình bày hoặc so sánh công thức một cách độc lập, không đặt trong một mô hình kết cấu thống nhất để đánh giá ảnh hưởng thực tế đến đáp ứng công trình. Đây là khoảng trống nghiên cứu mà bài báo giải quyết: **các phương pháp xác định điểm ngàm có thể cho giá trị khác nhau, nhưng cần lượng hóa có kiểm soát xem sự khác biệt đó có thực sự tạo ra sai khác đáng kể trong đáp ứng của một hệ cầu tàu 3D thực tế hay không.**
 
-Bài báo đặt ra ba câu hỏi nghiên cứu — **RQ1**: bốn phương pháp tạo mức khác biệt như thế nào về `h_z` và `l_tt`? **RQ2**: sự khác biệt đó ảnh hưởng thế nào đến chuyển vị hệ (`U_X`, `U_Y`) và nội lực cọc (`M_max`, `V_max`)? **RQ3**: đại lượng đáp ứng nào nhạy nhất với giả thiết điểm ngàm? — tương ứng hai mục tiêu: (1) định lượng khác biệt `h_z`/`l_tt` giữa bốn phương pháp trên cùng nhóm cọc; (2) định lượng ảnh hưởng của khác biệt đó đến `U_X`, `U_Y`, `M_max`, `V_max` trên một mô hình bến cảng 3D thực tế.
+Bài báo đặt ra ba câu hỏi nghiên cứu — **RQ1**: bốn phương pháp tạo mức khác biệt như thế nào về `h_z` và `l_tt`? **RQ2**: sự khác biệt đó ảnh hưởng thế nào đến chuyển vị hệ (`U_X`, `U_Y`) và nội lực cọc (`M_max`, `V_max`)? **RQ3**: đại lượng đáp ứng nào nhạy nhất với giả thiết điểm ngàm? — tương ứng hai mục tiêu: (1) định lượng khác biệt `h_z`/`l_tt` giữa bốn phương pháp trên cùng nhóm cọc; (2) định lượng ảnh hưởng của khác biệt đó đến `U_X`, `U_Y`, `M_max`, `V_max` trên một mô hình cầu tàu 3D thực tế.
 
-Đóng góp chính của bài báo là xây dựng một thí nghiệm số có kiểm soát trên mô hình bến cảng 3D thực tế — trong đó chỉ duy nhất giả thiết điểm ngàm thay đổi, tách riêng khỏi ảnh hưởng hình học/tải trọng thường bị trộn lẫn trong các so sánh trước đây — để so sánh thống nhất bốn phương pháp phổ biến trong cùng một mô hình và định lượng chuỗi nhân quả, cung cấp cơ sở định lượng cho việc lựa chọn giả thiết điểm ngàm khi mô hình hóa bến cảng trên nền cọc. Phạm vi bài báo giới hạn ở việc lượng hóa độ nhạy này; bài báo không đề xuất phương pháp xác định điểm ngàm mới, không thực hiện tối ưu hóa kết cấu, và không mở rộng sang phân tích tương tác đất–cọc phi tuyến kiểu p–y. Do không có số liệu quan trắc biến dạng/nội lực thực tế của công trình để hiệu chỉnh hoặc kiểm chứng, nghiên cứu không sử dụng kết quả của bất kỳ phương pháp nào — kể cả mô hình gốc — làm nghiệm chuẩn; mục tiêu duy nhất là lượng hóa mức độ ảnh hưởng của lựa chọn giả thiết điểm ngàm đến đáp ứng kết cấu.
+Đóng góp chính của bài báo là xây dựng một thí nghiệm số có kiểm soát trên mô hình cầu tàu 3D thực tế — trong đó chỉ duy nhất giả thiết điểm ngàm thay đổi, tách riêng khỏi ảnh hưởng hình học/tải trọng thường bị trộn lẫn trong các so sánh trước đây — để so sánh thống nhất bốn phương pháp phổ biến trong cùng một mô hình và định lượng chuỗi nhân quả, cung cấp cơ sở định lượng cho việc lựa chọn giả thiết điểm ngàm khi mô hình hóa cầu tàu. Phạm vi bài báo giới hạn ở việc lượng hóa độ nhạy này; bài báo không đề xuất phương pháp xác định điểm ngàm mới, không thực hiện tối ưu hóa kết cấu, và không mở rộng sang phân tích tương tác đất–cọc phi tuyến kiểu p–y. Do không có số liệu quan trắc biến dạng/nội lực thực tế của công trình để hiệu chỉnh hoặc kiểm chứng, nghiên cứu không sử dụng kết quả của bất kỳ phương pháp nào — kể cả mô hình gốc — làm nghiệm chuẩn; mục tiêu duy nhất là lượng hóa mức độ ảnh hưởng của lựa chọn giả thiết điểm ngàm đến đáp ứng kết cấu.
 
 ---
 
@@ -110,8 +110,8 @@ Kết cấu bến là dạng bến liền bờ, bệ cọc cao, đài mềm (h�
 | Cao trình đỉnh bến | +5,50 m (Hải đồ) |
 | Cao trình đáy bến (hoàn thiện) | −16,0 m (Hải đồ) |
 | Tổng số cọc của phân đoạn | 192 (132 cọc BTCT DƯL D800 + 60 cọc thép D1016) |
-| Số cọc thuộc nhóm khảo sát điểm ngàm (treatment) | 178 (132 BTCT DƯL + 46 thép) |
-| Số cọc giữ nguyên điều kiện biên (control) | 14 (thép, ngàm sâu vào lớp đá) |
+| Số cọc thuộc nhóm khảo sát điểm ngàm | 178 (132 BTCT DƯL + 46 thép) |
+| Số cọc giữ nguyên điều kiện biên (nhóm kiểm soát) | 14 (thép, ngàm sâu vào lớp đá) |
 | Module lưới cọc dọc bến | 5,1 m |
 | Độ xiên cọc | 6:1 (đa số); hàng cọc thép biên ngoài cùng 7:1 |
 | Vật liệu bê tông dầm/bản | M400 |
@@ -124,11 +124,11 @@ Kết cấu bến là dạng bến liền bờ, bệ cọc cao, đài mềm (h�
 
 ### 2.2. Hệ cọc và điều kiện biên trong mô hình gốc
 
-Trong 192 cọc của phân đoạn, 178 chân cọc (132 BTCT DƯL + 46 thép) được gán lò xo đất dọc trục (`JOINT SPRING ASSIGNMENTS`, phương local `U3`) trong mô hình gốc — đây là nhóm cọc treatment, dùng để khảo sát ảnh hưởng của phương pháp xác định điểm ngàm. 14 chân cọc thép còn lại được ngàm cứng, tương ứng vị trí khoan sâu vào lớp đá gốc; nhóm này giữ nguyên điều kiện biên trong cả bốn mô hình sensitivity, đóng vai trò nhóm kiểm soát để đảm bảo khác biệt quan sát được chỉ đến từ nhóm cọc treatment.
+Trong 192 cọc của phân đoạn, 178 chân cọc (132 BTCT DƯL + 46 thép) được gán lò xo đất dọc trục (`JOINT SPRING ASSIGNMENTS`, phương trục địa phương `U3`) trong mô hình gốc — đây là nhóm cọc khảo sát, dùng để khảo sát ảnh hưởng của phương pháp xác định điểm ngàm. 14 chân cọc thép còn lại được ngàm cứng, tương ứng vị trí khoan sâu vào lớp đá gốc; nhóm này giữ nguyên điều kiện biên trong cả bốn mô hình độ nhạy, đóng vai trò nhóm kiểm soát để đảm bảo khác biệt quan sát được chỉ đến từ nhóm cọc khảo sát.
 
 ### 2.3. Địa chất đầu vào
 
-Theo triết lý thí nghiệm có kiểm soát, toàn bộ 178 cọc khảo sát dùng **một bộ thông số địa chất đại diện chung**, không mapping riêng theo từng cọc, để chỉ phương pháp xác định điểm ngàm là biến thay đổi duy nhất giữa bốn mô hình. Bảng 2 trình bày các lớp đất chính, trích từ hồ sơ khảo sát địa chất của dự án (38 lỗ khoan).
+Theo triết lý thí nghiệm có kiểm soát, toàn bộ 178 cọc khảo sát dùng **một bộ thông số địa chất đại diện chung**, không xác định riêng theo từng cọc, để chỉ phương pháp xác định điểm ngàm là biến thay đổi duy nhất giữa bốn mô hình. Bảng 2 trình bày các lớp đất chính, trích từ hồ sơ khảo sát địa chất của dự án (38 lỗ khoan).
 
 **Bảng 2. Thông số địa chất đại diện dùng cho tính toán điểm ngàm**
 
@@ -144,11 +144,11 @@ Theo triết lý thí nghiệm có kiểm soát, toàn bộ 178 cọc khảo sá
 
 **Lựa chọn lớp đất đại diện theo từng nhóm công thức (đã khóa):** M2/M3/M6 (dùng hệ số tỷ lệ `K`/`k`/`K_h`, đặc trưng phản ứng đàn hồi tổng thể của đất dọc thân cọc) dùng **Lớp 2** (sét dẻo chảy, yếu, phân bố rộng, chi phối gần mặt đất nhất). M1 (dùng góc ma sát trong `φ` của *vật liệu mặt mái dốc* trong công thức hình học `m_λ`, `m_θ`) dùng **Lớp 8** (sét dẻo cứng) — với góc nghiêng mái dốc thực tế của mô hình (`θ ≈ 18,5°`), chỉ Lớp 8 (`φ≈18,2°`) cho kết quả toán học hợp lệ (`Z>0`) trong công thức xác định `h_gđ` (Bảng 3).
 
-Ngay cả với Lớp 8, tỷ số `m_λ/m_θ ≈ 6,7 > 1` khiến **Case 4** của M1 (lực hướng vào bờ) vô nghĩa toán học cho toàn bộ 178 cọc — không phải lỗi tính, mà là giới hạn áp dụng thực sự của công thức với tổ hợp góc mái dốc/góc ma sát trong của công trình này; Case 4 bị loại khỏi tập case bất lợi, `h_z`/`l_tt` theo M1 chỉ lấy governing giữa Case 1 và Case 2.
+Ngay cả với Lớp 8, tỷ số `m_λ/m_θ ≈ 6,7 > 1` khiến **Trường hợp 4** của M1 (lực hướng vào bờ) vô nghĩa toán học cho toàn bộ 178 cọc — không phải lỗi tính, mà là giới hạn áp dụng thực sự của công thức với tổ hợp góc mái dốc/góc ma sát trong của công trình này; Trường hợp 4 bị loại khỏi tập trường hợp bất lợi, `h_z`/`l_tt` theo M1 chỉ lấy giá trị chi phối giữa Trường hợp 1 và Trường hợp 2.
 
 ### 2.4. Tải trọng và tổ hợp tải trọng
 
-Mô hình gốc gồm 11 load pattern và 36 tổ hợp tải trọng, cùng tổ hợp bao **`BAO KT`** (`ComboType = Envelope`). Toàn bộ tải trọng giữ nguyên, không đổi giữa bốn mô hình sensitivity. `BAO KT` là **tổ hợp bao không đồng thời**: mỗi thành phần nội lực tại mỗi vị trí có thể lấy giá trị cực trị từ các tổ hợp con khác nhau. `BAO KT` được chọn làm tổ hợp chi phối cho toàn bộ thí nghiệm sensitivity, với hai trạng thái Max/Min cho cả hai phương X, Y.
+Mô hình gốc gồm 11 trường hợp tải trọng và 36 tổ hợp tải trọng, cùng tổ hợp bao **`BAO KT`** (`ComboType = Envelope`). Toàn bộ tải trọng giữ nguyên, không đổi giữa bốn mô hình độ nhạy. `BAO KT` là **tổ hợp bao không đồng thời**: mỗi thành phần nội lực tại mỗi vị trí có thể lấy giá trị cực trị từ các tổ hợp con khác nhau. `BAO KT` được chọn làm tổ hợp chi phối cho toàn bộ thí nghiệm độ nhạy, với hai trạng thái Max/Min cho cả hai phương X, Y.
 
 ---
 
@@ -173,9 +173,9 @@ Trong mô hình hóa cọc bằng phần tử thanh, tương tác đất–cọc
 
 *Nguồn công thức: Công trình bến (PGS.TS. Nguyễn Văn Ngọc [7]).*
 
-### 3.2. M1 — quy tắc chọn Case
+### 3.2. M1 — quy tắc chọn trường hợp tính toán
 
-Với M1, chiều dài tính toán là `l = H0 ± h_gđ + h_z`, trong đó `H0` là khoảng cách từ đỉnh cọc đến giao điểm mái dốc–tim cọc. Vì `BAO KT` là tổ hợp bao không đồng thời, Case được chọn theo **vị trí/hướng hình học của cọc so với mái dốc**, độc lập với tổ hợp tải cụ thể; lấy giá trị `h_z` bất lợi nhất (governing) làm giá trị chính thức. 
+Với M1, chiều dài tính toán là `l = H0 ± h_gđ + h_z`, trong đó `H0` là khoảng cách từ đỉnh cọc đến giao điểm mái dốc–tim cọc. Vì `BAO KT` là tổ hợp bao không đồng thời, trường hợp tính toán được chọn theo **vị trí/hướng hình học của cọc so với mái dốc**, độc lập với tổ hợp tải cụ thể; lấy giá trị `h_z` bất lợi nhất làm giá trị chính thức. 
 
 ### 3.3. M2, M3, M6 — nhóm công thức hệ số biến dạng
 
@@ -187,13 +187,13 @@ M2 và M3 coi cọc là dầm trên nền đàn hồi, cùng dạng `l_tt = l_0 
 
 ### 4.1. Triết lý thí nghiệm có kiểm soát
 
-Từ mô hình gốc (MASTER — kế thừa nguyên trạng điều kiện biên của hồ sơ thiết kế, không phải một nghiệm chuẩn đã kiểm chứng bằng quan trắc hay mô hình đất–cọc phi tuyến đầy đủ), bốn định nghĩa điểm ngàm (M1/M2/M3/M6) được áp dụng riêng cho 178 cọc khảo sát để tạo bốn mô hình sensitivity. Mọi yếu tố khác giữ nguyên tuyệt đối. MASTER chỉ đóng vai trò mô hình tham chiếu để đánh giá mức thay đổi khi thay điểm ngàm, không dùng để kết luận phương pháp nào chính xác hơn.
+Từ mô hình gốc (MASTER — kế thừa nguyên trạng điều kiện biên của hồ sơ thiết kế, không phải một nghiệm chuẩn đã kiểm chứng bằng quan trắc hay mô hình đất–cọc phi tuyến đầy đủ), bốn định nghĩa điểm ngàm (M1/M2/M3/M6) được áp dụng riêng cho 178 cọc khảo sát để tạo bốn mô hình độ nhạy. Mọi yếu tố khác giữ nguyên tuyệt đối. MASTER chỉ đóng vai trò mô hình tham chiếu để đánh giá mức thay đổi khi thay điểm ngàm, không dùng để kết luận phương pháp nào chính xác hơn.
 
 ### 4.2. Ma trận thí nghiệm
 
 **Bảng 4. Ma trận thí nghiệm số có kiểm soát**
 
-| Model | Phương pháp fixity | Cọc treatment | Cọc control | Hình học / Vật liệu / Tải trọng |
+| Mô hình | Phương pháp xác định điểm ngàm | Cọc khảo sát | Cọc kiểm soát | Hình học / Vật liệu / Tải trọng |
 |---|---|---:|---:|---|
 | BASE | Điều kiện biên gốc | — | 192 | Không đổi |
 | M1 | 22TCN 207-92 | 178 | 14 | Không đổi |
@@ -243,17 +243,17 @@ Cả 4 phương pháp đều cho `l_tt` **trung bình thấp hơn** chiều dài
 | `V_mean` (T) | 0,77 | 2,61 | 1,68 | 2,46 | 1,88 | 55,4 |
 
 **Chuyển vị toàn hệ ít nhạy.** Cả bốn phương pháp kéo `U_X,max`/`U_Y,max` giảm 18–49% so với MASTER. `S_R` ở mức vừa phải (18,5%/26,5%).
-**Nội lực cọc rất nhạy ở cọc governing.** `S_R` của cực trị lên tới 86,3% và 199,4%, trong khi giá trị trung bình thấp hơn rõ rệt.
+**Nội lực cọc rất nhạy ở cọc chi phối.** `S_R` của cực trị lên tới 86,3% và 199,4%, trong khi giá trị trung bình thấp hơn rõ rệt.
 
 ### 5.3. Phân bố không gian của độ nhạy và chuỗi nhân quả
 
-Cọc governing **không cố định**: ở MASTER là nhóm cọc thép tại hàng `Y = 0`; ở bốn phương pháp, governing chuyển sang cọc thép số 140 tại hàng biên ngoài `Y = 24`. 
+Cọc chi phối **không cố định**: ở MASTER là nhóm cọc thép tại hàng `Y = 0`; ở bốn phương pháp, cọc chi phối chuyển sang cọc thép số 140 tại hàng biên ngoài `Y = 24`. 
 
-Cơ chế: cọc 140 có chiều dài FEM gốc lớn nhất, nhưng `l_tt` theo bốn phương pháp đều nhỏ hơn nhiều — rút ngắn mạnh khoảng cách từ đỉnh đến điểm ngàm làm độ cứng ngang hiệu dụng của riêng cọc này tăng mạnh. Về mặt định tính, với một console lý tưởng độ cứng biến thiên theo bậc ba nghịch đảo với chiều dài làm việc (`k ∝ 1/l_tt³`); trong hệ bến 3D thực tế (cọc + dầm + bản + liên kết), quan hệ này còn chịu ảnh hưởng của độ cứng dầm–bản và sự tái phân bố tải giữa các cọc, nên không nên xem `k ∝ 1/l_tt³` là công thức chính xác cho toàn hệ — chỉ là cơ chế định tính giải thích xu hướng quan sát được. *Kết quả tạo ra một hiện tượng cơ học đáng chú ý: dù chuyển vị ngang của toàn bộ hệ bến giảm đi, nhưng do sự gia tăng đột biến độ cứng tương đối tại một số cọc biên so với phần còn lại của hệ, dầm/bản đỉnh bến đã tái phân bố lại tải trọng, khiến nội lực bị hút tập trung về các cọc cứng này, gây tăng vọt nội lực cực trị.*
+Cơ chế: cọc 140 có chiều dài FEM gốc lớn nhất, nhưng `l_tt` theo bốn phương pháp đều nhỏ hơn nhiều — rút ngắn mạnh khoảng cách từ đỉnh đến điểm ngàm làm độ cứng ngang hiệu dụng của riêng cọc này tăng mạnh. Về mặt định tính, với một công-xôn lý tưởng độ cứng biến thiên theo bậc ba nghịch đảo với chiều dài làm việc (`k ∝ 1/l_tt³`); trong hệ bến 3D thực tế (cọc + dầm + bản + liên kết), quan hệ này còn chịu ảnh hưởng của độ cứng dầm–bản và sự tái phân bố tải giữa các cọc, nên không nên xem `k ∝ 1/l_tt³` là công thức chính xác cho toàn hệ — chỉ là cơ chế định tính giải thích xu hướng quan sát được. *Kết quả tạo ra một hiện tượng cơ học đáng chú ý: dù chuyển vị ngang của toàn bộ hệ bến giảm đi, nhưng do sự gia tăng đột biến độ cứng tương đối tại một số cọc biên so với phần còn lại của hệ, dầm/bản đỉnh bến đã tái phân bố lại tải trọng, khiến nội lực bị hút tập trung về các cọc cứng này, gây tăng vọt nội lực cực trị.*
 
 ![Hình 4](figures/Fig4_spatial_sensitivity.png)
 
-**Hình 4. Phân bố không gian của độ nhạy trên 178 cọc treatment**: (a) mặt bằng bố trí cọc, đánh dấu cọc governing (140); (b) chiều dài tính toán trung bình (4 phương pháp) theo vị trí cọc; (c) mô men lớn nhất và (d) lực cắt lớn nhất (giá trị lớn nhất trong 4 phương pháp) theo vị trí cọc — cho thấy độ nhạy tập trung rõ rệt tại hàng cọc biên.
+**Hình 4. Phân bố không gian của độ nhạy trên 178 cọc khảo sát**: (a) mặt bằng bố trí cọc, đánh dấu cọc chi phối (140); (b) chiều dài tính toán trung bình (4 phương pháp) theo vị trí cọc; (c) mô men lớn nhất và (d) lực cắt lớn nhất (giá trị lớn nhất trong 4 phương pháp) theo vị trí cọc — cho thấy độ nhạy tập trung rõ rệt tại hàng cọc biên.
 
 ### 5.4. Xếp hạng độ nhạy và hàm ý kỹ thuật
 
