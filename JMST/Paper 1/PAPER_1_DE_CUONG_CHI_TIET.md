@@ -817,19 +817,32 @@ Paper 1 phải hoàn thành trước khi khóa các giả thiết nền tảng c
 - [x] JMST format requirements (§27, from official template + accepted sample paper)
 - [x] Novelty direction
 
+## Đã hoàn thành thêm (23/08/2026)
+
+- [x] Calculate `h_z` for M1,M2,M3,M6
+- [x] Calculate `l_tt` for M1,M2,M3,M6
+- [x] Build four sensitivity models (SAP2000 OAPI, mở file 1 lần, lặp qua BASE+M1/M2/M3/M6)
+- [x] Run four analyses (+ BASE) — xem scripts/run_sensitivity_full.log
+- [x] Extract results (JointDispl 192 joints, FrameForce 178 piles, envelope BAO KT)
+- [x] Perform sensitivity analysis (`S_R` cho U_X, U_Y, M_max, V_max — table6_FINAL.csv)
+- [x] Write final Results (§5.2–5.4 draft)
+- [x] Write final Abstract (Tóm tắt/Abstract, trong giới hạn từ JMST)
+- [x] Write final Conclusions (§6 draft)
+
+## Đã hoàn thành thêm (24/08/2026) — rà soát tuân thủ JMST §27
+
+- [x] Rà toàn bài so với quy định định dạng JMST — phát hiện rủi ro vượt 7 trang là có thật
+- [x] Cắt gọt thân bài (6.841 → 4.862 từ, giảm 29%); dồn công thức chi tiết M1/M2/M3/M6 về Bảng 3 + supplement (thực thi đúng quyết định đã khóa §6.2 nhưng trước đó chưa áp dụng)
+
 ## Chưa thực hiện
 
-- [ ] Calculate `h_z` for M1,M2,M3,M6
-- [ ] Calculate `l_tt` for M1,M2,M3,M6
-- [ ] Build six sensitivity models
-- [ ] Run six analyses
-- [ ] Extract results
-- [ ] Perform sensitivity analysis
-- [ ] Generate figures
-- [ ] Generate tables
-- [ ] Write final Results
-- [ ] Write final Abstract
-- [ ] Write final Conclusions
+- [ ] Generate Figure 1 (tổng thể mô hình 3D), Figure 2 (khái niệm điểm ngàm + so sánh phương pháp), Figure 3 (boxplot `l_tt`), Figure 4 (U_X/U_Y/M_max/V_max) — dữ liệu Hình 3/4 đã có, chỉ cần vẽ; Hình 1/2 chưa có mô tả trong thân bài
+- [ ] Sửa lỗi thứ tự trích dẫn `[ ]`: tài liệu [7] (Thuyết minh) dùng làm nguồn Bảng 1/2 (§2) nhưng chưa có bracket, trong khi [1]-[6] (Bảng 3, §3, xuất hiện sau) đã đánh số trước — vi phạm quy định "đánh số theo thứ tự xuất hiện lần đầu"
+- [ ] Bổ sung năm/nhà xuất bản thiếu cho [4] TCVN 10304:2014 và [6] giáo trình Nguyễn Văn Ngọc
+- [ ] Chuyển toàn bộ sang .docx với style JMST thật (font Times New Roman, cỡ chữ, thụt lề công thức 0,5cm...) — hiện chưa có bản .docx nào
+- [ ] Xác nhận số trang thật sau khi có bản .docx layout (chưa thể chắc chắn chỉ dựa vào số từ ở .md)
+- [ ] Xử lý 15/178 cọc có on_segment=False trước khi công bố số liệu cuối (không chặn tiến độ)
+- [ ] Thay placeholder tác giả/email trước khi nộp bài
 
 ---
 

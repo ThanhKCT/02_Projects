@@ -1,0 +1,186 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...MST\Paper 1\sap_work\Ben100kDWT_sensitivity.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    6074 TO    8698    A   A   A   A   A   A
+     396 TO     363    -   -   A   -   -   -
+    6073 TO     379    A   A   A   A   A   A
+     272 TO      33    -   -   A   -   -   -
+    6071 TO    8694    A   A   A   A   A   A
+     380               -   -   A   -   -   -
+     408               -   -   -   -   -   -
+    6114 TO    1876    A   A   A   A   A   A
+     398 TO     365    -   -   A   -   -   -
+    6070 TO     354    A   A   A   A   A   A
+     266 TO      31    -   -   A   -   -   -
+    6068 TO     368    A   A   A   A   A   A
+     382 TO     290    -   -   A   -   -   -
+     410               -   -   -   -   -   -
+     288               -   -   A   -   -   -
+    6111 TO    1841    A   A   A   A   A   A
+     138               -   -   A   -   -   -
+    8693 TO    8692    A   A   A   A   A   A
+      86               -   -   A   -   -   -
+    6112 TO    1839    A   A   A   A   A   A
+      41 TO     292    -   -   A   -   -   -
+    6113 TO    8690    A   A   A   A   A   A
+     400 TO     367    -   -   A   -   -   -
+    6067 TO     316    A   A   A   A   A   A
+     256 TO     254    -   -   A   -   -   -
+    6064 TO     332    A   A   A   A   A   A
+     384               -   -   A   -   -   -
+    8687 TO    8686    A   A   A   A   A   A
+     411               -   -   -   -   -   -
+    6108 TO     896    A   A   A   A   A   A
+     294 TO      39    -   -   A   -   -   -
+    6109 TO     894    A   A   A   A   A   A
+      84               -   -   A   -   -   -
+    8685 TO    8684    A   A   A   A   A   A
+     136               -   -   A   -   -   -
+    6110 TO     892    A   A   A   A   A   A
+     286 TO     402    -   -   A   -   -   -
+    8683 TO    8682    A   A   A   A   A   A
+     370               -   -   A   -   -   -
+    6066 TO     291    A   A   A   A   A   A
+     252 TO      29    -   -   A   -   -   -
+    8681 TO     308    A   A   A   A   A   A
+     386               -   -   A   -   -   -
+     413               -   -   -   -   -   -
+    6105 TO    8679    A   A   A   A   A   A
+     403               -   -   A   -   -   -
+   10775               A   A   A   A   A   A
+     374               -   -   A   -   -   -
+    6061 TO     267    A   A   A   A   A   A
+     248 TO      27    -   -   A   -   -   -
+   10773 TO     283    A   A   A   A   A   A
+     388               -   -   A   -   -   -
+   10774 TO    8677    A   A   A   A   A   A
+     415               -   -   -   -   -   -
+    6102 TO     863    A   A   A   A   A   A
+     405               -   -   A   -   -   -
+   10770 TO    8675    A   A   A   A   A   A
+     376               -   -   A   -   -   -
+   10767 TO     245    A   A   A   A   A   A
+     244 TO      19    -   -   A   -   -   -
+   10768 TO     259    A   A   A   A   A   A
+     390               -   -   A   -   -   -
+     416               -   -   -   -   -   -
+   10766 TO     857    A   A   A   A   A   A
+     406 TO     378    -   -   A   -   -   -
+    6055 TO     303    A   A   A   A   A   A
+     240               -   -   A   -   -   -
+     235 TO     223    A   A   A   A   A   A
+     214 TO      17    -   -   A   -   -   -
+    6051 TO     237    A   A   A   A   A   A
+     392 TO     418    -   -   A   -   -   -
+    6096 TO     844    A   A   A   A   A   A
+     427               -   -   -   -   -   -
+     423               -   -   A   -   -   -
+    8671 TO     278    A   A   A   A   A   A
+     236               -   -   A   -   -   -
+     211 TO     201    A   A   A   A   A   A
+     200               -   -   A   -   -   -
+     199               A   A   A   A   A   A
+     198 TO      15    -   -   A   -   -   -
+    8670 TO   10757    A   A   A   A   A   A
+     420 TO     425    -   -   A   -   -   -
+    6093 TO   10753    A   A   A   A   A   A
+     361               -   -   -   -   -   -
+     331               -   -   A   -   -   -
+    6047 TO     412    A   A   A   A   A   A
+     232               -   -   A   -   -   -
+     213 TO     212    A   A   A   A   A   A
+     192 TO     187    -   -   A   -   -   -
+     186               A   A   A   A   A   A
+     185               -   -   A   -   -   -
+     184 TO     174    A   A   A   A   A   A
+     126 TO      13    -   -   A   -   -   -
+    6044 TO    8659    A   A   A   A   A   A
+     315               -   -   A   -   -   -
+   10749               A   A   A   A   A   A
+     345               -   -   A   -   -   -
+    6090 TO     819    A   A   A   A   A   A
+     359               -   -   -   -   -   -
+     329               -   -   A   -   -   -
+    6046 TO     439    A   A   A   A   A   A
+     228               -   -   A   -   -   -
+     191 TO     188    A   A   A   A   A   A
+     183 TO     179    -   -   A   -   -   -
+     162 TO     150    A   A   A   A   A   A
+     118 TO      11    -   -   A   -   -   -
+    6042 TO   10739    A   A   A   A   A   A
+     313 TO     343    -   -   A   -   -   -
+    6087 TO     806    A   A   A   A   A   A
+     357               -   -   -   -   -   -
+     325               -   -   A   -   -   -
+    6041 TO     409    A   A   A   A   A   A
+     224 TO     173    -   -   A   -   -   -
+     169 TO     125    A   A   A   A   A   A
+     107 TO       9    -   -   A   -   -   -
+    6039 TO     139    A   A   A   A   A   A
+     311               -   -   A   -   -   -
+   10734 TO   10733    A   A   A   A   A   A
+     341               -   -   A   -   -   -
+    6084 TO     787    A   A   A   A   A   A
+     355               -   -   -   -   -   -
+   10730 TO   10729    A   A   A   A   A   A
+     323               -   -   A   -   -   -
+    6038 TO     407    A   A   A   A   A   A
+     220 TO     163    -   -   A   -   -   -
+     146 TO     100    A   A   A   A   A   A
+      99 TO       7    -   -   A   -   -   -
+   10746 TO     117    A   A   A   A   A   A
+     309 TO     282    -   -   A   -   -   -
+    6081 TO     762    A   A   A   A   A   A
+     132 TO      82    -   -   A   -   -   -
+    6082 TO     760    A   A   A   A   A   A
+      37 TO     298    -   -   A   -   -   -
+    6083 TO     758    A   A   A   A   A   A
+     353               -   -   -   -   -   -
+     321               -   -   A   -   -   -
+    6037 TO     431    A   A   A   A   A   A
+     216 TO     159    -   -   A   -   -   -
+     113 TO      70    A   A   A   A   A   A
+     307 TO     337    -   -   A   -   -   -
+   10726 TO     724    A   A   A   A   A   A
+     296 TO      35    -   -   A   -   -   -
+    6079 TO     752    A   A   A   A   A   A
+      80               -   -   A   -   -   -
+   10724 TO   10723    A   A   A   A   A   A
+     130               -   -   A   -   -   -
+    6080 TO     755    A   A   A   A   A   A
+     274               -   -   A   -   -   -
+     351               -   -   -   -   -   -
+     276 TO     319    -   -   A   -   -   -
+   10722 TO     404    A   A   A   A   A   A
+     210 TO      94    -   -   A   -   -   -
+      67 TO      48    A   A   A   A   A   A
+      45               -   -   A   -   -   -
+      36 TO      18    A   A   A   A   A   A
+       5 TO      90    -   -   A   -   -   -
+   10720 TO      42    A   A   A   A   A   A
+     302 TO     335    -   -   A   -   -   -
+    6075 TO     717    A   A   A   A   A   A
+     347               -   -   -   -   -   -
+     317               -   -   A   -   -   -
+   10714 TO     907    A   A   A   A   A   A
+     140 TO       3    -   -   A   -   -   -
+    5931 TO     524    A   A   A   A   A   A
+     206               -   -   A   -   -   -
+    6030 TO       2    A   A   A   A   A   A
+      88               -   -   A   -   -   -
+     906 TO     560    A   A   A   A   A   A
+     300 TO     333    -   -   A   -   -   -
+    6057 TO       1    A   A   A   A   A   A

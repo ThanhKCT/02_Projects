@@ -1,0 +1,15 @@
+[1] Creating Helper...
+[2] CreateObjectProgID...
+    done in 4.0s
+[3] ApplicationStart...
+    ApplicationStart ret=0, took 15.8s
+[4] Opening model file (this may take a while for large files)...
+    OpenFile ret=0, took 8.9s (0.1 min)
+[5] PointObj.Count()=4913, FrameObj.Count()=1734
+[6] RespCombo.GetNameList raw tuple len=3: (0, 37, ('COMB1', 'BAO (storm)', 'COMB2', 'COMB3.1', 'COMB3.2', 'COMB3.3', 'COMB3.4', 'COMB3.5', 'COMB3.6', 'COMB4.1', 'COMB4.2', 'COMB4.3', 'COMB4.4', 'COMB4.5', 'COMB4.6', 'COMB5.1', 'COMB5.2', 'COMB6.1', 'COMB6.2', 'COMB6.3', 'COMB6.4', 'COMB6.5', 'COMB6.6', 'COMB6.7', 'COMB6.8', 'COMB6.9', 'COMB6.10', 'COMB6.11', 'COMB6.12', 'COMB7.1', 'COMB7.2', 'COMB8.1', 'COMB8.2', 'COMB8.3', 'COMB8.4', 'COMB7.3', 'BAO KT'))
+[7] GetModelIsLocked() = False
+[8] GetCoordCartesian('3') = (0, 9e-16, 12.0, -20.2482142857143)
+[9] GetRestraint('3') = (0, (True, True, False, True, True, True))
+[10] GetSpring('3') = (0, (0.0, 0.0, 428578.0, 0.0, 0.0, 0.0))
+[DONE] Test script finished. SAP2000 left open for reuse.
+NOTE: this test itself counts as the single OAPI open of the session.
