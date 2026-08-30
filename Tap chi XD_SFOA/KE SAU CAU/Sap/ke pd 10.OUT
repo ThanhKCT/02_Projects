@@ -1,0 +1,113 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...AU CAU\code\SOO_KeSauCau\..\..\Sap\ke pd 10.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1459 TO     950    A   A   A   A   A   A
+     750 TO     748    -   -   -   -   -   -
+     745 TO     389    A   A   A   A   A   A
+     283               -   -   -   -   -   -
+     128 TO     122    A   A   A   A   A   A
+    1503 TO    1502    -   -   -   -   -   -
+    1457 TO     218    A   A   A   A   A   A
+    1537 TO    1534    -   -   -   -   -   -
+    1456 TO    ~316    A   A   A   A   A   A
+    1501 TO    1500    -   -   -   -   -   -
+    1455 TO     383    A   A   A   A   A   A
+     281 TO     275    -   -   -   -   -   -
+     120 TO     114    A   A   A   A   A   A
+    1499 TO    1498    -   -   -   -   -   -
+    1453 TO     380    A   A   A   A   A   A
+     273 TO     267    -   -   -   -   -   -
+     112 TO     106    A   A   A   A   A   A
+    1497 TO    1496    -   -   -   -   -   -
+    1451 TO    ~271    A   A   A   A   A   A
+    1533 TO    1530    -   -   -   -   -   -
+    1450 TO     270    A   A   A   A   A   A
+    1495 TO    1494    -   -   -   -   -   -
+    1449 TO     374    A   A   A   A   A   A
+     265 TO     259    -   -   -   -   -   -
+     104 TO      98    A   A   A   A   A   A
+    1493 TO    1492    -   -   -   -   -   -
+    1447 TO     371    A   A   A   A   A   A
+     257 TO     251    -   -   -   -   -   -
+      96 TO      90    A   A   A   A   A   A
+    1491 TO    1490    -   -   -   -   -   -
+    1445 TO    ~226    A   A   A   A   A   A
+    1529 TO    1526    -   -   -   -   -   -
+    1444 TO     262    A   A   A   A   A   A
+    1489 TO    1488    -   -   -   -   -   -
+    1443 TO     365    A   A   A   A   A   A
+     249 TO     243    -   -   -   -   -   -
+      88 TO      82    A   A   A   A   A   A
+    1487 TO    1486    -   -   -   -   -   -
+    1441 TO     362    A   A   A   A   A   A
+     241 TO     235    -   -   -   -   -   -
+      80 TO      74    A   A   A   A   A   A
+    1485 TO    1484    -   -   -   -   -   -
+    1439 TO    ~181    A   A   A   A   A   A
+    1525 TO    1522    -   -   -   -   -   -
+    1438 TO     254    A   A   A   A   A   A
+    1483 TO    1482    -   -   -   -   -   -
+    1437 TO     356    A   A   A   A   A   A
+     233 TO     227    -   -   -   -   -   -
+      72 TO      66    A   A   A   A   A   A
+    1481 TO    1480    -   -   -   -   -   -
+    1435 TO     353    A   A   A   A   A   A
+     225 TO     219    -   -   -   -   -   -
+      64 TO      58    A   A   A   A   A   A
+    1479 TO    1478    -   -   -   -   -   -
+    1433 TO    ~136    A   A   A   A   A   A
+    1521 TO    1518    -   -   -   -   -   -
+    1432 TO     246    A   A   A   A   A   A
+    1477 TO    1476    -   -   -   -   -   -
+    1431 TO     347    A   A   A   A   A   A
+     217 TO     211    -   -   -   -   -   -
+      56 TO      50    A   A   A   A   A   A
+    1475 TO    1474    -   -   -   -   -   -
+    1429 TO     344    A   A   A   A   A   A
+     209 TO     203    -   -   -   -   -   -
+      48 TO      42    A   A   A   A   A   A
+    1473 TO    1472    -   -   -   -   -   -
+    1427 TO     ~91    A   A   A   A   A   A
+    1517 TO    1514    -   -   -   -   -   -
+    1426 TO     238    A   A   A   A   A   A
+    1471 TO    1470    -   -   -   -   -   -
+    1425 TO     338    A   A   A   A   A   A
+     201 TO     195    -   -   -   -   -   -
+      40 TO      34    A   A   A   A   A   A
+    1469 TO    1468    -   -   -   -   -   -
+    1423 TO     335    A   A   A   A   A   A
+     193 TO     187    -   -   -   -   -   -
+      32 TO      26    A   A   A   A   A   A
+    1467 TO    1466    -   -   -   -   -   -
+    1421 TO     ~46    A   A   A   A   A   A
+    1513 TO    1510    -   -   -   -   -   -
+    1420 TO     230    A   A   A   A   A   A
+    1465 TO    1464    -   -   -   -   -   -
+    1419 TO     317    A   A   A   A   A   A
+     185 TO     179    -   -   -   -   -   -
+      24 TO      18    A   A   A   A   A   A
+    1463 TO    1462    -   -   -   -   -   -
+    1417 TO     311    A   A   A   A   A   A
+     177 TO     171    -   -   -   -   -   -
+      16 TO      10    A   A   A   A   A   A
+    1461 TO    1460    -   -   -   -   -   -
+    1415 TO     134    A   A   A   A   A   A
+    1509 TO    1505    -   -   -   -   -   -
+    1414 TO     868    A   A   A   A   A   A
+     755 TO     751    -   -   -   -   -   -
+     659 TO     320    A   A   A   A   A   A
+     161 TO     155    -   -   -   -   -   -
+       8 TO     285    A   A   A   A   A   A

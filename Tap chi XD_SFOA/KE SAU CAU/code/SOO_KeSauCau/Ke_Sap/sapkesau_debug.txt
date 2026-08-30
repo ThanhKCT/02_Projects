@@ -1,0 +1,6 @@
+TUONG TUONGC30: Mdemand=0.0508(zM=5.100) Qdemand=0.2312(zQ=0.000) h0=0.2400 nPts=3552
+TUONG TUONGM30: Mdemand=1.9373(zM=8.100) Qdemand=3.6450(zQ=8.100) h0=0.2400 nPts=768
+TUONG TUONGM43: Mdemand=3.5163(zM=8.100) Qdemand=4.8607(zQ=8.100) h0=0.3700 nPts=1536
+TUONG TUONGM78: Mdemand=8.2025(zM=5.100) Qdemand=21.0847(zQ=5.500) h0=0.7200 nPts=384
+DAY DAY130: Mdemand=23.7855 Qdemand=38.3732(raw=38.3732) h0=1.2400 nPts=768 nExcluded=0
+DAY DAY60: Mdemand=11.7981 Qdemand=13.6142(raw=21.3322) h0=0.5400 nPts=4992 nExcluded=2364

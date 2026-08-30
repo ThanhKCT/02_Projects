@@ -1,0 +1,5 @@
+[Wharf100DWT BRUTE-FORCE] 243 to hop can danh gia (CatIdx x D_thep x t_thep = 3 x 9 x 9), Num_work=8
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+HOAN THANH brute-force. 16/243 nghiem Pareto (trong 243 to hop kha thi, 0 bi phat cung). Thoi gian: 70.9 phut

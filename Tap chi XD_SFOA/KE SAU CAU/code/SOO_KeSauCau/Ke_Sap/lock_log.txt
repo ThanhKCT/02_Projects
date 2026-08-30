@@ -1,0 +1,9 @@
+OpenFile ret=0
+GetModelIsLocked BEFORE unlock attempt: true (class logical)
+SetModelIsLocked(false) ret=0 (class double)
+GetModelIsLocked AFTER unlock attempt: false
+SetShell_1 ret=1 (class double)
+DeleteResults ret=1
+SetModelIsLocked(false) AFTER DeleteResults, ret=0
+SetShell_1(0.15) AFTER DeleteResults+unlock, ret=1
+DONE OK

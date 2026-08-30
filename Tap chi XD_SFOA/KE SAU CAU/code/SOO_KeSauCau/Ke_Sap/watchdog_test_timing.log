@@ -1,0 +1,54 @@
+[21:41:54] === watchdog_test_timing start ===
+[21:42:00] Launching MATLAB (attempt 1)
+[21:42:21] poll: elapsed=20s freeGB=6.97
+[21:42:41] poll: elapsed=41s freeGB=5.17
+[21:43:01] poll: elapsed=61s freeGB=4.08
+[21:43:21] poll: elapsed=81s freeGB=3.95
+[21:43:42] poll: elapsed=101s freeGB=2.91
+[21:44:02] poll: elapsed=121s freeGB=7.38
+[21:44:22] poll: elapsed=142s freeGB=6.17
+[21:44:42] poll: elapsed=162s freeGB=7.2
+[21:45:02] poll: elapsed=182s freeGB=7.1
+[21:45:22] SUCCESS: test_timing_log.txt shows DONE OK.
+[21:47:42] === watchdog_test_timing start ===
+[21:47:48] Launching MATLAB (attempt 1)
+[21:48:08] poll: elapsed=20s freeGB=7.2
+[21:48:28] poll: elapsed=40s freeGB=5.42
+[21:48:48] poll: elapsed=60s freeGB=4.09
+[21:49:09] poll: elapsed=80s freeGB=3.08
+[21:49:29] poll: elapsed=100s freeGB=2.28
+[21:49:29] Free RAM too low (2.28 GB < 2.5 GB) -- killing and restarting.
+[21:49:32] Launching MATLAB (attempt 2)
+[21:49:52] poll: elapsed=20s freeGB=7.27
+[21:50:12] poll: elapsed=40s freeGB=5.42
+[21:50:32] poll: elapsed=60s freeGB=3.76
+[21:50:52] poll: elapsed=80s freeGB=2.5
+[21:51:12] poll: elapsed=100s freeGB=7.33
+[21:51:32] poll: elapsed=120s freeGB=6.15
+[21:51:52] poll: elapsed=140s freeGB=7.18
+[21:52:12] SUCCESS: test_timing_log.txt shows DONE OK.
+[21:53:28] === watchdog_test_timing start ===
+[21:53:34] Launching MATLAB (attempt 1)
+[21:53:54] poll: elapsed=20s freeGB=7.26
+[21:54:15] poll: elapsed=40s freeGB=4.92
+[21:54:35] poll: elapsed=60s freeGB=3.38
+[21:54:55] poll: elapsed=80s freeGB=2.24
+[21:54:55] Free RAM too low (2.24 GB < 2.5 GB) -- killing and restarting.
+[21:54:58] Launching MATLAB (attempt 2)
+[21:55:18] poll: elapsed=20s freeGB=7.19
+[21:55:38] poll: elapsed=40s freeGB=4.94
+[21:55:58] poll: elapsed=60s freeGB=3.64
+[21:56:18] poll: elapsed=80s freeGB=2.59
+[21:56:38] poll: elapsed=100s freeGB=2.85
+[21:56:58] poll: elapsed=120s freeGB=6.56
+[21:57:18] poll: elapsed=140s freeGB=7.09
+[21:57:38] SUCCESS: test_timing_log.txt shows DONE OK.
+[22:18:18] === watchdog_run start (test_timing) ===
+[22:18:24] Launching MATLAB (attempt 1)
+[22:18:44] poll: elapsed=20s freeGB=6.66
+[22:19:04] poll: elapsed=40s freeGB=4.55
+[22:19:24] poll: elapsed=60s freeGB=3.17
+[22:19:44] poll: elapsed=80s freeGB=2.25
+[22:20:05] poll: elapsed=100s freeGB=6.18
+[22:20:25] poll: elapsed=120s freeGB=7
+[22:20:45] SUCCESS: test_timing_log.txt shows 'DONE OK'.

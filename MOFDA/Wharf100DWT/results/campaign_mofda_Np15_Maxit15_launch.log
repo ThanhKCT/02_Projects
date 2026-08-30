@@ -1,0 +1,21 @@
+[Wharf100DWT MOFDA - SONG SONG] Np=15 maxiter=15 Nr=100 Num_work=8 (FE uoc tinh=1140)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/15 - Repository: 4 - FE luy ke: 90 - Thoi gian: 21.4 phut
+Vong lap 2/15 - Repository: 5 - FE luy ke: 165 - Thoi gian: 42.9 phut
+Vong lap 3/15 - Repository: 8 - FE luy ke: 240 - Thoi gian: 64.2 phut
+Vong lap 4/15 - Repository: 7 - FE luy ke: 315 - Thoi gian: 85.7 phut
+Vong lap 5/15 - Repository: 8 - FE luy ke: 390 - Thoi gian: 107.2 phut
+Vong lap 6/15 - Repository: 8 - FE luy ke: 465 - Thoi gian: 128.6 phut
+Vong lap 7/15 - Repository: 10 - FE luy ke: 540 - Thoi gian: 150.0 phut
+Vong lap 8/15 - Repository: 10 - FE luy ke: 615 - Thoi gian: 171.3 phut
+Vong lap 9/15 - Repository: 10 - FE luy ke: 690 - Thoi gian: 192.7 phut
+Vong lap 10/15 - Repository: 11 - FE luy ke: 765 - Thoi gian: 214.1 phut
+Vong lap 11/15 - Repository: 12 - FE luy ke: 840 - Thoi gian: 235.5 phut
+Vong lap 12/15 - Repository: 12 - FE luy ke: 915 - Thoi gian: 257.0 phut
+Vong lap 13/15 - Repository: 13 - FE luy ke: 990 - Thoi gian: 278.5 phut
+Vong lap 14/15 - Repository: 14 - FE luy ke: 1065 - Thoi gian: 299.8 phut
+Vong lap 15/15 - Repository: 14 - FE luy ke: 1140 - Thoi gian: 321.3 phut
+HOAN THANH campaign chinh. Tong thoi gian: 5.35 gio. So nghiem Pareto: 14

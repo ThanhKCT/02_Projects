@@ -1,0 +1,21 @@
+=== D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\..\results_SAP\KeSauCau_SOO_WallVolume_SAP_run01_CONVPILOT.mat ===
+Npop=15 Max_it=40 FEcount=615 ElapsedSeconds=8951.9 (14.56s/FE)
+BestPenalized=237.947840 BestRaw(Vconcrete)=237.947840
+BestX=[0.2 0.22 0.25 0.87 0.7 0.58]
+Curve (best-so-far penalized fitness per iter)=[270.069 259.971 255.524 255.524 255.524 255.524 255.524 254.906 253.56 252.294 250.997 248.556 248.525 248.525 248.525 243.969 243.969 243.969 243.753 241.252 241.252 241.252 241.252 241.252 241.252 238.318 238.318 238.318 238.318 238.318 238.318 238.318 238.195 238.195 238.195 238.071 238.071 238.071 238.071 237.948]
+RawCurve (best-so-far raw Vconcrete per iter)=[270.069 259.971 255.524 255.524 255.524 255.524 255.524 254.906 253.56 252.294 250.997 248.556 248.525 248.525 248.525 243.969 243.969 243.969 243.753 241.252 241.252 241.252 241.252 241.252 241.252 238.318 238.318 238.318 238.318 238.318 238.318 238.318 238.195 238.195 238.195 238.071 238.071 238.071 238.071 237.948]
+
+=== D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\..\results_SAP\KeSauCau_SOO_WallVolume_SAP_run01_PILOT.mat ===
+Npop=10 Max_it=5 FEcount=60 ElapsedSeconds=830.0 (13.83s/FE)
+BestPenalized=242.116640 BestRaw(Vconcrete)=242.116640
+BestX=[0.2 0.29 0.28 0.4 0.78 0.59]
+Curve (best-so-far penalized fitness per iter)=[258.545 258.545 249.494 249.494 242.117]
+RawCurve (best-so-far raw Vconcrete per iter)=[258.545 258.545 249.494 249.494 242.117]
+
+=== D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\..\results_SAP\KeSauCau_SOO_WallVolume_SAP_run01_SMOKE.mat ===
+Npop=4 Max_it=1 FEcount=8 ElapsedSeconds=223.7 (27.97s/FE)
+BestPenalized=270.371840 BestRaw(Vconcrete)=270.371840
+BestX=[0.2 0.24 0.25 0.9 1.2 0.63]
+Curve (best-so-far penalized fitness per iter)=270.372
+RawCurve (best-so-far raw Vconcrete per iter)=270.372
+

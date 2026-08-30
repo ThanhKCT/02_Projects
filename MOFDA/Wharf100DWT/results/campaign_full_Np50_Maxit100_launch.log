@@ -1,0 +1,38 @@
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=100 Nr=100 Num_work=8 (FE uoc tinh=25050)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+The he #0 - Kich thuoc Repository: 5
+Vong lap 1/100 - Repository: 7 - FE luy ke: 300 - Thoi gian: 72.3 phut
+Worker 1: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 2: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 3: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 4: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 5: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 6: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 7: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib
+Worker 8: 
+  wharf100dwt_evaluate: loi SAP API - Message: Failed to read from an IPC Port: The pipe has been ended.
+  
+  Source: mscorlib

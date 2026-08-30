@@ -1,0 +1,13 @@
+[21:09:10] === verify_grouped_model start 28-Aug-2026 21:09:09 ===
+[21:10:52] OpenFile(grouped) ret=0
+[21:11:02] RunAnalysis ret=0
+[21:11:03] JointReact ret=0 nRes=2556
+[21:11:03]   sumF3(DEAD) = 717.292  (n=284 joints)
+[21:11:03]   sumF3(Gdat) = 0.000  (n=284 joints)
+[21:11:03]   sumF3(Pdat) = -0.000  (n=284 joints)
+[21:11:03]   sumF3(ALD) = -0.000  (n=284 joints)
+[21:11:03]   sumF3(HH) = 308.800  (n=284 joints)
+[21:11:03]   sumF3(TH1) = 717.292  (n=284 joints)
+[21:11:03]   sumF3(TH2) = 1026.092  (n=284 joints)
+[21:11:03]   sumF3(BAO) = 1743.384  (n=568 joints)
+[21:11:03] === verify_grouped_model DONE OK ===

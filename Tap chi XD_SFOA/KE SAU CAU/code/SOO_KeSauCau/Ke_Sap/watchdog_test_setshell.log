@@ -1,0 +1,9 @@
+[05:56:50] === watchdog_run start (test_setshell) ===
+[05:56:56] Launching MATLAB (attempt 1)
+[05:57:16] poll: elapsed=20s freeGB=6.54
+[05:57:36] poll: elapsed=40s freeGB=4.47
+[05:57:56] poll: elapsed=60s freeGB=2.84
+[05:58:16] poll: elapsed=80s freeGB=1.92
+[05:58:36] poll: elapsed=100s freeGB=5.88
+[05:58:57] poll: elapsed=120s freeGB=6.67
+[05:59:17] SUCCESS: setshell_log.txt shows 'DONE OK'.

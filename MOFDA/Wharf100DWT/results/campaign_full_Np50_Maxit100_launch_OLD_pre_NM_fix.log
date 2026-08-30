@@ -1,0 +1,15 @@
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=100 Nr=100 Num_work=8 (FE uoc tinh=25050)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+The he #0 - Kich thuoc Repository: 13
+Vong lap 1/100 - Repository: 15 - FE luy ke: 300 - Thoi gian: 73.1 phut
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=100 Nr=100 Num_work=8 (FE uoc tinh=25050)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+Tim thay checkpoint D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_MOFDA_FULL_Np50_Maxit100_CKPT.mat -- dang nap lai de tiep tuc...
+Tiep tuc tu vong lap 2/100.
+Vong lap 2/100 - Repository: 21 - FE luy ke: 550 - Thoi gian: 72.7 phut
+Vong lap 3/100 - Repository: 21 - FE luy ke: 800 - Thoi gian: 145.5 phut
+Vong lap 4/100 - Repository: 23 - FE luy ke: 1050 - Thoi gian: 219.4 phut

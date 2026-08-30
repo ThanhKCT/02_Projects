@@ -1,0 +1,34 @@
+[22:09:04] === watchdog_run start (precompute_wall_setup) ===
+[22:09:10] Launching MATLAB (attempt 1)
+[22:09:31] poll: elapsed=20s freeGB=7.15
+[22:09:51] poll: elapsed=40s freeGB=5.55
+[22:10:11] poll: elapsed=60s freeGB=4.3
+[22:10:31] poll: elapsed=80s freeGB=3.39
+[22:10:51] poll: elapsed=100s freeGB=2.4
+[22:10:51] Free RAM too low (2.4 GB < 2.5 GB) -- killing and restarting.
+[22:10:54] Launching MATLAB (attempt 2)
+[22:11:14] poll: elapsed=20s freeGB=7.11
+[22:11:34] poll: elapsed=40s freeGB=5.44
+[22:11:54] poll: elapsed=60s freeGB=4.16
+[22:12:14] poll: elapsed=80s freeGB=3.11
+[22:12:34] poll: elapsed=100s freeGB=2.18
+[22:12:34] Free RAM too low (2.18 GB < 2.5 GB) -- killing and restarting.
+[22:12:37] Launching MATLAB (attempt 3)
+[22:12:57] poll: elapsed=20s freeGB=7.11
+[22:13:18] poll: elapsed=40s freeGB=6.05
+[22:13:38] poll: elapsed=60s freeGB=4.69
+[22:13:58] poll: elapsed=80s freeGB=3.56
+[22:14:18] poll: elapsed=100s freeGB=2.73
+[22:14:38] poll: elapsed=120s freeGB=2.23
+[22:14:38] Free RAM too low (2.23 GB < 2.5 GB) -- killing and restarting.
+[22:14:41] Launching MATLAB (attempt 4)
+[22:15:01] poll: elapsed=20s freeGB=6.83
+[22:15:21] poll: elapsed=40s freeGB=4.97
+[22:15:40] === watchdog_run start (precompute_wall_setup) ===
+[22:15:46] Launching MATLAB (attempt 1)
+[22:16:06] poll: elapsed=20s freeGB=6.61
+[22:16:26] poll: elapsed=40s freeGB=4.26
+[22:16:46] poll: elapsed=60s freeGB=2.68
+[22:17:06] poll: elapsed=80s freeGB=7.18
+[22:17:26] poll: elapsed=100s freeGB=5.39
+[22:17:46] SUCCESS: precompute_log.txt shows 'DONE OK'.

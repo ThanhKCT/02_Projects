@@ -1,0 +1,10 @@
+OpenFile ret=0
+--- eval 1, X=[0.3 0.3 0.43 0.78 1.3 0.6] ---
+  Sap_KeSauCau: Vconcrete=284.1376 PileMaxRatio=0.399773 LateralDisp=3.548983 CrackViol=0.402424
+  RAW right here: sum(|PF3|)=2514.145716 max(|PF3|)=40.864063 nPF3=568 max(|U1|)=0.003549 nU1=98
+  RAW TUONGM78: max|M11|=1.943839 max|M22|=8.202511 max|V13|=7.522721 max|V23|=19.697025 nRows=384
+--- eval 2, X=[0.2 0.2 0.25 0.9 0.7 0.3] ---
+  Sap_KeSauCau: Vconcrete=156.4864 PileMaxRatio=0.375903 LateralDisp=4.791581 CrackViol=0.350746
+  RAW right here: sum(|PF3|)=2207.521987 max(|PF3|)=38.424078 nPF3=568 max(|U1|)=0.004792 nU1=98
+  RAW TUONGM78: max|M11|=8.551829 max|M22|=11.412401 max|V13|=14.934706 max|V23|=31.457736 nRows=384
+DONE OK

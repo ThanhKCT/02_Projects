@@ -1,0 +1,36 @@
+[05:46:47] === watchdog_run start (test_two_evals) ===
+[05:46:53] Launching MATLAB (attempt 1)
+[05:47:13] poll: elapsed=20s freeGB=6.3
+[05:47:33] poll: elapsed=40s freeGB=4.48
+[05:47:53] poll: elapsed=60s freeGB=2.97
+[05:48:13] poll: elapsed=80s freeGB=1.93
+[05:48:33] poll: elapsed=100s freeGB=6.01
+[05:48:53] poll: elapsed=120s freeGB=6.74
+[05:49:13] SUCCESS: two_evals_log.txt shows 'DONE OK'.
+[05:50:30] === watchdog_run start (test_two_evals) ===
+[05:50:36] Launching MATLAB (attempt 1)
+[05:50:56] poll: elapsed=20s freeGB=6.42
+[05:51:16] poll: elapsed=40s freeGB=4.17
+[05:51:36] poll: elapsed=60s freeGB=2.72
+[05:51:56] poll: elapsed=80s freeGB=1.92
+[05:52:16] poll: elapsed=100s freeGB=5.4
+[05:52:36] poll: elapsed=120s freeGB=6.73
+[05:52:56] SUCCESS: two_evals_log.txt shows 'DONE OK'.
+[05:53:43] === watchdog_run start (test_two_evals) ===
+[05:53:49] Launching MATLAB (attempt 1)
+[05:54:09] poll: elapsed=20s freeGB=6.5
+[05:54:29] poll: elapsed=40s freeGB=4.4
+[05:54:49] poll: elapsed=60s freeGB=2.86
+[05:55:09] poll: elapsed=80s freeGB=1.87
+[05:55:29] poll: elapsed=100s freeGB=5.77
+[05:55:50] poll: elapsed=120s freeGB=6.69
+[05:56:10] SUCCESS: two_evals_log.txt shows 'DONE OK'.
+[06:03:14] === watchdog_run start (test_two_evals) ===
+[06:03:20] Launching MATLAB (attempt 1)
+[06:03:40] poll: elapsed=20s freeGB=6.46
+[06:04:00] poll: elapsed=40s freeGB=4.05
+[06:04:20] poll: elapsed=60s freeGB=2.46
+[06:04:40] poll: elapsed=80s freeGB=6.97
+[06:05:01] poll: elapsed=100s freeGB=5.1
+[06:05:21] poll: elapsed=120s freeGB=6.64
+[06:05:41] SUCCESS: two_evals_log.txt shows 'DONE OK'.

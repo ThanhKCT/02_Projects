@@ -1,0 +1,14 @@
+[09:41:23] === watchdog_run start (run_smoke) ===
+[09:41:29] Launching MATLAB (attempt 1)
+[09:41:50] poll: elapsed=20s freeGB=4.42
+[09:42:10] poll: elapsed=40s freeGB=2.71
+[09:42:30] poll: elapsed=60s freeGB=1.64
+[09:42:50] poll: elapsed=80s freeGB=0.54
+[09:43:10] poll: elapsed=100s freeGB=0.53
+[09:43:30] poll: elapsed=120s freeGB=5.46
+[09:43:50] poll: elapsed=141s freeGB=5.12
+[09:44:10] poll: elapsed=161s freeGB=4.82
+[09:44:30] poll: elapsed=181s freeGB=4.66
+[09:44:50] poll: elapsed=201s freeGB=4.55
+[09:45:10] poll: elapsed=221s freeGB=4.46
+[09:45:30] SUCCESS: run_smoke_log.txt shows 'DONE OK'.

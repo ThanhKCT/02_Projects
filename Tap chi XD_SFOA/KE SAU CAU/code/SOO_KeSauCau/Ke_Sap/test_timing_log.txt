@@ -1,0 +1,18 @@
+[12:37:13] === test_timing start 29-Aug-2026 12:37:13 ===
+[12:37:31] OpenFile ret=0
+[12:37:49] t_FE=17.43s
+[12:37:49] fit=284.137600
+[12:37:49]   Vconcrete_m3 = 284.137600
+[12:37:49]   PileBearingViolation_T = 0.000000
+[12:37:49]   PileMaxRatio = 0.399773
+[12:37:49]   LateralDisp_mm = 3.548983
+[12:37:49]   DisplacementLimit_mm = 15.000000
+[12:37:49]   LateralViolation_mm = 0.000000
+[12:37:49]   ShearViolation_Tm = 0.000000
+[12:37:49]   CrackViolation_mm = 0.000000
+[12:37:49]   PunchingViolation_T = 0.000000
+[12:37:49]   TotalStructuralViolation = 0.000000
+[12:37:49]   Penalty = 0.000000
+[12:37:49]   SAPAnalysisExecuted = 1.000000
+[12:37:49]   AllConstraintsSatisfied = 1.000000
+[12:37:49] === test_timing DONE OK ===

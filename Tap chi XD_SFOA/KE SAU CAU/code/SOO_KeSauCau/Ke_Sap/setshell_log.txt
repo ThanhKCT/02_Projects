@@ -1,0 +1,11 @@
+OpenFile ret=0
+GetShell BEFORE change: ret=0 propOut(class)=double
+GetShell(5out) ret=0 matProp= matAng=66 thk1=84 thk2=77
+GetShell(5out) ret=51 matProp=50 matAng=0 thk1=0.78 thk2=SetShell_1 to 0.20 ret=1
+GetShell AFTER set-to-0.20: ret=0 matProp= thk1=0 thk2=0.78
+GetCaseStatus BEFORE FAILED: Too many input arguments.
+DeleteResults ret=1
+RunAnalysis ret=0
+GetCaseStatus AFTER FAILED: Too many input arguments.
+AFTER set-to-0.20 + reanalysis: max|M22|=8.202511 max|V23|=19.697025
+DONE OK

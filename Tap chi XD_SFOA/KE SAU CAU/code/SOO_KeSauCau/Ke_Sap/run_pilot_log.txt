@@ -1,0 +1,2 @@
+[09:46:42] run_pilot start
+[10:00:33] run_pilot DONE OK

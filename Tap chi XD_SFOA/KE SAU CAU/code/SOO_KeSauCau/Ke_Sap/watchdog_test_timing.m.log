@@ -1,0 +1,75 @@
+[12:13:35] === watchdog_run start (test_timing.m) ===
+[12:13:41] Launching MATLAB (attempt 1) [-r]
+[12:13:56] poll: elapsed=15s freeGB=39.58
+[12:14:11] poll: elapsed=30s freeGB=39.47
+[12:14:26] poll: elapsed=45s freeGB=38.14
+[12:14:41] poll: elapsed=61s freeGB=38.21
+[12:14:56] poll: elapsed=76s freeGB=38.2
+[12:15:12] poll: elapsed=91s freeGB=38.2
+[12:15:27] poll: elapsed=106s freeGB=38.2
+[12:15:42] poll: elapsed=121s freeGB=38.14
+[12:15:57] poll: elapsed=136s freeGB=38.15
+[12:16:12] poll: elapsed=151s freeGB=38.17
+[12:16:27] poll: elapsed=166s freeGB=38.15
+[12:16:42] poll: elapsed=181s freeGB=38.12
+[12:16:57] poll: elapsed=196s freeGB=38.11
+[12:17:12] poll: elapsed=211s freeGB=38.14
+[12:17:27] poll: elapsed=226s freeGB=38.11
+[12:17:42] poll: elapsed=241s freeGB=38.1
+[12:17:57] poll: elapsed=256s freeGB=38.14
+[12:18:12] poll: elapsed=271s freeGB=38.13
+[12:18:27] poll: elapsed=287s freeGB=38.15
+[12:18:42] poll: elapsed=302s freeGB=38.13
+[12:18:42] Attempt exceeded 300 s wall-clock -- killing and restarting.
+[12:18:45] Launching MATLAB (attempt 2) [-r]
+[12:19:01] poll: elapsed=15s freeGB=38.03
+[12:19:16] poll: elapsed=30s freeGB=38.11
+[12:19:31] poll: elapsed=45s freeGB=38.13
+[12:19:46] poll: elapsed=60s freeGB=38.11
+[12:20:01] poll: elapsed=75s freeGB=38.13
+[12:20:16] poll: elapsed=90s freeGB=38.13
+[12:20:31] poll: elapsed=105s freeGB=38.12
+[12:20:46] poll: elapsed=120s freeGB=38.12
+[12:21:01] poll: elapsed=136s freeGB=38.12
+[12:21:16] poll: elapsed=151s freeGB=38.12
+[12:21:31] poll: elapsed=166s freeGB=38.1
+[12:21:46] poll: elapsed=181s freeGB=38.12
+[12:22:01] poll: elapsed=196s freeGB=38.13
+[12:22:16] poll: elapsed=211s freeGB=38.17
+[12:22:31] poll: elapsed=226s freeGB=38.02
+[12:22:47] poll: elapsed=241s freeGB=38.02
+[12:23:02] poll: elapsed=256s freeGB=38.05
+[12:23:17] poll: elapsed=271s freeGB=38.05
+[12:23:32] poll: elapsed=286s freeGB=38.07
+[12:23:47] poll: elapsed=301s freeGB=38.08
+[12:23:47] Attempt exceeded 300 s wall-clock -- killing and restarting.
+[12:23:50] Launching MATLAB (attempt 3) [-r]
+[12:24:05] poll: elapsed=15s freeGB=37.99
+[12:24:20] poll: elapsed=30s freeGB=38.04
+[12:24:35] poll: elapsed=45s freeGB=38.04
+[12:24:50] poll: elapsed=60s freeGB=38.03
+[12:25:05] poll: elapsed=75s freeGB=38.05
+[12:25:20] poll: elapsed=90s freeGB=38.07
+[12:25:35] poll: elapsed=105s freeGB=38.07
+[12:25:50] poll: elapsed=120s freeGB=38.05
+[12:26:05] poll: elapsed=136s freeGB=38.08
+[12:26:20] poll: elapsed=151s freeGB=38.06
+[12:26:36] poll: elapsed=166s freeGB=38.06
+[12:26:51] poll: elapsed=181s freeGB=38.07
+[12:27:06] poll: elapsed=196s freeGB=38.07
+[12:27:21] poll: elapsed=211s freeGB=38.07
+[12:27:36] poll: elapsed=226s freeGB=38.06
+[12:27:51] poll: elapsed=241s freeGB=38.07
+[12:28:06] poll: elapsed=256s freeGB=38.04
+[12:28:21] poll: elapsed=271s freeGB=38.03
+[12:28:36] poll: elapsed=286s freeGB=38.03
+[12:28:51] poll: elapsed=301s freeGB=38.03
+[12:28:51] Attempt exceeded 300 s wall-clock -- killing and restarting.
+[12:28:51] MaxRestarts (3) exceeded -- giving up.
+[12:37:01] === watchdog_run start (test_timing.m) ===
+[12:37:07] Launching MATLAB (attempt 1) [-r]
+[12:37:17] poll: elapsed=10s freeGB=38.14
+[12:37:27] poll: elapsed=20s freeGB=37.65
+[12:37:37] poll: elapsed=30s freeGB=37.43
+[12:37:47] poll: elapsed=40s freeGB=37.42
+[12:37:57] SUCCESS: test_timing_log.txt shows 'DONE OK'.
