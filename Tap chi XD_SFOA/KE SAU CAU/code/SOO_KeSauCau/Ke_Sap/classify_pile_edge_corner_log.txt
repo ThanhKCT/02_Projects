@@ -1,0 +1,13 @@
+=== classify_pile_edge_corner start 03-Sep-2026 17:35:12 ===
+[17:35:12] Opening SAP2000 (inline open_Sap2000 logic)...
+[17:37:08] OpenFile ret=0
+[17:37:08] AreaObj total=1248
+[17:37:11] DAY-zone area objects found: 720
+[17:37:11] Total distinct DAY-zone edges=1503, boundary (count==1) edges=126, internal (count==2) edges=1377
+[17:37:17] CSV written: D:\ResearchLab\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\verify_punching_EN1992_per_pile_beta_classified.csv
+[17:37:17] Classification: INTERIOR=86 EDGE=52 CORNER=4 (total=142)
+[17:37:17] EN1992 (per-pile beta) FAIL: 0/142. Max ratio=0.4254 at pile 205 (EDGE, beta=1.40).
+[17:37:17]   INTERIOR: n=86, max ratio=0.0974
+[17:37:17]   EDGE: n=52, max ratio=0.4254
+[17:37:17]   CORNER: n=4, max ratio=0.1129
+[17:37:17] === classify_pile_edge_corner DONE OK ===

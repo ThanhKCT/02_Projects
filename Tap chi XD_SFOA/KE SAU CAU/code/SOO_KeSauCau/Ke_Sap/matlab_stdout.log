@@ -1,0 +1,15 @@
+Opening SAP2000 (inline open_Sap2000 logic)...
+OpenFile ret=0
+Setting BestX thicknesses: [0.2 0.22 0.25 0.4 0.71 0.58]
+Running analysis...
+RunAnalysis ret=0
+Vconcrete recomputed = 232.482080 m3 (paper value: 232.482080 m3)
+DAY zone DAY130: h0=0.6500m Mdemand=22.7380 Tm As_req=0.001320 m2/m mu(rho_l)=0.002031
+DAY zone DAY60: h0=0.5200m Mdemand=14.5326 Tm As_req=0.001055 m2/m mu(rho_l)=0.002028
+Matched 284/142 piles to JointReact results (expect 142/142)
+Per-pile CSV written: D:\ResearchLab\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\verify_punching_EN1992_per_pile.csv
+=== SUMMARY ===
+TCVN 5574:2018: 0/142 piles FAIL (ratio>1). Max ratio=0.2353 at pile 209 (DAY60).
+EN 1992-1-1 6.4.4: 0/142 piles FAIL (ratio>1). Max ratio=0.3479 at pile 209 (DAY60).
+=== verify_punching_EN1992 DONE OK ===
+ERROR: The process "SAP2000.exe" not found. 

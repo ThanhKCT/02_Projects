@@ -1,12 +1,12 @@
 
 
  SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)
- File: D:\ResearchLab\02_Proje...AU CAU\code\SOO_KeSauCau\..\..\Sap\ke pd 10.LOG
+ File: D:\ResearchLab\02_Proje...e\SOO_KeSauCau\Ke_Sap\..\..\..\Sap\ke pd 10.LOG
 
 
 
 
- B E G I N   A N A L Y S I S                                2026/08/30  12:08:33
+ B E G I N   A N A L Y S I S                                2026/09/03  17:27:08
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -24,24 +24,24 @@
  UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = tonf, m, °C, sec
  GRAVITATIONAL ACCELERATION                =    9.806650
 
- ADDRESSABLE PHYSICAL MEMORY (RAM)         =      47.905 GB
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.733 GB
 
  PARALLELIZATION OF ANALYSIS OPERATIONS:
   (Env. variable SAPFIRE_NUM_THREADS not set)
- NUMBER OF THREADS: STATE (AUTOMATIC)      =          14
- NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          14
- NUMBER OF THREADS: EVENT (AUTOMATIC)      =          14
- NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
- NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          14
- NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          14
- NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           4
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           4
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           4
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           4
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      12:08:33
+ E L E M E N T   F O R M A T I O N                                      17:27:08
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        12:08:33
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        17:27:08
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -58,7 +58,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  12:08:33
+ L I N E A R   S T A T I C   C A S E S                                  17:27:08
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -74,4 +74,4 @@
  CASE: HH
 
 
- A N A L Y S I S   C O M P L E T E                          2026/08/30  12:08:33
+ A N A L Y S I S   C O M P L E T E                          2026/09/03  17:27:08

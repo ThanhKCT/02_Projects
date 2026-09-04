@@ -1,0 +1,13 @@
+Opening SAP2000 (inline open_Sap2000 logic)...
+OpenFile ret=0
+AreaObj total=1248
+DAY-zone area objects found: 720
+Total distinct DAY-zone edges=1503, boundary (count==1) edges=126, internal (count==2) edges=1377
+CSV written: D:\ResearchLab\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\verify_punching_EN1992_per_pile_beta_classified.csv
+Classification: INTERIOR=86 EDGE=52 CORNER=4 (total=142)
+EN1992 (per-pile beta) FAIL: 0/142. Max ratio=0.4254 at pile 205 (EDGE, beta=1.40).
+  INTERIOR: n=86, max ratio=0.0974
+  EDGE: n=52, max ratio=0.4254
+  CORNER: n=4, max ratio=0.1129
+=== classify_pile_edge_corner DONE OK ===
+ERROR: The process "SAP2000.exe" not found. 
