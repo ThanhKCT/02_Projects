@@ -203,10 +203,12 @@ try
         % rho_l: recompute the same way verify_punching_EN1992.m did,
         % keyed off dayZone (mu is per-zone, not per-pile, so this is
         % exact, not an approximation of an approximation). mu values
-        % copied verbatim from that script's own log: DAY130=0.002031,
-        % DAY60=0.002028.
+        % copied verbatim from that script's own log (2026-09-05 lb-v2
+        % re-run, BestX=[0.15 0.23 0.25 0.27 0.69 0.59]): DAY130=0.002153,
+        % DAY60=0.002097 (was DAY130=0.002031/DAY60=0.002028 for the
+        % archived lb-v1 solution).
         dz = char(row.DayZone(1));
-        if strcmp(dz,'DAY130'); rho_l = 0.002031; else; rho_l = 0.002028; end
+        if strcmp(dz,'DAY130'); rho_l = 0.002153; else; rho_l = 0.002097; end
         d_mm = h0*1000;
         k_EN = min(1 + sqrt(200/d_mm), 2.0);
         vRdc = max(CRd_c*k_EN*(100*rho_l*fck_MPa)^(1/3), 0.035*k_EN^1.5*sqrt(fck_MPa));

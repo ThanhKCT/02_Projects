@@ -1,0 +1,7 @@
+[21:18:34] starting fresh independent SAP2000 instance...
+[21:18:50] instance ready, about to OpenFile on baseline (may block on the incompatible-results dialog -- watcher script should answer it)...
+[21:18:53] OpenFile returned ret=0
+[21:18:53] SetModelIsLocked(false) ret=0
+[21:18:53] DeleteResults ret=1
+[21:18:54] Save ret=0
+[21:18:54] DONE OK

@@ -1,0 +1,15 @@
+=== verify_punching_EN1992 start 03-Sep-2026 17:24:39 ===
+[17:24:40] Opening SAP2000 (inline open_Sap2000 logic)...
+[17:27:00] OpenFile ret=0
+[17:27:01] Setting BestX thicknesses: [0.2 0.22 0.25 0.4 0.71 0.58]
+[17:27:01] Running analysis...
+[17:27:14] RunAnalysis ret=0
+[17:27:14] Vconcrete recomputed = 232.482080 m3 (paper value: 232.482080 m3)
+[17:27:14] DAY zone DAY130: h0=0.6500m Mdemand=22.7380 Tm As_req=0.001320 m2/m mu(rho_l)=0.002031
+[17:27:17] DAY zone DAY60: h0=0.5200m Mdemand=14.5326 Tm As_req=0.001055 m2/m mu(rho_l)=0.002028
+[17:27:17] Matched 284 rows to 142/142 piles (rows/pile: min=2 max=2) -- governing (max |PF3|) row kept per pile
+[17:27:17] Per-pile CSV written: D:\ResearchLab\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\verify_punching_EN1992_per_pile.csv
+[17:27:17] === SUMMARY ===
+[17:27:17] TCVN 5574:2018: 0/142 piles FAIL (ratio>1). Max ratio=0.2363 at pile 205 (DAY60).
+[17:27:17] EN 1992-1-1 6.4.4: 0/142 piles FAIL (ratio>1). Max ratio=0.3495 at pile 205 (DAY60).
+[17:27:17] === verify_punching_EN1992 DONE OK ===

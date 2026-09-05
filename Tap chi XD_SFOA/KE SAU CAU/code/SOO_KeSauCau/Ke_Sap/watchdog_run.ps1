@@ -67,6 +67,33 @@ while ($true) {
     if ($SdbBaselinePath -and $SdbTargetPath) {
         Copy-Item -Path $SdbBaselinePath -Destination $SdbTargetPath -Force
         Log "Restored .sdb from pristine baseline before this attempt."
+        # 2026-09-04: ALSO delete stale analysis-RESULT byproduct files that
+        # share $SdbTargetPath's base name. Root cause found this date: the
+        # earlier assumption ("baseline .sdb itself carries an incompatible-
+        # results flag") was WRONG -- opening PRISTINE_BASELINE.sdb directly
+        # in an independent SAP2000 instance returned ret=0 immediately, no
+        # dialog. The REAL cause is that SAP2000 regenerates a set of
+        # analysis-result byproduct files (.K_0/.K_I/.K_J/.K_M/.LOG/.OUT/.Y/
+        # .Y$$/.Y00-.Y03/.Y_/.Y_1/.msh) matching whatever model state was
+        # last RunAnalysis'd under this SAME base name (ke pd 10.*) -- if a
+        # crash/restart happens, those files linger from the PRE-crash model
+        # state while this Copy-Item just overwrote .sdb back to the
+        # baseline's (different) state. SAP2000's own OpenFile then finds
+        # results present but not flagged compatible with the just-restored
+        # model and raises a native modal "recover these results?" dialog --
+        # this BLOCKS unattended automation indefinitely (watchdog has no
+        # way to answer it; confirmed to hang past MaxAttemptSeconds). This
+        # is NOT limited to the first restore -- it can recur on EVERY
+        # future restart unless these byproducts are cleared each time.
+        # Deleting them here forces a from-scratch analysis with nothing to
+        # flag. Does NOT touch .s2k/.$2k/.sbk/.ico (not result byproducts).
+        $targetBase = Join-Path (Split-Path $SdbTargetPath -Parent) ([System.IO.Path]::GetFileNameWithoutExtension($SdbTargetPath))
+        $resultExts = @('K_0','K_I','K_J','K_M','LOG','OUT','Y','Y$$','Y00','Y01','Y02','Y03','Y_','Y_1','msh')
+        foreach ($ext in $resultExts) {
+            $p = "$targetBase.$ext"
+            if (Test-Path $p) { Remove-Item -Path $p -Force -ErrorAction SilentlyContinue }
+        }
+        Log "Cleared stale analysis-result byproduct files for '$targetBase.*' (prevents the incompatible-results dialog on this OpenFile)."
     }
     # Duong dan may nay (khac may cu "Truong CTT 51" da khong con ton tai):
     # thu vien ham SFOA (Functions/) nam o project chi em "CAU TAU HAI LINH".

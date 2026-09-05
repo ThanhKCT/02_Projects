@@ -1,4 +1,4 @@
-File D:\ResearchLab\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\..\..\..\Sap\ke pd 10.$2k was saved on m/d/yy at h:mm:ss
+File D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\KE SAU CAU\code\SOO_KeSauCau\Ke_Sap\..\..\..\Sap\ke pd 10.$2k was saved on m/d/yy at h:mm:ss
  
 TABLE:  "ACTIVE DEGREES OF FREEDOM"
    UX=Yes   UY=Yes   UZ=Yes   RX=Yes   RY=Yes   RZ=Yes
@@ -2651,19 +2651,18 @@ TABLE:  "AREA SECTION ASSIGNMENTS"
    Area=1526   Section=DAY60   MatProp=Default
  
 TABLE:  "AREA SECTION PROPERTIES"
-   Section=DAY130   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.71   BendThick=0.71   Color=Blue   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+   Section=DAY130   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.69   BendThick=0.69   Color=Gray8Dark   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1
-   Section=DAY60   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.58   BendThick=0.58   Color=Green   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
-        MMod=1   WMod=1
+   Section=DAY60   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.59   BendThick=0.59   Color=Blue   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1   MMod=1   WMod=1
    Section=GIOCHANXE   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=Yes   Thickness=0.3   BendThick=0.3   Color=16744576   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1   GUID=82bdc6fe-ce34-46fa-b6dc-eb9069c7f05a   Notes="Added 3/20/2016 10:39:44 PM"
-   Section=TUONGC30   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.2   BendThick=0.2   Color=Magenta   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+   Section=TUONGC30   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.15   BendThick=0.15   Color=Red   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1
-   Section=TUONGM30   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.22   BendThick=0.22   Color=Yellow   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+   Section=TUONGM30   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.23   BendThick=0.23   Color=Magenta   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1
-   Section=TUONGM43   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.25   BendThick=0.25   Color=White   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+   Section=TUONGM43   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.25   BendThick=0.25   Color=Yellow   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1
-   Section=TUONGM78   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.4   BendThick=0.4   Color=Gray8Dark   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+   Section=TUONGM78   Material=BTM350   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.27   BendThick=0.27   Color=White   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
         MMod=1   WMod=1
  
 TABLE:  "AREA SECTION PROPERTY DESIGN PARAMETERS"

@@ -142,3 +142,66 @@
 [30-Aug-2026 11:42:53] run01 it=48/50 best(penalized)=232.482080 raw=232.482080 FEs=2450 elapsed=16436.13s
 [30-Aug-2026 11:55:51] run01 it=49/50 best(penalized)=232.482080 raw=232.482080 FEs=2500 elapsed=17213.96s
 [30-Aug-2026 12:08:46] run01 it=50/50 best(penalized)=232.482080 raw=232.482080 FEs=2550 elapsed=17988.62s
+
+=== Session (re)start 04-Sep-2026 20:46:04 (mode=paper, Nrun=1) ===
+[04-Sep-2026 21:15:22] run01 init Npop=50 done best(penalized)=248.668160 raw=248.668160 elapsed=1757.46s
+[04-Sep-2026 21:27:53] run01 it=1/50 best(penalized)=248.668160 raw=248.668160 FEs=100 elapsed=2509.09s
+
+=== Session (re)start 04-Sep-2026 21:32:01 (mode=paper, Nrun=1) ===
+
+=== Session (re)start 04-Sep-2026 21:33:08 (mode=paper, Nrun=1) ===
+
+=== Session (re)start 04-Sep-2026 21:34:06 (mode=paper, Nrun=1) ===
+[04-Sep-2026 21:46:19] run01 it=2/50 best(penalized)=238.870080 raw=238.870080 FEs=150 elapsed=732.79s
+[04-Sep-2026 21:57:48] run01 it=3/50 best(penalized)=238.870080 raw=238.870080 FEs=200 elapsed=1421.86s
+[04-Sep-2026 22:09:14] run01 it=4/50 best(penalized)=238.870080 raw=238.870080 FEs=250 elapsed=2108.13s
+[04-Sep-2026 22:20:45] run01 it=5/50 best(penalized)=238.870080 raw=238.870080 FEs=300 elapsed=2798.50s
+[04-Sep-2026 22:32:18] run01 it=6/50 best(penalized)=238.870080 raw=238.870080 FEs=350 elapsed=3491.89s
+[04-Sep-2026 22:43:45] run01 it=7/50 best(penalized)=238.870080 raw=238.870080 FEs=400 elapsed=4178.77s
+[04-Sep-2026 22:55:16] run01 it=8/50 best(penalized)=238.870080 raw=238.870080 FEs=450 elapsed=4869.75s
+[04-Sep-2026 23:06:32] run01 it=9/50 best(penalized)=238.870080 raw=238.870080 FEs=500 elapsed=5545.91s
+[04-Sep-2026 23:17:56] run01 it=10/50 best(penalized)=238.870080 raw=238.870080 FEs=550 elapsed=6229.38s
+[04-Sep-2026 23:29:15] run01 it=11/50 best(penalized)=238.870080 raw=238.870080 FEs=600 elapsed=6909.01s
+[04-Sep-2026 23:40:44] run01 it=12/50 best(penalized)=238.870080 raw=238.870080 FEs=650 elapsed=7597.50s
+[04-Sep-2026 23:52:13] run01 it=13/50 best(penalized)=238.870080 raw=238.870080 FEs=700 elapsed=8286.41s
+[05-Sep-2026 00:03:34] run01 it=14/50 best(penalized)=238.870080 raw=238.870080 FEs=750 elapsed=8967.63s
+[05-Sep-2026 00:14:56] run01 it=15/50 best(penalized)=238.870080 raw=238.870080 FEs=800 elapsed=9649.51s
+[05-Sep-2026 00:26:27] run01 it=16/50 best(penalized)=238.870080 raw=238.870080 FEs=850 elapsed=10340.20s
+[05-Sep-2026 00:37:53] run01 it=17/50 best(penalized)=237.765920 raw=237.765920 FEs=900 elapsed=11026.76s
+[05-Sep-2026 00:49:12] run01 it=18/50 best(penalized)=237.765920 raw=237.765920 FEs=950 elapsed=11705.45s
+[05-Sep-2026 01:00:34] run01 it=19/50 best(penalized)=237.765920 raw=237.765920 FEs=1000 elapsed=12388.01s
+[05-Sep-2026 01:11:57] run01 it=20/50 best(penalized)=237.765920 raw=237.765920 FEs=1050 elapsed=13070.50s
+[05-Sep-2026 01:23:20] run01 it=21/50 best(penalized)=237.765920 raw=237.765920 FEs=1100 elapsed=13754.02s
+[05-Sep-2026 01:34:50] run01 it=22/50 best(penalized)=237.765920 raw=237.765920 FEs=1150 elapsed=14443.54s
+[05-Sep-2026 01:46:18] run01 it=23/50 best(penalized)=237.765920 raw=237.765920 FEs=1200 elapsed=15131.42s
+[05-Sep-2026 01:57:44] run01 it=24/50 best(penalized)=231.806080 raw=231.806080 FEs=1250 elapsed=15817.95s
+[05-Sep-2026 02:09:07] run01 it=25/50 best(penalized)=231.806080 raw=231.806080 FEs=1300 elapsed=16500.23s
+[05-Sep-2026 02:20:33] run01 it=26/50 best(penalized)=231.806080 raw=231.806080 FEs=1350 elapsed=17186.74s
+[05-Sep-2026 02:31:56] run01 it=27/50 best(penalized)=231.806080 raw=231.806080 FEs=1400 elapsed=17869.26s
+[05-Sep-2026 02:43:19] run01 it=28/50 best(penalized)=231.806080 raw=231.806080 FEs=1450 elapsed=18553.00s
+[05-Sep-2026 02:54:39] run01 it=29/50 best(penalized)=231.806080 raw=231.806080 FEs=1500 elapsed=19232.99s
+[05-Sep-2026 03:06:05] run01 it=30/50 best(penalized)=231.806080 raw=231.806080 FEs=1550 elapsed=19919.10s
+[05-Sep-2026 03:17:33] run01 it=31/50 best(penalized)=231.806080 raw=231.806080 FEs=1600 elapsed=20606.91s
+[05-Sep-2026 03:28:57] run01 it=32/50 best(penalized)=231.806080 raw=231.806080 FEs=1650 elapsed=21291.13s
+
+=== Session (re)start 05-Sep-2026 03:34:39 (mode=paper, Nrun=1) ===
+[05-Sep-2026 03:46:21] run01 it=33/50 best(penalized)=231.806080 raw=231.806080 FEs=1700 elapsed=702.59s
+[05-Sep-2026 03:57:45] run01 it=34/50 best(penalized)=231.806080 raw=231.806080 FEs=1750 elapsed=1386.31s
+[05-Sep-2026 04:09:22] run01 it=35/50 best(penalized)=231.157600 raw=231.157600 FEs=1800 elapsed=2083.57s
+[05-Sep-2026 04:20:42] run01 it=36/50 best(penalized)=231.157600 raw=231.157600 FEs=1850 elapsed=2763.07s
+[05-Sep-2026 04:32:06] run01 it=37/50 best(penalized)=231.157600 raw=231.157600 FEs=1900 elapsed=3447.04s
+[05-Sep-2026 04:43:34] run01 it=38/50 best(penalized)=231.157600 raw=231.157600 FEs=1950 elapsed=4135.27s
+[05-Sep-2026 04:54:55] run01 it=39/50 best(penalized)=231.157600 raw=231.157600 FEs=2000 elapsed=4816.62s
+[05-Sep-2026 05:06:16] run01 it=40/50 best(penalized)=231.157600 raw=231.157600 FEs=2050 elapsed=5497.23s
+[05-Sep-2026 05:17:30] run01 it=41/50 best(penalized)=231.157600 raw=231.157600 FEs=2100 elapsed=6170.91s
+[05-Sep-2026 05:28:52] run01 it=42/50 best(penalized)=231.157600 raw=231.157600 FEs=2150 elapsed=6853.83s
+[05-Sep-2026 05:40:08] run01 it=43/50 best(penalized)=231.157600 raw=231.157600 FEs=2200 elapsed=7529.54s
+[05-Sep-2026 05:51:27] run01 it=44/50 best(penalized)=231.157600 raw=231.157600 FEs=2250 elapsed=8208.47s
+[05-Sep-2026 06:02:48] run01 it=45/50 best(penalized)=231.157600 raw=231.157600 FEs=2300 elapsed=8888.88s
+[05-Sep-2026 06:14:06] run01 it=46/50 best(penalized)=231.157600 raw=231.157600 FEs=2350 elapsed=9567.19s
+[05-Sep-2026 06:25:21] run01 it=47/50 best(penalized)=231.157600 raw=231.157600 FEs=2400 elapsed=10242.78s
+[05-Sep-2026 06:36:53] run01 it=48/50 best(penalized)=231.157600 raw=231.157600 FEs=2450 elapsed=10934.48s
+[05-Sep-2026 06:48:15] run01 it=49/50 best(penalized)=231.157600 raw=231.157600 FEs=2500 elapsed=11616.26s
+
+=== Session (re)start 05-Sep-2026 10:56:44 (mode=paper, Nrun=1) ===
+[05-Sep-2026 11:08:14] run01 it=50/50 best(penalized)=231.157600 raw=231.157600 FEs=2550 elapsed=689.41s

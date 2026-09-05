@@ -3,8 +3,11 @@
 % following Gop_y_chinh_sua_bai_bao_Ke_sau_cau_SFOA_Lan_2.md Section IV/VII):
 % re-open the SAME grouped baseline model (Sap\ke pd 10.sdb) used for the
 % PAPER campaign, set the OPTIMAL solution's thicknesses (BestX from
-% results_SAP\..._PAPER.mat = [0.20 0.22 0.25 0.40 0.71 0.58]), run ONE
-% fresh analysis, and post-check punching shear for all 142 piles by TWO
+% results_SAP\..._PAPER.mat = [0.15 0.23 0.25 0.27 0.69 0.59] -- 2026-09-05
+% re-run after widening lb, see SOO_KeSauCau_run_SAP.m; the earlier
+% [0.20 0.22 0.25 0.40 0.71 0.58]/232.482080 m3 solution is the archived
+% lb-v1 result, see Ke_Sap/archive_lb_v1/), run ONE fresh analysis, and
+% post-check punching shear for all 142 piles by TWO
 % methods:
 %   (A) TCVN 5574:2018 base-case formula (the SAME formula already coded
 %       in Sap_KeSauCau.m constraint 5) -- reproduced here independently as
@@ -82,7 +85,7 @@ try
     % results_SAP\KeSauCau_SOO_WallVolume_SAP_run01_PAPER.mat, BestX) ---
     WALL_SECTIONS = {'TUONGC30','TUONGM30','TUONGM43','TUONGM78'};
     DAY_SECTIONS  = {'DAY130','DAY60'};
-    thk = [0.20 0.22 0.25 0.40 0.71 0.58]; % BestX, verbatim from the PAPER .mat (see dump_final_paper_result_log.txt)
+    thk = [0.15 0.23 0.25 0.27 0.69 0.59]; % BestX, verbatim from the PAPER .mat (see dump_final_paper_result_log.txt, 2026-09-05 lb-v2 re-run)
     logmsg(outLog, sprintf('Setting BestX thicknesses: %s', mat2str(thk)));
     for zi = 1:4
         r = SM.PropArea.SetShell_1(WALL_SECTIONS{zi}, 1, false, 'BTM350', 0, thk(zi), thk(zi));
@@ -108,7 +111,7 @@ try
     Vconcrete = 0;
     for zi = 1:4; Vconcrete = Vconcrete + S.zoneArea_m2.(WALL_SECTIONS{zi}) * thk(zi); end
     for zi = 1:2; Vconcrete = Vconcrete + S.zoneArea_m2.(DAY_SECTIONS{zi}) * thk(4+zi); end
-    logmsg(outLog, sprintf('Vconcrete recomputed = %.6f m3 (paper value: 232.482080 m3)', Vconcrete));
+    logmsg(outLog, sprintf('Vconcrete recomputed = %.6f m3 (paper value: 231.157600 m3)', Vconcrete));
 
     %% --- Constants (SAME sourcing as Sap_KeSauCau.m -- copy, not re-derive) ---
     gamma_c   = 1.0;

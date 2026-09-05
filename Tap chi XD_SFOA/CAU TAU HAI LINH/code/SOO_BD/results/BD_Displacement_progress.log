@@ -1,4 +1,0 @@
-
-=== Session start 15-Aug-2026 22:33:40 (mode=smoke, Nrun=1) ===
-[15-Aug-2026 22:35:12] run01 it=1/1 best(penalized)=0.0068 raw=0.0068 FEs=16 elapsed=27.1s
-[15-Aug-2026 22:35:12] run01 DONE best(penalized)=0.0068 raw=0.0068 elapsed=27.1s -> saved D:\ResearchLab\02_Projects\02_Projects\Tap chi XD_SFOA\code\SOO_BD\results\BD_SOO_Displacement_run01_SMOKE.mat

@@ -35,12 +35,25 @@ end
 
 fun = @Sap_KeSauCau;
 % Bounds (m). As-built (2026-08-28 as-modeled thicknesses): 0.30/0.30/0.43/
-% 0.78/1.30/0.60. lb set meaningfully below as-built (objective MINIMIZES
-% volume, so SFOA will push toward lb where constraints allow); ub kept
-% close to/above as-built as a safety margin -- FIRST-PASS bounds, revisit
-% after the pilot run shows where the optimizer actually settles.
+% 0.78/1.30/0.60. ub kept close to/above as-built as a safety margin.
+%
+% lb WIDENED 2026-09-04 (no longer first-pass): the official 'paper'
+% campaign run 2026-08-30 against the ORIGINAL first-pass lb (0.20/0.20/
+% 0.25/0.40/0.70/0.30, see git history) converged to BestX=[0.20 0.22 0.25
+% 0.40 0.71 0.58] -- 3 of 6 variables (TUONGC30, TUONGM43, TUONGM78) sitting
+% EXACTLY on that lb, and a 4th (TUONGM30=0.22) only 1 discretization step
+% (0.01m) above its lb=0.20. That is the signature of a search-box
+% limitation, not a converged interior optimum against the real TCVN
+% constraints -- the optimizer wanted to go lower but the box stopped it.
+% Widened to give every variable real room below where v1 settled:
+% TUONGC30/TUONGM30/TUONGM43 lb 0.20->0.15 (v1 settled at/near 0.20-0.22),
+% TUONGM78 lb 0.40->0.20 (v1 settled exactly at 0.40, largest headroom
+% given), DAY130 lb 0.70->0.45 (v1 settled at 0.71, just above old lb).
+% DAY60 lb left at 0.30 unchanged -- v1's DAY60=0.58 already sat comfortably
+% above its old lb (28cm of margin), no evidence of a box limit there.
+% ub/st unchanged from v1 -- only lb revisited per user instruction.
 %              TUONGC30 TUONGM30 TUONGM43 TUONGM78 DAY130 DAY60
-lb = [          0.20     0.20     0.25     0.40     0.70   0.30];
+lb = [          0.15     0.15     0.15     0.20     0.45   0.30];
 ub = [          0.40     0.40     0.50     0.90     1.40   0.70];
 st = [          0.01     0.01     0.01     0.01     0.01   0.01];
 D = NaN.*ones(500,length(lb));
