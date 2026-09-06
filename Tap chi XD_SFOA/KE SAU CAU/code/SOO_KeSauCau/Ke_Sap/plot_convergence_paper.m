@@ -9,7 +9,7 @@ plot(1:numel(R.Curve), R.Curve, '-o', 'LineWidth', 1.5, 'MarkerSize', 3, ...
     'Color', [0 0.4470 0.7410], 'MarkerFaceColor', [0 0.4470 0.7410]);
 grid on; box on;
 xlabel('Vòng lặp', 'FontSize', 12);
-ylabel('Khối lượng bê tông tốt nhất tích lũy V (m^3)', 'FontSize', 12);
+ylabel('Thể tích bê tông tốt nhất (m^3)', 'FontSize', 12);
 xlim([1 numel(R.Curve)]);
 set(gca, 'FontSize', 11);
 
