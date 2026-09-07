@@ -1,13 +1,15 @@
 const fs = require('fs');
+const path = require('path');
 const {
-  Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType,
+  Document, Packer, Paragraph, TextRun, ImageRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, ShadingType,
-  SectionType, Header, Footer, PageNumber, VerticalAlign, TabStopType, TabStopPosition
+  SectionType, VerticalAlign, TabStopType, TabStopPosition
 } = require('docx');
 
-// ===== Mau sac / font theo dung style JMST that (trich tu styles.xml) =====
+// ===== Mau sac / font theo dung style JMST (trich tu JMST-Quy dinh trinh bay.docx) =====
 const MAROON = '990033';
 const FONT = 'Times New Roman';
+const FIGDIR = path.join(__dirname, 'figs');
 
 // ----- Helper builders khop dung tung style JMST -----
 function pTitleVN(text) {
@@ -76,19 +78,13 @@ function pBody(text, opts = {}) {
     children: Array.isArray(text) ? text : [new TextRun({ text, size: 20, font: FONT, ...opts })],
   });
 }
-function pBodyNoIndent(children) {
-  return new Paragraph({
-    alignment: AlignmentType.JUSTIFIED,
-    spacing: { before: 40, after: 40 },
-    children,
-  });
-}
 function pEquation(text, num) {
   return new Paragraph({
     spacing: { before: 80, after: 80 },
+    indent: { left: 284 },
     tabStops: [{ type: TabStopType.RIGHT, position: TabStopPosition.MAX }],
     children: [
-      new TextRun({ text: '    ' + text, size: 20, font: FONT, italics: true }),
+      new TextRun({ text, size: 20, font: FONT, italics: true }),
       new TextRun({ text: '\t(' + num + ')', size: 20, font: FONT }),
     ],
   });
@@ -107,37 +103,18 @@ function pSource(text) {
     children: [new TextRun({ text, italics: true, size: 18, font: FONT })],
   });
 }
-function pFigPlaceholder(text) {
-  // Dung bang 1 o co vien thay vi border cua Paragraph -- docx-js sap xep lai
-  // thu tu phan tu border cua Paragraph theo mot thu tu co dinh (top,bottom,
-  // left,right) khac chuan OOXML (can top,left,bottom,right), gay loi validate
-  // XSD. Border cua Table/TableCell thi serialize dung thu tu, nen dung bang.
-  // Rong 4200 DXA (~2.9") de vua 1 cot bao 2 cot (khong phai bang rong toan
-  // trang -- nhung bang rong dung section rieng 1-cot, xem duoi).
-  return new Table({
-    width: { size: 4200, type: WidthType.DXA },
-    columnWidths: [4200],
-    borders: {
-      top: { style: BorderStyle.SINGLE, size: 6, color: 'FF0000' },
-      left: { style: BorderStyle.SINGLE, size: 6, color: 'FF0000' },
-      bottom: { style: BorderStyle.SINGLE, size: 6, color: 'FF0000' },
-      right: { style: BorderStyle.SINGLE, size: 6, color: 'FF0000' },
-    },
-    rows: [new TableRow({ children: [new TableCell({
-      width: { size: 4200, type: WidthType.DXA },
-      margins: { top: 100, left: 100, bottom: 100, right: 100 },
-      children: [new Paragraph({
-        alignment: AlignmentType.CENTER,
-        children: [new TextRun({ text, bold: true, color: 'FF0000', size: 20, font: FONT })],
-      })],
-    })] })],
-  });
-}
 function pFigTitle(text) {
   return new Paragraph({
     alignment: AlignmentType.CENTER,
     spacing: { before: 40, after: 160 },
     children: [new TextRun({ text, bold: true, italics: true, size: 18, font: FONT })],
+  });
+}
+function pFigSubLabel(text) {
+  return new Paragraph({
+    alignment: AlignmentType.CENTER,
+    spacing: { before: 20, after: 20 },
+    children: [new TextRun({ text, italics: true, size: 16, font: FONT })],
   });
 }
 function pRefTitle(text) {
@@ -152,6 +129,22 @@ function pRef(text) {
     spacing: { before: 20, after: 20 },
     indent: { left: 284, hanging: 284 },
     children: [new TextRun({ text, size: 20, font: FONT })],
+  });
+}
+
+// ----- Anh (Hinh) -----
+function pImage(fileName, widthPx, heightPx) {
+  const data = fs.readFileSync(path.join(FIGDIR, fileName));
+  return new Paragraph({
+    alignment: AlignmentType.CENTER,
+    spacing: { before: 80, after: 20 },
+    children: [
+      new ImageRun({
+        type: 'png',
+        data,
+        transformation: { width: widthPx, height: heightPx },
+      }),
+    ],
   });
 }
 
@@ -185,11 +178,11 @@ function buildTable(headers, rows, colWidths) {
 }
 
 // =========================================================================
-// NOI DUNG BAI BAO
+// NOI DUNG BAI BAO (dong bo voi BAI_BAO_MOFDA_CAU_TAU_100000DWT.md)
 // =========================================================================
 const section1Children = [
-  pTitleVN('TỐI ƯU HÓA ĐA MỤC TIÊU TIẾT DIỆN CỌC CẦU TÀU CONTAINER 100.000 DWT BẰNG THUẬT TOÁN MOFDA'),
-  pTitleEN('MULTI-OBJECTIVE OPTIMIZATION OF PILE CROSS-SECTIONS FOR A 100,000-DWT CONTAINER WHARF USING THE MOFDA ALGORITHM'),
+  pTitleVN('TỐI ƯU ĐA MỤC TIÊU TIẾT DIỆN HỆ CỌC CẦU TÀU CONTAINER 100.000 DWT SỬ DỤNG THUẬT TOÁN MOFDA'),
+  pTitleEN('MULTI-OBJECTIVE OPTIMIZATION OF PILE-SYSTEM CROSS-SECTIONS FOR A 100,000-DWT CONTAINER WHARF USING THE MOFDA ALGORITHM'),
   pAuthorName([
     new TextRun({ text: '[Họ và tên tác giả]', bold: true, size: 24, font: FONT }),
     new TextRun({ text: '1*', bold: true, size: 24, font: FONT, superScript: true }),
@@ -199,40 +192,43 @@ const section1Children = [
   pAuthorAddEmail('DOI: https://doi.org/10.65154/jmst.%ID', { italics: false }),
 
   pAbstractLabel('Tóm tắt'),
-  pAbstractBody('Cầu tàu container trên nền cọc có khối lượng vật liệu cọc lớn, trong khi thiết kế hiện hành thường chọn tiết diện theo kinh nghiệm, chưa khai thác bài toán tối ưu có ràng buộc. Bài báo ứng dụng thuật toán MOFDA (Multi-Objective Flow Direction Algorithm), đã công bố và kiểm chứng, để tối ưu tiết diện hệ cọc (bê tông ly tâm dự ứng lực và ống thép) của một cầu tàu container 100.000 DWT thực tế. Biến thiết kế gồm chỉ số catalogue cọc bê tông ly tâm (3 lựa chọn theo TCVN 7888:2014) và kích thước cọc thép rời rạc hóa, tạo không gian 243 tổ hợp. Hai mục tiêu là khối lượng vật liệu cọc và chuyển vị ngang lớn nhất, đánh giá qua mô hình SAP2000 kết nối MATLAB qua OAPI, chạy song song 8 tiến trình. Do không gian nhỏ, toàn bộ 243 tổ hợp được liệt kê để xác định mặt Pareto thật (16 nghiệm) đối chiếu. MOFDA tìm được 14 nghiệm không bị trội, trong đó 8/16 trùng khớp chính xác mặt Pareto thật, xác nhận thuật toán hội tụ đúng hướng dù chưa bao phủ hết không gian tối ưu. Khối lượng vật liệu dao động 3.030,6–4.298,3 tấn ứng chuyển vị 11,9–13,9 mm, thấp hơn nhiều giới hạn 71,7 mm theo TCVN 11820-5:2021. Nghiên cứu cung cấp cơ sở định lượng cho lựa chọn tiết diện cọc bến cảng, minh chứng khả năng áp dụng MOFDA với mô hình FEM thật.'),
+  pAbstractBody('Cầu tàu container trên nền cọc có khối lượng vật liệu cho phần cọc lớn, trong khi tiết diện cọc trong thiết kế hiện hành thường được chọn sơ bộ rồi kiểm tra, chưa khai thác đầy đủ bài toán tối ưu có ràng buộc. Nghiên cứu xây dựng bài toán tối ưu đa mục tiêu cho tiết diện hệ cọc bê tông ly tâm dự ứng lực và cọc ống thép của một cầu tàu container 100.000 DWT thực tế. Biến thiết kế gồm 3 lựa chọn cọc bê tông theo TCVN 7888:2014 và các kích thước cọc thép rời rạc, tạo thành 243 tổ hợp. Hai mục tiêu là khối lượng vật liệu cọc và chuyển vị ngang lớn nhất, được đánh giá bằng mô hình phần tử hữu hạn SAP2000 kết nối MATLAB qua OAPI. Thuật toán hướng dòng chảy đa mục tiêu (Multi-Objective Flow Direction Algorithm – MOFDA), đã được công bố và kiểm chứng trước đó, được áp dụng để giải bài toán. Toàn bộ 243 tổ hợp được liệt kê để xây dựng mặt Pareto tham chiếu trong phạm vi các ràng buộc, gồm 16 nghiệm. MOFDA tìm được 14 nghiệm không bị trội, trong đó nhận diện chính xác 8/16 nghiệm Pareto tham chiếu. Các nghiệm Pareto cho thấy sự đánh đổi giữa khối lượng vật liệu (3.030,6–4.298,3 tấn) và chuyển vị ngang (11,9–13,9 mm), đều thấp hơn đáng kể giới hạn 71,7 mm theo TCVN 11820-5:2021. Kết quả cung cấp cơ sở định lượng hỗ trợ lựa chọn tiết diện cọc ở giai đoạn thiết kế sơ bộ.'),
   pKeywords('Từ khóa', 'tối ưu đa mục tiêu, thuật toán MOFDA, tiết diện cọc, cầu tàu trên nền cọc, kết nối SAP2000-MATLAB'),
 
   pAbstractLabel('Abstract'),
-  pAbstractBody('Container wharves on pile foundations require large quantities of pile material, yet current practice typically sizes pile cross-sections by experience followed by verification, rather than through systematic constrained optimization. This paper applies the Multi-Objective Flow Direction Algorithm (MOFDA), a previously published and validated algorithm, to optimize the pile cross-sections (prestressed spun concrete piles and steel pipe piles) of a real 100,000-DWT container wharf in Vietnam. The design variables comprise a catalogue index for the concrete pile (three choices per TCVN 7888:2014) and steel pile dimensions discretized on a fixed grid, yielding a search space of 243 combinations. The two objectives are pile material mass and the maximum lateral displacement under the governing load envelope, evaluated through a SAP2000 finite-element model coupled to MATLAB via OAPI, executed in parallel across eight instances. Because the discrete search space is small, all 243 combinations were exhaustively enumerated to establish the true Pareto front (16 solutions), used as ground truth. MOFDA found 14 non-dominated solutions, of which 8 of 16 exactly matched the true Pareto front, confirming correct convergence despite a budget insufficient to recover the full optimal set. Pile material mass ranged from 3,030.6 to 4,298.3 tonnes against lateral displacements of 11.9-13.9 mm, well below the 71.7 mm allowable limit per TCVN 11820-5:2021. The study provides a quantitative basis for pile cross-section selection and demonstrates the practical applicability of MOFDA coupled directly with a genuine finite-element model.'),
+  pAbstractBody('Container wharves on pile foundations require a large quantity of pile material, while current design practice typically selects the pile cross-section preliminarily and then verifies it, without fully exploiting constrained optimization. This study formulates a multi-objective optimization problem for the cross-sections of the pile system — prestressed spun concrete piles and steel pipe piles — of a real 100,000-DWT container wharf. The design variables comprise three concrete pile options per TCVN 7888:2014 and discretized steel pile dimensions, forming 243 combinations. The two objectives are pile material mass and maximum lateral displacement, evaluated using a SAP2000 finite-element model coupled with MATLAB via OAPI. The Multi-Objective Flow Direction Algorithm (MOFDA), previously published and validated, is applied to solve the problem. All 243 combinations are enumerated to construct a reference Pareto front within the imposed constraints, comprising 16 solutions. MOFDA found 14 non-dominated solutions, of which 8 out of 16 reference Pareto solutions were exactly identified. The Pareto solutions show a trade-off between material mass (3,030.6–4,298.3 tonnes) and lateral displacement (11.9–13.9 mm), all significantly below the 71.7 mm limit per TCVN 11820-5:2021. The results provide a quantitative basis to support pile cross-section selection at the preliminary design stage.'),
   pKeywords('Keywords', 'multi-objective optimization, MOFDA algorithm, pile cross-section, piled wharf, SAP2000-MATLAB coupling'),
 ];
 
-// ---- Doan 2 cot A: 1. Mo dau .. het 3.1 phan gioi thieu bien (truoc Bang 1) ----
+// ---- Doan 2 cot A: 1. Mo dau .. het 2.3 Mo hinh SAP2000 ----
 const bodyA = [
   pSectionTitle('1. Mở đầu'),
   pBody('Cầu tàu container trên nền cọc là dạng kết cấu phổ biến trong các bến cảng biển trọng tải lớn tại Việt Nam. Hệ cọc — thường kết hợp cọc bê tông cốt thép dự ứng lực (BTCT DƯL) ly tâm và cọc ống thép — là cấu kiện chịu lực chính, đồng thời chiếm tỷ trọng lớn trong khối lượng vật liệu và chi phí xây dựng. Quy trình thiết kế phổ biến hiện nay là chọn trước tiết diện cọc theo kinh nghiệm hoặc catalogue thương mại, sau đó kiểm tra lại bằng mô hình phần tử hữu hạn (FEM) — một quy trình thuận (forward design) chưa được hệ thống hóa thành bài toán tối ưu có ràng buộc.'),
-  pBody('Các thuật toán tối ưu dựa trên metaheuristic (GA, PSO, GWO, WOA, các biến thể thuật toán dòng chảy...) đã được ứng dụng rộng rãi cho tối ưu kết cấu khung thép, giàn, dầm. Thuật toán Flow Direction đa mục tiêu (MOFDA) là một thuật toán đã được công bố, với cơ chế lựa chọn thủ lĩnh lai (hybrid leader selection) thay cho phương pháp bánh xe roulette truyền thống, đã được kiểm chứng trên 31 hàm chuẩn, 11 bài toán kỹ thuật có ràng buộc và một công trình khung thép thực tế [1]. Bài báo này kế thừa MOFDA đã được kiểm chứng, mở rộng ứng dụng sang một đối tượng kết cấu mới: hệ cọc công trình bến cảng, gồm hai loại vật liệu, chịu tải trọng phức hợp, kết hợp trực tiếp với mô hình FEM thật thay vì hàm mục tiêu giải tích hay mô hình thay thế.'),
-  pBody('Việc ứng dụng thuật toán tối ưu đa mục tiêu kết hợp trực tiếp với mô hình FEM thật cho bài toán tiết diện hệ cọc công trình bến cảng, theo đúng hệ tiêu chuẩn thiết kế công trình cảng biển Việt Nam hiện hành, chưa được công bố trong tài liệu tiếng Việt. Mục tiêu của bài báo là: (i) hình thành bài toán tối ưu đa mục tiêu cho tiết diện cọc của một cầu tàu 100.000 DWT thực tế, với biến thiết kế theo catalogue thương mại thật và ràng buộc theo tiêu chuẩn Việt Nam hiện hành; (ii) xây dựng khung kết nối MOFDA (MATLAB) với SAP2000 qua OAPI, chạy song song nhiều tiến trình; (iii) đối chiếu kết quả MOFDA với mặt Pareto thật, qua đó xác nhận độ tin cậy của thuật toán trong bài toán cụ thể này.'),
-  pBody('Cần nhấn mạnh phạm vi bài báo: (1) MOFDA được sử dụng như công cụ đã kiểm chứng, không phải đối tượng phát triển mới, do đó bài báo không so sánh MOFDA với các thuật toán tối ưu đa mục tiêu khác; (2) hồ sơ thiết kế kỹ thuật của công trình chỉ được sử dụng để dựng mô hình FEM đầu vào, không nhằm mục đích đánh giá hay phê bình hồ sơ thiết kế gốc.'),
+  pBody('Các thuật toán tối ưu dựa trên metaheuristic (GA, PSO, GWO, WOA, các biến thể thuật toán dòng chảy...) đã được ứng dụng rộng rãi cho tối ưu kết cấu khung thép, giàn, dầm. Thuật toán Flow Direction đa mục tiêu (MOFDA) là một thuật toán đã được công bố, với cơ chế lựa chọn thủ lĩnh lai (hybrid leader selection) thay cho phương pháp bánh xe roulette truyền thống, đã được kiểm chứng trên 31 hàm chuẩn, 11 bài toán kỹ thuật có ràng buộc và một công trình khung thép thực tế [1]. Bài báo này kế thừa MOFDA đã được kiểm chứng và áp dụng cho một đối tượng kết cấu khác là hệ cọc công trình bến cảng, gồm hai loại vật liệu, chịu tải trọng phức hợp, kết hợp trực tiếp với mô hình FEM thật thay vì hàm mục tiêu giải tích hay mô hình thay thế.'),
+  pBody('Theo phạm vi tài liệu được khảo sát, việc kết hợp tối ưu đa mục tiêu với mô hình phần tử hữu hạn trực tiếp cho bài toán tiết diện hệ cọc cầu tàu thực tế, theo các tiêu chuẩn thiết kế công trình cảng biển Việt Nam được áp dụng trong phạm vi nghiên cứu, còn ít được đề cập. Mục tiêu của bài báo là: (i) hình thành bài toán tối ưu đa mục tiêu cho tiết diện cọc của một cầu tàu 100.000 DWT thực tế, với biến thiết kế theo catalogue thương mại và các ràng buộc kết cấu, chuyển vị được xây dựng theo các tiêu chuẩn Việt Nam áp dụng trong phạm vi dữ liệu nghiên cứu; (ii) xây dựng quy trình kết nối MOFDA (MATLAB) với SAP2000 qua OAPI, chạy song song nhiều tiến trình để tự động đánh giá phương án bằng mô hình FEM; (iii) đối chiếu kết quả MOFDA với mặt Pareto tham chiếu (thu được bằng cách liệt kê toàn bộ không gian thiết kế rời rạc, do không gian này đủ nhỏ), qua đó đánh giá khả năng ứng dụng của thuật toán trong bài toán kết cấu thực tế cụ thể này.'),
 
   pSectionTitle('2. Đối tượng nghiên cứu và mô hình phần tử hữu hạn'),
   pSubTitle('2.1. Mô tả công trình'),
   pBody('Đối tượng nghiên cứu là cầu tàu container 100.000 DWT thuộc dự án cảng cửa ngõ quốc tế Hải Phòng (Lạch Huyện), kết cấu bến liền bờ dạng bệ cọc cao đài mềm. Mô hình phân tích đại diện cho một phân đoạn tiêu chuẩn dài khoảng 75 m, rộng mặt cầu 50 m, cao trình đỉnh bến +5,50 m và đáy bến sau nạo vét −16,0 m (Hải đồ). Tàu thiết kế 100.000 DWT có chiều dài 330 m, chiều rộng 45,5 m, mớn nước đầy tải 14,8 m.'),
-  pFigPlaceholder('[CHÈN HÌNH 1 TẠI ĐÂY: Phối cảnh/hình chiếu tổng thể mô hình SAP2000 3D của cầu tàu 100.000 DWT]'),
-  pFigTitle('Hình 1. Mô hình SAP2000 3D của cầu tàu container 100.000 DWT'),
+  pImage('fig_hinh1a_sap2d.png', 280, 166),
+  pFigSubLabel('(a) Mặt đứng (2D)'),
+  pImage('fig_hinh1b_sap3d.png', 280, 225),
+  pFigSubLabel('(b) Phối cảnh không gian (3D)'),
+  pFigTitle('Hình 1. Mô hình SAP2000 của cầu tàu container 100.000 DWT'),
   pSubTitle('2.2. Hệ cọc'),
-  pBody('Hệ cọc của một phân đoạn gồm 132 cọc ống BTCT DƯL D800-540 (bố trí thẳng đứng và xiên 6:1) và 60 cọc ống thép D1016-T16 (xiên 6:1 và 7:1), tổng cộng 192 cọc. Trong bài toán tối ưu này, tiết diện cọc được coi là biến thiết kế áp dụng đồng nhất cho toàn bộ cọc cùng loại; vị trí, độ xiên và chiều dài cọc giữ nguyên theo hồ sơ.'),
+  pBody('Hệ cọc của một phân đoạn gồm 132 cọc ống BTCT DƯL D800-540 (bố trí thẳng đứng và xiên 6:1) và 60 cọc ống thép D1016-T16 (xiên 6:1 và 7:1), tổng cộng 192 cọc. Trong bài toán tối ưu này, tiết diện cọc được coi là biến thiết kế áp dụng đồng nhất cho toàn bộ cọc cùng loại; vị trí, độ xiên và chiều dài cọc được giữ cố định trong tất cả các phương án khảo sát.'),
   pSubTitle('2.3. Mô hình SAP2000'),
-  pBody('Mô hình FEM tuyến tính tĩnh được xây dựng trong SAP2000, gồm 4.913 nút, 1.734 phần tử thanh và 4.488 phần tử tấm vỏ, đơn vị làm việc Tonf–m–°C. Vật liệu gồm bê tông M400 (dầm/bản), M800 (cọc BTCT), thép cọc, cốt thép A615Gr60 và tao dự ứng lực A416Gr270. Điều kiện biên gồm 192 nút ngàm biên phân đoạn và 178 nút gán lò xo nền theo phương dọc trục cọc. Mô hình bao gồm 36 tổ hợp tải cơ bản; trong đó 35/36 tổ hợp đã được gộp sẵn thành một tổ hợp bao dạng đường bao (envelope) trong mô hình gốc, được sử dụng trực tiếp cho việc trích xuất chuyển vị và nội lực. Tổ hợp bão riêng (hệ số vượt tải 1,25 cho tải cần trục khi có bão) nằm ngoài phạm vi đường bao này và chưa được đưa vào campaign tối ưu — giới hạn được nêu rõ tại mục 4.4.'),
+  pBody('Mô hình FEM tuyến tính tĩnh được xây dựng trong SAP2000, gồm 4.913 nút, 1.734 phần tử thanh và 4.488 phần tử tấm vỏ, đơn vị làm việc Tonf–m–°C. Vật liệu gồm bê tông M400 (dầm/bản), M800 (cọc BTCT), thép cọc, cốt thép A615Gr60 và tao dự ứng lực A416Gr270. Điều kiện biên gồm 192 nút ngàm biên phân đoạn và 178 nút gán lò xo nền theo phương dọc trục cọc. Mô hình bao gồm 36 tổ hợp tải cơ bản; trong đó 35/36 tổ hợp đã được gộp sẵn thành một tổ hợp bao dạng đường bao (envelope) trong mô hình tính toán, được sử dụng trực tiếp cho việc trích xuất chuyển vị và nội lực. Tổ hợp bão riêng (hệ số vượt tải 1,25 cho tải cần trục khi có bão) nằm ngoài phạm vi đường bao này và chưa được đưa vào đợt tính toán tối ưu — giới hạn được nêu rõ tại mục 4.4.'),
 
   pSectionTitle('3. Phương pháp'),
   pSubTitle('3.1. Bài toán tối ưu đa mục tiêu'),
-  pBody('Bài toán có ba biến thiết kế:'),
+  pBody('Bài toán được xây dựng dưới dạng tối ưu rời rạc, trong đó các biến thiết kế chỉ nhận các giá trị thuộc các miền lựa chọn xác định trước (catalogue thương mại đối với cọc BTCT, lưới giá trị rời rạc đối với cọc thép), thay vì biến liên tục. Bài toán có ba biến thiết kế:'),
   pEquation('x = [CatIdx_BTCT, D_thép, t_thép]', '1'),
-  pBody('trong đó CatIdx_BTCT là chỉ số dòng trong catalogue cọc bê tông ly tâm dự ứng lực (PHC) của nhà sản xuất AMACCAO, theo TCVN 7888:2014 và JIS A 5373:2016 [2], giới hạn trong ba dòng nằm trong miền nghiên cứu ban đầu 0,70–0,90 m (Bảng 1). Đường kính và chiều dày cọc BTCT không còn là hai biến độc lập — mỗi đường kính catalogue tương ứng đúng một chiều dày cố định. Cọc ống thép (D1016-T16) chưa có catalogue thương mại tương ứng nên được rời rạc hóa theo lưới cố định: D_thép trong [0,90; 1,10] m bước 25 mm (9 giá trị), t_thép trong [0,012; 0,020] m bước 1 mm (9 giá trị). Không gian tìm kiếm là tích của ba miền rời rạc: 3×9×9 = 243 tổ hợp.'),
+  pBody('với cận dưới và cận trên của từng biến thiết kế: CatIdx_BTCT ∈ {1, 2, 3} (cận dưới 1, cận trên 3, tương ứng D700–D900, Bảng 1); D_thép ∈ [0,900; 1,100] m, bước 0,025 m (cận dưới 0,900 m, cận trên 1,100 m, 9 giá trị); t_thép ∈ [0,012; 0,020] m, bước 0,001 m (cận dưới 0,012 m, cận trên 0,020 m, 9 giá trị).'),
+  pBody('CatIdx_BTCT là chỉ số dòng trong catalogue cọc bê tông ly tâm dự ứng lực (PHC) của nhà sản xuất AMACCAO, theo TCVN 7888:2014 và JIS A 5373:2016 [2], giới hạn trong ba dòng nằm trong miền nghiên cứu ban đầu có đường kính từ 0,70 đến 0,90 m (Bảng 1). Đường kính và chiều dày cọc BTCT không còn là hai biến độc lập — mỗi đường kính catalogue tương ứng đúng một chiều dày cố định. Cọc ống thép (D1016-T16) chưa có catalogue thương mại tương ứng nên được rời rạc hóa theo lưới cố định trong phạm vi cận trên/cận dưới nêu trên. Không gian tìm kiếm là tích của ba miền rời rạc: 3×9×9 = 243 tổ hợp.'),
 ];
 
-// ---- Doan 1 cot: Bang 1 (7 cot, can rong hon 1 cot bao) ----
+// ---- Doan 1 cot: Bang 1 ----
 const table1Block = [
   pTableTitle('Bảng 1. Catalogue cọc bê tông ly tâm AMACCAO sử dụng (Class A, TCVN 7888:2014)'),
   buildTable(
@@ -247,36 +243,36 @@ const table1Block = [
   pSource('Nguồn: Catalogue cọc bê tông ly tâm AMACCAO PILE [2], quy đổi mô men kN.m sang T.m.'),
 ];
 
-// ---- Doan 2 cot B: tiep tuc muc 3.1 (f1,f2,rang buoc) .. het 4.1 cau dan Bang 2 ----
+// ---- Doan 2 cot B: tiep tuc 3.1 (f1,f2,rang buoc) .. het 3.4 ----
 const bodyB = [
   pBody('Hai hàm mục tiêu được xét đồng thời:'),
   pEquation('f₁ = A(D,t)_BTCT × ΣL_BTCT × γ_bt + A(D,t)_thép × ΣL_thép × γ_thép', '2'),
   pEquation('f₂ = max(√(U₁² + U₂²))', '3'),
-  pBody('trong đó f₁ là tổng khối lượng vật liệu cọc (tấn), tính từ diện tích mặt cắt vành khuyên nhân với tổng chiều dài chế tạo thực tế của từng nhóm cọc và khối lượng riêng vật liệu (γ_bê tông = 2,5 T/m³, γ_thép = 7,85 T/m³ — đã đối chiếu khớp với dữ liệu trọng lượng danh định của catalogue AMACCAO); f₂ là chuyển vị ngang lớn nhất của cầu tàu trên tổ hợp bao, không xét thành phần đứng.'),
-  pBody('Bốn nhóm ràng buộc được áp dụng: (i) tương tác lực dọc trục – mô men cọc BTCT theo đúng công thức do nhà sản xuất khuyến nghị cho cọc ly tâm dự ứng lực [2]:'),
+  pBody('trong đó f₁ là tổng khối lượng vật liệu cọc (tấn), tính từ diện tích mặt cắt vành khuyên nhân với tổng chiều dài chế tạo thực tế của từng nhóm cọc và khối lượng riêng vật liệu (γ_bê tông = 2,5 T/m³, γ_thép = 7,85 T/m³ — đã đối chiếu khớp với dữ liệu trọng lượng danh định của catalogue AMACCAO); f₂ là chuyển vị ngang lớn nhất của cầu tàu trên tổ hợp bao, không xét thành phần đứng. Hai mục tiêu này phản ánh sự đánh đổi giữa yêu cầu giảm khối lượng vật liệu và yêu cầu bảo đảm độ cứng ngang cần thiết của hệ cọc, qua đó kiểm soát chuyển vị ngang của cầu tàu.'),
+  pBody('Ba nhóm ràng buộc được áp dụng trực tiếp trong quá trình đánh giá phương án, gồm: (i) tương tác lực dọc trục – mô men cọc BTCT theo đúng công thức do nhà sản xuất khuyến nghị cho cọc ly tâm dự ứng lực [2]:'),
   pEquation('N/Pvl + M/Mu − 1 ≤ 0', '4'),
-  pBody('(ii) ứng suất cọc thép σ = N/A + M/W ≤ Fy/γM, với Fy = 3.150 kG/cm² theo bản vẽ thiết kế (TCVN 9245:2012); (iii) chuyển vị ngang U_max/U_allow − 1 ≤ 0, với U_allow = 71,7 mm theo TCVN 11820-5:2021, Điều 8.9, Bảng 12 (1/300 chiều cao bến, H = 21,5 m, không vượt quá 100 mm); (iv) sức chịu tải địa kỹ thuật theo TCVN 10304:2025 — hiện được ghi nhận trong khung bài toán nhưng chưa triển khai tính toán đầy đủ do thiếu số liệu chỉ tiêu cơ lý đất nền chi tiết (mục 4.4).'),
+  pBody('(ii) ứng suất cọc thép σ = N/A + M/W ≤ Fy/γM, với Fy = 3.150 kG/cm² (TCVN 9245:2012); và (iii) chuyển vị ngang U_max/U_allow − 1 ≤ 0, với U_allow = 71,7 mm theo TCVN 11820-5:2021, Điều 8.9, Bảng 12 (1/300 chiều cao bến, H = 21,5 m, không vượt quá 100 mm). Sức chịu tải địa kỹ thuật theo TCVN 10304:2025 được xác định là một yêu cầu kiểm tra cần thiết nhưng chưa được triển khai định lượng trong nghiên cứu do thiếu đầy đủ số liệu chỉ tiêu cơ lý đất nền (mục 4.4). Do đó, kết quả tối ưu chỉ có giá trị trong phạm vi ba nhóm ràng buộc đã được triển khai và chưa được sử dụng để thay thế kiểm tra địa kỹ thuật trong thiết kế chính thức.'),
   pBody('Vi phạm ràng buộc được chuẩn hóa và tổng hợp thành hàm phạt nhân đồng thời lên cả hai mục tiêu:'),
   pEquation('Fk(x) = fk(x) × [1 + C×P(x)],  k = 1,2', '5'),
-  pBody('với P(x) là tổng các vi phạm dương chuẩn hóa và C = 10 là hệ số khuếch đại phạt. Cách phạt nhân tránh vấn đề khác thứ nguyên giữa khối lượng và chuyển vị, không làm sai lệch mặt Pareto khả thi.'),
+  pBody('với P(x) là tổng các vi phạm dương chuẩn hóa và C = 10 là hệ số khuếch đại phạt. Mỗi mức vi phạm được chuẩn hóa theo dạng v_i = max(0, g_i), với g_i là hàm ràng buộc đã được đưa về dạng không thứ nguyên g_i ≤ 0; khi đó P(x) = Σv_i. Cách phạt nhân cho phép duy trì dạng thứ nguyên của từng hàm mục tiêu và hạn chế ảnh hưởng của sự khác biệt về thang đo giữa khối lượng và chuyển vị; khi P(x)=0 thì Fk=fk, tức phương án khả thi không chịu tác động của hàm phạt. Giá trị C = 10 được lựa chọn qua các lần chạy thử và giữ cố định trong toàn bộ đợt tính toán chính thức.'),
 
   pSubTitle('3.2. Thuật toán MOFDA'),
   pBody('MOFDA mô phỏng chuyển động của một "dòng chảy" hướng về vùng có giá trị hàm mục tiêu tốt hơn, kết hợp cơ chế lựa chọn thủ lĩnh lai để tăng khả năng hội tụ và duy trì đa dạng nghiệm Pareto, lưu trữ các nghiệm không bị trội trong một kho lưu trữ có cơ chế lưới để kiểm soát mật độ nghiệm [1]. Bài báo sử dụng nguyên bản cơ chế thuật toán đã công bố, không điều chỉnh công thức cập nhật vị trí.'),
 
-  pSubTitle('3.3. Khung kết nối MOFDA–SAP2000 và tính toán song song'),
-  pBody('Mỗi lần đánh giá một cá thể bao gồm: (i) ghi giá trị tiết diện cọc vào SAP2000 qua OAPI; (ii) chạy phân tích kết cấu; (iii) trích xuất chuyển vị và nội lực trên tổ hợp bao; (iv) tính hai hàm mục tiêu và mức vi phạm ràng buộc. Toàn bộ quá trình được song song hóa trên 8 tiến trình SAP2000 độc lập, mỗi tiến trình lưu một bản sao mô hình riêng để tránh xung đột ghi file. Số lượng tiến trình song song được xác định thực nghiệm trên máy tính sử dụng (14 lõi/28 luồng): tăng từ 8 lên 10 tiến trình chỉ cải thiện thông lượng 8,6% do tranh chấp tài nguyên, không tương xứng với mức tăng 25% số tiến trình, nên 8 tiến trình được lựa chọn.'),
+  pSubTitle('3.3. Quy trình kết nối MOFDA–SAP2000 và tính toán song song'),
+  pBody('Mỗi lần đánh giá một cá thể được thực hiện theo chu trình: (1) MOFDA sinh phương án tiết diện; (2) MATLAB truyền biến thiết kế sang SAP2000 qua OAPI; (3) SAP2000 cập nhật mô hình và phân tích; (4) MATLAB nhận chuyển vị và nội lực trên tổ hợp bao; (5) tính hai hàm mục tiêu và kiểm tra vi phạm ràng buộc; (6) kết quả trả về MOFDA; (7) thuật toán tiếp tục tìm kiếm ở vòng lặp kế tiếp. Toàn bộ quá trình được song song hóa trên 8 tiến trình SAP2000 độc lập, mỗi tiến trình sử dụng một bản sao mô hình riêng để tránh xung đột khi ghi tệp. Số lượng 8 tiến trình được lựa chọn qua các lần thử nghiệm trên máy tính sử dụng 14 lõi/28 luồng, trong đó việc tăng thêm số tiến trình không cho thấy hiệu quả tính toán tương xứng do tranh chấp tài nguyên.'),
 
   pSubTitle('3.4. Liệt kê toàn bộ không gian tìm kiếm'),
-  pBody('Vì không gian tìm kiếm chỉ gồm 243 tổ hợp rời rạc, toàn bộ 243 tổ hợp được đánh giá trực tiếp qua cùng mô hình FEM để xác định chính xác mặt Pareto thật, dùng làm cơ sở đối chiếu khách quan cho kết quả MOFDA — một bước kiểm chứng bổ sung tận dụng đặc điểm không gian rời rạc nhỏ của bài toán này, không thay thế cho việc ứng dụng MOFDA.'),
+  pBody('Do không gian thiết kế hiện tại chỉ gồm 243 tổ hợp — nhỏ hơn nhiều so với số lần đánh giá thông thường của một thuật toán quần thể — toàn bộ không gian được đánh giá trực tiếp qua cùng mô hình FEM để xây dựng mặt Pareto tham chiếu cho kết quả MOFDA. Đây là một bước kiểm chứng bổ sung, tận dụng đặc điểm không gian rời rạc nhỏ của bài toán này, không nhằm thay thế cho việc ứng dụng MOFDA và không phải một phương pháp cạnh tranh với thuật toán.'),
 
   pSectionTitle('4. Kết quả và thảo luận'),
-  pSubTitle('4.1. Mặt Pareto thật (liệt kê toàn bộ)'),
+  pSubTitle('4.1. Mặt Pareto tham chiếu (liệt kê toàn bộ)'),
   pBody('Toàn bộ 243 tổ hợp được đánh giá thành công qua SAP2000, trong thời gian 70,9 phút với 8 tiến trình song song. Kết quả xác định được 16 nghiệm không bị trội, trình bày trong Bảng 2.'),
 ];
 
-// ---- Doan 1 cot: Bang 2 (5 cot, 16 hang) ----
+// ---- Doan 1 cot: Bang 2 ----
 const table2Block = [
-  pTableTitle('Bảng 2. Mặt Pareto thật của bài toán (16 nghiệm, liệt kê toàn bộ 243 tổ hợp)'),
+  pTableTitle('Bảng 2. Mặt Pareto tham chiếu thu được từ 243 tổ hợp thiết kế (16 nghiệm không bị trội)'),
   buildTable(
     ['CatIdx', 'D_thép (m)', 't_thép (m)', 'f₁ (tấn)', 'f₂ (mm)'],
     [
@@ -301,42 +297,62 @@ const table2Block = [
   ),
 ];
 
-// ---- Doan 2 cot C: 4.1 thao luan .. het bai (Ket luan, Tai lieu tham khao) ----
+// ---- Doan 2 cot C: 4.1 thao luan .. het bai ----
 const bodyC = [
-  pBody('Cả ba lựa chọn catalogue cọc BTCT (D700, D800, D900) đều xuất hiện trên mặt Pareto. Toàn bộ 16 nghiệm đều sử dụng cọc thép có kích thước lớn nhất trong miền nghiên cứu — phản ánh đúng bản chất vật lý: cọc thép càng lớn thì độ cứng hệ càng tăng, giảm chuyển vị ngang, đánh đổi bằng khối lượng vật liệu tăng thêm. Khối lượng vật liệu dao động 3.030,6–4.298,3 tấn ứng với chuyển vị ngang 11,92–13,88 mm — đều thấp hơn nhiều giới hạn cho phép 71,7 mm.'),
-  pFigPlaceholder('[CHÈN HÌNH 2 TẠI ĐÂY: Biểu đồ phân tán 16 nghiệm Pareto thật (trục hoành f₁ - tấn, trục tung f₂ - mm), phân biệt theo CatIdx bằng màu/ký hiệu]'),
-  pFigTitle('Hình 2. Mặt Pareto thật của bài toán (16 nghiệm, liệt kê toàn bộ)'),
+  pBody('Cả ba lựa chọn catalogue cọc BTCT (D700, D800, D900) đều xuất hiện trên mặt Pareto. Toàn bộ 16 nghiệm Pareto đều sử dụng đường kính cọc thép ở phía trên của miền khảo sát, D_thép = 1,075–1,100 m; chiều dày thay đổi trong khoảng t_thép = 0,018–0,020 m. Kết quả cho thấy trong miền thiết kế khảo sát, tăng kích thước cọc thép làm tăng độ cứng ngang của hệ và có xu hướng giảm chuyển vị, đồng thời làm tăng khối lượng vật liệu. Khối lượng vật liệu dao động 3.030,6–4.298,3 tấn ứng với chuyển vị ngang 11,92–13,88 mm — đều thấp hơn nhiều giới hạn cho phép 71,7 mm.'),
+  pImage('fig_hinh2_pareto_thamchieu.png', 280, 200),
+  pFigTitle('Hình 2. Mặt Pareto tham chiếu của bài toán (16 nghiệm, liệt kê toàn bộ)'),
 
-  pSubTitle('4.2. Đối chiếu kết quả MOFDA với mặt Pareto thật'),
-  pBody('MOFDA được chạy với quần thể 15 cá thể, 15 vòng lặp (1.140 lần đánh giá FEM), thời gian thực hiện 5,35 giờ với 8 tiến trình song song, tìm được 14 nghiệm không bị trội. Đối chiếu trực tiếp với 16 nghiệm Pareto thật: 8/16 nghiệm (50%) trùng khớp chính xác cả về biến thiết kế và giá trị hàm mục tiêu. Sáu nghiệm còn lại, tuy không bị trội lẫn nhau trong tập nghiệm mà thuật toán đã khảo sát, bị trội bởi từ 1 đến 7 nghiệm khác trong tập 243 tổ hợp đầy đủ — tức là các nghiệm gần-tối-ưu nhưng chưa phải tối ưu toàn cục.'),
-  pFigPlaceholder('[CHÈN HÌNH 3 TẠI ĐÂY: Chồng lớp 2 mặt Pareto — 16 nghiệm thật (một màu/ký hiệu) và 14 nghiệm MOFDA (màu/ký hiệu khác), đánh dấu rõ 8 điểm trùng khớp]'),
-  pFigTitle('Hình 3. Đối chiếu mặt Pareto MOFDA (14 nghiệm) với mặt Pareto thật (16 nghiệm)'),
-  pBody('Kết quả này khẳng định hai điểm: (i) MOFDA hội tụ đúng hướng, các nghiệm tìm được đều nằm gần mặt Pareto thật cả về giá trị hàm mục tiêu lẫn cấu trúc biến thiết kế; (ii) đối với bài toán có không gian tìm kiếm rời rạc nhỏ như trường hợp này, phương pháp liệt kê toàn bộ hiệu quả hơn về mặt tính toán (243 so với 1.140 lần đánh giá) và đảm bảo chắc chắn tìm được lời giải tối ưu toàn cục.'),
+  pSubTitle('4.2. Đối chiếu kết quả MOFDA với mặt Pareto tham chiếu'),
+  pBody('MOFDA được thực hiện một lần chạy chính thức, với quần thể 15 cá thể, 15 vòng lặp; ở mỗi vòng lặp, mỗi cá thể tạo ra β = 4 hướng dòng chảy lân cận cộng với 1 lần cập nhật chính (đặc thù cơ chế tìm kiếm của MOFDA), tương ứng tổng số lần đánh giá FEM là Np×[1 + maxiter×(β+1)] = 15×[1 + 15×5] = 1.140 lần. Thời gian thực hiện 5,35 giờ với 8 tiến trình song song, thu được 14 nghiệm không bị trội trong kho lưu trữ của lần chạy này. Đối chiếu trực tiếp với 16 nghiệm thuộc mặt Pareto tham chiếu: 8 trong 16 nghiệm (50%) được nhận diện chính xác, trùng khớp cả về biến thiết kế và giá trị hàm mục tiêu. Kết quả cho thấy thuật toán có khả năng hội tụ về vùng nghiệm Pareto của bài toán trong giới hạn số lần đánh giá được sử dụng. Sáu nghiệm còn lại không bị trội trong tập nghiệm của MOFDA nhưng bị trội khi xét toàn bộ 243 tổ hợp, cho thấy đây là các nghiệm gần vùng Pareto nhưng chưa thuộc mặt Pareto tham chiếu.'),
+  pImage('fig_hinh3_doichieu.png', 280, 200),
+  pFigTitle('Hình 3. Đối chiếu mặt Pareto MOFDA (14 nghiệm) với mặt Pareto tham chiếu (16 nghiệm)'),
+  pBody('Kết quả cho thấy MOFDA nhận diện được một phần đáng kể mặt Pareto tham chiếu trong giới hạn số lần đánh giá FEM được sử dụng, kể cả về cấu trúc biến thiết kế (ưu tiên chọn cọc thép kích thước lớn, đúng như mặt Pareto tham chiếu). Đối với bài toán có không gian thiết kế rời rạc nhỏ như trường hợp này, việc liệt kê toàn bộ không gian là khả thi và được sử dụng như một bước kiểm chứng độc lập cho kết quả MOFDA.'),
 
-  pSubTitle('4.3. Đề xuất kỹ thuật'),
-  pBody('Với dải nghiệm Pareto thu được, một nghiệm đại diện cân bằng giữa hai mục tiêu (CatIdx=2, D_thép=1,100 m, t_thép=0,019 m: f₁≈3.634,5 tấn, f₂≈12,86 mm) có thể được xem xét làm phương án tham khảo cho giai đoạn thiết kế sơ bộ, tùy theo mức độ ưu tiên giữa tiết kiệm vật liệu và kiểm soát chuyển vị của dự án cụ thể.'),
+  pSubTitle('4.3. Lựa chọn các phương án đại diện trên mặt Pareto'),
+  pBody('Mặt Pareto không xác định một nghiệm tối ưu duy nhất mà cung cấp các phương án thiết kế tương ứng với những mức độ đánh đổi khác nhau giữa khối lượng vật liệu cọc và chuyển vị ngang. Trong nghiên cứu này, ba phương án đại diện được lựa chọn theo ba xu hướng: ưu tiên giảm khối lượng, cân bằng giữa hai mục tiêu và ưu tiên kiểm soát chuyển vị. Việc lựa chọn này nhằm minh họa khả năng khai thác kết quả Pareto trong giai đoạn thiết kế sơ bộ, thay vì xác định một phương án tối ưu duy nhất cho công trình.'),
+  pBody('Phương án 1 là phương án có khối lượng vật liệu nhỏ nhất trên mặt Pareto, với CatIdx = 1, đường kính cọc thép D_thép = 1,100 m và chiều dày t_thép = 0,018 m; khối lượng vật liệu đạt 3.030,6 tấn và chuyển vị ngang lớn nhất là 13,88 mm. Phương án này thể hiện xu hướng ưu tiên giảm khối lượng vật liệu, đồng thời vẫn thỏa mãn ràng buộc chuyển vị được xét trong nghiên cứu.'),
+  pBody('Phương án 2 là phương án có mức cân bằng tương đối giữa hai mục tiêu, với CatIdx = 2, D_thép = 1,100 m và t_thép = 0,019 m; khối lượng vật liệu là 3.634,5 tấn và chuyển vị ngang lớn nhất là 12,86 mm. Đây là phương án trung gian được lựa chọn để minh họa sự đánh đổi giữa hai mục tiêu.'),
+  pBody('Phương án 3 là phương án có chuyển vị ngang nhỏ nhất trên mặt Pareto, với CatIdx = 3, D_thép = 1,100 m và t_thép = 0,020 m; khối lượng vật liệu là 4.298,3 tấn và chuyển vị ngang lớn nhất là 11,92 mm. Phương án này thể hiện xu hướng ưu tiên tăng độ cứng và kiểm soát chuyển vị ngang.'),
+  pBody('Ba phương án trên không được xem là ba phương án tối ưu độc lập mà là các điểm đại diện cho ba mức độ ưu tiên khác nhau trên cùng một mặt Pareto. Việc lựa chọn phương án cụ thể trong thực tế cần căn cứ vào yêu cầu kỹ thuật, mức độ ưu tiên về vật liệu và các điều kiện thiết kế bổ sung của dự án.'),
+];
+
+const table3Block = [
+  pTableTitle('Bảng 3. Ba phương án đại diện trên mặt Pareto'),
+  buildTable(
+    ['Phương án', 'Tiêu chí lựa chọn', 'CatIdx', 'D_thép (m)', 't_thép (m)', 'f₁ (tấn)', 'f₂ (mm)'],
+    [
+      ['PA1', 'Khối lượng nhỏ nhất', '1', '1,100', '0,018', '3.030,6', '13,88'],
+      ['PA2', 'Cân bằng tương đối', '2', '1,100', '0,019', '3.634,5', '12,86'],
+      ['PA3', 'Chuyển vị nhỏ nhất', '3', '1,100', '0,020', '4.298,3', '11,92'],
+    ],
+    [900, 1600, 700, 900, 900, 900, 900]
+  ),
+];
+
+const bodyD = [
+  pBody('Bảng 3 cho thấy khi chuyển từ PA1 sang PA3, khối lượng vật liệu tăng từ 3.030,6 lên 4.298,3 tấn, trong khi chuyển vị ngang giảm từ 13,88 xuống 11,92 mm. PA2 nằm giữa hai xu hướng này và thể hiện một mức đánh đổi trung gian. Như vậy, kết quả tối ưu đa mục tiêu không chỉ cung cấp một giá trị đơn lẻ mà còn cho phép người thiết kế xem xét nhiều phương án theo mức độ ưu tiên khác nhau.'),
 
   pSubTitle('4.4. Giới hạn của nghiên cứu'),
-  pBody('Nghiên cứu còn một số giới hạn: (i) ràng buộc sức chịu tải địa kỹ thuật theo TCVN 10304:2025 chưa được triển khai tính toán đầy đủ do thiếu số liệu chỉ tiêu cơ lý đất nền chi tiết; (ii) tổ hợp tải trọng bão chưa được đưa vào phạm vi đánh giá của campaign tối ưu; (iii) catalogue cọc ống thép chưa có sẵn nên biến thiết kế tương ứng được rời rạc hóa theo lưới giả định; (iv) mô hình chỉ xét phân tích tuyến tính tĩnh, chưa xét ứng xử phi tuyến hay tương tác đất–cọc chi tiết kiểu p–y. Các giới hạn này không làm thay đổi kết luận về khả năng ứng dụng của MOFDA nhưng cần được bổ sung trước khi sử dụng kết quả số cho thiết kế thi công.'),
+  pBody('Nghiên cứu còn một số giới hạn: (i) ràng buộc sức chịu tải địa kỹ thuật theo TCVN 10304:2025 chưa được triển khai tính toán đầy đủ do thiếu số liệu chỉ tiêu cơ lý đất nền chi tiết; (ii) tổ hợp tải trọng bão chưa được đưa vào phạm vi đánh giá của đợt tính toán tối ưu; (iii) catalogue cọc ống thép chưa có sẵn nên biến thiết kế tương ứng được rời rạc hóa theo lưới giả định; (iv) mô hình chỉ xét phân tích tuyến tính tĩnh, chưa xét ứng xử phi tuyến hay tương tác đất–cọc chi tiết kiểu p–y. Các giới hạn này cần được xem xét khi đánh giá phạm vi áp dụng của kết quả tối ưu, và cần được bổ sung trước khi sử dụng kết quả số cho thiết kế thi công. Kết quả tối ưu không được sử dụng trực tiếp để thay thế các bước kiểm tra và thiết kế chính thức.'),
 
   pSectionTitle('5. Kết luận'),
-  pBody('Bài báo đã ứng dụng thành công thuật toán MOFDA để giải bài toán tối ưu đa mục tiêu tiết diện hệ cọc của một cầu tàu container 100.000 DWT thực tế, kết hợp trực tiếp với mô hình phần tử hữu hạn SAP2000 qua OAPI, chạy song song trên nhiều tiến trình. Các kết luận chính gồm:'),
-  pBody('(1) Bài toán tối ưu ba biến thiết kế với ràng buộc theo tiêu chuẩn Việt Nam hiện hành (TCVN 7888:2014, TCVN 11820-5:2021, TCVN 9245:2012) đã được hình thành và giải thành công.'),
-  pBody('(2) Không gian tìm kiếm rời rạc của bài toán chỉ gồm 243 tổ hợp, cho phép liệt kê toàn bộ để xác định chính xác mặt Pareto thật gồm 16 nghiệm, làm cơ sở đối chiếu khách quan cho kết quả MOFDA.'),
-  pBody('(3) MOFDA tìm được 14 nghiệm không bị trội, trong đó 8/16 nghiệm trùng khớp chính xác với mặt Pareto thật, xác nhận thuật toán hội tụ đúng hướng trong bài toán kỹ thuật thực tế này.'),
-  pBody('(4) Khối lượng vật liệu cọc tối ưu dao động 3.030,6–4.298,3 tấn, tương ứng chuyển vị ngang 11,9–13,9 mm — đều thấp hơn nhiều giới hạn cho phép 71,7 mm.'),
-  pBody('(5) Đối với các bài toán có không gian thiết kế rời rạc nhỏ, phương pháp liệt kê toàn bộ nên được cân nhắc song song với thuật toán metaheuristic để vừa đảm bảo tìm được lời giải tối ưu toàn cục, vừa có cơ sở kiểm chứng độ tin cậy của thuật toán áp dụng.'),
+  pBody('Bài báo đã ứng dụng thuật toán tối ưu đa mục tiêu MOFDA — một thuật toán đã được công bố, không phát triển hay điều chỉnh thêm trong nghiên cứu này — để hỗ trợ lựa chọn tiết diện hệ cọc của một cầu tàu container 100.000 DWT thực tế, kết hợp trực tiếp với mô hình phần tử hữu hạn SAP2000 qua OAPI, chạy song song trên nhiều tiến trình. Các kết luận chính gồm:'),
+  pBody('(1) Đã hình thành bài toán tối ưu rời rạc cho tiết diện hệ cọc (chỉ số catalogue cọc BTCT và kích thước cọc thép rời rạc hóa) của một cầu tàu container thực tế, với các ràng buộc kết cấu và chuyển vị được xây dựng theo các tiêu chuẩn Việt Nam áp dụng trong nghiên cứu (TCVN 7888:2014, TCVN 11820-5:2021, TCVN 9245:2012).'),
+  pBody('(2) Đã xây dựng được quy trình kết nối MOFDA–MATLAB–SAP2000, cho phép tự động đánh giá từng phương án bằng mô hình FEM; do không gian thiết kế của bài toán chỉ gồm 243 tổ hợp, toàn bộ không gian cũng được liệt kê để xây dựng mặt Pareto tham chiếu gồm 16 nghiệm.'),
+  pBody('(3) Mặt Pareto trong phạm vi các ràng buộc được triển khai cho thấy rõ sự đánh đổi giữa khối lượng vật liệu cọc (3.030,6–4.298,3 tấn) và chuyển vị ngang (11,9–13,9 mm) — đều thấp hơn nhiều giới hạn cho phép 71,7 mm theo TCVN 11820-5:2021.'),
+  pBody('(4) MOFDA nhận diện được 8 trong 16 nghiệm thuộc mặt Pareto tham chiếu, cho thấy khả năng ứng dụng thuật toán vào bài toán kết cấu thực tế trong phạm vi nghiên cứu, dù chưa bao phủ hết không gian nghiệm tối ưu với ngân sách đánh giá đã dùng.'),
+  pBody('(5) Mặt Pareto cung cấp cơ sở để lựa chọn phương án sơ bộ theo các mức độ ưu tiên khác nhau. Ba phương án đại diện được lựa chọn tương ứng với xu hướng giảm khối lượng, cân bằng hai mục tiêu và kiểm soát chuyển vị, qua đó minh họa khả năng sử dụng kết quả tối ưu đa mục tiêu trong hỗ trợ quyết định ở giai đoạn thiết kế sơ bộ. Trước khi áp dụng cho thiết kế chính thức, cần bổ sung các kiểm tra còn thiếu, đặc biệt là kiểm tra sức chịu tải địa kỹ thuật.'),
 
   pAbstractLabel('Lời cảm ơn'),
   pBody('(nếu có)'),
 
   pRefTitle('TÀI LIỆU THAM KHẢO'),
-  pRef('[1] Truong V.H., Khatir S., Cuong-Le T. (2026), Real-World Steel Frame Optimization Using a Hybrid Leader Selection-Based Multi-Objective Flow Direction Algorithm, Trường Đại học Mở Thành phố Hồ Chí Minh.'),
-  pRef('[2] AMACCAO PILE (2014), Catalog và thông số kỹ thuật cọc bê tông ly tâm AMACCAO D300-D1200, theo TCVN 7888:2014 và JIS A 5373:2016.'),
+  pRef('[1] Truong V.H., Khatir S., Cuong-Le T. (2025), Real-World Steel Frame Optimization Using a Hybrid Leader Selection-Based Multi-Objective Flow Direction Algorithm, International Journal for Numerical Methods in Engineering, 126(15), e70098. https://doi.org/10.1002/nme.70098'),
+  pRef('[2] AMACCAO PILE (2014), Catalogue và thông số kỹ thuật cọc bê tông ly tâm AMACCAO D300-D1200, theo TCVN 7888:2014 và JIS A 5373:2016.'),
   pRef('[3] Bộ Khoa học và Công nghệ (2021), TCVN 11820-5:2021 — Công trình cảng biển – Yêu cầu thiết kế – Phần 5: Công trình bến.'),
-  pRef('[4] Bộ Khoa học và Công nghệ (2020), TCVN 11820-4-1:2020 — Công trình cảng biển – Yêu cầu thiết kế – Phần 4-1: Nền móng.'),
-  pRef('[5] Bộ Khoa học và Công nghệ, TCVN 10304:2025 — Thiết kế móng cọc.'),
-  pRef('[6] Bộ Khoa học và Công nghệ, TCVN 9245:2012 — Cọc ống thép.'),
+  pRef('[4] Bộ Khoa học và Công nghệ, TCVN 10304:2025 — Thiết kế móng cọc.'),
+  pRef('[5] Bộ Khoa học và Công nghệ, TCVN 9245:2012 — Cọc ống thép.'),
 
   new Paragraph({ spacing: { before: 300 }, children: [new TextRun({ text: 'Ngày nhận bài: xx/xx/2026', size: 18, font: FONT, italics: true })] }),
   new Paragraph({ children: [new TextRun({ text: 'Ngày nhận bản sửa: xx/xx/2026', size: 18, font: FONT, italics: true })] }),
@@ -355,18 +371,19 @@ const doc = new Document({
   styles: { default: { document: { run: { font: FONT, size: 20 } } } },
   sections: [
     { properties: { type: SectionType.CONTINUOUS, page: PAGE }, children: section1Children },
-    // bat dau 2 cot tu day, chen 2 doan 1-cot rieng cho Bang 1 va Bang 2 (7 va 5 cot,
-    // qua rong cho 1 cot bao) roi quay lai 2 cot -- theo dung quy uoc bao khoa hoc
-    // 2 cot khi co bang rong.
+    // 2 cot cho phan noi dung; xen 3 doan 1-cot rieng cho Bang 1, Bang 2, Bang 3
+    // (bang rong hon 1 cot bao) roi quay lai 2 cot -- theo dung quy uoc bao khoa hoc.
     { properties: { type: SectionType.NEXT_PAGE, page: PAGE, column: { count: 2, space: 340 } }, children: bodyA },
     oneColSection(table1Block),
     twoColSection(bodyB),
     oneColSection(table2Block),
     twoColSection(bodyC),
+    oneColSection(table3Block),
+    twoColSection(bodyD),
   ],
 });
 
 Packer.toBuffer(doc).then((buffer) => {
-  fs.writeFileSync('BAI_BAO_MOFDA_CAU_TAU_100000DWT.docx', buffer);
+  fs.writeFileSync(path.join(__dirname, 'BAI_BAO_MOFDA_CAU_TAU_100000DWT.docx'), buffer);
   console.log('OK - da tao file docx');
 });
