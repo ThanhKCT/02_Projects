@@ -1,0 +1,169 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Projects\MOSFOA paper 2\SapV14\Cau tau dau vao.OUT     
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    2405 TO     248    A   A   A   A   A   A
+     235               -   -   -   -   -   -
+    2407 TO     487    A   A   A   A   A   A
+     244 TO     238    -   -   -   -   -   -
+    2408 TO     275    A   A   A   A   A   A
+     247 TO     246    -   -   -   -   -   -
+     243 TO     240    A   A   A   A   A   A
+     239               -   -   -   -   -   -
+     237 TO     236    A   A   A   A   A   A
+     234               -   -   -   -   -   -
+     233               A   A   A   A   A   A
+     245               -   -   -   -   -   -
+    2546 TO     483    A   A   A   A   A   A
+     226               -   -   -   -   -   -
+    2545 TO     480    A   A   A   A   A   A
+     230               -   -   -   -   -   -
+    2544 TO     474    A   A   A   A   A   A
+     217 TO     223    -   -   -   -   -   -
+    2534 TO     225    A   A   A   A   A   A
+     224               -   -   -   -   -   -
+     222 TO     218    A   A   A   A   A   A
+     216 TO     221    -   -   -   -   -   -
+    2538 TO     467    A   A   A   A   A   A
+     229               -   -   -   -   -   -
+    2536 TO     464    A   A   A   A   A   A
+     227               -   -   -   -   -   -
+    2535 TO     461    A   A   A   A   A   A
+     203 TO     208    -   -   -   -   -   -
+    2525 TO     212    A   A   A   A   A   A
+     211 TO     209    -   -   -   -   -   -
+     207 TO     204    A   A   A   A   A   A
+     202               -   -   -   -   -   -
+     201               A   A   A   A   A   A
+     206               -   -   -   -   -   -
+    2529 TO     448    A   A   A   A   A   A
+     188 TO     193    -   -   -   -   -   -
+    2516 TO     197    A   A   A   A   A   A
+     196 TO     194    -   -   -   -   -   -
+     192 TO     189    A   A   A   A   A   A
+     187               -   -   -   -   -   -
+     186               A   A   A   A   A   A
+     191               -   -   -   -   -   -
+    2520 TO     435    A   A   A   A   A   A
+     173 TO     178    -   -   -   -   -   -
+    2507 TO     182    A   A   A   A   A   A
+     181 TO     179    -   -   -   -   -   -
+     177 TO     174    A   A   A   A   A   A
+     172               -   -   -   -   -   -
+     171               A   A   A   A   A   A
+     176               -   -   -   -   -   -
+    2511 TO     422    A   A   A   A   A   A
+     158 TO     163    -   -   -   -   -   -
+    2498 TO     167    A   A   A   A   A   A
+     166 TO     164    -   -   -   -   -   -
+     162 TO     159    A   A   A   A   A   A
+     157               -   -   -   -   -   -
+     156               A   A   A   A   A   A
+     161               -   -   -   -   -   -
+    2502 TO     409    A   A   A   A   A   A
+     143 TO     148    -   -   -   -   -   -
+    2489 TO     152    A   A   A   A   A   A
+     151 TO     149    -   -   -   -   -   -
+     147 TO     144    A   A   A   A   A   A
+     142               -   -   -   -   -   -
+     141               A   A   A   A   A   A
+     146               -   -   -   -   -   -
+    2493 TO     396    A   A   A   A   A   A
+     128 TO     133    -   -   -   -   -   -
+    2480 TO     137    A   A   A   A   A   A
+     136 TO     134    -   -   -   -   -   -
+     132 TO     129    A   A   A   A   A   A
+     127               -   -   -   -   -   -
+     126               A   A   A   A   A   A
+     131               -   -   -   -   -   -
+    2484 TO     383    A   A   A   A   A   A
+     113 TO     118    -   -   -   -   -   -
+    2471 TO     122    A   A   A   A   A   A
+     121 TO     119    -   -   -   -   -   -
+     117 TO     114    A   A   A   A   A   A
+     112               -   -   -   -   -   -
+     111               A   A   A   A   A   A
+     116               -   -   -   -   -   -
+    2475 TO     370    A   A   A   A   A   A
+      98 TO     103    -   -   -   -   -   -
+    2462 TO     107    A   A   A   A   A   A
+     106 TO     104    -   -   -   -   -   -
+     102 TO      99    A   A   A   A   A   A
+      97               -   -   -   -   -   -
+      96               A   A   A   A   A   A
+     101               -   -   -   -   -   -
+    2466 TO     357    A   A   A   A   A   A
+      83 TO      88    -   -   -   -   -   -
+    2453 TO      92    A   A   A   A   A   A
+      91 TO      89    -   -   -   -   -   -
+      87 TO      84    A   A   A   A   A   A
+      82               -   -   -   -   -   -
+      81               A   A   A   A   A   A
+      86               -   -   -   -   -   -
+    2457 TO     344    A   A   A   A   A   A
+      68 TO      73    -   -   -   -   -   -
+    2444 TO      77    A   A   A   A   A   A
+      76 TO      74    -   -   -   -   -   -
+      72 TO      69    A   A   A   A   A   A
+      67               -   -   -   -   -   -
+      66               A   A   A   A   A   A
+      71               -   -   -   -   -   -
+    2448 TO     331    A   A   A   A   A   A
+      53 TO      58    -   -   -   -   -   -
+    2435 TO      62    A   A   A   A   A   A
+      61 TO      59    -   -   -   -   -   -
+      57 TO      54    A   A   A   A   A   A
+      52               -   -   -   -   -   -
+      51               A   A   A   A   A   A
+      56               -   -   -   -   -   -
+    2439 TO     318    A   A   A   A   A   A
+      38 TO      43    -   -   -   -   -   -
+    2426 TO      47    A   A   A   A   A   A
+      46 TO      44    -   -   -   -   -   -
+      42 TO      39    A   A   A   A   A   A
+      37               -   -   -   -   -   -
+      36               A   A   A   A   A   A
+      41               -   -   -   -   -   -
+    2430 TO     314    A   A   A   A   A   A
+      22               -   -   -   -   -   -
+    2429 TO     311    A   A   A   A   A   A
+      28               -   -   -   -   -   -
+    2428 TO     305    A   A   A   A   A   A
+      20 TO      23    -   -   -   -   -   -
+    2417 TO      34    A   A   A   A   A   A
+      31               -   -   -   -   -   -
+      29 TO      24    A   A   A   A   A   A
+      19               -   -   -   -   -   -
+      16 TO      13    A   A   A   A   A   A
+      25               -   -   -   -   -   -
+    2421 TO     298    A   A   A   A   A   A
+      27               -   -   -   -   -   -
+    2419 TO     295    A   A   A   A   A   A
+      21               -   -   -   -   -   -
+    2418 TO     291    A   A   A   A   A   A
+       6               -   -   -   -   -   -
+      14               A   A   A   A   A   A
+       2 TO      11    -   -   -   -   -   -
+    2411 TO      32    A   A   A   A   A   A
+      12               -   -   -   -   -   -
+      10               A   A   A   A   A   A
+       9               -   -   -   -   -   -
+       8               A   A   A   A   A   A
+       7               -   -   -   -   -   -
+       5               A   A   A   A   A   A
+       4               -   -   -   -   -   -
+       3 TO    2358    A   A   A   A   A   A
+      15               -   -   -   -   -   -
+    2409 TO     249    A   A   A   A   A   A

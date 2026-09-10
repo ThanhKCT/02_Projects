@@ -1,0 +1,18 @@
+  RespType: Case     ,  File: .Y04   ,  Records:                     0
+              48981652
+  RespType: Displ    ,  File: .Y00   ,  Records:                     0
+              13247424
+  RespType: React    ,  File: .Y03   ,  Records:                     0
+               3340224
+  RespType: Frame    ,  File: .Y06   ,  Records:                     0
+               9641280
+  RespType: Shell    ,  File: .Y07   ,  Records:                     0
+             114852864
+  RespType: Spring   ,  File: .Y05   ,  Records:                     0
+              10452096
+  RespType: JFJoint  ,  File: .Y01   ,  Records:                     0
+               2795328
+  RespType: JFSpring ,  File: .Y02   ,  Records:                     0
+               2795328
+  RespType: DisplTran,  File: .Y08   ,  Records:                     0
+               1458432
