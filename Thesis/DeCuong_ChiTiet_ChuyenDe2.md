@@ -28,10 +28,22 @@ mutation + Gaussian refinement — được kiểm chứng thống kê nghiêm n
 (Wilcoxon-Holm, 30 lần lặp độc lập) trên 26 bài toán chuẩn, cho kết quả
 cạnh tranh nhưng không tuyên bố vượt trội tuyệt đối."*
 
-**Nguồn**: toàn bộ nội dung khoa học của CĐ2 dựa trên bài báo Q3 *"Multi-
-objective Optimization Design of Marine Structures Based on An Enhanced
-Starfish Algorithm"* — phần Methodology (mục 2) và Experimental
-Setup/Benchmark (mục 3). Dữ liệu đã được trích sẵn ở mục 5–7 dưới.
+**Nguồn**: toàn bộ nội dung khoa học của CĐ2 dựa trên bài báo lõi (công
+bố #2, gọi tắt "bài báo Q3" trong file này) — nay đã được chấp nhận
+đăng chính thức:
+
+> Do-Quang, T., Vu-Huu, T. and Le, C.T. (2026), "Multi-objective
+> Optimization of Marine Structures Using an Enhanced Starfish
+> Algorithm", *Proceedings of the Institution of Civil Engineers —
+> Structures and Buildings*. https://doi.org/10.1680/jstbu.26.00159
+> (Article ID STBU-2026-159-R2; Accepted 19/08/2026)
+
+— phần Methodology (mục 2) và Experimental Setup/Benchmark (mục 3). Dữ
+liệu đã được trích sẵn ở mục 5–7 dưới. **Lưu ý**: tên bài báo chính thức
+khác bản nháp `02_MOSFOA__VN.docx` (bản nháp: *"...Optimization Design
+of Marine Structures Based on An Enhanced Starfish Algorithm"*) — cần
+đối chiếu lại số liệu/bảng ở mục 5–7 với bản in chính thức trước khi
+khóa bản thảo CĐ2.
 
 ---
 
@@ -56,8 +68,9 @@ sau:
   thay vì tuyến tính giảm dần; tại sao $\lambda = 0.3$; tại sao Gaussian
   refinement chỉ áp dụng ở 20% cuối).
 - **Mở rộng đối chứng**: thêm mục 3.6 đối chiếu định tính với thuật toán
-  SOO/MOO khác mà NCS đã thử ở Track B (không chạy lại benchmark, chỉ
-  thảo luận nhất quán).
+  SOO/MOO khác mà NCS đã thử ở các công bố #1 (MOMSA), #3 (SFOA-SOO) và
+  #4 (so sánh metaheuristic) (không chạy lại benchmark, chỉ thảo luận
+  nhất quán).
 - **Mở rộng phân tích**: đào sâu hơn phần "phân tích vai trò của từng cơ
   chế cải tiến" (ablation-style discussion) — bài báo có nhắc nhưng
   không tách riêng thành phân tích ablation chi tiết.
@@ -110,8 +123,8 @@ sau:
 - **3.3. Kiểm định thống kê** (Wilcoxon rank-sum, Holm, W/D/L)
 - **3.4. So sánh B-MOSFOA và E-MOSFOA**
 - **3.5. So sánh với MOMSA / NS-MFO / MOGNDO** (mục 7.3 dưới — Bảng 4)
-- **3.6. (MỚI — giá trị gia tăng) Đối chiếu định tính với Track B** — xem
-  mục 2 ở trên
+- **3.6. (MỚI — giá trị gia tăng) Đối chiếu định tính với các công bố
+  #1/#3/#4** — xem mục 2 ở trên
 - **3.7. Phân tích độ nhạy tham số** (mục 7.4 dưới — Bảng 5)
 - **3.8. Phân tích chi phí tính toán** (mục 7.3 dưới — Bảng 3)
 - **3.9. Tổng hợp kết quả**
@@ -243,8 +256,10 @@ với B-MOSFOA.
 | RM-MEDA-P9 | 2 | 10 | $x_1\in[0,1]$, $x_{2..D}\in[0,10]$ |
 | RM-MEDA-P4,8 | 3 | 10 | theo tài liệu gốc |
 
-Tổng cộng: 26 bài toán chuẩn (8 IMOP + 9 UF + 9 RM-MEDA — khớp "26
-problem-indicator combinations" nói ở Kết luận bài báo).
+Tổng cộng: 26 bài toán chuẩn (8 IMOP + 9 UF + 9 RM-MEDA), tương ứng
+"104 problem-indicator combinations" (26 bài toán × 4 chỉ tiêu $IGD$,
+$\varepsilon$, $\Delta$, $MS$) nói ở Kết luận bài báo; riêng suite IMOP
+là "32 problem-indicator combinations" (8×4).
 
 ### 7.2. Chỉ tiêu đánh giá (Bảng 2 gốc)
 
@@ -315,15 +330,15 @@ Baseline: $GP_0=0.5$, $N_r=200$, $n_{grid}=10$. One-factor-at-a-time,
   mục 7.4.
 - Không lặp lại toàn bộ lý thuyết MOO/Pareto/NFL trong CĐ2 — đã có ở CĐ1.
 - Không đưa bất kỳ nội dung/kết quả BD/MD/MJP nào vào CĐ2 — thuộc CĐ3.
-- Không biến mục 3.6 (Track B) thành nội dung chính — chỉ là đối chiếu
-  định tính ngắn.
+- Không biến mục 3.6 (đối chiếu định tính #1/#3/#4) thành nội dung
+  chính — chỉ là đối chiếu định tính ngắn.
 
 ---
 
 ## 9. Checklist tự kiểm tra trước khi hoàn thành bản thảo
 
 - [ ] Không quá 80 trang, đủ 03 chương.
-- [ ] Có mục 3.6 đối chiếu định tính với Track B.
+- [ ] Có mục 3.6 đối chiếu định tính với các công bố #1/#3/#4.
 - [ ] Không tuyên bố universal superiority (mục 7.4).
 - [ ] Đầy đủ Eqs. (2)–(13), pseudocode, phân tích độ phức tạp (mục 6).
 - [ ] Đầy đủ Bảng 1–5 hoặc phiên bản mở rộng của chúng (mục 7).
@@ -335,8 +350,41 @@ Baseline: $GP_0=0.5$, $N_r=200$, $n_{grid}=10$. One-factor-at-a-time,
 
 ## 10. Nguồn tham chiếu (chỉ cần khi cần tra cứu sâu hơn số liệu chi tiết)
 
-- `02_MOSFOA__VN.docx` — bài báo Q3 gốc; dùng nếu cần bảng chi tiết đầy
-  đủ (Appendix Table A1–A4: kết quả từng bài toán, từng chỉ tiêu) mà
-  mục 7 ở trên chỉ trích bản rút gọn "Overall".
+- `02_MOSFOA__VN.docx` — bản nháp bài báo lõi; dùng nếu cần bảng chi
+  tiết đầy đủ (Appendix Table A1–A4: kết quả từng bài toán, từng chỉ
+  tiêu) mà mục 7 ở trên chỉ trích bản rút gọn "Overall". **Cần đối
+  chiếu với bản in chính thức** (xem trích dẫn dưới) trước khi khóa bản
+  thảo, vì tên bài đã đổi so với bản nháp.
 - `De_cuong_4_san_pham_xuyen_suot_luan_an_MOSFOA.md` — đề cương tổng thể
   đã chốt (Phần H là nguồn gốc của file này).
+
+### Trích dẫn chính thức đã xác nhận (dùng cho Tài liệu tham khảo của CĐ2)
+
+- **#2 — Bài báo lõi**: Do-Quang, T., Vu-Huu, T. and Le, C.T. (2026),
+  "Multi-objective Optimization of Marine Structures Using an Enhanced
+  Starfish Algorithm", *Proceedings of the Institution of Civil
+  Engineers — Structures and Buildings*.
+  https://doi.org/10.1680/jstbu.26.00159 (Article ID STBU-2026-159-R2;
+  Accepted 19/08/2026).
+- **#1 — dùng cho mục 3.6 (đối chiếu định tính)**: Quang-Thanh Do,
+  Quoc-Hoan Pham, T. Vu-Huu and Thanh Cuong-Le (2026), "Efficient
+  Design of Single Mooring Buoy Lines: A MOMSA-Based Approach", *4th
+  International Conference on Structural Health Monitoring and
+  Engineering Structures (SHM&ES 2025)*, *Lecture Notes in Civil
+  Engineering*, Vol. 747, pp. 295–302, Springer, Cham.
+  https://doi.org/10.1007/978-3-032-04645-1_35. **Đã công bố.**
+- **#3 — dùng cho mục 3.6 (đối chiếu định tính)**: Đỗ Quang Thành, Vũ
+  Hữu Trường và Lê Thanh Cường (2026), "Tối ưu thể tích bê tông kết cấu
+  tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao biển (SFOA)"
+  ["Concrete Volume Optimization of the Retaining Wall Behind the Jetty
+  Using the Starfish Optimization Algorithm (SFOA)"], *Tạp chí Xây
+  dựng*, Bộ Xây dựng, ISSN 2734-9888, mục "Nghiên cứu khoa học", số
+  tháng 10/2026. **Dự kiến đăng tháng 10/2026.**
+- **#4 — dùng cho mục 3.6 (đối chiếu định tính)**: "Multi-objective
+  Optimization of I-section Steel Frames under TCVN 5575:2024: A
+  Comparative Study of Metaheuristic Algorithms", 9th International
+  Conference on Engineering Research and Applications (ICERA 2026), dự
+  kiến xuất bản trong *Lecture Notes in Civil Engineering*, Springer.
+  **Đang triển khai/dự kiến gửi — chưa nộp.** Vì chưa nộp, mục 3.6 chỉ
+  nên nêu đây là kinh nghiệm/thử nghiệm đang thực hiện của NCS, không
+  trích dẫn như một công bố đã hoàn tất.

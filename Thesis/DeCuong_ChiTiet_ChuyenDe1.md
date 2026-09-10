@@ -175,7 +175,7 @@ cấu cảng" — nói cách khác, đây là dữ liệu thực nghiệm hỗ t
 |---|---|---|---|
 | #1 *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach* | Dây neo phao đơn | MOMSA | MOMSA cho thấy khả năng áp dụng MOO nhưng chưa chuyên biệt hóa cho ràng buộc cọc–bệ. |
 | #3 *Tối ưu thể tích bê tông kết cấu tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao biển (SFOA)* | Tường chắn sau cầu tàu | SFOA | Bằng chứng SOO trực tiếp để chốt SFOA làm nền tảng; dẫn tới các yêu cầu archive, đa dạng và leader selection khi chuyển sang MOO. |
-| #4 *Multi-objective optimization of I-section steel frames under TCVN 5575:2024: A comparative study of metaheuristic algorithms* | Khung thép hạ tầng cảng | So sánh metaheuristic | Minh chứng khung đánh giá thuật toán áp dụng được trên hệ tiêu chuẩn thép khác. |
+| #4 *Multi-objective Optimization of I-section Steel Frames under TCVN 5575:2024: A Comparative Study of Metaheuristic Algorithms* (ICERA 2026 — **đang triển khai/dự kiến gửi, chưa nộp**) | Khung thép hạ tầng cảng | So sánh metaheuristic | Minh chứng khung đánh giá thuật toán áp dụng được trên hệ tiêu chuẩn thép khác — **trích dẫn có điều kiện** đến khi bài được nộp/chấp nhận. |
 | #5–#7 Các công bố MOSFOA trên hệ cọc cầu tàu | Hệ cọc cầu tàu theo case, quy mô, tải trọng và địa kỹ thuật khác nhau | MOSFOA/MOFDA | Chỉ dùng để chỉ ra yêu cầu kiểm chứng chuyển giao; số liệu chi tiết thuộc CĐ3 và Chương 6. |
 
 **Cách viết**: với mỗi công bố — 1 đoạn mô tả bài toán, 1 đoạn tóm tắt
@@ -254,3 +254,27 @@ lý biến rời rạc.
   đã tóm tắt ở mục 6.
 - `De_cuong_4_san_pham_xuyen_suot_luan_an_MOSFOA.md` — đề cương tổng thể
   đã chốt (Phần G là nguồn gốc của file này).
+- `Danh_muc_cong_bo_khoa_hoc_7_bai.md` — danh mục 07 công bố chính thức
+  (nguồn chuẩn cho trạng thái/trích dẫn dùng ở mục 5).
+
+### Trích dẫn chính thức đã xác nhận (dùng cho mục 2.9, mục 5)
+
+- **#1**: Quang-Thanh Do, Quoc-Hoan Pham, T. Vu-Huu and Thanh Cuong-Le
+  (2026), "Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based
+  Approach", *4th International Conference on Structural Health
+  Monitoring and Engineering Structures (SHM&ES 2025)*, *Lecture Notes
+  in Civil Engineering*, Vol. 747, pp. 295–302, Springer, Cham.
+  https://doi.org/10.1007/978-3-032-04645-1_35. **Đã công bố.**
+- **#3**: Đỗ Quang Thành, Vũ Hữu Trường và Lê Thanh Cường (2026), "Tối
+  ưu thể tích bê tông kết cấu tường chắn phía sau cầu tàu bằng thuật
+  toán tối ưu Sao biển (SFOA)" ["Concrete Volume Optimization of the
+  Retaining Wall Behind the Jetty Using the Starfish Optimization
+  Algorithm (SFOA)"], *Tạp chí Xây dựng*, ISSN 2734-9888, mục "Nghiên
+  cứu khoa học", số tháng 10/2026. **Dự kiến đăng tháng 10/2026.**
+- **#4**: "Multi-objective Optimization of I-section Steel Frames under
+  TCVN 5575:2024: A Comparative Study of Metaheuristic Algorithms", 9th
+  International Conference on Engineering Research and Applications
+  (ICERA 2026), dự kiến xuất bản trong *Lecture Notes in Civil
+  Engineering*, Springer. **Đang triển khai/dự kiến gửi — chưa nộp.**
+  Vì chưa nộp, mục 2.9 không nên trích dẫn bài này như một công bố đã
+  hoàn tất; chỉ nêu là kinh nghiệm/thử nghiệm đang thực hiện của NCS.

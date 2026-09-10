@@ -27,8 +27,21 @@ dự án Hải Linh), tạo ra các tập Pareto cost–displacement khả thi 1
 theo tiêu chuẩn (TCVN 7888:2014, TCVN 10304:2014) cho ba hệ kết cấu
 BD/MD/MJP, có so sánh định lượng với thiết kế hiện trạng."*
 
-**Nguồn**: toàn bộ nội dung khoa học dựa trên bài báo Q3, mục 4 (Case
-Study: Liquid Bulk Jetty). Dữ liệu đã trích sẵn ở mục 5–7 dưới.
+**Nguồn**: toàn bộ nội dung khoa học dựa trên bài báo lõi (công bố #2,
+gọi tắt "bài báo Q3" trong file này), mục 4 (Case Study: Liquid Bulk
+Jetty) — nay đã được chấp nhận đăng chính thức:
+
+> Do-Quang, T., Vu-Huu, T. and Le, C.T. (2026), "Multi-objective
+> Optimization of Marine Structures Using an Enhanced Starfish
+> Algorithm", *Proceedings of the Institution of Civil Engineers —
+> Structures and Buildings*. https://doi.org/10.1680/jstbu.26.00159
+> (Article ID STBU-2026-159-R2; Accepted 19/08/2026)
+
+Dữ liệu đã trích sẵn ở mục 5–7 dưới. **Lưu ý**: tên bài báo chính thức
+khác bản nháp `02_MOSFOA__VN.docx` (bản nháp: *"...Optimization Design
+of Marine Structures Based on An Enhanced Starfish Algorithm"*) — cần
+đối chiếu lại số liệu/bảng ở mục 5–7 với bản in chính thức trước khi
+khóa bản thảo CĐ3.
 
 ---
 
@@ -48,7 +61,11 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
 - **Mở rộng phạm vi (giá trị gia tăng lớn nhất của CĐ3)**: mục 3.3.x —
   kiểm chứng bổ sung trên **hệ cọc cầu tàu container 100.000 DWT độc lập
   với Hải Linh** (từ công bố #5) — đây là bằng chứng tổng quát hóa
-  **chính thức**, không có trong bài báo Q3.
+  **chính thức về mặt phương pháp** (không chỉ thảo luận), không có
+  trong bài báo Q3. **Lưu ý trạng thái**: #5 hiện **đang triển khai**
+  (chưa nộp) theo `Danh_muc_cong_bo_khoa_hoc_7_bai.md` — viết mục 3.3.x
+  ở thì phù hợp với trạng thái này, không nêu như một công bố đã hoàn
+  tất, cho đến khi có xác nhận nộp/chấp nhận.
 - **Mở rộng đối chứng**: mục 3.9.x — thảo luận tổng quát hóa qua các
   công bố khác (#1 dây neo phao, #3 tường chắn, #4 khung thép, #6–#7 hệ cọc cầu tàu).
 
@@ -385,8 +402,54 @@ tế theo dự án/thời điểm khi áp dụng thực hành.
 
 ## 11. Nguồn tham chiếu (chỉ cần khi cần tra cứu sâu hơn)
 
-- `02_MOSFOA__VN.docx` — bài báo Q3 gốc; dùng nếu cần Hình 8–10 (ảnh mô
-  hình FEM, mặt cắt kết cấu, biểu đồ HV/Pareto) hoặc Appendix (workflow
-  tổng thể, bảng độ nhạy tham số chi tiết).
+- `02_MOSFOA__VN.docx` — bản nháp bài báo lõi; dùng nếu cần Hình 8–10
+  (ảnh mô hình FEM, mặt cắt kết cấu, biểu đồ HV/Pareto) hoặc Appendix
+  (workflow tổng thể, bảng độ nhạy tham số chi tiết). **Cần đối chiếu
+  với bản in chính thức** (xem trích dẫn dưới) trước khi khóa bản thảo,
+  vì tên bài đã đổi so với bản nháp.
 - `De_cuong_4_san_pham_xuyen_suot_luan_an_MOSFOA.md` — đề cương tổng thể
   đã chốt (Phần I là nguồn gốc của file này).
+
+### Trích dẫn chính thức đã xác nhận (dùng cho Tài liệu tham khảo của CĐ3)
+
+- **#2 — Bài báo lõi**: Do-Quang, T., Vu-Huu, T. and Le, C.T. (2026),
+  "Multi-objective Optimization of Marine Structures Using an Enhanced
+  Starfish Algorithm", *Proceedings of the Institution of Civil
+  Engineers — Structures and Buildings*.
+  https://doi.org/10.1680/jstbu.26.00159 (Article ID STBU-2026-159-R2;
+  Accepted 19/08/2026).
+- **#1 — dùng cho mục 3.9.x (thảo luận tổng quát hóa)**: Quang-Thanh
+  Do, Quoc-Hoan Pham, T. Vu-Huu and Thanh Cuong-Le (2026), "Efficient
+  Design of Single Mooring Buoy Lines: A MOMSA-Based Approach", *4th
+  International Conference on Structural Health Monitoring and
+  Engineering Structures (SHM&ES 2025)*, *Lecture Notes in Civil
+  Engineering*, Vol. 747, pp. 295–302, Springer, Cham.
+  https://doi.org/10.1007/978-3-032-04645-1_35. **Đã công bố.**
+- **#3 — dùng cho mục 3.9.x (thảo luận tổng quát hóa)**: Đỗ Quang
+  Thành, Vũ Hữu Trường và Lê Thanh Cường (2026), "Tối ưu thể tích bê
+  tông kết cấu tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao
+  biển (SFOA)" ["Concrete Volume Optimization of the Retaining Wall
+  Behind the Jetty Using the Starfish Optimization Algorithm (SFOA)"],
+  *Tạp chí Xây dựng*, Bộ Xây dựng, ISSN 2734-9888, mục "Nghiên cứu khoa
+  học", số tháng 10/2026. **Dự kiến đăng tháng 10/2026.**
+- **#4 — dùng cho mục 3.9.x (thảo luận tổng quát hóa)**: "Multi-
+  objective Optimization of I-section Steel Frames under TCVN
+  5575:2024: A Comparative Study of Metaheuristic Algorithms", 9th
+  International Conference on Engineering Research and Applications
+  (ICERA 2026), dự kiến xuất bản trong *Lecture Notes in Civil
+  Engineering*, Springer. **Đang triển khai/dự kiến gửi — chưa nộp.**
+  Vì chưa nộp, mục 3.9.x chỉ nên nêu đây là kinh nghiệm/thử nghiệm đang
+  thực hiện của NCS, không trích dẫn như một công bố đã hoàn tất.
+- **#5, #6, #7 — dùng cho mục 3.3.x và 3.9.x**: cả ba đều **đang triển
+  khai** (chưa nộp/chưa có tạp chí đích chính thức theo
+  `Danh_muc_cong_bo_khoa_hoc_7_bai.md`):
+  - #5 "TỐI ƯU ĐA MỤC TIÊU TIẾT DIỆN HỆ CỌC CẦU TÀU CONTAINER 100.000
+    DWT: ĐỐI SÁNH THUẬT TOÁN MOFDA VÀ MOSFOA";
+  - #6 "ỨNG DỤNG THUẬT TOÁN MOSFOA TỐI ƯU ĐA MỤC TIÊU HỆ CỌC CẦU TÀU:
+    KIỂM CHỨNG TRÊN HAI CÔNG TRÌNH CÓ QUY MÔ VÀ ĐIỀU KIỆN ĐỊA KỸ THUẬT
+    KHÁC NHAU";
+  - #7 "ẢNH HƯỞNG CỦA QUY MÔ, TẢI TRỌNG VÀ ĐIỀU KIỆN ĐỊA KỸ THUẬT ĐẾN
+    TỐI ƯU HỆ CỌC CẦU TÀU SỬ DỤNG THUẬT TOÁN MOSFOA".
+  Vì cả ba đang triển khai, mục 3.3.x (kiểm chứng case độc lập bằng #5)
+  cần được viết ở thì hiện tại/dự kiến, không khẳng định như kết quả đã
+  công bố, cho đến khi có xác nhận nộp/chấp nhận tương tự #2 và #3.
