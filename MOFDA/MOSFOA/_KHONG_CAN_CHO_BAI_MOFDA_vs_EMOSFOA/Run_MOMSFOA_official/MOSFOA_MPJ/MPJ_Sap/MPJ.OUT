@@ -1,0 +1,62 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\OneDrive\Nature-Insp...gorithms\Multiobjectives\MOSFOA\MPJ_Sap\MPJ.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+     371 TO     409    A   A   A   A   A   A
+     410               -   -   A   -   -   -
+     411               A   A   -   A   A   A
+     412               A   A   A   A   A   A
+     413               -   -   A   -   -   -
+     414               A   A   -   A   A   A
+     415               A   A   A   A   A   A
+     416               -   -   A   -   -   -
+     417               A   A   -   A   A   A
+     418               A   A   A   A   A   A
+     419               -   -   A   -   -   -
+     420               A   A   -   A   A   A
+     421               A   A   A   A   A   A
+     422               -   -   A   -   -   -
+     423               A   A   -   A   A   A
+     424               -   -   A   -   -   -
+     425               A   A   -   A   A   A
+     426               -   -   A   -   -   -
+     427               A   A   -   A   A   A
+     428               -   -   A   -   -   -
+     429               A   A   -   A   A   A
+     430               -   -   A   -   -   -
+     431               A   A   -   A   A   A
+     432               -   -   A   -   -   -
+     433               A   A   -   A   A   A
+     434               -   -   A   -   -   -
+     435               A   A   -   A   A   A
+     436               -   -   A   -   -   -
+     437               A   A   -   A   A   A
+     438               -   -   A   -   -   -
+     439               A   A   -   A   A   A
+     440               -   -   A   -   -   -
+     441               A   A   -   A   A   A
+     442               -   -   A   -   -   -
+     443               A   A   -   A   A   A
+     444               -   -   A   -   -   -
+     445               A   A   -   A   A   A
+     446               -   -   A   -   -   -
+     447               A   A   -   A   A   A
+     448               -   -   A   -   -   -
+     449               A   A   -   A   A   A
+     450               -   -   A   -   -   -
+     451               A   A   -   A   A   A
+     452               -   -   A   -   -   -
+     453               A   A   -   A   A   A
+     454 TO    ~262    A   A   A   A   A   A

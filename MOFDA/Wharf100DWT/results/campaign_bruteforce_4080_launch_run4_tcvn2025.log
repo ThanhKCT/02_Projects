@@ -1,0 +1,8 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Wharf100DWT BRUTE-FORCE] 4080 to hop can danh gia (CatIdx x D_thep x t_thep = 5 x 51 x 16), Num_work=8, ChunkSize=100, RestartEvery=6 chunk
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.

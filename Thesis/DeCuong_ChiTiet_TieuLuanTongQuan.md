@@ -166,13 +166,15 @@ khi đề xuất MOSFOA, NCS đã áp dụng và đối chứng một số thu�
 đơn/đa mục tiêu trên các bài toán kết cấu cảng biển khác, từ đó hình
 thành động lực phát triển một thuật toán SI-MOO chuyên biệt hơn."*
 
-| # | Công bố | Đối tượng | Thuật toán | Vai trò trong lập luận |
+| # | Công bố theo danh mục | Đối tượng | Thuật toán | Vai trò trong lập luận |
 |---|---|---|---|---|
-| 1 | *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach*, SHM&ES 2025, LNCE vol. 747, Springer (2026) | Dây neo phao đơn | MOMSA (SOO/MOO) | Cho thấy MOMSA áp dụng được cho kết cấu cảng nhưng chưa chuyên biệt hóa cho lớp bài toán cọc–bệ |
-| 2 | *On Optimization of Gravity Retaining Wall Considering the Dimension of the Stone Base*, VSOE 2024, LNCE 590, Springer (2025) | Tường chắn trọng lực | Thuật toán tối ưu SOO | Minh chứng thêm về ứng dụng tối ưu cho kết cấu cảng khác BD/MD/MJP |
-| 3 | *(Dự kiến)* Tạp chí Xây dựng — "Nghiên cứu ứng dụng thuật toán SFOA cho tối ưu đơn mục tiêu kết cấu công trình biển" | Kết cấu công trình biển | SFOA (đơn mục tiêu) | **Tiền đề trực tiếp nhất** cho việc chọn SFOA làm nền tảng MOSFOA — nên trích dẫn ngay tại đoạn "vì sao chọn SFOA" ở mục 5 |
-| 4 | *(Dự kiến)* JMST — "Nghiên cứu ứng dụng thuật toán MOSFOA cho tối ưu đa mục tiêu kết cấu công trình bến cảng" (dự án khác Hải Linh) | Bến bệ cọc cao (dự án độc lập) | MOSFOA | Minh chứng thêm, không phải sản phẩm lõi |
-| 5 | *(Dự kiến)* ICERA 2026 — "Multi-objective optimization of I-section steel frames under TCVN 5575:2024..." | Khung thép nhà điều hành cảng | So sánh nhiều metaheuristic | Mở rộng phạm vi minh chứng sang hệ tiêu chuẩn thép (TCVN 5575:2024), khác hệ tiêu chuẩn bê tông/cọc chính của luận án |
+| 1 | *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach* | Dây neo phao đơn | MOMSA | Minh chứng tiếp cận MOO cho hạng mục cảng khác, nhưng chưa chuyên biệt hóa cho lớp cọc–bệ. |
+| 2 | *Multi-objective Optimization Design of Marine Structures Based on An Enhanced Starfish Algorithm* | BD/MD/MJP | B-MOSFOA, E-MOSFOA | Công bố lõi; Tổng quan chỉ dùng để xác lập hướng nghiên cứu, không trình bày kết quả chi tiết. |
+| 3 | *Tối ưu thể tích bê tông kết cấu tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao biển (SFOA)* | Tường chắn sau cầu tàu | SFOA | **Tiền đề trực tiếp** để chọn SFOA làm nền tảng MOSFOA. |
+| 4 | *Multi-objective optimization of I-section steel frames under TCVN 5575:2024: A comparative study of metaheuristic algorithms* | Khung thép hạ tầng cảng | So sánh metaheuristic | Mở rộng minh chứng code-based MOO sang hệ tiêu chuẩn thép. |
+| 5 | *Tối ưu đa mục tiêu tiết diện hệ cọc cầu tàu container 100.000 DWT: Đối sánh thuật toán MOFDA và MOSFOA* | Hệ cọc cầu tàu container | MOFDA, MOSFOA | Bằng chứng ứng dụng/đối sánh độc lập ngoài case lõi. |
+| 6 | *Ứng dụng thuật toán MOSFOA tối ưu đa mục tiêu hệ cọc cầu tàu: Kiểm chứng trên hai công trình có quy mô và điều kiện địa kỹ thuật khác nhau* | Hai hệ cọc cầu tàu | MOSFOA | Bằng chứng chuyển giao theo quy mô và điều kiện địa kỹ thuật. |
+| 7 | *Ảnh hưởng của quy mô, tải trọng và điều kiện địa kỹ thuật đến tối ưu hệ cọc cầu tàu sử dụng thuật toán MOSFOA* | Hệ cọc cầu tàu | MOSFOA | Cơ sở bàn luận độ nhạy, giới hạn và phạm vi áp dụng. |
 
 **Lưu ý khi viết**: chỉ tóm tắt 2–4 câu mỗi công bố (kết cấu gì, thuật
 toán gì, nhận định rút ra) — không trình bày chi tiết phương pháp/kết

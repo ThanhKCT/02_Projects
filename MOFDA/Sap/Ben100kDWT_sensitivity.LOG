@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2026/08/27  23:05:17
+ B E G I N   A N A L Y S I S                                2026/09/08  15:25:19
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -38,11 +38,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
 
 
- E L E M E N T   F O R M A T I O N                                      23:05:17
+ E L E M E N T   F O R M A T I O N                                      15:25:19
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        23:05:17
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        15:25:19
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -59,7 +59,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  23:05:18
+ L I N E A R   S T A T I C   C A S E S                                  15:25:20
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -84,7 +84,7 @@
  CASE: CT1(TINH Y)
 
 
- I N F L U E N C E   L O A D   C A S E                                  23:05:19
+ I N F L U E N C E   L O A D   C A S E                                  15:25:21
 
  CASE: <Influence>
 
@@ -98,7 +98,7 @@
  Saving Section-Cut response
 
 
- V E H I C L E   I N F L U E N C E   A N A L Y S I S                    23:05:34
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    15:25:36
 
  CASE: <Vehicle 1 0 0>
 
@@ -133,18 +133,18 @@
                                                ----------
  TOTAL NUMBER OF RESPONSE POINTS           =       41326   NONE
 
- TIME FOR COMPUTING JOINT RESPONSE         =        2.16
+ TIME FOR COMPUTING JOINT RESPONSE         =        2.18
 
- TIME FOR COMPUTING SPRING RESPONSE        =        1.94
- TIME FOR COMPUTING REACTION RESPONSE      =        0.98
+ TIME FOR COMPUTING SPRING RESPONSE        =        1.95
+ TIME FOR COMPUTING REACTION RESPONSE      =        1.00
  TIME FOR COMPUTING FRAME RESPONSE         =        2.25
- TIME FOR COMPUTING SHELL RESPONSE         =       20.36
+ TIME FOR COMPUTING SHELL RESPONSE         =       20.39
  TIME FOR CONTROLLING ANALYSIS             =        0.01
                                                ----------
- TOTAL TIME FOR THIS ANALYSIS              =       27.75
+ TOTAL TIME FOR THIS ANALYSIS              =       27.83
 
 
- M O V I N G   L O A D   A N A L Y S I S                                23:06:01
+ M O V I N G   L O A D   A N A L Y S I S                                15:26:04
 
  CASE: CT1 (DI DONG)
 
@@ -155,7 +155,7 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- M O V I N G   L O A D   A N A L Y S I S                                23:06:17
+ M O V I N G   L O A D   A N A L Y S I S                                15:26:20
 
  CASE: CT2 (BAO)
 
@@ -166,18 +166,7 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- A N A L Y S I S   C O M P L E T E                          2026/08/27  23:06:32
-
- * * * E R R O R * * *   (WHILE DELETING ALL CASE RESULTS)
- FILE OPEN ERROR #   -2,
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
+ A N A L Y S I S   C O M P L E T E                          2026/09/08  15:26:35
 
  * * * E R R O R * * *   (WHILE DELETING ALL CASE RESULTS)
  FILE OPEN ERROR #   -2,
@@ -185,91 +174,7 @@
              itivity.Y
 
 
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
- FILE OPEN ERROR #   -2,
- FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
-             itivity.Y
-
-
- * * * E R R O R * * *   (WHILE GETTING CASE STATUS)
+ * * * E R R O R * * *   (WHILE DELETING ALL CASE RESULTS)
  FILE OPEN ERROR #   -2,
  FILE NAME = D:\ResearchLab\02_Projects\02_Projects\MOFDA\Sap\Ben100kDWT_sens
              itivity.Y

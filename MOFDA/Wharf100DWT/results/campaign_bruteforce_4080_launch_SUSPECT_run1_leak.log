@@ -1,0 +1,57 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Wharf100DWT BRUTE-FORCE] 4080 to hop can danh gia (CatIdx x D_thep x t_thep = 5 x 51 x 16), Num_work=8, ChunkSize=100, RestartEvery=6 chunk
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+Da xong 100/4080 to hop - Thoi gian luy ke: 28.1 phut
+Da xong 200/4080 to hop - Thoi gian luy ke: 57.3 phut
+Da xong 300/4080 to hop - Thoi gian luy ke: 85.8 phut
+Da xong 400/4080 to hop - Thoi gian luy ke: 113.8 phut
+Da xong 500/4080 to hop - Thoi gian luy ke: 141.4 phut
+Da xong 600/4080 to hop - Thoi gian luy ke: 167.4 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 700/4080 to hop - Thoi gian luy ke: 169.5 phut
+Da xong 800/4080 to hop - Thoi gian luy ke: 170.7 phut
+Da xong 900/4080 to hop - Thoi gian luy ke: 171.9 phut
+Da xong 1000/4080 to hop - Thoi gian luy ke: 173.1 phut
+Da xong 1100/4080 to hop - Thoi gian luy ke: 174.3 phut
+Da xong 1200/4080 to hop - Thoi gian luy ke: 175.4 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 1300/4080 to hop - Thoi gian luy ke: 177.8 phut
+Da xong 1400/4080 to hop - Thoi gian luy ke: 179.2 phut
+Da xong 1500/4080 to hop - Thoi gian luy ke: 180.7 phut
+Da xong 1600/4080 to hop - Thoi gian luy ke: 182.2 phut
+Da xong 1700/4080 to hop - Thoi gian luy ke: 183.6 phut
+Da xong 1800/4080 to hop - Thoi gian luy ke: 185.0 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 1900/4080 to hop - Thoi gian luy ke: 187.4 phut
+Da xong 2000/4080 to hop - Thoi gian luy ke: 188.6 phut
+Da xong 2100/4080 to hop - Thoi gian luy ke: 189.9 phut
+Da xong 2200/4080 to hop - Thoi gian luy ke: 191.1 phut
+Da xong 2300/4080 to hop - Thoi gian luy ke: 192.4 phut
+Da xong 2400/4080 to hop - Thoi gian luy ke: 193.6 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 2500/4080 to hop - Thoi gian luy ke: 196.4 phut
+Da xong 2600/4080 to hop - Thoi gian luy ke: 197.9 phut
+Da xong 2700/4080 to hop - Thoi gian luy ke: 199.4 phut
+Da xong 2800/4080 to hop - Thoi gian luy ke: 200.8 phut
+Da xong 2900/4080 to hop - Thoi gian luy ke: 202.3 phut
+Da xong 3000/4080 to hop - Thoi gian luy ke: 203.9 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 3100/4080 to hop - Thoi gian luy ke: 206.3 phut
+Da xong 3200/4080 to hop - Thoi gian luy ke: 207.6 phut
+Da xong 3300/4080 to hop - Thoi gian luy ke: 209.0 phut
+Da xong 3400/4080 to hop - Thoi gian luy ke: 210.3 phut
+Da xong 3500/4080 to hop - Thoi gian luy ke: 211.6 phut
+Da xong 3600/4080 to hop - Thoi gian luy ke: 212.9 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+Da xong 3700/4080 to hop - Thoi gian luy ke: 215.5 phut
+Da xong 3800/4080 to hop - Thoi gian luy ke: 216.8 phut
+Da xong 3900/4080 to hop - Thoi gian luy ke: 218.0 phut
+Da xong 4000/4080 to hop - Thoi gian luy ke: 219.2 phut
+Da xong 4080/4080 to hop - Thoi gian luy ke: 220.2 phut
+HOAN THANH brute-force. 13/4080 nghiem Pareto (trong 588 to hop kha thi, 3492 bi phat cung). Thoi gian: 220.2 phut
+Parallel pool using the 'Processes' profile is shutting down.

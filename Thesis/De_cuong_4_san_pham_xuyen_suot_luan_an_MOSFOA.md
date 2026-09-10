@@ -216,50 +216,27 @@ Nguyên tắc phân vai:
   đến kết luận cần một thuật toán chuyên biệt hơn — đó là động lực dẫn
   đến MOSFOA") và đáp ứng yêu cầu đầu ra.
 
-## C.2. Bảng ánh xạ công bố → cấu phần luận án (đã cập nhật với danh mục thực tế)
+## C.2. Bảng ánh xạ công bố → cấu phần luận án
 
-| # | Công bố | Loại | Vị trí tác giả (NCS) | Trạng thái | Vai trò trong luận án | Cờ rủi ro |
-|---|---|---|---|---|---|---|
-| 0 | **Bài báo MOSFOA** (Q3, ISI/Scopus) | Track A — lõi | Tác giả chính (Methodology/Software/Investigation) | Đã công bố | CĐ2 (thuật toán) + CĐ3 (ứng dụng) | Không |
-| 1 | *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach*, SHM&ES 2025, LNCE vol. 747, Springer Cham (2026) | Track B — Scopus (kỷ yếu HN quốc tế, LNCE) | **Tác giả thứ nhất** (Thanh Cuong-Le là tác giả liên hệ) | Đã chấp nhận | Tổng quan (khả năng tiếp cận) + CĐ1 §2.9 (đối chứng MOO trên dây neo phao) | Thấp |
-| 2 | *On Optimization of Gravity Retaining Wall Considering the Dimension of the Stone Base*, VSOE 2024, LNCE 590, Springer Singapore (2025) | Track B — Scopus (kỷ yếu HN quốc tế, LNCE) | **Tác giả thứ hai** (Quoc Hoan Pham là tác giả thứ nhất/liên hệ) | Đã đăng | Tổng quan (khả năng tiếp cận) + CĐ1 §2.9 (đối chứng SOO trên tường chắn) | **Trung bình** — không phải tác giả chính, cần xác nhận có được tính vào Điều 17 |
-| 3 | *(Dự kiến)* Tạp chí Xây dựng — "Nghiên cứu ứng dụng thuật toán SFOA cho tối ưu đơn mục tiêu kết cấu công trình biển" | Track B — tạp chí trong nước | **Tác giả thứ nhất** (đã xác nhận) | Dự kiến | Tổng quan (khả năng tiếp cận) + **CĐ1 §3.8 "Định hướng MOSFOA"** (bằng chứng thực nghiệm SOO trực tiếp cho luận điểm chọn SFOA làm nền tảng) | Thấp, nhưng **cơ hội cao** — nên khai thác mạnh ở CĐ1 vì đây là tiền đề trực tiếp nhất cho SFOA |
-| 4 | *(Dự kiến)* Tạp chí Khoa học Công nghệ Hàng hải (JMST) — "Nghiên cứu ứng dụng thuật toán MOSFOA cho tối ưu đa mục tiêu kết cấu công trình bến cảng" — **dùng cho công trình bến bệ cọc cao ở một dự án khác Hải Linh** | Track B — tạp chí trong nước | **Tác giả thứ nhất** (đã xác nhận) | Dự kiến | CĐ1 §2.9 (đối chứng) + **CĐ3 §3.9.x nâng cấp thành bằng chứng tổng quát hóa chính thức** (dự án độc lập, không trùng BD/MD/MJP) | **Đã đóng, thấp** — case study khác dự án Hải Linh nên không còn rủi ro trùng lặp nội dung; xem cảnh báo (i) đã đóng dưới |
-| 5 | *(Dự kiến)* ICERA 2026 — "Multi-objective optimization of I-section steel frames under TCVN 5575:2024: A comparative study of metaheuristic algorithms" — đối tượng là khung thép nhà điều hành cảng | Track B — Scopus (kỷ yếu HN quốc tế, LNCE) | **Tác giả thứ nhất** (đã xác nhận) | Dự kiến | Tổng quan (khả năng tiếp cận, mở rộng phạm vi) + CĐ1 §2.9 (minh chứng code-based MOO trên chuẩn thép TCVN 5575:2024, khác hệ chuẩn bê tông/cọc TCVN 7888, 10304 của luận án) | **Đã đóng, thấp** — nhà điều hành cảng thuộc nhóm "hậu phương/hạ tầng kỹ thuật" của kết cấu hạ tầng cảng biển, phù hợp phạm vi đề tài — xem cảnh báo (ii) đã đóng dưới |
-| ~~6~~ | ~~ICERA 2026 — "Multi-objective Design Optimization of Offshore High-Pile Concrete Wharf Structures..."~~ | — | — | **Đã hủy, không nộp** (quyết định của NCS) | Không còn thuộc Track B | Đã đóng — xem cảnh báo (iii) đã đóng dưới |
+> **Nguồn chuẩn:** `danh muc cong bo KH.docx`. Theo xác nhận của NCS, cả 07 công trình dưới đây được quản lý như các công bố chính thức phục vụ luận án. Bảng này không tự suy diễn thứ tự tác giả hoặc điểm quy đổi; các dữ liệu đó được đối chiếu trực tiếp với bản công bố/hồ sơ chính thức khi nộp xét.
 
-> **Ghi chú thao tác**: bảng này là "sổ theo dõi công bố" sống, cập nhật
-> mỗi khi có bài báo mới được chấp nhận đăng hoặc đổi tình trạng.
+| # | Công bố theo danh mục | Nhóm | Vai trò trong kiến trúc luận án |
+|---|---|---|---|
+| 1 | *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach*, SHM&ES 2025, Lecture Notes in Civil Engineering, vol. 747, pp. 295–302, Springer (2026) | Bổ trợ — MOO/kết cấu cảng | Tổng quan: khả năng tiếp cận; CĐ1 §2.9: đối chứng MOO trên dây neo phao. |
+| 2 | *Multi-objective Optimization Design of Marine Structures Based on An Enhanced Starfish Algorithm* (MOSFOA, Q3) | **Lõi** | CĐ2: phát triển và benchmark B-MOSFOA/E-MOSFOA; CĐ3: ứng dụng BD/MD/MJP. |
+| 3 | *Tối ưu thể tích bê tông kết cấu tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao biển (SFOA)*, Tạp chí Xây dựng | Bổ trợ — SFOA/SOO | Tổng quan: tiền đề chọn SFOA; CĐ1 §2.9 và §3.8: đối chứng SOO, luận cứ phát triển MOSFOA. |
+| 4 | *Multi-objective optimization of I-section steel frames under TCVN 5575:2024: A comparative study of metaheuristic algorithms*, ICERA 2026, Lecture Notes in Civil Engineering | Bổ trợ — code-based MOO | Tổng quan và CĐ1 §2.9: minh chứng mở rộng trên hệ kết cấu thép/hạ tầng cảng. |
+| 5 | *Tối ưu đa mục tiêu tiết diện hệ cọc cầu tàu container 100.000 DWT: Đối sánh thuật toán MOFDA và MOSFOA*, Tạp chí Khoa học Công nghệ Hàng hải | Kiểm chứng ứng dụng | CĐ3: case đối lập độc lập, đối sánh thuật toán và tổng quát hóa ngoài Hải Linh. |
+| 6 | *Ứng dụng thuật toán MOSFOA tối ưu đa mục tiêu hệ cọc cầu tàu: Kiểm chứng trên hai công trình có quy mô và điều kiện địa kỹ thuật khác nhau*, Tạp chí Xây dựng | Kiểm chứng ứng dụng | CĐ3 và Chương 6 luận án: kiểm chứng chuyển giao theo quy mô/địa kỹ thuật. |
+| 7 | *Ảnh hưởng của quy mô, tải trọng và điều kiện địa kỹ thuật đến tối ưu hệ cọc cầu tàu sử dụng thuật toán MOSFOA*, Tạp chí Khoa học Công nghệ Giao thông Vận tải | Độ nhạy và giới hạn áp dụng | CĐ3 §3.9 và Chương 6: phân tích độ nhạy, giới hạn và phạm vi áp dụng. |
 
-### Ba cảnh báo — đã xử lý theo xác nhận của NCS
+**Nguyên tắc sử dụng:** công bố #2 là bằng chứng lõi; #1, #3 và #4 làm rõ quá trình tiếp cận/cơ sở so sánh; #5–#7 là các bằng chứng ứng dụng mở rộng. Không sao chép toàn văn bất kỳ công bố nào vào luận án; mỗi chỗ sử dụng phải tổng hợp, trích dẫn và nêu rõ phần giá trị gia tăng.
 
-**(i) Bài #4 (JMST) — ĐÃ ĐÓNG.** NCS xác nhận case study là **một dự án
-bến bệ cọc cao khác, không phải Hải Linh** (dự án dùng trong bài Q3 và
-CĐ3). Vì dữ liệu độc lập, không còn rủi ro trùng lặp nội dung/tự đạo
-văn. Ngược lại, đây trở thành một tài sản có giá trị: một trường hợp
-kiểm chứng MOSFOA thứ hai, hoàn toàn độc lập với BD/MD/MJP. **Khuyến
-nghị nâng cấp vai trò trong CĐ3**: thay vì chỉ "thảo luận tổng quát
-hóa" ở mục 3.9.x, nếu quy mô đủ (đủ dữ liệu, đủ so sánh B-MOSFOA/
-E-MOSFOA), nên đưa thành **một mục kết quả bổ sung riêng** trong CĐ3
-Chương 3 (ví dụ 3.4.x "Kiểm chứng bổ sung trên dự án độc lập"), làm tăng
-đáng kể sức thuyết phục của luận án về tính tổng quát của MOSFOA —
-tăng giá trị gia tăng theo đúng nguyên tắc B.1.
+### Điểm neo triển khai
 
-**(ii) Bài #5 (I-section steel frames) — ĐÃ ĐÓNG.** NCS xác nhận đối
-tượng là khung thép của **nhà điều hành cảng** — đây thuộc nhóm kết cấu
-"hậu phương/hạ tầng kỹ thuật" trong phân loại kết cấu hạ tầng cảng biển
-(đã có sẵn trong khảo sát Tổng quan cũ), nên **thỏa điều kiện "liên
-quan trực tiếp đến đề tài luận án"** của Điều 17. Giá trị gia tăng: bài
-này minh chứng phương pháp code-based MOO của luận án áp dụng được trên
-một hệ tiêu chuẩn khác (TCVN 5575:2024 — kết cấu thép) ngoài hệ tiêu
-chuẩn bê tông/cọc chính (TCVN 7888:2014, TCVN 10304:2014), củng cố luận
-điểm tổng quát hóa ở CĐ1 §2.9.
-
-**(iii) Bài #6 (Offshore high-pile concrete wharf) — ĐÃ ĐÓNG.** NCS đã
-quyết định **hủy, không nộp bài này**. Rủi ro trùng lặp nội dung với
-bài báo Q3/CĐ3 (cùng đối tượng bến cọc cao, cùng mục tiêu so sánh
-metaheuristic đa mục tiêu) theo đó không còn tồn tại. Đã loại khỏi bảng
-C.2 và không tính vào Track B.
+- **#5** cung cấp case cầu tàu container 100.000 DWT để đối sánh MOFDA–MOSFOA, tách với case Hải Linh của công bố lõi.
+- **#6** kiểm chứng MOSFOA trên hai công trình có quy mô và địa kỹ thuật khác nhau; dùng làm bằng chứng chuyển giao, không lặp lại toàn văn ở CĐ3.
+- **#7** cung cấp lớp độ nhạy theo quy mô, tải trọng và địa kỹ thuật; kết quả được tổng hợp ở CĐ3 §3.9 và Chương 6, không tạo một hướng luận án thứ hai.
 
 ## C.3. Yêu cầu đầu ra theo quy chế (Điều 17/18, Phụ lục 12 — đã đối chiếu)
 
@@ -277,43 +254,9 @@ mục 17–19, điều kiện công bố khoa học **bắt buộc** trước kh
    luận án (Điều 17); nội dung chủ yếu của luận án còn phải được công bố
    theo yêu cầu riêng của Phụ lục 12.
 
-### Áp dụng cho danh mục hiện tại (đã cập nhật: ngành xét HĐGSNN = Giao thông vận tải; các bài dự kiến NCS đứng tác giả thứ nhất)
+### Áp dụng cho danh mục 07 công trình
 
-| Công bố | Vị trí tác giả | Đạt "tác giả chính"? | Đóng góp điểm? |
-|---|---|---|---|
-| Bài báo MOSFOA (Q3) | Thứ nhất | ✓ | Có — mức điểm cụ thể phụ thuộc xếp hạng Scopus/quartile của tạp chí, cần tra khung điểm HĐGSNN **ngành Giao thông vận tải** hiện hành |
-| #1 Mooring buoy (MOMSA) | Thứ nhất | ✓ | Có, mức điểm theo loại "kỷ yếu HN quốc tế có phản biện, Scopus" |
-| #2 Gravity retaining wall | **Tác giả tham gia** (đã xác nhận, không phải tác giả chính) | ✗ | **Không tính vào tổng điểm Điều 17** — nhưng không ảnh hưởng vì ngưỡng 2,0 đã đạt qua các công bố khác; bài #2 vẫn dùng tốt cho Track B học thuật (Tổng quan/CĐ1 §2.9), vì trích dẫn học thuật không đòi hỏi vị trí tác giả chính |
-| #3 (Tạp chí Xây dựng, SFOA-SOO) | **Thứ nhất** (đã xác nhận) | ✓ | Có |
-| #4 (JMST, MOSFOA-MOO, dự án khác) | **Thứ nhất** (đã xác nhận) | ✓ | Có |
-| #5 (ICERA, khung thép nhà điều hành cảng) | **Thứ nhất** (đã xác nhận) | ✓ | Có, mức điểm theo loại "kỷ yếu HN quốc tế có phản biện, Scopus" |
-| ~~#6~~ | — | — | Đã hủy, không nộp |
-
-**Trạng thái: ĐÃ KHÓA.** NCS xác nhận (1) chắc chắn đạt ngưỡng tổng điểm
-≥ 2,0 và (2) bài #2 là **tác giả tham gia** (không phải tác giả chính,
-do đó không tính vào tổng điểm Điều 17 — nhưng không ảnh hưởng vì ngưỡng
-đã đạt qua các công bố còn lại, tất cả đều đứng tên tác giả thứ nhất).
-Cả hai hạng mục mở của C.3, cùng ba cảnh báo trùng lặp/phạm vi (i)/(ii)/
-(iii) ở C.2, nay đều đã đóng. Track B coi như khóa xong, trừ một hạng
-mục mới phát sinh — xem C.4.
-
-## C.4. Bài báo #7 (mới đề xuất) — thuần Track B, không sửa nội dung chuyên đề
-
-**Đính chính của NCS**: bài báo #7 (dùng MOSFOA đã phát triển, theo
-hướng tối ưu theo độ tin cậy **hoặc** MCDM dựa trên tập Pareto) chỉ là
-một công bố khoa học **bổ sung phục vụ đầu ra** — giống vai trò của #1,
-#2, #3, #5 — **không được đưa vào nội dung CĐ2/CĐ3**. Khung chương của
-CĐ2/CĐ3 ở Phần H/I giữ nguyên như đã khóa, không chỉnh sửa vì bài này.
-
-| # | Công bố | Loại | Vai trò | Vị trí tác giả |
-|---|---|---|---|---|
-| 7 | *(Dự kiến)* Bài dùng MOSFOA — hướng (A) tối ưu theo độ tin cậy **hoặc** (B) MCDM dựa trên Pareto (chọn 1 trong 2 khi triển khai) | Track B — đầu ra | Đầu ra bổ sung; không nằm trong nội dung bắt buộc của bất kỳ chuyên đề nào | Dự kiến tác giả thứ nhất |
-
-Ghi chú ngắn (chỉ để NCS cân nhắc khi chọn hướng viết, không ràng buộc
-nội dung luận án): phương án MCDM ít rủi ro trùng phạm vi hơn phương án
-độ tin cậy, vì CĐ1 đã khóa cách tiếp cận tất định (code-based); nhưng
-đây thuần là lựa chọn của NCS cho một bài báo Track B, không ảnh hưởng
-đề cương các chuyên đề.
+Theo xác nhận của NCS, danh mục tại C.2 đáp ứng chiến lược đầu ra. Khi lập hồ sơ, kiểm tra từng công bố theo đúng bốn điều kiện nêu trên từ bản chính thức: tư cách tác giả chính, loại công bố, điểm HĐGSNN và mức độ liên quan với luận án. Không duy trì trong đề cương các nhận định về thứ tự tác giả, điểm hoặc trạng thái nếu chúng chưa lấy từ bản công bố cuối cùng.
 
 ---
 

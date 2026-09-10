@@ -1,0 +1,210 @@
+clear all; close all; clc
+addpath Functions\
+addpath MPJ_Sap\
+addpath Pile_TCVN10304_2014\
+% data = readmatrix('Prestress_Pile_TCVN7888_2014.xlsx'); 
+% save X1_X2.mat data
+load('X1_X2.mat');
+
+fun    = @Sap_MPJ;
+   %X1,X2        X3    X4-stepx   X5stepy   X6-D   X7-W
+lb=[1            16    3          3         0.5    0.5];
+ub=[size(data,1) 39    6          6         2      2];
+
+st=[1            0.1   0.1        0.1       0.1    0.1];
+D=NaN.*ones(500,length(lb));
+for i=1:length(lb)
+    DD=[lb(i):st(i):ub(i)];
+    D(1:length(DD),i) = DD';
+end
+
+nVar   = length(lb);
+numObj = 2;
+
+GP=0.5;
+Max_it      = 300;
+Nr          = 100;    % Repository size
+ngrid       = 10;
+Nrun        = 1;
+Npop        = 100;
+
+% Select the fraction of physical CPU cores used as parallel SAP2000 instances.
+% Allowed values: 1.0 (maximum), 0.9, 0.8, 0.7, 0.6, or 0.5.
+workerFraction = 1.0;
+allowedWorkerFractions = [1.0 0.9 0.8 0.7 0.6 0.5];
+if ~any(abs(workerFraction - allowedWorkerFractions) < 1e-12)
+    error('workerFraction must be one of: 1.0, 0.9, 0.8, 0.7, 0.6, 0.5.');
+end
+
+localCluster = parcluster('local');
+try
+    detectedPhysicalCores = feature('numcores');
+catch
+    detectedPhysicalCores = localCluster.NumWorkers;
+end
+detectedPhysicalCores = max(1, floor(double(detectedPhysicalCores)));
+maxParallelSAP = min([detectedPhysicalCores, localCluster.NumWorkers, Npop]);
+Num_work = max(1, floor(workerFraction * maxParallelSAP));
+
+ParallelConfig = struct( ...
+    'WorkerFraction', workerFraction, ...
+    'DetectedPhysicalCores', detectedPhysicalCores, ...
+    'LocalClusterMaxWorkers', localCluster.NumWorkers, ...
+    'MaxParallelSAP', maxParallelSAP, ...
+    'NumSAPInstances', Num_work, ...
+    'PopulationSize', Npop);
+fprintf('[B-MOSFOA MPJ] Using %d SAP2000 instances (%.0f%% of %d available physical cores).\n', ...
+    Num_work, 100*workerFraction, maxParallelSAP);
+%% ng ton b ca s SAP2000 ang m (nu c)
+system('taskkill /F /IM SAP2000.exe');
+pause(2);
+
+% Xpos = rand(Npop,nVar).*(ub-lb)+lb;
+% for jj=1:size(Xpos,1)    
+%     for ii=1:nVar
+%         [~,b]=min(abs(D(:,ii)-Xpos(jj,ii))); 
+%         Xpos(jj,ii)=D(b,ii);
+%     end
+% end
+% FitLoc = fun(Xpos, data);
+%% Bo m Parallel Pool khp vi Num_work
+p = gcp('nocreate');
+if isempty(p) || p.NumWorkers ~= Num_work
+    delete(p);
+    parpool('local', Num_work);
+end
+spmd (Num_work)
+    open_Sap2000(1);
+    pause(2);
+    SM.Hide;
+    Sap_name0 = 'MPJ.sdb';
+    Sap_path0 = fullfile(pwd,'MPJ_Sap',Sap_name0);
+    SM.File.OpenFile(Sap_path0);
+    Sap_name_new = sprintf('MPJ_%d.sdb', spmdIndex);
+    workerFolder = fullfile(pwd,'MPJ_Sap', sprintf('W%02d',spmdIndex));
+    if ~exist(workerFolder,'dir'); mkdir(workerFolder); end
+    Sap_path_save = fullfile(workerFolder, Sap_name_new);
+    SM.File.Save('FileName', Sap_path_save);
+    maxNumCompThreads(1);
+end
+Fitness = zeros(Npop, numObj);
+newFit = zeros(Npop, numObj);
+for iloop=1:Nrun
+    Xpos = rand(Npop,nVar).*(ub-lb)+lb;
+    for jj=1:size(Xpos,1)    
+        for ii=1:nVar
+            [~,b]=min(abs(D(:,ii)-Xpos(jj,ii))); 
+            Xpos(jj,ii)=D(b,ii);
+        end
+    end
+
+    % Gi d liu n cc worker
+    idx = mod(0:Npop-1, Num_work) + 1;
+    
+    spmd (Num_work)
+        Xpart = Xpos(idx == spmdIndex, :);
+        FitLoc = fun(Xpart, data);
+    end
+    for i=1:Num_work
+        Fitness(idx==i,:) = FitLoc{i};
+    end
+DOM2            = checkDomination(Fitness); % 0 vt tri (tt hn); 1 b vt tri - (t hn)
+REP{iloop}.Xpos                 = Xpos(~DOM2,:); % Lu nhng c th vt tri (tt hn)
+REP{iloop}.Fitness             = Fitness(~DOM2,:); % Lu nhng fitness vt tri (tt hn)
+REP{iloop}                     = updateGrid(REP{iloop},ngrid);
+plotting(REP{iloop},Fitness)
+display(['Generation #0 - Repository size: ' num2str(size(REP{iloop}.Xpos,1))]);
+newX = zeros(Npop,nVar);
+%% Evolution
+T = 1;
+while T <= Max_it
+    theta = pi/2*T./Max_it;
+    tEO = (Max_it-T)/Max_it*cos(theta);
+    h = selectLeader(REP{iloop});
+    xposbest = REP{iloop}.Xpos(h,:);
+    if rand < GP %  exploration of starfish
+        for i = 1:Npop
+            if nVar > 5
+                % for nD is larger than 5
+                jp1 = randperm(nVar,5);
+                for j = 1:5
+                    pm = (2*rand-1)*pi;
+                    if rand < GP
+                        newX(i,jp1(j)) = Xpos(i,jp1(j)) + pm*(xposbest(jp1(j))-Xpos(i,jp1(j)))*cos(theta);
+                    else
+                        newX(i,jp1(j)) = Xpos(i,jp1(j)) - pm*(xposbest(jp1(j))-Xpos(i,jp1(j)))*sin(theta);
+                    end
+                    if newX(i,jp1(j))>ub(jp1(j)) || newX(i,jp1(j))<lb(jp1(j))
+                        newX(i,jp1(j)) = Xpos(i,jp1(j));
+                    end
+                end
+            else
+                % for nD is not larger than 5
+                jp2 = ceil(nVar*rand);
+                im = randperm(Npop);
+                rand1 = 2*rand-1;
+                rand2 = 2*rand-1;
+                newX(i,jp2) = tEO*Xpos(i,jp2) + rand1*(Xpos(im(1),jp2)-Xpos(i,jp2))+rand2*(Xpos(im(2),jp2)-Xpos(i,jp2));
+                if newX(i,jp2)>ub(jp2) || newX(i,jp2)<lb(jp2)
+                    newX(i,jp2) = Xpos(i,jp2);
+                end  
+            end
+            newX(i,:) = max(min(newX(i,:),ub),lb);  % boundary check
+        end
+    else % exploitation of starfish
+        df = randperm(Npop,5);
+        dm(1,:) = xposbest - Xpos(df(1),:);
+        dm(2,:) = xposbest - Xpos(df(2),:);
+        dm(3,:) = xposbest - Xpos(df(3),:);
+        dm(4,:) = xposbest - Xpos(df(4),:);
+        dm(5,:) = xposbest - Xpos(df(5),:);  % five arms of starfish
+        for i = 1:Npop
+            r1 = rand; r2 = rand;
+            kp = randperm(length(df),2);
+            newX(i,:) = Xpos(i,:) + r1*dm(kp(1),:) + r2*dm(kp(2),:);   % exploitation
+            if i == Npop
+                newX(i,:) = exp(-T*Npop/Max_it).*Xpos(i,:);  % regeneration of starfish
+            end
+            newX(i,:) = max(min(newX(i,:),ub),lb);  % boundary check
+        end
+    end
+    for jj=1:size(newX,1)    
+        for ii=1:nVar
+            [~,b]=min(abs(D(:,ii)-newX(jj,ii))); 
+            newX(jj,ii)=D(b,ii);
+        end
+    end
+    idx = mod(0:Npop-1, Num_work) + 1;
+    
+    spmd (Num_work)
+        Xpart = newX(idx == spmdIndex, :);
+        FitLoc = fun(Xpart, data);
+    end
+    for i=1:Num_work
+        newFit(idx==i,:) = FitLoc{i};
+    end
+    DOM3=dominates(newFit,Fitness);
+    Xpos(DOM3,:)=newX(DOM3,:);
+    Fitness(DOM3,:)=newFit(DOM3,:);
+    REP{iloop} = updateRepository(REP{iloop},newX,newFit,ngrid);
+    if(size(REP{iloop}.Xpos,1)>Nr)
+        REP{iloop} = deleteFromRepository(REP{iloop},size(REP{iloop}.Xpos,1)-Nr,ngrid);
+    end
+    plotting(REP{iloop},Fitness)
+    hold on;
+    display(['Iteration #' num2str(T) ' - Repository size: ' num2str(size(REP{iloop}.Xpos,1))]);
+    elapsed = toc/60;
+    if T>1
+        time_left = (elapsed - time_consumption)*(Max_it - T);
+        time_left = max(0, time_left/60); % gi
+        fprintf('Estimated time left: %.2f hours\n', time_left);
+    end
+    time_consumption = elapsed;
+   T = T+1;
+end
+end % end Nrun
+system('taskkill /F /IM SAP2000.exe');
+timestamp = datestr(now, 'yyyymmdd_HHMMSS');  % v d: 20250621_143015
+Name_res = sprintf('MPJ_BMOSFOA_%s_Npop%d_Nvar%d_Maxit%d.mat', timestamp,Npop,nVar,Max_it);
+save(Name_res,'REP','ParallelConfig')
+system('shutdown /s /t 0');

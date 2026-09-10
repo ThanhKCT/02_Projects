@@ -34,21 +34,29 @@ cfg.sections.matThep   = 'Coc thep';
 % x = [CatIdx_BTCT, D_thep, t_thep]
 %
 % BIẾN 1 — CatIdx_BTCT: chỉ số hàng trong catalogue AMACCAO (mục 6.1a,
-% wharf100dwt_catalogue_btct.m) — 3 lựa chọn: 1=D700(t110mm), 2=D800(t120mm),
-% 3=D900(t130mm). D và t của BTCT KHÔNG còn là 2 biến độc lập — mỗi D trong
-% catalogue đi kèm đúng 1 t cố định, không tự do tổ hợp. MOFDA đề xuất giá
-% trị liên tục trong [1,3] rồi làm tròn về số nguyên gần nhất (round, không
-% phải floor/ceil) để chọn dòng catalogue.
+% wharf100dwt_catalogue_btct.m) — 5 lựa chọn (mở rộng 07/09/2026):
+% 1=D600(t100mm), 2=D700(t110mm), 3=D800(t120mm), 4=D900(t130mm),
+% 5=D1000(t130mm). D và t của BTCT KHÔNG còn là 2 biến độc lập — mỗi D
+% trong catalogue đi kèm đúng 1 t cố định, không tự do tổ hợp. MOFDA đề
+% xuất giá trị liên tục trong [1,5] rồi làm tròn về số nguyên gần nhất
+% (round, không phải floor/ceil) để chọn dòng catalogue.
 %
 % BIẾN 2,3 — D_thep, t_thep: KHÔNG có catalogue thật cho cọc ống thép (bản
-% vẽ hiện có chỉ có cọc BTCT DƯL) — rời rạc hoá bằng LƯỚI CỐ ĐỊNH (đã chốt
-% với người dùng): D_thep bước 25mm, t_thep bước 1mm, trong dải TCVN
+% vẽ hiện có chỉ có cọc BTCT DƯL) — rời rạc hoá bằng LƯỚI CỐ ĐỊNH (mở rộng
+% 07/09/2026): D_thep bước 10mm, t_thep bước 1mm, trong dải TCVN
 % 9245:2012/JIS A5525 tham chiếu (D 318,5-2000mm, t 6,9-25mm — miền nghiên
-% cứu 0,90-1,10/0,012-0,020m nằm trọn trong dải này).
-cfg.bounds.lb = [1,    0.90,  0.012];
-cfg.bounds.ub = [3,    1.10,  0.020];
+% cứu 0,80-1,30/0,010-0,025m nằm trọn trong dải này).
+% MO RONG (07/09/2026, theo gop y phan bien JMST V4 -> V5): CatIdx_BTCT
+% 1..3 -> 1..5 (them D600,D1000 that tu catalogue, xem
+% wharf100dwt_catalogue_btct.m); D_thep 0,90-1,10/25mm -> 0,80-1,30/10mm;
+% t_thep 0,012-0,020/1mm -> 0,010-0,025/1mm. Muc dich: mo rong khong gian
+% de tranh nghiem Pareto don cuc o bien tren (xem Kinh nghiem MOFDA.md).
+% Luoi moi: 5 x 51 x 16 = 4.080 to hop (uoc tinh ~19h o thong luong that
+% da do 0,06 FE/s, 8 worker -- xem README.md).
+cfg.bounds.lb = [1,    0.80,  0.010];
+cfg.bounds.ub = [5,    1.30,  0.025];
 cfg.bounds.names = {'CatIdx_BTCT','D_thep','t_thep'};
-cfg.bounds.roundStep = [1, 0.025, 0.001]; % [chi so nguyen, 25mm, 1mm]
+cfg.bounds.roundStep = [1, 0.010, 0.001]; % [chi so nguyen, 10mm, 1mm]
 
 %% --- Vật liệu / khối lượng riêng (T/m^3) ---
 % ĐÃ KIỂM TRA TRỰC TIẾP bảng "MATERIAL PROPERTIES 02 - BASIC MECHANICAL

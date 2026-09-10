@@ -1,0 +1,13 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Wharf100DWT BRUTE-FORCE] 4080 to hop can danh gia (CatIdx x D_thep x t_thep = 5 x 51 x 16), Num_work=8, ChunkSize=100, RestartEvery=6 chunk
+Tim thay checkpoint D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_CKPT.mat -- resume tu to hop 3901/4080.
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+Da xong 4000/4080 to hop - Thoi gian luy ke: 28.1 phut
+Da xong 4080/4080 to hop - Thoi gian luy ke: 50.3 phut
+HOAN THANH brute-force. 59/4080 nghiem Pareto (trong 3337 to hop kha thi, 743 bi phat cung). Thoi gian: 50.3 phut
+Parallel pool using the 'Processes' profile is shutting down.

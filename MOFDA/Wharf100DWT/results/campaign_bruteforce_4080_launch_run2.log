@@ -1,0 +1,105 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Wharf100DWT BRUTE-FORCE] 4080 to hop can danh gia (CatIdx x D_thep x t_thep = 5 x 51 x 16), Num_work=8, ChunkSize=100, RestartEvery=6 chunk
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+Da xong 100/4080 to hop - Thoi gian luy ke: 27.4 phut
+Da xong 200/4080 to hop - Thoi gian luy ke: 54.5 phut
+Da xong 300/4080 to hop - Thoi gian luy ke: 81.6 phut
+Da xong 400/4080 to hop - Thoi gian luy ke: 108.9 phut
+Da xong 500/4080 to hop - Thoi gian luy ke: 137.0 phut
+Da xong 600/4080 to hop - Thoi gian luy ke: 164.3 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 27000 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 31104 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 30316 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23256 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18784 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 30996 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8892 has been terminated. 
+Da xong 700/4080 to hop - Thoi gian luy ke: 192.1 phut
+Da xong 800/4080 to hop - Thoi gian luy ke: 219.0 phut
+Da xong 900/4080 to hop - Thoi gian luy ke: 246.0 phut
+Da xong 1000/4080 to hop - Thoi gian luy ke: 273.4 phut
+Da xong 1100/4080 to hop - Thoi gian luy ke: 300.6 phut
+Da xong 1200/4080 to hop - Thoi gian luy ke: 327.8 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 31020 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7100 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2648 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18980 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26988 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18192 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 32408 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20792 has been terminated. 
+Da xong 1300/4080 to hop - Thoi gian luy ke: 355.5 phut
+Da xong 1400/4080 to hop - Thoi gian luy ke: 382.8 phut
+Da xong 1500/4080 to hop - Thoi gian luy ke: 409.8 phut
+Da xong 1600/4080 to hop - Thoi gian luy ke: 437.0 phut
+Da xong 1700/4080 to hop - Thoi gian luy ke: 464.1 phut
+Da xong 1800/4080 to hop - Thoi gian luy ke: 491.2 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 14316 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20300 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21164 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 28396 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 33356 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25052 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 31636 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 30924 has been terminated. 
+Da xong 1900/4080 to hop - Thoi gian luy ke: 518.9 phut
+Da xong 2000/4080 to hop - Thoi gian luy ke: 545.8 phut
+Da xong 2100/4080 to hop - Thoi gian luy ke: 572.9 phut
+Da xong 2200/4080 to hop - Thoi gian luy ke: 600.0 phut
+Da xong 2300/4080 to hop - Thoi gian luy ke: 627.3 phut
+Da xong 2400/4080 to hop - Thoi gian luy ke: 654.5 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 16104 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 33500 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 28540 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19484 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 27896 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5760 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 29516 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23104 has been terminated. 
+Da xong 2500/4080 to hop - Thoi gian luy ke: 682.4 phut
+Da xong 2600/4080 to hop - Thoi gian luy ke: 709.5 phut
+Da xong 2700/4080 to hop - Thoi gian luy ke: 736.7 phut
+Da xong 2800/4080 to hop - Thoi gian luy ke: 763.7 phut
+Da xong 2900/4080 to hop - Thoi gian luy ke: 790.7 phut
+Da xong 3000/4080 to hop - Thoi gian luy ke: 817.8 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 21832 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 11572 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17760 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 30516 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 10924 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20476 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 33408 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24132 has been terminated. 
+Da xong 3100/4080 to hop - Thoi gian luy ke: 845.7 phut
+Da xong 3200/4080 to hop - Thoi gian luy ke: 873.1 phut
+Da xong 3300/4080 to hop - Thoi gian luy ke: 900.3 phut
+Da xong 3400/4080 to hop - Thoi gian luy ke: 927.7 phut
+Da xong 3500/4080 to hop - Thoi gian luy ke: 955.7 phut
+Da xong 3600/4080 to hop - Thoi gian luy ke: 984.2 phut
+Restart dinh ky SAP2000 sau 6 chunk (phong ngua .sdb thoai hoa)...
+SUCCESS: The process "SAP2000.exe" with PID 22224 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21168 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24852 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5864 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 30556 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24468 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 15256 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5056 has been terminated. 
+Da xong 3700/4080 to hop - Thoi gian luy ke: 1012.7 phut
+Da xong 3800/4080 to hop - Thoi gian luy ke: 1040.3 phut
+Da xong 3900/4080 to hop - Thoi gian luy ke: 1068.5 phut
+Da xong 4000/4080 to hop - Thoi gian luy ke: 1096.1 phut
+Da xong 4080/4080 to hop - Thoi gian luy ke: 1117.7 phut
+HOAN THANH brute-force. 74/4080 nghiem Pareto (trong 4080 to hop kha thi, 0 bi phat cung). Thoi gian: 1117.7 phut
+Parallel pool using the 'Processes' profile is shutting down.

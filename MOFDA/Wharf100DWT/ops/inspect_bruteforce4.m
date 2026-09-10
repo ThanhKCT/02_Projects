@@ -1,0 +1,14 @@
+S = load('D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat');
+hardMask = S.fit(:,1) >= 1e6 | S.fit(:,2) >= 1e6;
+fprintf('Hard-penalized: %d\n', sum(hardMask));
+fprintf('Feasible (not hard-penalized): %d\n', sum(~hardMask));
+gtot = S.diagnostic(:,9);
+fprintf('g_total==0 count (among not hard-penalized): %d\n', sum(gtot(~hardMask)==0));
+fprintf('g_total>0 count (among not hard-penalized): %d\n', sum(gtot(~hardMask)>0));
+feasFit = S.fit(~hardMask & gtot==0, :);
+fprintf('Feasible-strict fit range: f1=[%g,%g]  f2=[%g,%g]\n', min(feasFit(:,1)), max(feasFit(:,1)), min(feasFit(:,2)), max(feasFit(:,2)));
+allNotHardFit = S.fit(~hardMask,:);
+fprintf('Not-hard-penalized fit range: f1=[%g,%g]  f2=[%g,%g]\n', min(allNotHardFit(:,1)), max(allNotHardFit(:,1)), min(allNotHardFit(:,2)), max(allNotHardFit(:,2)));
+fprintf('ParetoFit range: f1=[%g,%g] f2=[%g,%g]\n', min(S.ParetoFit(:,1)),max(S.ParetoFit(:,1)),min(S.ParetoFit(:,2)),max(S.ParetoFit(:,2)));
+disp('ParetoX (CatIdx_BTCT, D_thep, t_thep):');
+disp(S.ParetoX);

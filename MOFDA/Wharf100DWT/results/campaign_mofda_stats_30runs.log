@@ -1,0 +1,2373 @@
+Da xac nhan cache Ngay 1: D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop, 59 nghiem Pareto that).
+=== MOFDA doc lap lan 1/30 (RunTag=run01) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 6 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 8 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 12 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 17 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 24 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 30 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 38 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 46 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 53 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 65 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 71 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 87 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 97 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.1 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.1 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.1 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 2/30 (RunTag=run02) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 23920 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23988 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23980 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23944 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23976 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23992 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23952 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 9 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 16 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 22 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 30 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 41 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 50 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 41 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 50 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 52 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 66 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 87 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 3/30 (RunTag=run03) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 10492 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25104 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2352 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1704 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18712 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14152 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25412 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2172 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 6
+Vong lap 1/50 - Repository: 10 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 10 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 18 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 31 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 44 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 55 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 64 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 73 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 86 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 97 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.1 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 4/30 (RunTag=run04) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 1720 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25168 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3112 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 16060 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19072 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 11540 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25176 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24852 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 5
+Vong lap 1/50 - Repository: 8 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 13 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 22 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 28 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 31 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 34 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 46 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 24 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 30 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 40 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 55 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 68 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 78 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 96 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 5/30 (RunTag=run05) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 9192 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4276 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3524 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25364 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25384 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12912 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9912 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19044 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 7
+Vong lap 1/50 - Repository: 14 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 12 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 24 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 31 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 42 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 52 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 61 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 69 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 75 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 75 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 90 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 6/30 (RunTag=run06) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 6120 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21780 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1740 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9372 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17808 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24756 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24096 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25380 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 1
+Vong lap 1/50 - Repository: 8 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 14 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 19 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 35 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 39 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 29 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 38 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 42 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 56 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 63 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 75 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 86 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 7/30 (RunTag=run07) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 13084 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20100 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4784 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21508 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3160 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1116 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23108 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25404 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 4
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 16 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 27 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 40 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 51 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 62 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 69 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 43 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 47 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 60 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 66 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 78 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 95 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 8/30 (RunTag=run08) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 7344 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25372 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12880 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18256 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7604 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3584 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12740 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6920 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 10 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 15 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 24 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 32 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 41 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 57 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 72 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 84 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 100 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.1 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 9/30 (RunTag=run09) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 23080 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9876 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7736 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22260 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4272 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25476 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24904 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18208 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 3 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 9 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 15 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 22 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 33 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 42 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 52 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 64 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 82 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 93 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 10/30 (RunTag=run10) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 17992 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21520 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17276 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7620 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25056 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7908 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2508 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25172 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 12 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 18 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 24 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 33 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 46 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 55 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 71 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 88 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 11/30 (RunTag=run11) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 15116 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22220 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24028 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25516 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13716 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25216 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24124 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12052 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 5
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 13 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 24 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 29 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 27 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 33 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 45 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 57 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 70 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 80 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 81 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 97 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 12/30 (RunTag=run12) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 2640 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4560 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8016 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4476 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23940 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18708 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20816 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25228 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 13 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 20 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 24 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 27 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 36 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 42 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 52 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 70 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 85 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 99 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 13/30 (RunTag=run13) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 17536 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9036 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19560 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 10660 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20068 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25432 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18704 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17852 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 10 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 15 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 7 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 16 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 24 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 34 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 37 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 38 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 45 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 57 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 70 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 83 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 94 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 14/30 (RunTag=run14) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 18680 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7092 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3312 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1264 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19312 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14996 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8824 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9596 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 8 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 15 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 26 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 33 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 41 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 16 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 34 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 47 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 61 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 66 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 71 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 93 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 15/30 (RunTag=run15) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 11220 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6772 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24792 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4920 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25580 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13352 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 10836 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20796 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 12 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 22 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 25 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 39 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 51 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 66 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 83 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 96 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 95 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 16/30 (RunTag=run16) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 20524 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1032 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24848 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8144 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19120 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2708 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25072 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13604 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 10 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 20 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 32 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 43 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 58 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 73 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 88 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 100 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 100 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.1 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 17/30 (RunTag=run17) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 3040 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 5732 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1860 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23124 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8224 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1256 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2156 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12356 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 5 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 8 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 15 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 26 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 30 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 39 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 48 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 60 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 75 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 91 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 18/30 (RunTag=run18) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 17568 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17864 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14092 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6040 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14928 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 11152 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21580 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 18 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 23 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 34 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 48 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 61 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 72 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 81 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 93 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 19/30 (RunTag=run19) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 18372 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25820 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25836 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25824 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25844 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25744 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25788 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25792 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 5 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 9 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 11 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 17 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 16 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 22 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 25 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 33 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 31 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 43 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 50 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 58 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 72 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 86 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 99 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 20/30 (RunTag=run20) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 2652 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4612 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2732 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19976 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24640 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24224 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7940 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25024 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 13 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 16 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 21 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 31 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 43 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 50 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 66 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 80 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 98 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 99 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 21/30 (RunTag=run21) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 25916 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2944 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 19652 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21420 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 9664 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3152 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25720 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26344 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 4
+Vong lap 1/50 - Repository: 11 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 16 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 20 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 32 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 39 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 48 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 59 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 66 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 77 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 73 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 94 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 22/30 (RunTag=run22) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 12756 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25344 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18144 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23556 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7132 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25692 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17996 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 1
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 12 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 19 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 26 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 35 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 46 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 52 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 62 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 76 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 83 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 97 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 95 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 23/30 (RunTag=run23) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 25924 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 1120 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26484 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12360 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2092 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 380 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4552 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26548 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 16 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 24 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 35 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 35 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 44 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 60 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 53 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 39 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 46 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 56 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 67 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 77 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 78 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 94 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 24/30 (RunTag=run24) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 26540 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2572 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 16340 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25664 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7112 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13356 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26496 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 16548 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 4
+Vong lap 1/50 - Repository: 6 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 7 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 14 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 23 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 34 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 43 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 53 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 61 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 62 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 75 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 91 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 96 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 25/30 (RunTag=run25) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 1944 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 22476 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24856 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12032 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25760 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 3356 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21944 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 17472 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 4 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 14 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 22 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 31 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 37 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 50 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 60 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 70 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 85 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 26/30 (RunTag=run26) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 16152 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24172 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14088 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 2740 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26036 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8308 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26196 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 7056 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 8 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 15 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 29 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 43 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 49 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 60 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 71 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 86 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 100 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 100 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.1 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 27/30 (RunTag=run27) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 12300 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6764 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26448 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 14896 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 21560 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26096 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 20380 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13068 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 3
+Vong lap 1/50 - Repository: 9 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 10 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 17 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 26 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 34 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 50 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 65 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 63 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 81 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 97 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 100 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 28/30 (RunTag=run28) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 24968 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26412 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4216 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23092 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 18600 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8300 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 10924 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6552 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 5
+Vong lap 1/50 - Repository: 11 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 8 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 12 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 19 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 25 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 38 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 45 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 54 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 67 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 68 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 82 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 76 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 91 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 29/30 (RunTag=run29) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 9996 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26148 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 8232 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26100 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 23860 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4348 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 4544 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 6356 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 2
+Vong lap 1/50 - Repository: 7 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 1 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 11 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 16 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 27 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 29 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 36 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 43 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 55 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 64 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 76 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 92 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 100 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+=== MOFDA doc lap lan 30/30 (RunTag=run30) ===
+[Wharf100DWT MOFDA - SONG SONG] Np=50 maxiter=50 Nr=100 Num_work=8 (FE uoc tinh=12550)
+SUCCESS: The process "SAP2000.exe" with PID 2328 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25100 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26596 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 26420 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 24396 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 12832 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 25012 has been terminated. 
+SUCCESS: The process "SAP2000.exe" with PID 13524 has been terminated. 
+[Warning: Files that have already been attached are being ignored. To see which files are attached see the 'AttachedFiles' property of the parallel pool.] 
+Worker 1: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 2: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 3: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 4: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 5: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 6: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 7: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+Worker 8: 
+  wharf100dwt_evaluate: da nap cache tu D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_BRUTEFORCE_FINAL.mat (4080 to hop).
+The he #0 - Kich thuoc Repository: 4
+Vong lap 1/50 - Repository: 9 - FE luy ke: 300 - Thoi gian: 0.0 phut
+Vong lap 2/50 - Repository: 12 - FE luy ke: 550 - Thoi gian: 0.0 phut
+Vong lap 3/50 - Repository: 18 - FE luy ke: 800 - Thoi gian: 0.0 phut
+Vong lap 4/50 - Repository: 23 - FE luy ke: 1050 - Thoi gian: 0.0 phut
+Vong lap 5/50 - Repository: 23 - FE luy ke: 1300 - Thoi gian: 0.0 phut
+Vong lap 6/50 - Repository: 26 - FE luy ke: 1550 - Thoi gian: 0.0 phut
+Vong lap 7/50 - Repository: 37 - FE luy ke: 1800 - Thoi gian: 0.0 phut
+Vong lap 8/50 - Repository: 44 - FE luy ke: 2050 - Thoi gian: 0.0 phut
+Vong lap 9/50 - Repository: 53 - FE luy ke: 2300 - Thoi gian: 0.0 phut
+Vong lap 10/50 - Repository: 68 - FE luy ke: 2550 - Thoi gian: 0.0 phut
+Vong lap 11/50 - Repository: 86 - FE luy ke: 2800 - Thoi gian: 0.0 phut
+Vong lap 12/50 - Repository: 100 - FE luy ke: 3050 - Thoi gian: 0.0 phut
+Vong lap 13/50 - Repository: 96 - FE luy ke: 3300 - Thoi gian: 0.0 phut
+Vong lap 14/50 - Repository: 100 - FE luy ke: 3550 - Thoi gian: 0.0 phut
+Vong lap 15/50 - Repository: 100 - FE luy ke: 3800 - Thoi gian: 0.0 phut
+Vong lap 16/50 - Repository: 100 - FE luy ke: 4050 - Thoi gian: 0.0 phut
+Vong lap 17/50 - Repository: 100 - FE luy ke: 4300 - Thoi gian: 0.0 phut
+Vong lap 18/50 - Repository: 100 - FE luy ke: 4550 - Thoi gian: 0.0 phut
+Vong lap 19/50 - Repository: 100 - FE luy ke: 4800 - Thoi gian: 0.0 phut
+Vong lap 20/50 - Repository: 100 - FE luy ke: 5050 - Thoi gian: 0.1 phut
+Vong lap 21/50 - Repository: 100 - FE luy ke: 5300 - Thoi gian: 0.1 phut
+Vong lap 22/50 - Repository: 100 - FE luy ke: 5550 - Thoi gian: 0.1 phut
+Vong lap 23/50 - Repository: 100 - FE luy ke: 5800 - Thoi gian: 0.1 phut
+Vong lap 24/50 - Repository: 100 - FE luy ke: 6050 - Thoi gian: 0.1 phut
+Vong lap 25/50 - Repository: 100 - FE luy ke: 6300 - Thoi gian: 0.1 phut
+Vong lap 26/50 - Repository: 100 - FE luy ke: 6550 - Thoi gian: 0.1 phut
+Vong lap 27/50 - Repository: 100 - FE luy ke: 6800 - Thoi gian: 0.1 phut
+Vong lap 28/50 - Repository: 100 - FE luy ke: 7050 - Thoi gian: 0.1 phut
+Vong lap 29/50 - Repository: 100 - FE luy ke: 7300 - Thoi gian: 0.1 phut
+Vong lap 30/50 - Repository: 100 - FE luy ke: 7550 - Thoi gian: 0.1 phut
+Vong lap 31/50 - Repository: 100 - FE luy ke: 7800 - Thoi gian: 0.1 phut
+Vong lap 32/50 - Repository: 100 - FE luy ke: 8050 - Thoi gian: 0.1 phut
+Vong lap 33/50 - Repository: 100 - FE luy ke: 8300 - Thoi gian: 0.1 phut
+Vong lap 34/50 - Repository: 100 - FE luy ke: 8550 - Thoi gian: 0.1 phut
+Vong lap 35/50 - Repository: 100 - FE luy ke: 8800 - Thoi gian: 0.1 phut
+Vong lap 36/50 - Repository: 100 - FE luy ke: 9050 - Thoi gian: 0.1 phut
+Vong lap 37/50 - Repository: 100 - FE luy ke: 9300 - Thoi gian: 0.1 phut
+Vong lap 38/50 - Repository: 100 - FE luy ke: 9550 - Thoi gian: 0.1 phut
+Vong lap 39/50 - Repository: 100 - FE luy ke: 9800 - Thoi gian: 0.1 phut
+Vong lap 40/50 - Repository: 100 - FE luy ke: 10050 - Thoi gian: 0.1 phut
+Vong lap 41/50 - Repository: 100 - FE luy ke: 10300 - Thoi gian: 0.1 phut
+Vong lap 42/50 - Repository: 100 - FE luy ke: 10550 - Thoi gian: 0.1 phut
+Vong lap 43/50 - Repository: 100 - FE luy ke: 10800 - Thoi gian: 0.1 phut
+Vong lap 44/50 - Repository: 100 - FE luy ke: 11050 - Thoi gian: 0.1 phut
+Vong lap 45/50 - Repository: 100 - FE luy ke: 11300 - Thoi gian: 0.1 phut
+Vong lap 46/50 - Repository: 100 - FE luy ke: 11550 - Thoi gian: 0.1 phut
+Vong lap 47/50 - Repository: 100 - FE luy ke: 11800 - Thoi gian: 0.1 phut
+Vong lap 48/50 - Repository: 100 - FE luy ke: 12050 - Thoi gian: 0.1 phut
+Vong lap 49/50 - Repository: 100 - FE luy ke: 12300 - Thoi gian: 0.1 phut
+Vong lap 50/50 - Repository: 100 - FE luy ke: 12550 - Thoi gian: 0.1 phut
+HOAN THANH campaign chinh. Tong thoi gian: 0.00 gio. So nghiem Pareto: 100
+
+=== TONG HOP THONG KE (30/30 lan chay hop le) ===
+GD  : mean=0.00003 std=0.00008 min=0.00000 max=0.00025
+IGD : mean=0.00051 std=0.00018 min=0.00013 max=0.00088
+Repository size: mean=100.00 std=0.00
+So nghiem trung khop chinh xac mat Pareto that (/59): mean=99.77 std=0.63
+Da luu: D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_MOFDA_STATS_SUMMARY.mat va D:\ResearchLab\02_Projects\02_Projects\MOFDA\Wharf100DWT\results\Wharf100DWT_MOFDA_STATS_SUMMARY.csv
+Parallel pool using the 'Processes' profile is shutting down.

@@ -173,9 +173,10 @@ cấu cảng" — nói cách khác, đây là dữ liệu thực nghiệm hỗ t
 
 | Công bố | Đối tượng | Thuật toán | Nhận định rút ra cho CĐ1 |
 |---|---|---|---|
-| #1 *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach* (SHM&ES 2025, LNCE 747) | Dây neo phao đơn | MOMSA | MOMSA giải được nhưng không có cơ chế chuyên biệt hóa cho ràng buộc cọc–bệ |
-| #2 *On Optimization of Gravity Retaining Wall...* (VSOE 2024, LNCE 590) | Tường chắn trọng lực | Thuật toán SOO | Minh chứng thêm dạng bài toán tối ưu theo tiêu chuẩn khác, cùng logic ràng buộc code-based |
-| #5 *Multi-objective optimization of I-section steel frames under TCVN 5575:2024...* (ICERA 2026) | Khung thép nhà điều hành cảng | So sánh nhiều metaheuristic | Minh chứng khung đánh giá thuật toán (2.1–2.4) áp dụng được trên hệ tiêu chuẩn khác (thép, TCVN 5575:2024) |
+| #1 *Efficient Design of Single Mooring Buoy Lines: A MOMSA-Based Approach* | Dây neo phao đơn | MOMSA | MOMSA cho thấy khả năng áp dụng MOO nhưng chưa chuyên biệt hóa cho ràng buộc cọc–bệ. |
+| #3 *Tối ưu thể tích bê tông kết cấu tường chắn phía sau cầu tàu bằng thuật toán tối ưu Sao biển (SFOA)* | Tường chắn sau cầu tàu | SFOA | Bằng chứng SOO trực tiếp để chốt SFOA làm nền tảng; dẫn tới các yêu cầu archive, đa dạng và leader selection khi chuyển sang MOO. |
+| #4 *Multi-objective optimization of I-section steel frames under TCVN 5575:2024: A comparative study of metaheuristic algorithms* | Khung thép hạ tầng cảng | So sánh metaheuristic | Minh chứng khung đánh giá thuật toán áp dụng được trên hệ tiêu chuẩn thép khác. |
+| #5–#7 Các công bố MOSFOA trên hệ cọc cầu tàu | Hệ cọc cầu tàu theo case, quy mô, tải trọng và địa kỹ thuật khác nhau | MOSFOA/MOFDA | Chỉ dùng để chỉ ra yêu cầu kiểm chứng chuyển giao; số liệu chi tiết thuộc CĐ3 và Chương 6. |
 
 **Cách viết**: với mỗi công bố — 1 đoạn mô tả bài toán, 1 đoạn tóm tắt
 phát hiện chính, 1 câu kết nối rõ ràng với luận điểm của CĐ1 (không sa

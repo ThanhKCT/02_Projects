@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2026/08/29  01:47:23
+ B E G I N   A N A L Y S I S                                2026/09/10  09:14:49
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -38,11 +38,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
 
 
- E L E M E N T   F O R M A T I O N                                      01:47:23
+ E L E M E N T   F O R M A T I O N                                      09:14:50
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        01:47:24
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        09:14:50
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -59,7 +59,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  01:47:24
+ L I N E A R   S T A T I C   C A S E S                                  09:14:51
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -84,7 +84,7 @@
  CASE: CT1(TINH Y)
 
 
- I N F L U E N C E   L O A D   C A S E                                  01:47:27
+ I N F L U E N C E   L O A D   C A S E                                  09:14:53
 
  CASE: <Influence>
 
@@ -98,7 +98,7 @@
  Saving Section-Cut response
 
 
- V E H I C L E   I N F L U E N C E   A N A L Y S I S                    01:47:50
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    09:15:21
 
  CASE: <Vehicle 1 0 0>
 
@@ -133,18 +133,18 @@
                                                ----------
  TOTAL NUMBER OF RESPONSE POINTS           =       41326   NONE
 
- TIME FOR COMPUTING JOINT RESPONSE         =        3.31
+ TIME FOR COMPUTING JOINT RESPONSE         =        3.80
 
- TIME FOR COMPUTING SPRING RESPONSE        =        3.07
- TIME FOR COMPUTING REACTION RESPONSE      =        1.37
- TIME FOR COMPUTING FRAME RESPONSE         =        3.23
- TIME FOR COMPUTING SHELL RESPONSE         =       31.08
- TIME FOR CONTROLLING ANALYSIS             =        0.01
+ TIME FOR COMPUTING SPRING RESPONSE        =        3.18
+ TIME FOR COMPUTING REACTION RESPONSE      =        1.34
+ TIME FOR COMPUTING FRAME RESPONSE         =        3.64
+ TIME FOR COMPUTING SHELL RESPONSE         =       31.98
+ TIME FOR CONTROLLING ANALYSIS             =        0.02
                                                ----------
- TOTAL TIME FOR THIS ANALYSIS              =       42.12
+ TOTAL TIME FOR THIS ANALYSIS              =       44.06
 
 
- M O V I N G   L O A D   A N A L Y S I S                                01:48:32
+ M O V I N G   L O A D   A N A L Y S I S                                09:16:05
 
  CASE: CT1 (DI DONG)
 
@@ -155,7 +155,7 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- M O V I N G   L O A D   A N A L Y S I S                                01:48:51
+ M O V I N G   L O A D   A N A L Y S I S                                09:16:24
 
  CASE: CT2 (BAO)
 
@@ -166,4 +166,4 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- A N A L Y S I S   C O M P L E T E                          2026/08/29  01:49:10
+ A N A L Y S I S   C O M P L E T E                          2026/09/10  09:16:41

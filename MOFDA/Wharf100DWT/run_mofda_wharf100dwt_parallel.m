@@ -1,4 +1,4 @@
-function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride)
+function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride, RunTag)
 % =========================================================================
 % BẢN CHẠY SONG SONG — CAMPAIGN CHÍNH ĐÃ CHỐT (28/08/2026): Np=50, Maxit=100,
 % Nr=100, 8 worker. Ước tính ~111,6 giờ (~4,65 ngày) theo thông lượng thật
@@ -32,9 +32,16 @@ function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride)
     if nargin < 1 || isempty(Num_work), Num_work = 8; end
     if nargin < 2 || isempty(NpOverride), NpOverride = 50; end
     if nargin < 3 || isempty(maxiterOverride), maxiterOverride = 100; end
+    if nargin < 4 || isempty(RunTag), RunTag = ''; end
     % NpOverride/maxiterOverride CHỈ để chạy smoke test hạ tầng song song
     % (vd run_mofda_wharf100dwt_parallel(8,8,1)) trước khi cam kết campaign
     % chính -- gọi KHÔNG truyền gì để dùng đúng quy mô đã chốt (50/100).
+    % RunTag (them 07/09/2026, phuc vu gop y "chay MOFDA doc lap 10-20 lan
+    % lay thong ke GD/IGD"): hau to phan biet cac lan chay DOC LAP cung
+    % Np/maxiter -- vd RunTag='run03' -> file
+    % Wharf100DWT_MOFDA_FULL_Np50_Maxit50_run03_FINAL.mat. De trong ('') =
+    % hanh vi CU, khong doi ten file (tuong thich nguoc voi cac lan goi
+    % khong truyen RunTag).
 
     scriptDir = fileparts(mfilename('fullpath'));
     addpath(fullfile(scriptDir, 'Functions'));
@@ -51,15 +58,22 @@ function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride)
     resultsDir = fullfile(scriptDir, 'results');
     if ~exist(resultsDir, 'dir'), mkdir(resultsDir); end
 
+    % --- Ten file: them RunTag (neu co) truoc "_FINAL"/"_CKPT" ---
+    if isempty(RunTag)
+        tagSuffix = '';
+    else
+        tagSuffix = ['_' RunTag];
+    end
+
     % --- Idempotent: neu file KET QUA CUOI da co, thoat ngay ---
-    finalFile = fullfile(resultsDir, sprintf('Wharf100DWT_MOFDA_FULL_Np%d_Maxit%d_FINAL.mat', Np, maxiter));
+    finalFile = fullfile(resultsDir, sprintf('Wharf100DWT_MOFDA_FULL_Np%d_Maxit%d%s_FINAL.mat', Np, maxiter, tagSuffix));
     if isfile(finalFile)
         fprintf('Da co file ket qua cuoi: %s -- BO QUA, khong chay lai. Xoa file nay neu muon chay lai tu dau.\n', finalFile);
         return;
     end
 
     % --- File checkpoint (ghi de moi vong lap, atomic qua .tmp) ---
-    ckptFile = fullfile(resultsDir, sprintf('Wharf100DWT_MOFDA_FULL_Np%d_Maxit%d_CKPT.mat', Np, maxiter));
+    ckptFile = fullfile(resultsDir, sprintf('Wharf100DWT_MOFDA_FULL_Np%d_Maxit%d%s_CKPT.mat', Np, maxiter, tagSuffix));
 
     fprintf('[Wharf100DWT MOFDA - SONG SONG] Np=%d maxiter=%d Nr=%d Num_work=%d (FE uoc tinh=%d)\n', ...
         Np, maxiter, Nr, Num_work, Np*(1 + maxiter*(beta_dim+1)));
@@ -107,9 +121,22 @@ function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride)
         History.CumulativeFEs = zeros(maxiter+1, 1);
         History.BestObjectives = nan(maxiter+1, 2);
         History.RepositorySize = zeros(maxiter+1, 1);
+        History.Hypervolume = nan(maxiter+1, 1);
+        History.ArchiveX = cell(maxiter+1, 1);       % SUA 08/09/2026 -- luu snapshot archive
+        History.ArchiveFitness = cell(maxiter+1, 1);  % moi vong lap, phuc vu duong cong hoi tu
+        % IGD/HV theo FE (Muc 2.3 gop y chot de cuong) -- tinh GD/IGD/HV
+        % SAU KHI co mat Pareto tham chieu, khong tinh ngay trong luc chay
+        % (chua co Pareto tham chieu tai thoi diem nay).
         History.CumulativeFEs(1) = Np;
         History.BestObjectives(1,:) = min(REP.pos_fit, [], 1);
         History.RepositorySize(1) = size(REP.pos, 1);
+        History.ArchiveX{1} = REP.pos;
+        History.ArchiveFitness{1} = REP.pos_fit;
+        try
+            History.Hypervolume(1) = hypervolume(REP.pos_fit', max(REP.pos_fit,[],1)*1.1);
+        catch
+            History.Hypervolume(1) = NaN;
+        end
         fprintf('The he #0 - Kich thuoc Repository: %d\n', size(REP.pos,1));
 
         iterStart = 1;
@@ -188,6 +215,13 @@ function run_mofda_wharf100dwt_parallel(Num_work, NpOverride, maxiterOverride)
 
             History.CumulativeFEs(iter+1)    = History.CumulativeFEs(iter) + Np*(beta_dim+1);
             History.BestObjectives(iter+1,:) = min(REP.pos_fit, [], 1);
+            History.ArchiveX{iter+1} = REP.pos;
+            History.ArchiveFitness{iter+1} = REP.pos_fit;
+            try
+                History.Hypervolume(iter+1) = hypervolume(REP.pos_fit', max(REP.pos_fit,[],1)*1.1);
+            catch
+                History.Hypervolume(iter+1) = NaN;
+            end
             History.RepositorySize(iter+1)   = size(REP.pos, 1);
             elapsedSoFar = toc(expTimer);
             fprintf('Vong lap %d/%d - Repository: %d - FE luy ke: %d - Thoi gian: %.1f phut\n', ...

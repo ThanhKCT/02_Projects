@@ -46,11 +46,11 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
   (ví dụ: utilization ratio 0.9971 có ý nghĩa gì với kỹ sư thiết kế thực
   tế — biên an toàn còn lại rất mỏng, cần lưu ý gì khi áp dụng).
 - **Mở rộng phạm vi (giá trị gia tăng lớn nhất của CĐ3)**: mục 3.3.x —
-  kiểm chứng bổ sung trên **một dự án bến bệ cọc cao độc lập với Hải
-  Linh** (từ công bố Track B #4) — đây là bằng chứng tổng quát hóa
+  kiểm chứng bổ sung trên **hệ cọc cầu tàu container 100.000 DWT độc lập
+  với Hải Linh** (từ công bố #5) — đây là bằng chứng tổng quát hóa
   **chính thức**, không có trong bài báo Q3.
 - **Mở rộng đối chứng**: mục 3.9.x — thảo luận tổng quát hóa qua các
-  công bố Track B khác (#1 dây neo phao, #2 tường chắn, #5 khung thép).
+  công bố khác (#1 dây neo phao, #3 tường chắn, #4 khung thép, #6–#7 hệ cọc cầu tàu).
 
 ---
 
@@ -100,10 +100,10 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
 - **3.1. Kết quả BD** (Bảng 10, mục 7.1 dưới)
 - **3.2. Kết quả MD** (Bảng 11, mục 7.2 dưới)
 - **3.3. Kết quả MJP** (Bảng 12, mục 7.3 dưới)
-- **3.3.x (MỚI — giá trị gia tăng, dùng công bố Track B #4) Kiểm chứng
-  bổ sung trên dự án độc lập** — trình bày tóm tắt kết quả bài báo #4
-  (JMST), áp dụng MOSFOA cho một công trình bến bệ cọc cao thuộc **dự án
-  khác Hải Linh**. Vì dữ liệu độc lập với BD/MD/MJP, mục này là **bằng
+- **3.3.x (MỚI — giá trị gia tăng, dùng công bố #5) Kiểm chứng
+  bổ sung trên case độc lập** — trình bày tóm tắt kết quả bài báo #5
+  về hệ cọc cầu tàu container 100.000 DWT, có đối sánh MOFDA–MOSFOA và
+  độc lập với BD/MD/MJP. Mục này là **bằng
   chứng tổng quát hóa chính thức** (không chỉ thảo luận), tăng sức
   thuyết phục về khả năng áp dụng rộng của MOSFOA.
 - **3.4. So sánh B-MOSFOA và E-MOSFOA trong bài toán kỹ thuật** (Bảng 13,
@@ -117,11 +117,10 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
 - **3.8. Quy tắc lựa chọn nghiệm Pareto**: minimum cost, minimum
   displacement, compromise, decision map, khuyến nghị cho kỹ sư
 - **3.9. Phân tích giới hạn và khả năng mở rộng** (mục 8 dưới)
-  - **3.9.x (MỚI) Thảo luận tổng quát hóa qua Track B** — liên hệ ngắn
-    gọn với các hạng mục kết cấu cảng khác (#1 dây neo phao, #2 tường
-    chắn trọng lực, #5 khung thép nhà điều hành cảng) mà NCS đã tối ưu ở
-    các bài báo khác, lập luận khả năng mở rộng phương pháp ngoài
-    BD/MD/MJP — "future work" có bằng chứng đi kèm.
+  - **3.9.x (MỚI) Thảo luận tổng quát hóa qua các công bố bổ trợ** — liên hệ
+    ngắn gọn với #1 dây neo phao, #3 tường chắn, #4 khung thép, #6 kiểm
+    chứng hai công trình và #7 phân tích độ nhạy; lập luận khả năng mở rộng
+    ngoài BD/MD/MJP nhưng không biến các công bố này thành một hướng riêng.
 - **3.10. Đóng góp của Chuyên đề 3**
 - **3.11. Kết luận Chuyên đề 3**
 
@@ -365,7 +364,7 @@ tế theo dự án/thời điểm khi áp dụng thực hành.
 - Không đưa tất cả kết cấu cảng vào phạm vi luận án — BD/MD/MJP là bộ
   case chính; các đối tượng khác (kể cả Track B) chỉ là thảo luận mở
   rộng (mục 3.9.x), không phải kết quả chính.
-- Không để mục 3.3.x (bài #4, dự án độc lập) và 3.9.x (Track B khác)
+- Không để mục 3.3.x (bài #5, case độc lập) và 3.9.x (các công bố bổ trợ)
   lấn át 3 mục kết quả chính (3.1–3.3) — giữ tỷ trọng hợp lý.
 - Không làm tròn/phóng đại số liệu — dùng đúng các con số ở mục 7.
 
@@ -375,8 +374,8 @@ tế theo dự án/thời điểm khi áp dụng thực hành.
 
 - [ ] Không quá 80 trang, đủ 03 chương.
 - [ ] Đầy đủ Bảng 6–13 (hoặc bảng mở rộng tương đương) — mục 5–7.
-- [ ] Có mục 3.3.x (kiểm chứng dự án độc lập, bài #4) và 3.9.x (thảo
-      luận Track B #1/#2/#5).
+- [ ] Có mục 3.3.x (kiểm chứng case độc lập, bài #5) và 3.9.x (thảo
+      luận các công bố #1/#3/#4/#6/#7).
 - [ ] Bảy câu hỏi nghiên cứu (mục 4) đều được trả lời trong Kết luận.
 - [ ] Giữ đúng tinh thần "utilization tiệm cận nhưng không vượt 1.0",
       không phóng đại thành "luôn an toàn tuyệt đối".
