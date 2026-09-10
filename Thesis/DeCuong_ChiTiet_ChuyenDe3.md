@@ -58,14 +58,18 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
 - **Mở rộng phân tích**: đào sâu ý nghĩa kỹ thuật của từng bảng kết quả
   (ví dụ: utilization ratio 0.9971 có ý nghĩa gì với kỹ sư thiết kế thực
   tế — biên an toàn còn lại rất mỏng, cần lưu ý gì khi áp dụng).
-- **Mở rộng phạm vi (giá trị gia tăng lớn nhất của CĐ3)**: mục 3.3.x —
-  kiểm chứng bổ sung trên **hệ cọc cầu tàu container 100.000 DWT độc lập
-  với Hải Linh** (từ công bố #5) — đây là bằng chứng tổng quát hóa
-  **chính thức về mặt phương pháp** (không chỉ thảo luận), không có
-  trong bài báo Q3. **Lưu ý trạng thái**: #5 hiện **đang triển khai**
-  (chưa nộp) theo `Danh_muc_cong_bo_khoa_hoc_7_bai.md` — viết mục 3.3.x
-  ở thì phù hợp với trạng thái này, không nêu như một công bố đã hoàn
-  tất, cho đến khi có xác nhận nộp/chấp nhận.
+- **Mở rộng phạm vi (giá trị gia tăng lớn nhất của CĐ3, nhưng KHÔNG
+  khóa cứng ngay từ bây giờ)**: mục 3.3.x — kiểm chứng bổ sung trên
+  **hệ cọc cầu tàu container 100.000 DWT độc lập với Hải Linh** (từ
+  công bố #5). #5 hiện **đang triển khai** (chưa nộp) theo
+  `Danh_muc_cong_bo_khoa_hoc_7_bai.md`. Quy tắc áp dụng:
+  - **Nếu dữ liệu bài #5 đầy đủ** khi hoàn thành → nâng mục 3.3.x thành
+    kết quả kiểm chứng bổ sung **chính thức** (bằng chứng tổng quát hóa
+    thực sự, không chỉ thảo luận).
+  - **Nếu dữ liệu chưa đầy đủ** → chỉ dùng ở mức thảo luận/bằng chứng
+    hỗ trợ (như một mục trong 3.9.x), không trình bày như kết quả chính
+    thức.
+  Không để tiến độ bài #5 trở thành nút thắt của CĐ3.
 - **Mở rộng đối chứng**: mục 3.9.x — thảo luận tổng quát hóa qua các
   công bố khác (#1 dây neo phao, #3 tường chắn, #4 khung thép, #6–#7 hệ cọc cầu tàu).
 

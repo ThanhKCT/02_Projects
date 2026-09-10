@@ -296,6 +296,14 @@ kết cấu cảng biển khác** (tường chắn, dây neo phao...) — củng
 luận research-gap ở CĐ1/Tổng quan và cho thấy tính hệ thống trong toàn
 bộ quá trình nghiên cứu của NCS, không chỉ dừng ở một bài báo đơn lẻ.
 
+**Lưu ý khi trả lời hội đồng**: khung 4 tầng ở trên dùng để tổ chức tài
+liệu nội bộ, nhưng khi viết Mở đầu luận án chính thức và trả lời hội
+đồng, nên nhấn mạnh **ba đóng góp chính** (Tầng 1–3, tương ứng CĐ1/CĐ2/
+CĐ3) và trình bày Tầng 4 (Track B) như **bằng chứng thực nghiệm bổ
+sung** (supplementary empirical evidence) củng cố tính hệ thống của quá
+trình nghiên cứu và đáp ứng điều kiện đầu ra — không phát biểu Track B
+như một đóng góp khoa học ngang hàng với CĐ1–CĐ3.
+
 **Câu phát biểu đóng góp tổng hợp (dùng trong Mở đầu luận án):**
 
 > *"Luận án đóng góp một khung phương pháp luận tối ưu đa mục tiêu theo
@@ -981,16 +989,19 @@ ràng buộc bởi cấu trúc/câu chữ cũ. Khi triển khai bước viết c
 
 - [x] Đã đối chiếu Điều 17/18, Phụ lục 12 (C.3) — điều kiện: tác giả
       chính, tổng điểm ≥ 2,0, liên quan trực tiếp đến luận án.
-- [ ] Đã tra khung điểm HĐGSNN ngành Giao thông vận tải hiện hành để
-      tính điểm quy đổi thực tế cho bài Q3 + 5 công bố Track B — **chưa
-      làm, cần làm trước khi khóa đề cương** (hạng mục mở duy nhất còn
-      lại cùng với mục dưới).
-- [ ] Đã xác nhận vị trí "tác giả thứ hai" ở bài #2 có được công nhận là
-      tác giả chính hay không.
-- [x] Đã xử lý 3 cảnh báo (i)/(ii)/(iii) ở C.2 — bài #4 dùng dự án khác
-      Hải Linh (không trùng lặp), bài #5 xác nhận thuộc phạm vi hạ tầng
-      cảng biển, bài #6 đã hủy không nộp.
-- [ ] Bảng ánh xạ công bố (C.2) được cập nhật mỗi khi có bài báo mới.
+- [ ] **CHƯA XÁC NHẬN** — tra khung điểm HĐGSNN ngành Giao thông vận tải
+      hiện hành để tính điểm quy đổi thực tế cho toàn bộ 07 công bố
+      (C.2) — **hạng mục mở, cần làm trước khi khóa đề cương** (không tự
+      suy diễn điểm khi chưa có căn cứ chính thức).
+- [ ] **CHƯA XÁC NHẬN** — vị trí "tác giả thứ hai" ở bài #2 có được công
+      nhận là tác giả chính hay không theo quy định áp dụng.
+- [x] Bảng ánh xạ công bố (C.2) đã cập nhật theo
+      `Danh_muc_cong_bo_khoa_hoc_7_bai.md` (nguồn chuẩn hiện hành): **07
+      công bố đang quản lý, không có công bố nào bị hủy** — 01 công bố
+      lõi Track A (#2, accepted 19/08/2026) + 06 công bố Track B (#1 đã
+      công bố; #3 dự kiến đăng 10/2026; #4–#7 đang triển khai/chưa
+      nộp). Cập nhật lại bảng này mỗi khi có bài báo mới hoặc đổi trạng
+      thái.
 
 ---
 
@@ -1043,17 +1054,25 @@ LUẬN ÁN (Đóng góp khoa học 4 tầng — Phần D)
 > **Luận án tích hợp toàn bộ thành "SCIENTIFIC CONTRIBUTION", được phát
 > biểu thống nhất ở Phần D.**
 
-**Việc còn lại trước khi viết chi tiết** (đã cập nhật sau khi NCS xác
-nhận ngành xét HĐGSNN, vị trí tác giả các bài dự kiến, và xử lý dứt
-điểm 3 cảnh báo trùng lặp/phạm vi — Track B nay còn đúng **5 công bố**:
-Q3 + #1 + #2 + #3 + #4 + #5, đã loại bỏ #6):
+**Việc còn lại trước khi viết chi tiết** (theo trạng thái hiện hành ở
+`Danh_muc_cong_bo_khoa_hoc_7_bai.md`, nguồn chuẩn — **07 công bố đang
+quản lý, không có công bố nào bị hủy**: 01 công bố lõi Track A (#2,
+accepted 19/08/2026) + 06 công bố Track B (#1 đã công bố; #3 dự kiến
+đăng 10/2026; #4–#7 đang triển khai/chưa nộp)):
 
 1. Tra khung điểm HĐGSNN **ngành Giao thông vận tải** hiện hành để xác
-   nhận tổng điểm công bố ≥ 2,0 (C.3) — **hạng mục mở duy nhất còn lại**;
+   nhận tổng điểm công bố ≥ 2,0 (C.3) — **CHƯA XÁC NHẬN, hạng mục mở
+   duy nhất còn lại**;
 2. Xác nhận vị trí đồng tác giả (tác giả thứ hai) của bài #2 có được
-   tính là "tác giả chính" hay không (C.3) — **hạng mục mở thứ hai**;
-3. Khi viết CĐ3 Chương 3, cân nhắc nâng mục 3.3.x (kết quả bài #4 trên
-   dự án độc lập) từ "thảo luận" thành một mục kết quả chính thức, tùy
-   mức độ đầy đủ của dữ liệu khi bài báo #4 hoàn thành;
+   tính là "tác giả chính" hay không (C.3) — **CHƯA XÁC NHẬN, hạng mục
+   mở thứ hai**;
+3. Khi viết CĐ3 Chương 3, mục 3.3.x (case cầu tàu container 100.000
+   DWT độc lập với Hải Linh, bài #5) chỉ nâng từ "thảo luận" thành "kết
+   quả kiểm chứng bổ sung chính thức" **nếu dữ liệu bài #5 đầy đủ khi
+   hoàn thành**; nếu chưa đầy đủ, giữ ở mức thảo luận/bằng chứng hỗ
+   trợ. Không khóa cứng đây là điều kiện bắt buộc của CĐ3 ngay từ bây
+   giờ, và không để tiến độ bài #5 (hiện đang triển khai, chưa nộp) trở
+   thành nút thắt của CĐ3;
 4. Sau khi xử lý (1)–(2), bắt đầu viết chi tiết Tổng quan và CĐ1 theo
-   Phần F/G, cập nhật CĐ2/CĐ3 theo Phần H/I với dữ liệu Track B đã chốt.
+   Phần F/G, cập nhật CĐ2/CĐ3 theo Phần H/I với dữ liệu Track B đã chốt
+   theo danh mục 07 công bố.
