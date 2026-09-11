@@ -2,13 +2,11 @@ TỐI ƯU ĐA MỤC TIÊU TIẾT DIỆN HỆ CỌC CẦU TÀU CONTAINER 100.000 
 
 MULTI-OBJECTIVE OPTIMIZATION OF PILE-SYSTEM CROSS-SECTIONS FOR A 100,000-DWT CONTAINER WHARF: A COMPARISON BETWEEN MOFDA AND MOSFOA
 
-> **BẢN NHÁP GHÉP — 10/09/2026, cập nhật sau khi xác nhận bài JMST V5 (243 tổ hợp) KHÔNG còn đăng nữa — nội dung đã gộp hẳn vào bài này.** File này gộp toàn bộ các mục đã viết theo đúng khung [`DE_CUONG_BAI_BAO_MOFDA_MOSFOA_SO_SANH_THUAT_TOAN.md`](DE_CUONG_BAI_BAO_MOFDA_MOSFOA_SO_SANH_THUAT_TOAN.md). Mục 2-3 kế thừa cấu trúc soạn thảo từ bản nháp 243-tổ-hợp trước đó ([`BAI_BAO_MOFDA_CAU_TAU_100000DWT.md`](BAI_BAO_MOFDA_CAU_TAU_100000DWT.md), `JMST V5.docx` — **đã rút, không còn là bài báo riêng, KHÔNG trích dẫn**), cập nhật số liệu cho không gian 4.080 tổ hợp + ràng buộc địa kỹ thuật TCVN 10304:2025 + chống nhổ cọc. **Đây vẫn là bản nháp nội bộ — cần bạn rà soát trước khi coi là bản nộp.**
-
 ---
 
 ## Tóm tắt
 
-Cầu tàu container trên nền cọc có khối lượng vật liệu cho phần cọc lớn; việc lựa chọn tiết diện cọc ở giai đoạn thiết kế sơ bộ có thể được hỗ trợ bằng tối ưu đa mục tiêu có ràng buộc thay vì chỉ dựa vào kinh nghiệm. Nghiên cứu xây dựng bài toán tối ưu đa mục tiêu cho tiết diện hệ cọc bê tông ly tâm dự ứng lực và cọc ống thép của một cầu tàu container 100.000 DWT thực tế, với không gian thiết kế rời rạc gồm 4.080 tổ hợp (5 dòng catalogue cọc BTCT × 51 giá trị đường kính × 16 giá trị chiều dày cọc thép), ràng buộc đầy đủ, gồm cả sức chịu tải địa kỹ thuật theo TCVN 10304:2025 và ràng buộc chống nhổ cọc. Hai hàm mục tiêu — khối lượng vật liệu và chuyển vị ngang lớn nhất — được đánh giá bằng mô hình phần tử hữu hạn SAP2000 kết nối MATLAB qua OAPI. Nghiên cứu đối sánh hai thuật toán tối ưu đa mục tiêu đã được công bố của cùng nhóm nghiên cứu — MOFDA (hướng dòng chảy, chọn thủ lĩnh lai) và MOSFOA (sao biển, bản thực nghiệm E-MOSFOA với điều khiển pha cosine, đột biến kiểu DE dẫn hướng thủ lĩnh và tinh chỉnh Gaussian giai đoạn cuối) — trên cùng một hệ thống đánh giá, cùng ngân sách đánh giá mô hình FEM (12.550 lần/lượt chạy), 30 lần chạy độc lập/thuật toán, đối chiếu với mặt Pareto tham chiếu thu được bằng vét cạn toàn bộ 4.080 tổ hợp (59 nghiệm không bị trội). Kết quả cho thấy MOSFOA đạt IGD thấp hơn MOFDA khoảng 5 lần (0,000100 so với 0,000506, kiểm định Wilcoxon rank-sum p<10⁻¹⁰) và hội tụ nhanh hơn đáng kể (bão hoà giá trị hypervolume chỉ sau ~1.000-1.500 lần đánh giá FEM, so với ~5.000-7.000 lần của MOFDA), trong khi cả hai thuật toán đều tìm được gần như toàn bộ mặt Pareto tham chiếu (MOSFOA: 100% ở tất cả 30 lần chạy; MOFDA: trung bình 99,77%). Kết quả cung cấp cơ sở định lượng để lựa chọn thuật toán tối ưu phù hợp cho bài toán thiết kế tiết diện hệ cọc công trình cảng biển có ràng buộc phức hợp.
+Cầu tàu container trên nền cọc có khối lượng vật liệu cho phần cọc lớn; việc lựa chọn tiết diện cọc ở giai đoạn thiết kế sơ bộ có thể được hỗ trợ bằng tối ưu đa mục tiêu có ràng buộc thay vì chỉ dựa vào kinh nghiệm. Nghiên cứu xây dựng bài toán tối ưu đa mục tiêu cho tiết diện hệ cọc bê tông ly tâm dự ứng lực và cọc ống thép của một cầu tàu container 100.000 DWT thực tế, với không gian thiết kế rời rạc gồm 4.080 tổ hợp (5 dòng catalogue cọc BTCT × 51 giá trị đường kính × 16 giá trị chiều dày cọc thép), hệ ràng buộc gồm các điều kiện kết cấu, địa kỹ thuật theo TCVN 10304:2025 và chống nhổ cọc. Hai hàm mục tiêu — khối lượng vật liệu và chuyển vị ngang lớn nhất — được đánh giá bằng mô hình phần tử hữu hạn SAP2000 kết nối MATLAB qua OAPI. Nghiên cứu đối sánh hai thuật toán tối ưu đa mục tiêu được phát triển và báo cáo trong các nghiên cứu của cùng nhóm — MOFDA (hướng dòng chảy, chọn thủ lĩnh lai) và MOSFOA (sao biển, bản thực nghiệm E-MOSFOA với điều khiển pha cosine, đột biến kiểu DE dẫn hướng thủ lĩnh và tinh chỉnh Gaussian giai đoạn cuối) — trên cùng một bài toán, cùng mô hình FEM, cùng hàm mục tiêu, cùng ràng buộc, cùng ngân sách đánh giá mô hình FEM (12.550 lần/lượt chạy), 30 lần chạy độc lập/thuật toán, đối chiếu với mặt Pareto tham chiếu của toàn bộ không gian thiết kế khảo sát thu được bằng vét cạn toàn bộ 4.080 tổ hợp (59 nghiệm không bị trội). Trong bài toán khảo sát, E-MOSFOA cho thấy khả năng hội tụ nhanh hơn và độ gần mặt Pareto tham chiếu tốt hơn trong cùng ngân sách đánh giá FEM (IGD trung bình 0,000100 so với 0,000506 của MOFDA, kiểm định Wilcoxon rank-sum p=1,07×10⁻¹⁰; đạt vùng ổn định của hypervolume chỉ sau ~1.000-1.500 lần đánh giá FEM so với ~5.000-7.000 lần của MOFDA). Về khả năng bao phủ mặt Pareto tham chiếu, E-MOSFOA đạt tỷ lệ cao hơn và ổn định hơn MOFDA (98,76% ± 0,88% so với 89,27% ± 4,46%, tính trên 59 nghiệm tham chiếu). Kết quả cung cấp cơ sở định lượng để tham khảo khi lựa chọn thuật toán tối ưu cho bài toán thiết kế tiết diện hệ cọc công trình cảng biển có ràng buộc phức hợp trong phạm vi khảo sát của nghiên cứu.
 
 **Từ khóa:** tối ưu đa mục tiêu, thuật toán MOFDA, thuật toán MOSFOA, tiết diện cọc, cầu tàu trên nền cọc, kết nối SAP2000-MATLAB.
 
@@ -22,17 +20,17 @@ Cầu tàu container trên nền cọc có khối lượng vật liệu cho ph�
 
 Cầu tàu container trên nền cọc là dạng kết cấu phổ biến trong các bến cảng biển trọng tải lớn tại Việt Nam. Hệ cọc — thường kết hợp cọc bê tông cốt thép dự ứng lực (BTCT DƯL) ly tâm và cọc ống thép — là cấu kiện chịu lực chính, đồng thời chiếm tỷ trọng lớn trong khối lượng vật liệu và chi phí xây dựng. Tối ưu đa mục tiêu có ràng buộc, kết hợp trực tiếp với mô hình phần tử hữu hạn (FEM), cho phép khảo sát hệ thống hoá sự đánh đổi giữa khối lượng vật liệu và độ cứng/chuyển vị của hệ cọc, thay vì chỉ kiểm tra lại một phương án chọn trước theo kinh nghiệm.
 
-Hai thuật toán tối ưu đa mục tiêu dựa trên metaheuristic đã được nhóm nghiên cứu phát triển và công bố gần đây: MOFDA — thuật toán hướng dòng chảy đa mục tiêu với cơ chế chọn thủ lĩnh lai, đã được kiểm chứng trên 31 hàm chuẩn, 11 bài toán kỹ thuật có ràng buộc và ứng dụng cho một công trình khung thép thực tế [1]; và MOSFOA — thuật toán đa mục tiêu dựa trên hành vi tìm kiếm của sao biển (Starfish Optimization Algorithm), với hai biến thể B-MOSFOA và E-MOSFOA, đã được kiểm chứng trên các bộ benchmark IMOP/UF/RM-MEDA và ứng dụng cho một công trình cảng biển thực tế khác (cảng xăng dầu Hải Linh) [2]. Mỗi thuật toán đã được kiểm chứng trên một đối tượng công trình riêng, theo các điều kiện đánh giá không hoàn toàn giống nhau, nên chưa có cơ sở để so sánh trực tiếp hiệu năng của hai thuật toán trên cùng một bài toán kết cấu cụ thể.
+Hai thuật toán tối ưu đa mục tiêu dựa trên metaheuristic được phát triển và báo cáo trong các nghiên cứu [1], [2]: MOFDA — thuật toán hướng dòng chảy đa mục tiêu với cơ chế chọn thủ lĩnh lai, đã được kiểm chứng trên 31 hàm chuẩn, 11 bài toán kỹ thuật có ràng buộc và ứng dụng cho một công trình khung thép thực tế [1]; và MOSFOA — thuật toán đa mục tiêu dựa trên hành vi tìm kiếm của sao biển (Starfish Optimization Algorithm), với hai biến thể B-MOSFOA và E-MOSFOA, đã được kiểm chứng trên các bộ benchmark IMOP/UF/RM-MEDA và ứng dụng cho một công trình cảng biển thực tế khác (cảng xăng dầu Hải Linh) [2]. Mỗi thuật toán đã được kiểm chứng trên một đối tượng công trình riêng, theo các điều kiện đánh giá không hoàn toàn giống nhau, nên chưa có cơ sở để so sánh trực tiếp hiệu năng của hai thuật toán trên cùng một bài toán kết cấu cụ thể.
 
-Câu hỏi trọng tâm của nghiên cứu này là: *hai thuật toán MOFDA và MOSFOA, khi được thiết lập trên cùng một hệ thống đánh giá MATLAB–SAP2000, cùng hàm mục tiêu, cùng ràng buộc, cùng ngân sách đánh giá mô hình FEM, thể hiện khác biệt như thế nào về chất lượng và tốc độ hội tụ khi giải cùng một bài toán thiết kế tiết diện hệ cọc cầu tàu thực tế có ràng buộc kết cấu và địa kỹ thuật?* Nghiên cứu khảo sát cầu tàu container 100.000 DWT thuộc dự án cảng cửa ngõ quốc tế Hải Phòng (Lạch Huyện, Mục 2), với không gian thiết kế rời rạc gồm 4.080 tổ hợp (5 dòng catalogue cọc BTCT, miền đường kính/chiều dày cọc thép, Mục 3.1) và ràng buộc đầy đủ, gồm cả sức chịu tải địa kỹ thuật theo TCVN 10304:2025 và ràng buộc chống nhổ cọc (Mục 3.4).
+Câu hỏi trọng tâm của nghiên cứu này là: *hai thuật toán MOFDA và MOSFOA, khi được thiết lập trên cùng một hệ thống đánh giá MATLAB–SAP2000, cùng hàm mục tiêu, cùng ràng buộc, cùng ngân sách đánh giá mô hình FEM, thể hiện khác biệt như thế nào về chất lượng và tốc độ hội tụ khi giải cùng một bài toán thiết kế tiết diện hệ cọc cầu tàu thực tế có ràng buộc kết cấu và địa kỹ thuật?* Nghiên cứu khảo sát cầu tàu container 100.000 DWT thuộc dự án cảng cửa ngõ quốc tế Hải Phòng (Lạch Huyện, Mục 2), với không gian thiết kế rời rạc gồm 4.080 tổ hợp (5 dòng catalogue cọc BTCT, miền đường kính/chiều dày cọc thép, Mục 3.1) và các ràng buộc kết cấu và địa kỹ thuật được xét, gồm sức chịu tải địa kỹ thuật theo TCVN 10304:2025 và chống nhổ cọc (Mục 3.4).
 
-Đóng góp của bài báo gồm: (i) hình thành bài toán tối ưu rời rạc cho tiết diện hệ cọc với ràng buộc đầy đủ, gồm cả sức chịu tải địa kỹ thuật và chống nhổ cọc; (ii) xây dựng mặt Pareto tham chiếu bằng vét cạn toàn bộ 4.080 tổ hợp làm chuẩn đối chiếu bên ngoài, không phụ thuộc vào kết quả tìm kiếm của bất kỳ thuật toán nào; (iii) đối sánh định lượng MOFDA và MOSFOA (bản thực nghiệm E-MOSFOA) trên cùng điều kiện đánh giá — 30 lần chạy độc lập/thuật toán, cùng ngân sách đánh giá FEM — bằng các chỉ số IGD, hypervolume, tỷ lệ tìm được nghiệm Pareto tham chiếu và kiểm định Wilcoxon rank-sum, cùng đường cong hội tụ theo số lần đánh giá FEM. Bài báo không tuyên bố thuật toán nào vượt trội tuyệt đối trước khi trình bày kết quả; kết luận về sự khác biệt (nếu có) được rút ra trực tiếp từ số liệu thực nghiệm ở Mục 6.
+Đóng góp của bài báo gồm: (i) hình thành bài toán tối ưu rời rạc cho tiết diện hệ cọc với hệ ràng buộc gồm các điều kiện kết cấu, địa kỹ thuật và chống nhổ cọc; (ii) xây dựng mặt Pareto tham chiếu bằng vét cạn toàn bộ 4.080 tổ hợp làm chuẩn đối chiếu bên ngoài, không phụ thuộc vào kết quả tìm kiếm của bất kỳ thuật toán nào; (iii) đối sánh định lượng MOFDA và MOSFOA (bản thực nghiệm E-MOSFOA) trên **cùng một bài toán, cùng mô hình FEM, cùng hàm mục tiêu, cùng ràng buộc và cùng ngân sách đánh giá FEM**, mỗi thuật toán 30 lần chạy độc lập, đối chiếu với mặt Pareto tham chiếu bằng vét cạn — bằng các chỉ số IGD, hypervolume, khả năng bao phủ mặt Pareto tham chiếu và kiểm định Wilcoxon rank-sum, cùng đường cong hội tụ theo số lần đánh giá FEM. Bài báo không tuyên bố thuật toán nào vượt trội tuyệt đối trước khi trình bày kết quả; kết luận về sự khác biệt (nếu có) được rút ra trực tiếp từ số liệu thực nghiệm ở Mục 6.
 
 ## 2. Đối tượng nghiên cứu và mô hình phần tử hữu hạn
 
 ### 2.1. Mô tả công trình
 
-Đối tượng nghiên cứu là cầu tàu container 100.000 DWT thuộc dự án cảng cửa ngõ quốc tế Hải Phòng (Lạch Huyện), kết cấu bến liền bờ dạng bệ cọc cao đài mềm (MOFDA [1] và MOSFOA [2] tự thân đã được kiểm chứng trên hai công trình khác, xem Mục 1). Mô hình phân tích đại diện cho một phân đoạn tiêu chuẩn dài khoảng 75 m, rộng mặt cầu 50 m, cao trình đỉnh bến +5,50 m và đáy bến sau nạo vét −16,0 m (Hải đồ). Tàu thiết kế 100.000 DWT có chiều dài 330 m, chiều rộng 45,5 m, mớn nước đầy tải 14,8 m.
+Đối tượng nghiên cứu là cầu tàu container 100.000 DWT thuộc dự án cảng cửa ngõ quốc tế Hải Phòng (Lạch Huyện), kết cấu bến liền bờ dạng bệ cọc cao đài mềm. Mô hình phân tích đại diện cho một phân đoạn tiêu chuẩn dài khoảng 75 m, rộng mặt cầu 50 m, cao trình đỉnh bến +5,50 m và đáy bến sau nạo vét −16,0 m (Hải đồ). Tàu thiết kế 100.000 DWT có chiều dài 330 m, chiều rộng 45,5 m, mớn nước đầy tải 14,8 m.
 
 ### 2.2. Hệ cọc
 
@@ -42,7 +40,7 @@ Hệ cọc của một phân đoạn gồm 132 cọc ống BTCT DƯL (bố trí 
 
 Mô hình FEM tuyến tính tĩnh được xây dựng trong SAP2000, gồm 4.913 nút, 1.734 phần tử thanh và 4.488 phần tử tấm vỏ, đơn vị làm việc Tonf–m–°C. Vật liệu gồm bê tông M400 (dầm/bản), M800 (cọc BTCT), thép cọc (Fy = 3.150 kG/cm²), cốt thép A615Gr60 và tao dự ứng lực A416Gr270. Điều kiện biên gồm 192 nút ngàm biên phân đoạn và các nút gán lò xo nền theo phương dọc trục cọc. Kết quả trích xuất chuyển vị và nội lực dùng tổ hợp bao (combo envelope) "BAO KT", đã gộp sẵn các tổ hợp tải cơ bản trong mô hình tính toán; tổ hợp bão riêng nằm ngoài phạm vi đường bao này và chưa được đưa vào đợt tính toán tối ưu — giới hạn được nêu ở Mục 6.5.
 
-**Hình 1.** Mô hình SAP2000 của cầu tàu container 100.000 DWT *(bạn tự chèn ảnh)*
+**Hình 1.** Mô hình SAP2000 của cầu tàu container 100.000 DWT
 
 ### 2.4. Địa tầng và điều kiện mũi cọc
 
@@ -56,7 +54,7 @@ Bài toán được xây dựng dưới dạng tối ưu rời rạc với ba bi
 
 x = [CatIdx_BTCT, D_thép, t_thép]  (1)
 
-CatIdx_BTCT ∈ {1, 2, 3, 4, 5} là chỉ số dòng trong catalogue cọc bê tông ly tâm dự ứng lực (PHC) của nhà sản xuất AMACCAO, theo TCVN 7888:2014 và JIS A 5373:2016 [3], Class A (Bảng 1) — 5 dòng D600–D1000, phạm vi được xác định đủ rộng để hạn chế nghiệm Pareto dồn cục sát biên miền khảo sát (kiểm chứng ở Mục 6.1). D_thép ∈ [0,800; 1,300] m, bước 0,01 m (51 giá trị); t_thép ∈ [0,010; 0,025] m, bước 0,001 m (16 giá trị). Không gian tìm kiếm là tích của ba miền rời rạc: 5×51×16 = **4.080 tổ hợp**.
+CatIdx_BTCT ∈ {1, 2, 3, 4, 5} là chỉ số dòng trong catalogue cọc bê tông ly tâm dự ứng lực (PHC) của nhà sản xuất AMACCAO, theo TCVN 7888:2014 và JIS A 5373:2016 [3], Class A (Bảng 1) — 5 dòng D600–D1000; phạm vi khảo sát được lựa chọn phù hợp với phạm vi tiết diện dự kiến của công trình; hiện tượng tập trung nghiệm Pareto tại biên được kiểm chứng lại ở Mục 6.1. D_thép ∈ [0,800; 1,300] m, bước 0,01 m (51 giá trị); t_thép ∈ [0,010; 0,025] m, bước 0,001 m (16 giá trị). Không gian tìm kiếm là tích của ba miền rời rạc: 5×51×16 = **4.080 tổ hợp**.
 
 **Bảng 1.** Catalogue cọc bê tông ly tâm AMACCAO sử dụng (Class A, TCVN 7888:2014)
 
@@ -78,7 +76,7 @@ f₁ = A(D,t)_BTCT × ΣL_BTCT × γ_bt + A(D,t)_thép × ΣL_thép × γ_thép 
 
 f₂ = max(√(U₁² + U₂²))  (3)
 
-trong đó f₁ là tổng **khối lượng vật liệu** cọc (tấn, γ_bt = 2,5 T/m³, γ_thép = 7,85 T/m³); f₂ là chuyển vị ngang lớn nhất của cầu tàu trên tổ hợp bao "BAO KT", không xét thành phần đứng. *(Thuật ngữ "khối lượng vật liệu" dùng thống nhất xuyên suốt bài, không dùng "khối lượng kết cấu" — xem quyết định chốt tại đề cương Mục D.)*
+trong đó f₁ là tổng **khối lượng vật liệu** cọc (tấn, γ_bt = 2,5 T/m³, γ_thép = 7,85 T/m³); f₂ là chuyển vị ngang lớn nhất của cầu tàu trên tổ hợp bao "BAO KT", không xét thành phần đứng.
 
 ### 3.3. Ràng buộc kết cấu
 
@@ -90,19 +88,19 @@ N/Pvl + M/Mu − 1 ≤ 0  (4)
 
 ### 3.4. Ràng buộc địa kỹ thuật
 
-Nghiên cứu này triển khai đầy đủ sức chịu tải địa kỹ thuật theo **TCVN 10304:2025 [5]** (Điều 7.1, 7.2), dựa trên địa tầng thực tại mặt cắt cọc (Mục 2.4) và chỉ tiêu cơ lý gốc của dự án. Cọc BTCT (mũi trong Lớp 10, đất dính) dùng công thức cọc ma sát Rk = γc(γR,R·qb·A + u·ΣγR,f·fi·hi) (công thức (9), Điều 7.2.2.1), qb tra theo độ sâu và chỉ số sệt IL (Bảng 2), fi tra theo loại đất (Bảng 3). Cọc thép (mũi trong Lớp 11, đá phong hoá mạnh nứt nẻ) dùng công thức cọc chống tựa đá Rk = γc·qb·A (công thức (5)/(6), Điều 7.2.1.1), với qb xác định từ cường độ kháng nén một trục bão hoà nước Rc,n và hệ số giảm cường độ theo mức độ nứt nẻ Ks (Bảng 1 TCVN 10304:2025) — Ks = 0,32 (ứng với hạng mục "nứt nẻ mạnh", RQD 50–75%, lấy cận dưới do không có số liệu RQD thật, là giả thiết thận trọng). Điều kiện đủ khả năng chịu tải: γn·Nd ≤ Rk/γk (công thức (2), Điều 7.1.6.1), với γk = 1,4 (xác định bằng tính toán theo bảng tra) và γn = 1,15 (công trình cấp hậu quả C2, đã xác nhận với hồ sơ phân cấp).
+Ràng buộc sức chịu tải địa kỹ thuật được xác định theo **TCVN 10304:2025 [5]** (Điều 7.1, 7.2), dựa trên địa tầng thực tại mặt cắt cọc (Mục 2.4) và chỉ tiêu cơ lý gốc của dự án. Cọc BTCT (mũi trong Lớp 10, đất dính) dùng công thức cọc ma sát Rk = γc(γR,R·qb·A + u·ΣγR,f·fi·hi) (công thức (9), Điều 7.2.2.1), qb tra theo độ sâu và chỉ số sệt IL (Bảng 2), fi tra theo loại đất (Bảng 3). Cọc thép (mũi trong Lớp 11, đá phong hoá mạnh nứt nẻ) dùng công thức cọc chống tựa đá Rk = γc·qb·A (công thức (5)/(6), Điều 7.2.1.1), với qb xác định từ cường độ kháng nén một trục bão hoà nước Rc,n và hệ số giảm cường độ theo mức độ nứt nẻ Ks (Bảng 1 TCVN 10304:2025) — Ks = 0,32 (ứng với hạng mục "nứt nẻ mạnh", RQD 50–75%, lấy cận dưới do không có số liệu RQD thật, là giả thiết thận trọng). Điều kiện đủ khả năng chịu tải: γn·Nd ≤ Rk/γk (công thức (2), Điều 7.1.6.1), với γk = 1,4 (xác định bằng tính toán theo bảng tra) và γn = 1,15 (công trình cấp hậu quả C2, đã xác nhận với hồ sơ phân cấp).
 
-**Ràng buộc chống nhổ cọc (uplift)** được bổ sung sau khi rà soát trước campaign chính thức phát hiện 18/360 cọc thép bị kéo (lực dọc tới xấp xỉ 31 T) dưới tổ hợp bao "BAO KT" — do code trước đó chỉ dùng trị tuyệt đối lực dọc, không phân biệt nén/kéo (cọc BTCT trong toàn bộ dự án luôn chịu nén, 792/792 trường hợp kiểm tra). Sức chịu tải kéo dùng công thức chỉ tính ma sát thân theo Điều 7.2.2.4, với hệ số γc = 0,8 (do chiều dài ngàm cọc ≥ 4 m); hệ số γk cho trường hợp kéo tra riêng theo Điều 7.1.6.1 (phụ thuộc số lượng cọc trong móng, không phải theo phương pháp xác định như trường hợp nén) — với 192 cọc/phân đoạn (≥ 21 cọc), γk = 1,4, trùng giá trị số với trường hợp nén nhưng khác cơ sở xác định.
+**Ràng buộc chống nhổ cọc (uplift)** được áp dụng cho cọc thép, dựa trên khảo sát cho thấy 18/360 cọc thép chịu kéo (lực dọc tới xấp xỉ 31 T) dưới tổ hợp bao "BAO KT" (cọc BTCT trong toàn bộ dự án luôn chịu nén, 792/792 trường hợp kiểm tra). Sức chịu tải kéo dùng công thức chỉ tính ma sát thân theo Điều 7.2.2.4, với hệ số γc = 0,8 (do chiều dài ngàm cọc ≥ 4 m); hệ số γk cho trường hợp kéo tra riêng theo Điều 7.1.6.1 (phụ thuộc số lượng cọc trong móng, không phải theo phương pháp xác định như trường hợp nén) — với 192 cọc/phân đoạn (≥ 21 cọc), γk = 1,4, trùng giá trị số với trường hợp nén nhưng khác cơ sở xác định.
 
 Vi phạm mọi ràng buộc được chuẩn hóa và tổng hợp thành hàm phạt nhân đồng thời lên cả hai mục tiêu:
 
 Fk(x) = fk(x) × [1 + C×P(x)], k = 1,2  (5)
 
-với C = 10.
+với C = 10. Hệ số phạt C = 10 được giữ cố định cho cả hai thuật toán trong toàn bộ thí nghiệm nhằm bảo đảm cùng một quy tắc xử lý vi phạm ràng buộc.
 
 ### 3.5. Mặt Pareto tham chiếu — vét cạn toàn bộ không gian tìm kiếm
 
-Không gian thiết kế 4.080 tổ hợp được đánh giá trực tiếp qua cùng mô hình FEM để xây dựng mặt Pareto tham chiếu — đóng vai trò chuẩn đối chiếu bên ngoài, không phụ thuộc vào kết quả tìm kiếm của bất kỳ thuật toán nào (Mục 5.1) — cho phép đối chiếu mỗi thuật toán với chuẩn này, không chỉ đối chiếu hai thuật toán với nhau. Toàn bộ 4.080 tổ hợp được đánh giá thành công, xác định 3.337 tổ hợp khả thi (743 tổ hợp bị loại do vi phạm ràng buộc cứng) và **59 nghiệm không bị trội**, trình bày và thảo luận chi tiết ở Mục 6.1.
+Không gian thiết kế 4.080 tổ hợp được đánh giá trực tiếp qua cùng mô hình FEM để xây dựng **mặt Pareto tham chiếu của toàn bộ không gian thiết kế khảo sát** — độc lập với quá trình tìm kiếm của hai thuật toán (Mục 5.1), không phụ thuộc vào kết quả tìm kiếm của bất kỳ thuật toán nào — cho phép đối chiếu mỗi thuật toán với chuẩn này, không chỉ đối chiếu hai thuật toán với nhau. Mặt Pareto này chỉ đúng trong phạm vi 4.080 tổ hợp đã khảo sát, không phải mặt Pareto tối ưu tuyệt đối của bài toán liên tục. Toàn bộ 4.080 tổ hợp được đánh giá thành công, xác định 3.337 tổ hợp khả thi (743 tổ hợp bị loại do vi phạm ràng buộc cứng) và **59 nghiệm không bị trội**, trình bày và thảo luận chi tiết ở Mục 6.1.
 
 ## 4. Hai thuật toán đối sánh
 
@@ -116,7 +114,7 @@ $$s_i = GI_i + \frac{\varepsilon_i}{1+DE_i}$$
 
 trong đó $GI_i$ là chỉ số ô lưới, $DE_i$ là mật độ cục bộ (số cá thể cùng chia sẻ ô lưới), $\varepsilon_i\in[0,1]$ là nhiễu ngẫu nhiên nhỏ duy trì đa dạng; thủ lĩnh được chọn là cá thể có điểm số thấp nhất, ưu tiên vùng thưa nghiệm nhưng có kiểm soát mức ngẫu nhiên nhằm giảm nguy cơ hội tụ sớm so với roulette-wheel selection thuần túy. Ràng buộc được xử lý bằng hàm phạt nhân (tương tự cách tiếp cận của nghiên cứu này, xem Mục 3.3).
 
-MOFDA đã được kiểm chứng trên 31 hàm chuẩn (ZDT, DTLZ, MMF, UF) và 11 bài toán kỹ thuật có ràng buộc (giàn 10–942 thanh, dầm hàn, SRN, OSY), cho kết quả cạnh tranh hoặc vượt trội so với MOMVO, MOMSA, MSSA, MOGNDO trên phần lớn chỉ số IGD/GD/STE — nổi bật nhất là đạt Best-IGD tuyệt đối trên toàn bộ 12 bài toán MMF (CEC2020). MOFDA cũng đã được áp dụng cho một công trình thực tế — tối ưu khung thép nhà chờ bến phà Đồng Bài, đảo Cát Hải, Hải Phòng, kết nối MATLAB–SAP2000 qua SM Toolbox, giảm tới 71,4% chuyển vị hoặc 26,7% khối lượng tùy kịch bản đánh đổi được chọn trên mặt Pareto.
+MOFDA đã được kiểm chứng trên các bộ hàm chuẩn (ZDT, DTLZ, MMF, UF) và một số bài toán kỹ thuật có ràng buộc (giàn, dầm hàn, SRN, OSY), cho kết quả cạnh tranh so với một số thuật toán đa mục tiêu khác trên các chỉ số hội tụ/phân bố phổ biến (IGD/GD/STE). MOFDA cũng đã được áp dụng cho một công trình thực tế — tối ưu khung thép nhà chờ bến phà Đồng Bài, đảo Cát Hải, Hải Phòng, kết nối MATLAB–SAP2000 qua SM Toolbox.
 
 **Tham số MOFDA dùng trong nghiên cứu này**: quần thể $N_p=50$, $\beta=4$ hướng lân cận/cá thể, dung lượng kho lưu trữ $N_r=100$, số ô lưới $nGrid=10$, $maxiter=50$ vòng lặp — tổng ngân sách đánh giá FEM $FE=N_p[1+maxiter(\beta+1)]=12.550$.
 
@@ -138,35 +136,37 @@ với hệ số hút về thủ lĩnh $\lambda=0{,}3$, xác suất lai ghép $CR
 
 3. **Tinh chỉnh Gaussian giai đoạn cuối dựa trên kho lưu trữ** (archive-based Gaussian refinement), chỉ kích hoạt trong 20% vòng lặp cuối ($it \ge 0{,}8\,Max\_it$): chọn cá thể tham chiếu $X^*=\arg\min\sum_j f_{i,j}$ trong kho lưu trữ rồi tái sinh một phần quần thể quanh $X^*$ bằng nhiễu Gauss, trong khi quy tắc trội Pareto vẫn quyết định nghiệm nào được giữ lại.
 
-Trên các bộ benchmark IMOP/UF/RM-MEDA (30 lần chạy độc lập/bài toán, kiểm định Wilcoxon rank-sum hai phía hiệu chỉnh Holm), E-MOSFOA đạt hạng trung bình tổng thể tốt thứ 2 (2,58, sau MOMSA 2,52, trước B-MOSFOA 2,75) với chi phí đánh giá hàm thấp nhất trong nhóm so sánh (50.100 FE so với MOMSA 60.100, MOGNDO 100.100, NS-MFO 150.100). Trên công trình thực tế — cảng xăng dầu Hải Linh, Hải Phòng (bến cập tàu, bến neo, cầu tàu chính) — nghiệm Pareto chi phí thấp nhất giảm tới 81,5% chi phí và 42,4% chuyển vị so với hiện trạng ở bến neo, toàn bộ 6 kho lưu trữ cuối cùng đều khả thi 100%.
+Trên các bộ benchmark IMOP/UF/RM-MEDA, E-MOSFOA đạt kết quả cạnh tranh so với một số thuật toán đa mục tiêu khác trên các chỉ số hội tụ/phân bố, với chi phí đánh giá hàm tương đối thấp trong nhóm so sánh. E-MOSFOA cũng đã được áp dụng cho một công trình thực tế — cảng xăng dầu Hải Linh, Hải Phòng (bến cập tàu, bến neo, cầu tàu chính), kết nối MATLAB–SAP2000.
 
 **Tham số E-MOSFOA dùng trong nghiên cứu này**: quần thể $N_p=50$, dung lượng kho lưu trữ $N_r=100$, số ô lưới $nGrid=10$, $GP_0=0{,}5$, $\lambda=0{,}3$, $CR=0{,}5$, $Max\_it=250$ vòng lặp — tổng ngân sách đánh giá FEM $FE=N_p(Max\_it+1)=12.550$, khớp chính xác với ngân sách MOFDA (Mục 4.1) do $Max\_it=5\times maxiter$.
 
 ### 4.3. Ngân sách đánh giá công bằng
 
-Xem Bảng mục B của đề cương — hai thuật toán được thiết lập trên cùng hệ thống đánh giá MATLAB–SAP2000 (hàm mục tiêu, ràng buộc, cơ chế lưu trữ Pareto archive/grid, rời rạc hoá biến thiết kế), cùng $N_r=100$, cùng $nGrid=10$, cùng ngân sách $FE=12.550$/lần chạy, cùng $N=30$ lần chạy độc lập/thuật toán.
-
-> **Ghi chú nội bộ (KHÔNG đưa vào bài)**: cả hai bài gốc [1] và [2] đều có case study kỹ thuật RIÊNG, KHÁC với cầu tàu container 100.000 DWT Lạch Huyện của bài này — [1] dùng khung thép nhà chờ bến phà Đồng Bài, [2] dùng cảng xăng dầu Hải Linh. Chỉ trích dẫn làm nguồn thuật toán gốc, không phải nguồn số liệu công trình cho bài này.
+Hai thuật toán có cơ chế cập nhật và cấu trúc vòng lặp khác nhau: MOFDA dùng $N_p=50$, $maxiter=50$, $\beta=4$; E-MOSFOA dùng $N_p=50$, $Max\_it=250$ — số vòng lặp của hai thuật toán KHÔNG bằng nhau và không nên coi là đơn vị so sánh trực tiếp. Để bảo đảm công bằng về chi phí tính toán, hai thuật toán được so sánh trên cùng ngân sách đánh giá mô hình FEM, $FE=12.550$ lần/lần chạy — số vòng lặp được thiết lập riêng theo cơ chế cập nhật của từng thuật toán để đạt cùng ngân sách này ($Max\_it=5\times maxiter$ do mỗi vòng lặp MOFDA thực hiện $\beta+1=5$ lần đánh giá/cá thể trong khi mỗi vòng lặp E-MOSFOA thực hiện 1 lần). FE được dùng làm đơn vị chung để đánh giá chi phí tìm kiếm vì mỗi lần đánh giá đòi hỏi thực hiện một lần phân tích mô hình FEM SAP2000 — bước chiếm phần lớn thời gian tính toán của toàn hệ thống. Hai thuật toán còn thiết lập chung: cùng hệ thống đánh giá MATLAB–SAP2000 (hàm mục tiêu, ràng buộc, cơ chế lưu trữ Pareto archive/grid, rời rạc hoá biến thiết kế), cùng $N_r=100$, cùng $nGrid=10$, cùng $N=30$ lần chạy độc lập/thuật toán.
 
 ## 5. Phương pháp đối sánh
 
 ### 5.1. Mặt Pareto tham chiếu
 
-Mặt Pareto thu được bằng vét cạn toàn bộ 4.080 tổ hợp (Mục 3.5) đóng vai trò **chuẩn đối chiếu độc lập** cho cả hai thuật toán — điểm mạnh trung tâm của phép đối sánh: cả MOFDA và MOSFOA đều được đối chiếu với cùng một mặt Pareto thật, thay vì chỉ so sánh trực tiếp hai tập kết quả với nhau.
+Mặt Pareto thu được bằng vét cạn toàn bộ 4.080 tổ hợp (Mục 3.5) đóng vai trò **chuẩn đối chiếu độc lập** cho cả hai thuật toán — điểm mạnh trung tâm của phép đối sánh: cả MOFDA và E-MOSFOA đều được đối chiếu với cùng một mặt Pareto tham chiếu, thay vì chỉ so sánh trực tiếp hai tập kết quả với nhau.
 
 ### 5.2. Quy trình thực nghiệm
 
-Mỗi thuật toán được chạy 30 lần độc lập (N=30, theo quy ước phổ biến của các bài báo đối sánh thuật toán tối ưu đa mục tiêu, giúp phân phối trung bình mẫu tiệm cận chuẩn và kiểm định Wilcoxon đáng tin cậy), cùng ngân sách đánh giá mô hình FEM FE = 12.550/lần chạy (MOFDA: Np=50, β=4, maxiter=50; MOSFOA/E-MOSFOA: Np=50, Max_it=250 — khớp chính xác vì Max_it = 5×maxiter, xem Mục 4.3), trên cùng hệ thống đánh giá MATLAB–SAP2000 (cùng hàm mục tiêu, cùng ràng buộc, cùng cơ chế lưu trữ nghiệm Pareto archive/grid, cùng cách rời rạc hoá biến thiết kế).
+Mỗi thuật toán được thực hiện 30 lần chạy độc lập với các hạt giống ngẫu nhiên khác nhau, cùng ngân sách đánh giá mô hình FEM FE = 12.550/lần chạy (MOFDA: Np=50, β=4, maxiter=50; MOSFOA/E-MOSFOA: Np=50, Max_it=250 — số vòng lặp khác nhau nhưng cùng ngân sách FE, xem Mục 4.3), trên cùng hệ thống đánh giá MATLAB–SAP2000 (cùng hàm mục tiêu, cùng ràng buộc, cùng cơ chế lưu trữ nghiệm Pareto archive/grid, cùng cách rời rạc hoá biến thiết kế). Kết quả giữa hai nhóm được so sánh bằng kiểm định Wilcoxon rank-sum hai phía với mức ý nghĩa α = 0,05.
 
 ### 5.3. Bộ chỉ số đối sánh
 
-Bộ chỉ số ưu tiên trong bài chính: **IGD** (inverted generational distance, chuẩn hoá theo min-max của mặt Pareto tham chiếu để tránh so sánh trực tiếp hai mục tiêu có thang đo khác nhau — khối lượng ~10³ tấn so với chuyển vị ~10⁻² m), **HV** (hypervolume, dùng điểm tham chiếu cố định chung cho mọi lần chạy và cả hai thuật toán — xem Mục 6, ghi chú kỹ thuật), **tỷ lệ tìm được nghiệm Pareto tham chiếu** theo tiêu chí so khớp chính xác trên fitness, ngưỡng 10⁻⁶ chống sai số dấu phẩy động (cố định trước khi chạy, không điều chỉnh theo kết quả quan sát được — xem đề cương Mục B.1), và **kiểm định Wilcoxon rank-sum** (α=0,05) để xác định ý nghĩa thống kê của khác biệt quan sát được. GD (generational distance) được giữ lại ở Mục 6 vì bổ sung thông tin không trùng lặp hoàn toàn với IGD trong trường hợp này (xem Mục 6.4.1).
+Bộ chỉ số ưu tiên trong bài chính: **IGD** (inverted generational distance, chuẩn hoá theo min-max của mặt Pareto tham chiếu để tránh so sánh trực tiếp hai mục tiêu có thang đo khác nhau — khối lượng ~10³ tấn so với chuyển vị ~10⁻² m), **HV** (hypervolume, sử dụng cùng một điểm tham chiếu cố định cho mọi lần chạy của cả hai thuật toán), **Pareto coverage** và **kiểm định Wilcoxon rank-sum** (α=0,05) để xác định ý nghĩa thống kê của khác biệt quan sát được. GD (generational distance) được giữ lại ở Mục 6 vì bổ sung thông tin không trùng lặp hoàn toàn với IGD trong trường hợp này (xem Mục 6.4.1).
+
+**Định nghĩa Pareto coverage** — dùng tiêu chí so khớp trên fitness trong ngưỡng sai số 10⁻⁶ để chống ảnh hưởng của sai số dấu phẩy động (cố định trước khi chạy và không điều chỉnh theo kết quả quan sát được), để xác định một nghiệm tham chiếu là "được tìm thấy" khi có ít nhất một nghiệm trong kho lưu trữ khớp với nó trong ngưỡng này. Vì kho lưu trữ (archive) có dung lượng tối đa 100 nghiệm trong khi mặt Pareto tham chiếu chỉ có 59 nghiệm (Mục 3.5), Pareto coverage được định nghĩa trên số nghiệm tham chiếu **phân biệt** được tìm thấy, không phải số mục trong kho lưu trữ khớp với tham chiếu:
+
+$$\text{Pareto coverage (\%)} = \frac{\text{số nghiệm PHÂN BIỆT thuộc mặt Pareto tham chiếu (59 nghiệm) được tìm thấy}}{59} \times 100\%$$
 
 ## 6. Kết quả và thảo luận
 
 ### 6.1. Mặt Pareto tham chiếu
 
-Vét cạn toàn bộ 4.080 tổ hợp thiết kế (bảng $q_b$ TCVN 10304:2025 đã sửa lỗi, đã bổ sung ràng buộc chống nhổ cọc — Mục 3.4) xác định được **3.337/4.080 tổ hợp khả thi** (743 tổ hợp bị loại do vi phạm hình học/ràng buộc cứng), trong đó **59 nghiệm không bị trội** tạo thành mặt Pareto tham chiếu chính thức. Khối lượng vật liệu dao động **3.317,3–5.189,4 tấn**, chuyển vị ngang lớn nhất dao động **9,83–16,27 mm** — đều thấp hơn nhiều giới hạn cho phép theo TCVN 11820-5:2021.
+Vét cạn toàn bộ 4.080 tổ hợp thiết kế theo hệ ràng buộc nêu tại Mục 3.4 xác định được **3.337/4.080 tổ hợp khả thi** (743 tổ hợp bị loại do vi phạm hình học/ràng buộc cứng), trong đó **59 nghiệm không bị trội** tạo thành mặt Pareto tham chiếu chính thức. Khối lượng vật liệu dao động **3.317,3–5.189,4 tấn**, chuyển vị ngang lớn nhất dao động **9,83–16,27 mm** — đều thấp hơn nhiều giới hạn cho phép theo TCVN 11820-5:2021.
 
 **Kiểm chứng hiện tượng "dồn biên" (boundary clustering)** — được nêu là giả thuyết cần kiểm chứng lại (Mục 3.1), kiểm tra trực tiếp trên dữ liệu chính thức, không giả định trước:
 
@@ -178,74 +178,78 @@ Vét cạn toàn bộ 4.080 tổ hợp thiết kế (bảng $q_b$ TCVN 10304:202
 | D_thép (m) | [0,800; 1,300] | 17/59 (28,8%) | 41/59 (69,5%) | 0 |
 | t_thép (m) | [0,010; 0,025] | 2/59 (3,4%) | 2/59 (3,4%) | 0 |
 
-Số liệu chính thức **xác nhận hiện tượng dồn biên đối với đường kính cọc thép (D_thép)**: gần 70% nghiệm Pareto nằm trong 5% dải sát cận trên của miền khảo sát (1,275–1,300 m), và không có nghiệm nào gần cận dưới. Dồn biên tương tự nhưng yếu hơn quan sát được ở CatIdx_BTCT (30,5% tại cận trên, tức dòng D1000). Ngược lại, chiều dày cọc thép (t_thép) phân bố trải đều trong miền khảo sát, không thể hiện dồn biên rõ rệt. Đáng chú ý, miền khảo sát của D_thép và CatIdx_BTCT (Mục 3.1) đã được xác định đủ rộng nhằm hạn chế đúng hiện tượng này, nhưng dồn biên vẫn xuất hiện — cho thấy cận trên hiện tại của D_thép nhiều khả năng vẫn chưa đủ rộng để bao trọn vùng đánh đổi tối ưu giữa khối lượng và chuyển vị; thảo luận thêm ở Mục 6.5.
+Số liệu chính thức **cho thấy rõ hiện tượng dồn biên đối với đường kính cọc thép (D_thép)**: gần 70% nghiệm Pareto nằm trong 5% dải sát cận trên của miền khảo sát (1,275–1,300 m), và không có nghiệm nào gần cận dưới. Dồn biên tương tự nhưng yếu hơn quan sát được ở CatIdx_BTCT (30,5% tại cận trên, tức dòng D1000). Ngược lại, chiều dày cọc thép (t_thép) phân bố trải đều trong miền khảo sát, không thể hiện dồn biên rõ rệt. Kết quả cho thấy các nghiệm Pareto có xu hướng tập trung về cận trên của D_thép; do đó, chưa thể loại trừ khả năng miền khảo sát hiện tại chưa bao quát hết vùng đánh đổi ở phía đường kính lớn hơn. Hiện tượng này được xử lý như một giới hạn của phạm vi khảo sát trong nghiên cứu, thảo luận thêm ở Mục 6.5.
 
-**Hình 2.** Mặt Pareto tham chiếu 59 nghiệm, trên nền các tổ hợp khả thi không bị phạt (`Wharf100DWT/results/analysis/reference_pareto_front.png`)
+**Hình 2.** Mặt Pareto tham chiếu gồm 59 nghiệm trên nền các tổ hợp khả thi.
 
 ### 6.2–6.3. Kết quả từng thuật toán (30 lần chạy độc lập, Np=50, FE=12.550/lần)
 
-**Bảng 3.** Thống kê 30 lần chạy độc lập của MOFDA và MOSFOA (E-MOSFOA)
+Do dung lượng kho lưu trữ (archive) được đặt bằng 100, trong khi mặt Pareto tham chiếu gồm 59 nghiệm (Mục 3.5), repository cuối cùng của mỗi lần chạy có thể chứa cả các nghiệm không thuộc mặt Pareto tham chiếu; vì vậy khả năng bao phủ mặt Pareto (Pareto coverage, định nghĩa ở Mục 5.3) được đánh giá riêng trên 59 nghiệm tham chiếu, không tính theo kích thước kho lưu trữ.
 
-| Chỉ số | MOFDA (Np=50, maxiter=50) | MOSFOA — E-MOSFOA (Np=50, Max_it=250) |
+**Bảng 3.** Thống kê 30 lần chạy độc lập của MOFDA và E-MOSFOA
+
+| Chỉ số | MOFDA (Np=50, maxiter=50) | E-MOSFOA (Np=50, Max_it=250) |
 |---|---:|---:|
 | GD (chuẩn hoá) | 0,000031 ± 0,000081 | 0,000000 ± 0,000000 |
 | IGD (chuẩn hoá) | 0,000506 ± 0,000182 | 0,000100 ± 0,000074 |
 | HV (W cố định = [70.340,29 tấn; 0,631374 m]) | 41.654,0150 ± 0,0064 | 41.654,0214 ± 0,0002 |
 | Kích thước kho lưu trữ (repository) | 100,0 ± 0,0 | 100,0 ± 0,0 |
-| Số nghiệm khớp chính xác mặt Pareto tham chiếu (/100 nghiệm repository) | 99,77 ± 0,63 | 100,00 ± 0,00 |
+| Pareto coverage (số nghiệm phân biệt/59 nghiệm tham chiếu) | 52,67 ± 2,63 (89,27% ± 4,46%) | 58,27 ± 0,52 (98,76% ± 0,88%) |
 
-Cả hai thuật toán đều đạt kho lưu trữ đầy (100 nghiệm/lần chạy) và tìm được gần như toàn bộ mặt Pareto tham chiếu ở mọi lần chạy độc lập. **MOSFOA (E-MOSFOA) tìm được đúng 100% (59/59) nghiệm Pareto tham chiếu ở cả 30/30 lần chạy, không có độ lệch (std=0)** — kết quả hoàn toàn ổn định. MOFDA đạt trung bình 99,77/100 nghiệm khớp chính xác (tức trung bình còn sót lại chưa đến 1 nghiệm/lần chạy, độ lệch chuẩn 0,63), cho thấy độ ổn định thấp hơn một chút nhưng vẫn ở mức rất cao.
+Cả hai thuật toán đều đạt kho lưu trữ đầy (100 nghiệm/lần chạy). Về khả năng bao phủ mặt Pareto tham chiếu (59 nghiệm), E-MOSFOA đạt trung bình 58,27/59 (98,76% ± 0,88%) — gần đầy đủ nhưng không tuyệt đối ở mọi lần chạy. MOFDA đạt trung bình 52,67/59 (89,27% ± 4,46%) — thấp hơn và biến động giữa các lần chạy lớn hơn. Trong bài toán khảo sát, cả hai thuật toán đều đạt mức bao phủ cao, trong đó E-MOSFOA cho kết quả cao hơn và ổn định hơn.
 
-### 6.4. Đối sánh trực tiếp MOFDA và MOSFOA
+### 6.4. Đối sánh trực tiếp MOFDA và E-MOSFOA
 
 #### 6.4.1. Kiểm định Wilcoxon rank-sum (30 vs 30, α = 0,05)
 
-**Bảng 4.** Kiểm định Wilcoxon rank-sum MOFDA và MOSFOA
+**Bảng 4.** Kiểm định Wilcoxon rank-sum MOFDA và E-MOSFOA
 
-| Chỉ số | MOFDA (TB±ĐLC) | MOSFOA (TB±ĐLC) | p-value | Kết luận |
+| Chỉ số | MOFDA (TB±ĐLC) | E-MOSFOA (TB±ĐLC) | p-value | Kết luận |
 |---|---:|---:|---:|---|
-| GD | 0,000031 ± 0,000081 | 0,000000 ± 0,000000 | 0,0419 | Khác biệt có ý nghĩa thống kê |
-| IGD | 0,000506 ± 0,000182 | 0,000100 ± 0,000074 | 1,07×10⁻¹⁰ | Khác biệt có ý nghĩa thống kê (rất mạnh) |
-| HV | 41.654,0150 ± 0,0064 | 41.654,0214 ± 0,0002 | 6,53×10⁻¹¹ | Khác biệt có ý nghĩa thống kê (rất mạnh) |
-| Số nghiệm khớp chính xác | 99,77 ± 0,63 | 100,00 ± 0,00 | 0,0419 | Khác biệt có ý nghĩa thống kê |
+| GD | 0,000031 ± 0,000081 | 0,000000 ± 0,000000 | 0,0419 | Khác biệt có ý nghĩa thống kê ở α=0,05, mức độ khác biệt thực tế nhỏ (cả hai gần 0) |
+| IGD | 0,000506 ± 0,000182 | 0,000100 ± 0,000074 | 1,07×10⁻¹⁰ | Khác biệt có ý nghĩa thống kê; E-MOSFOA có IGD thấp hơn |
+| HV | 41.654,0150 ± 0,0064 | 41.654,0214 ± 0,0002 | 6,53×10⁻¹¹ | Khác biệt có ý nghĩa thống kê; chênh lệch tuyệt đối rất nhỏ, cả hai đạt gần vùng ổn định |
+| Pareto coverage (/59) | 52,67 ± 2,63 | 58,27 ± 0,52 | 3,14×10⁻¹¹ | Khác biệt có ý nghĩa thống kê |
 
-Trong bài toán cầu tàu container 100.000 DWT được nghiên cứu, **MOSFOA đạt IGD trung bình thấp hơn MOFDA khoảng 5 lần** (0,000100 so với 0,000506) **và HV trung bình cao hơn** (dù chênh lệch tuyệt đối nhỏ do cả hai đều gần bão hoà), **trong khi** tỷ lệ khớp chính xác mặt Pareto tham chiếu đạt tuyệt đối 100% ở MOSFOA so với 99,77% ở MOFDA; theo cả 4 chỉ số, khác biệt đều có ý nghĩa thống kê (α=0,05). Khác biệt về IGD và HV có ý nghĩa thống kê rất mạnh (p < 10⁻¹⁰); khác biệt về GD và số nghiệm khớp chính xác có ý nghĩa ở mức α = 0,05 (p ≈ 0,042) nhưng yếu hơn — phù hợp vì cả hai chỉ số này gần đạt trần lý thuyết (GD→0, khớp→100%) ở cả hai thuật toán nên dư địa khác biệt bị thu hẹp. Đây cũng là lý do GD được giữ lại thay vì loại bỏ (Mục 5.3): dù tương quan chặt với IGD, GD vẫn cho thấy MOSFOA đạt giá trị 0 tuyệt đối (std=0) mà IGD chuẩn hoá không thể hiện rõ bằng.
+Trong bài toán cầu tàu container 100.000 DWT được khảo sát, kiểm định Wilcoxon rank-sum (α=0,05) cho thấy khác biệt có ý nghĩa thống kê ở cả 4 chỉ số. Đối với **IGD**, E-MOSFOA đạt giá trị trung bình thấp hơn MOFDA khoảng 5 lần (0,000100 so với 0,000506) — đây là chỉ số phản ánh rõ nhất mức độ gần mặt Pareto tham chiếu trong thí nghiệm này. Đối với **HV**, khác biệt có ý nghĩa thống kê nhưng chênh lệch tuyệt đối rất nhỏ do cả hai thuật toán đều đạt gần vùng ổn định — không nên dùng riêng p-value của HV để suy ra mức độ ưu thế kỹ thuật lớn. Đối với **GD**, khác biệt có ý nghĩa ở α=0,05 (p≈0,042) nhưng mức độ khác biệt thực tế nhỏ vì cả hai thuật toán đã gần 0; GD được giữ lại (Mục 5.3) vì vẫn cho thấy E-MOSFOA đạt giá trị 0 tuyệt đối (std=0) mà IGD chuẩn hoá không thể hiện rõ bằng. Đối với **Pareto coverage**, E-MOSFOA đạt trung bình cao hơn và ổn định hơn (98,76% ± 0,88% so với 89,27% ± 4,46%), khác biệt có ý nghĩa thống kê rất mạnh. Trọng tâm của phép đối sánh trong nghiên cứu này đặt vào **IGD và tốc độ hội tụ theo số lần đánh giá FE** (Mục 6.4.2) hơn là chênh lệch HV cuối cùng, vì đây là các chỉ số phân biệt rõ nhất hai thuật toán trong thí nghiệm.
 
 #### 6.4.2. Tốc độ hội tụ theo số lần đánh giá FEM (FE)
 
-Đường cong IGD/HV trung bình theo FE (30 lần chạy/thuật toán, dải ±1 độ lệch chuẩn) được dựng từ `History.ArchiveFitness` lưu mỗi vòng lặp, dùng cùng điểm tham chiếu HV cố định cho cả hai thuật toán để bảo đảm so sánh được trực tiếp (Hình 3).
+Đường cong IGD/HV trung bình theo FE (30 lần chạy/thuật toán, dải ±1 độ lệch chuẩn) được dựng từ kho lưu trữ Pareto ghi lại tại mỗi vòng lặp trong quá trình chạy, dùng cùng điểm tham chiếu HV cố định cho cả hai thuật toán để bảo đảm so sánh được trực tiếp (Hình 3).
 
-**Hình 3.** Đường cong hội tụ IGD/HV theo số lần đánh giá FEM (`Wharf100DWT/results/analysis/convergence_IGD_HV_vs_FE.png`)
+**Hình 3.** Đường cong hội tụ IGD và HV theo số lần đánh giá FEM.
 
-- **MOSFOA hội tụ nhanh hơn rõ rệt**: đạt vùng bão hoà HV (~41.654) chỉ sau khoảng FE ≈ 1.000–1.500 (tương đương 20–30 vòng lặp đầu trong tổng 250 vòng), trong khi MOFDA cần khoảng FE ≈ 5.000–7.000 (tương đương 20–28 vòng lặp trong tổng 50 vòng) mới đạt mức bão hoà tương đương.
-- Đường IGD trung bình của MOSFOA nằm dưới đường của MOFDA trong suốt quá trình tìm kiếm, nhất quán với kết quả tổng hợp ở Mục 6.4.1.
-- Cả hai thuật toán đều hội tụ về cùng một vùng nghiệm (HV cuối cùng chênh lệch không đáng kể về mặt tuyệt đối), nhưng **MOSFOA đạt được điều đó với ngân sách đánh giá FEM nhỏ hơn nhiều** trong giai đoạn đầu tìm kiếm — đây là khác biệt thực chất nhất giữa hai thuật toán trên bài toán này, hơn là chênh lệch ở kết quả cuối cùng (vốn đã gần bão hoà ở cả hai).
+- **E-MOSFOA đạt vùng ổn định của HV sớm hơn trong cùng ngân sách FE**: E-MOSFOA đạt vùng ổn định của HV (~41.654) sau khoảng 1.000–1.500 lần đánh giá FEM, trong khi MOFDA đạt vùng ổn định tương đương sau khoảng 5.000–7.000 lần đánh giá FEM. Đơn vị so sánh ở đây là FE (số lần đánh giá mô hình FEM) — không so sánh theo số vòng lặp vì hai thuật toán có cấu trúc iteration khác nhau (Mục 4.3).
+- Đường IGD trung bình của E-MOSFOA nằm dưới đường của MOFDA trong suốt quá trình tìm kiếm, nhất quán với kết quả tổng hợp ở Mục 6.4.1.
+- Cả hai thuật toán đều hội tụ về cùng một vùng nghiệm (HV cuối cùng chênh lệch không đáng kể về mặt tuyệt đối). **Khác biệt nổi bật giữa hai thuật toán thể hiện ở tốc độ hội tụ; đồng thời E-MOSFOA cũng cho khả năng bao phủ mặt Pareto tham chiếu cao hơn trong thí nghiệm này** (Mục 6.4.1).
 
 #### 6.4.3. Nhận xét cơ chế
 
-Ưu thế hội tụ nhanh của MOSFOA phù hợp với đặc điểm cơ chế điều khiển pha cosine (Mục 4.2, Eq. 8) của E-MOSFOA — chuyển pha thăm dò→khai thác được điều khiển tường minh và mượt theo hàm cosine ngay từ đầu quá trình tìm kiếm, khác với trọng số suy giảm phi tuyến $(1-iter/Max_{iter})^{2\cdot randn}$ của MOFDA (Mục 4.1) vốn phụ thuộc nhiều vào thành phần ngẫu nhiên $randn$ ở mỗi vòng lặp. Đột biến kiểu DE dẫn hướng thủ lĩnh (Eq. 9-11) và tinh chỉnh Gaussian giai đoạn cuối (Eq. 12-13) của E-MOSFOA cũng có thể góp phần giúp thuật toán bám sát nhanh mặt Pareto một khi đã xác định được vùng lân cận tốt. Đây là nhận xét định hướng dựa trên đối chiếu cơ chế đã mô tả ở Mục 4 với số liệu thực nghiệm quan sát được — không phải một phân tích độ nhạy tham số tách biệt cho từng cơ chế, nên cần diễn đạt thận trọng (không khẳng định cơ chế nào là nguyên nhân duy nhất).
+Tốc độ hội tụ nhanh hơn của E-MOSFOA quan sát được ở Mục 6.4.2 phù hợp với giả thuyết rằng cơ chế điều khiển pha cosine (Mục 4.2, Eq. 8) — chuyển pha thăm dò→khai thác được điều khiển tường minh và mượt theo hàm cosine ngay từ đầu quá trình tìm kiếm, khác với trọng số suy giảm phi tuyến $(1-iter/Max_{iter})^{2\cdot randn}$ của MOFDA (Mục 4.1) vốn phụ thuộc nhiều vào thành phần ngẫu nhiên $randn$ ở mỗi vòng lặp — có thể góp phần vào khác biệt này. Đột biến kiểu DE dẫn hướng thủ lĩnh (Eq. 9-11) và tinh chỉnh Gaussian giai đoạn cuối (Eq. 12-13) của E-MOSFOA cũng có thể góp phần giúp thuật toán bám sát nhanh mặt Pareto một khi đã xác định được vùng lân cận tốt. Đây là nhận xét định hướng dựa trên đối chiếu cơ chế đã mô tả ở Mục 4 với số liệu thực nghiệm quan sát được. **Đây không phải là phân tích độ nhạy riêng cho từng cơ chế** — không khẳng định cơ chế nào là nguyên nhân duy nhất hay đã được kiểm chứng tách biệt.
 
 ### 6.5. Giới hạn nghiên cứu
 
-- Hiện tượng dồn biên xác nhận ở Mục 6.1 (D_thép, và ở mức độ thấp hơn là CatIdx_BTCT) cho thấy cận trên hiện tại của D_thép có thể vẫn chưa đủ rộng để mặt Pareto tham chiếu phản ánh đầy đủ vùng đánh đổi tối ưu lý thuyết. Kết quả đối sánh thuật toán (Mục 6.4) vẫn có giá trị vì cả hai thuật toán được đánh giá trên cùng mặt Pareto tham chiếu và cùng miền khảo sát, nhưng phạm vi khái quát hoá kết quả tuyệt đối (giá trị khối lượng/chuyển vị cụ thể) cần thận trọng.
+- Kết quả cho thấy các nghiệm Pareto có xu hướng tập trung về cận trên của D_thép (Mục 6.1, và ở mức độ thấp hơn là CatIdx_BTCT); do đó, chưa thể loại trừ khả năng miền khảo sát hiện tại chưa bao quát hết vùng đánh đổi ở phía đường kính lớn hơn. Kết quả đối sánh thuật toán (Mục 6.4) vẫn có giá trị vì cả hai thuật toán được đánh giá trên cùng mặt Pareto tham chiếu và cùng miền khảo sát, nhưng phạm vi khái quát hoá kết quả tuyệt đối (giá trị khối lượng/chuyển vị cụ thể) cần thận trọng.
 - Ràng buộc địa kỹ thuật còn một giả thiết chưa được xác nhận đầy đủ bằng số liệu khảo sát thật: hệ số giảm cường độ theo nứt nẻ Ks = 0,32 cho Lớp 11 (giả thiết do thiếu số liệu RQD thật). Hệ số cấp hậu quả công trình γn = 1,15 (cấp C2) đã được xác nhận với hồ sơ phân cấp, không còn là giả thiết mở.
 - Không xét hiệu ứng nhóm cọc — mỗi cọc được kiểm tra sức chịu tải địa kỹ thuật đơn lẻ.
 - Tổ hợp bão riêng nằm ngoài phạm vi tổ hợp bao "BAO KT" được dùng trong đợt tính toán tối ưu.
 - Mô hình chỉ xét phân tích tuyến tính tĩnh, chưa xét tương tác đất–cọc chi tiết kiểu p–y.
 
+Các giới hạn này không làm mất giá trị của phép đối sánh thuật toán trong cùng miền bài toán, nhưng hạn chế phạm vi khái quát hóa các giá trị thiết kế tuyệt đối.
+
 ## 7. Kết luận
 
-Bài báo đã đối sánh hai thuật toán tối ưu đa mục tiêu MOFDA [1] và MOSFOA (bản thực nghiệm E-MOSFOA) [2] — cả hai đã được công bố và kiểm chứng độc lập trên các công trình khác nhau — trên cùng một bài toán thiết kế tiết diện hệ cọc cầu tàu container 100.000 DWT thực tế, dưới cùng điều kiện đánh giá MATLAB–SAP2000. Các kết luận chính gồm:
+Bài báo đã đối sánh hai thuật toán tối ưu đa mục tiêu MOFDA và MOSFOA (bản thực nghiệm E-MOSFOA) — được phát triển và báo cáo trong các nghiên cứu [1], [2], mỗi thuật toán đã được kiểm chứng trên một công trình khác nhau — trên cùng một bài toán, cùng mô hình FEM, cùng hàm mục tiêu, cùng ràng buộc và cùng ngân sách đánh giá FEM cho thiết kế tiết diện hệ cọc cầu tàu container 100.000 DWT thực tế. Các kết luận chính gồm:
 
-(1) Đã hình thành bài toán tối ưu rời rạc cho tiết diện hệ cọc với không gian thiết kế gồm 4.080 tổ hợp và ràng buộc đầy đủ, gồm cả sức chịu tải địa kỹ thuật theo TCVN 10304:2025 và ràng buộc chống nhổ cọc.
+(1) Đã hình thành bài toán tối ưu rời rạc cho tiết diện hệ cọc với không gian thiết kế gồm 4.080 tổ hợp và hệ ràng buộc gồm các điều kiện kết cấu, địa kỹ thuật theo TCVN 10304:2025 và chống nhổ cọc.
 
-(2) Vét cạn toàn bộ 4.080 tổ hợp xác định mặt Pareto tham chiếu chính thức gồm 59 nghiệm, dùng làm chuẩn đối chiếu bên ngoài — không phụ thuộc kết quả tìm kiếm của thuật toán nào — cho cả hai thuật toán. Số liệu chính thức xác nhận hiện tượng dồn biên (boundary clustering) đối với đường kính cọc thép — gần 70% nghiệm Pareto nằm sát cận trên miền khảo sát dù miền này đã được xác định đủ rộng nhằm hạn chế hiện tượng này; đây là một giới hạn cần lưu ý khi khái quát hoá kết quả tuyệt đối.
+(2) Vét cạn toàn bộ 4.080 tổ hợp xác định mặt Pareto tham chiếu của toàn bộ không gian thiết kế khảo sát, gồm 59 nghiệm, dùng làm chuẩn đối chiếu bên ngoài — không phụ thuộc kết quả tìm kiếm của thuật toán nào — cho cả hai thuật toán. Số liệu chính thức cho thấy rõ hiện tượng dồn biên (boundary clustering) đối với đường kính cọc thép — gần 70% nghiệm Pareto nằm sát cận trên miền khảo sát; do đó, chưa thể loại trừ khả năng miền khảo sát hiện tại chưa bao quát hết vùng đánh đổi ở phía đường kính lớn hơn — đây là một giới hạn của phạm vi khảo sát cần lưu ý khi khái quát hoá kết quả tuyệt đối.
 
-(3) Trong bài toán cầu tàu container 100.000 DWT được nghiên cứu, **MOSFOA đạt IGD thấp hơn MOFDA khoảng 5 lần** (0,000100 so với 0,000506; kiểm định Wilcoxon rank-sum p<10⁻¹⁰) và **hội tụ nhanh hơn đáng kể** (bão hoà hypervolume sau ~1.000-1.500 lần đánh giá FEM, so với ~5.000-7.000 lần của MOFDA); khác biệt này có ý nghĩa thống kê rõ rệt. Cả hai thuật toán đều tìm được gần như toàn bộ mặt Pareto tham chiếu với ngân sách đánh giá đã dùng (MOSFOA: 100% ở tất cả 30 lần chạy; MOFDA: trung bình 99,77%), cho thấy khác biệt thực chất nhất giữa hai thuật toán trên bài toán này là **tốc độ hội tụ**, không phải chất lượng nghiệm cuối cùng.
+(3) Trong bài toán cầu tàu container 100.000 DWT được khảo sát, E-MOSFOA đạt IGD thấp hơn MOFDA (0,000100 so với 0,000506; kiểm định Wilcoxon rank-sum p=1,07×10⁻¹⁰) và cho tốc độ hội tụ nhanh hơn khi đánh giá theo số lần phân tích FEM (đạt vùng ổn định của hypervolume sau khoảng 1.000–1.500 lần đánh giá FEM, so với khoảng 5.000–7.000 lần của MOFDA). Đồng thời, E-MOSFOA đạt khả năng bao phủ mặt Pareto tham chiếu cao hơn và ổn định hơn (98,76% ± 0,88% so với 89,27% ± 4,46%, tính trên 59 nghiệm tham chiếu; p=3,14×10⁻¹¹).
 
-(4) Kết quả cung cấp cơ sở định lượng để lựa chọn thuật toán tối ưu phù hợp — với ngân sách đánh giá FEM hạn chế (chi phí tính toán SAP2000 lặp lại là yếu tố chi phối thời gian thực nghiệm), MOSFOA thể hiện ưu thế rõ rệt hơn nhờ tốc độ hội tụ; khi ngân sách đánh giá đủ lớn, cả hai thuật toán đều đạt chất lượng nghiệm tương đương trên bài toán kết cấu cọc cầu tàu cụ thể này.
+(4) Kết quả này cho thấy E-MOSFOA là lựa chọn có lợi về tốc độ hội tụ đối với bài toán khảo sát, trong khi không đủ cơ sở để khẳng định ưu thế phổ quát của thuật toán đối với các bài toán kết cấu khác. Trong bối cảnh ngân sách đánh giá FEM là yếu tố chi phối thời gian thực nghiệm (do chi phí tính toán SAP2000 lặp lại), kết quả này cung cấp cơ sở định lượng để tham khảo khi lựa chọn thuật toán tối ưu cho các bài toán thiết kế tiết diện hệ cọc công trình cảng biển có điều kiện tương tự. Kết quả chỉ được diễn giải trong phạm vi bài toán, miền thiết kế và mô hình tính toán đã khảo sát.
 
-Trước khi áp dụng kết quả tối ưu (khối lượng/chuyển vị cụ thể của các nghiệm Pareto) cho thiết kế chính thức, cần lưu ý các giới hạn nêu ở Mục 6.5, đặc biệt là hiện tượng dồn biên chưa được giải quyết triệt để, giả thiết Ks = 0,32 cho Lớp 11 (thiếu số liệu RQD thật) cần xác nhận lại với số liệu đầy đủ hơn, và giới hạn về hiệu ứng nhóm cọc chưa được xét.
+Trước khi áp dụng kết quả tối ưu (khối lượng/chuyển vị cụ thể của các nghiệm Pareto) cho thiết kế chính thức, cần lưu ý các giới hạn nêu ở Mục 6.5, đặc biệt là khả năng miền khảo sát chưa bao quát hết vùng đánh đổi ở phía đường kính lớn của D_thép, giả thiết Ks = 0,32 cho Lớp 11 (thiếu số liệu RQD thật) cần xác nhận lại với số liệu đầy đủ hơn, và giới hạn về hiệu ứng nhóm cọc chưa được xét.
 
 ## Lời cảm ơn
 
@@ -255,7 +259,7 @@ Trước khi áp dụng kết quả tối ưu (khối lượng/chuyển vị c�
 
 [1] Vu-Huu, T., S. Khatir, and T. Cuong-Le, *Real-World Steel Frame Optimization Using a Hybrid Leader Selection-Based Multi-Objective Flow Direction Algorithm.* International Journal for Numerical Methods in Engineering, 2025. **126**(15): p. e70098. https://doi.org/10.1002/nme.70098
 
-[2] Do-Quang, T., T. Vu-Huu, and T. Cuong-Le, *Multi-objective Optimization Design of Marine Structures Based on An Enhanced Starfish Algorithm.* xxxxx.
+[2] Do-Quang, T., T. Vu-Huu, and C.T. Le, *Multi-objective Optimization of Marine Structures Using an Enhanced Starfish Algorithm.* Proceedings of the Institution of Civil Engineers – Structures and Buildings, 2026. https://doi.org/10.1680/jstbu.26.00159
 
 [3] AMACCAO PILE (2014), *Catalogue và thông số kỹ thuật cọc bê tông ly tâm AMACCAO D300-D1200*, theo TCVN 7888:2014 và JIS A 5373:2016.
 
@@ -272,17 +276,3 @@ Trước khi áp dụng kết quả tối ưu (khối lượng/chuyển vị c�
 Ngày nhận bài: xx/xx/2026
 Ngày nhận bản sửa: xx/xx/2026
 Ngày duyệt đăng: xx/xx/2026
-
----
-
-## Ghi chú nội bộ — việc còn lại trước khi coi là bản nộp
-
-1. ~~Ghép Mục 4 và Mục 6 vào file chính~~ — **XONG**.
-2. ~~Dịch Abstract~~ — **CHỐT: để trống**, không dịch ở giai đoạn này.
-3. ~~DOI/tên tạp chí bài MOSFOA gốc [2]~~ — **CHỐT: để placeholder `xxxxx`**, bài đang chờ sản xuất — bạn tự thay khi có DOI thật, không cần tôi làm gì thêm.
-4. ~~Quyết định trích dẫn Khodadadi et al. (MOFDA gốc trước cải tiến)~~ — **CHỐT: KHÔNG thêm**.
-5. ~~Vẽ Hình 2 (mặt Pareto tham chiếu 59 nghiệm)~~ — **XONG**: `Wharf100DWT/results/analysis/reference_pareto_front.png`. Hình 1 (mô hình SAP2000) — **bạn tự chèn**.
-6. ~~Rà soát overclaim~~ — **XONG**: đã sửa các chỗ dùng "độc lập" thiếu ngữ cảnh, và câu "MOSFOA vượt trội MOFDA có ý nghĩa thống kê" ở Mục 6.4.1 (đúng khuôn mẫu đề cương Mục D.7 cảnh báo tránh dùng).
-7. ~~Xác nhận cấp hậu quả công trình~~ — **XÁC NHẬN ĐÚNG**: γn=1,15 (cấp C2), đã bỏ nhãn "giả thiết"; chỉ còn Ks=0,32 (Lớp 11) là giả thiết mở.
-8. ~~Bài JMST V5 (243 tổ hợp) đã rút, không đăng nữa~~ — **XỬ LÝ XONG 10/09/2026**: đã bỏ hẳn trích dẫn tự thân [3] (không còn là bài báo riêng để cite) và viết lại TOÀN BỘ các đoạn từng khung "so với nghiên cứu trước" (Mục 1, 2.1-2.3, 3.1-3.5, 6.1, 6.5, 7) thành trình bày trực tiếp nội dung của chính bài này, không còn ngụ ý có một bài báo khác đã công bố đứng sau. Danh mục tài liệu tham khảo đã đánh số lại: [1]=MOFDA, [2]=MOSFOA, [3]=AMACCAO, [4]=TCVN 11820-5:2021, [5]=TCVN 10304:2025, [6]=TCVN 9245:2012, [7]=SFOA gốc.
-9. **Kiểm tra lại đánh số Bảng/Hình xuyên suốt bài** sau khi chèn ảnh thật (Bảng 1=catalogue BTCT §3.1, Bảng 2=dồn biên §6.1, Bảng 3=thống kê từng thuật toán §6.2-6.3, Bảng 4=Wilcoxon §6.4.1; Hình 1=SAP2000 §2.3, Hình 2=Pareto tham chiếu §6.1, Hình 3=hội tụ §6.4.2).

@@ -39,6 +39,8 @@ Bài đối sánh này ban đầu được viết dựa trên giả định bài
 
 Dòng log "So nghiem trung khop chinh xac mat Pareto that (/59): mean=99.77" khiến người đọc (kể cả khi phân tích lại) dễ hiểu lầm 99,77 là % trên 59 nghiệm tham chiếu — thực ra mẫu số đúng là kích thước kho lưu trữ (100 nghiệm/lần chạy), số 59 trong ngoặc chỉ là kích thước mặt Pareto tham chiếu để đối chiếu ngữ cảnh, không phải mẫu số của con số thống kê. Phải dừng lại kiểm tra code tính toán (`for i = 1:size(fRun,1) ... if any(all(...))`) để xác nhận chính xác trước khi diễn giải trong bài báo. **Bài học tổng quát**: khi in ra một tỷ lệ/số đếm có khả năng gây hiểu lầm về mẫu số, ghi rõ MẪU SỐ THẬT ngay trong chuỗi định dạng (`fprintf`) thay vì chỉ ghi một con số ngữ cảnh trong ngoặc — tránh phải suy luận ngược lại từ code mỗi lần đọc log.
 
+**⚠️ Cập nhật quan trọng — xác nhận đây KHÔNG chỉ là rủi ro lý thuyết mà là bug THẬT, người dùng (đóng vai phản biện) đã phát hiện chính xác**: khi bài báo được góp ý chốt bản thảo, phản biện nghi ngờ đúng con số 99,77/100 này và yêu cầu định nghĩa lại "Pareto coverage = số nghiệm PHÂN BIỆT trong 59/59". Viết script riêng đếm lại đúng định nghĩa (`compute_pareto_coverage.m`, duyệt từng điểm trong 59 điểm tham chiếu, kiểm tra có ít nhất 1 nghiệm trong repository khớp) cho kết quả **khác hẳn** số cũ: MOFDA thật ra chỉ phủ 52,67/59 = 89,27% (không phải 99,77%), MOSFOA chỉ phủ 58,27/59 = 98,76% (không phải 100%). Khoảng cách giữa hai thuật toán THẬT còn lớn hơn số liệu cũ tưởng nhầm là "cả hai gần như bão hoà". **Bài học tổng quát bổ sung**: khi một chỉ số đếm/tỷ lệ có 2 mẫu số hợp lý cùng tồn tại trong bài toán (ở đây: kích thước kho lưu trữ 100 và kích thước tập tham chiếu 59), và code chỉ tính theo MỘT trong hai mà không nói rõ, đừng tin số liệu "trông hợp lý" (vd 99,77% gần 100% "nghe có vẻ đúng vì thuật toán tốt") — phải tự hỏi "con số này đúng là đang đếm cái gì, trên mẫu số nào" và viết lại phép đếm từ dữ liệu thô nếu còn nghi ngờ, đặc biệt khi kích thước 2 tập khác nhau (100 vs 59) mà chỉ số lại được trình bày như thể chúng cùng một mẫu số.
+
 ---
 
 ## 6. Giám sát campaign N-lần-chạy qua Monitor: lọc theo mốc (mỗi 5/10 lần), không lọc theo TỪNG lần — cảnh báo lặp vô hại (`Warning`) gây nhiễu
@@ -47,11 +49,24 @@ Bộ lọc `grep` ban đầu cho Monitor bắt cả dòng cảnh báo MATLAB l�
 
 ---
 
-## 7. Checklist rút gọn cho dự án đối sánh thuật toán tiếp theo (bổ sung vào checklist đã có ở `Kinh nghiem MOFDA.md` mục 4)
+## 7. Vòng góp ý "chốt bản thảo" (siết khoa học/khách quan) — các khuôn diễn đạt nên áp dụng NGAY từ bản nháp đầu, không đợi phản biện chỉ ra
+
+Một vòng góp ý chi tiết (21 mục) yêu cầu sửa cách trình bày/lập luận (không đổi số liệu tính toán, trừ đúng 1 chỗ ở mục 5/8) đã chỉ ra một số mẫu lỗi diễn đạt LẶP LẠI nhiều lần trong bản thảo ban đầu — đáng áp dụng ngay từ lần viết đầu tiên cho dự án đối sánh thuật toán tiếp theo, thay vì phải sửa hàng loạt sau:
+
+- **Đơn vị so sánh phải nhất quán khi 2 thuật toán có cấu trúc vòng lặp khác nhau**: MOFDA (`maxiter=50`, mỗi vòng lặp $\beta+1=5$ lần đánh giá/cá thể) và E-MOSFOA (`Max_it=250`, mỗi vòng lặp 1 lần đánh giá/cá thể) có số vòng lặp KHÔNG bằng nhau dù tổng FE bằng nhau — mọi câu so sánh tốc độ hội tụ phải dùng FE (số lần đánh giá FEM) làm đơn vị, TUYỆT ĐỐI không viết "X cần ít vòng lặp hơn" hay đặt song song "(tương đương N vòng lặp)" của 2 thuật toán cạnh nhau, vì điều đó ngầm coi 2 cấu trúc vòng lặp có thể so sánh trực tiếp.
+- **Không dùng p-value một mình để tuyên bố "hiệu quả kỹ thuật lớn"**: một chỉ số có p rất nhỏ (vd HV p=6,5×10⁻¹¹) vẫn phải đi kèm nhận xét về ĐỘ LỚN chênh lệch tuyệt đối nếu chênh lệch đó nhỏ (ở đây HV hai thuật toán chỉ khác nhau ở chữ số thập phân thứ 2-3 dù p cực nhỏ, vì cỡ mẫu 30 đủ lớn để phát hiện chênh lệch rất nhỏ). Nguyên tắc: p-value trả lời "có khác biệt hay không", không trả lời "khác biệt có đáng kể về mặt kỹ thuật hay không" — hai câu hỏi này phải tách riêng trong văn bản.
+- **Giải thích cơ chế gây ra khác biệt quan sát được luôn dùng khuôn "phù hợp với giả thuyết rằng..." / "có thể góp phần"**, không dùng khuôn khẳng định nhân-quả trực tiếp ("X là nguyên nhân làm Y nhanh hơn"), trừ khi có phân tích độ nhạy/ablation tách riêng từng cơ chế (mà dự án dạng "đối sánh 2 thuật toán đã có sẵn" thường không làm và không nên làm nếu phạm vi nghiên cứu không yêu cầu).
+- **Phần mô tả thuật toán (kiểu Mục 4) không nên kể lại chi tiết % cải thiện của case study/benchmark trong bài báo GỐC** nếu con số đó không trực tiếp phục vụ phép so sánh hiện tại — dễ đọc thành "quảng bá" trước khi vào thí nghiệm, và không cần thiết cho mục tiêu "giúp người đọc hiểu nguyên lý + tham số dùng trong nghiên cứu này".
+- **Câu kết luận không nên khẳng định ưu thế phổ quát** ("X là thuật toán tốt hơn") dù kết quả thực nghiệm ủng hộ rõ ràng trong phạm vi bài toán đã khảo sát — luôn đóng khung bằng "trong bài toán khảo sát"/"trong phạm vi nghiên cứu", và có thể thêm hẳn 1 câu tường minh kiểu "không đủ cơ sở để khẳng định ưu thế phổ quát của thuật toán đối với các bài toán kết cấu khác" ở đoạn kết.
+
+---
+
+## 8. Checklist rút gọn cho dự án đối sánh thuật toán tiếp theo (bổ sung vào checklist đã có ở `Kinh nghiem MOFDA.md` mục 4)
 
 1. [ ] Script hậu xử lý (không gọi SAP2000) → `matlab -batch`, không cần `-r`; nhưng dùng đường dẫn TUYỆT ĐỐI (backslash) cho `load`/`save`/`fopen`, không tin đường dẫn tương đối forward-slash (mục 1).
 2. [ ] HV (hay bất kỳ chỉ số cần điểm/chuẩn tham chiếu) dùng để SO SÁNH CHÉO nhiều lần chạy/thuật toán → phải dùng MỘT điểm tham chiếu cố định chung, không dùng lại giá trị đã lưu sẵn cho mục đích theo dõi hội tụ nội bộ (mục 2).
 3. [ ] Vẽ mặt Pareto trên nền tổ hợp khả thi → lọc riêng tập "không bị phạt mềm" (`g_total==0`), không gộp chung với tổ hợp bị phạt (mục 3).
 4. [ ] Trước khi tự trích dẫn bài báo trước của nhóm làm tài liệu tham khảo → hỏi xác nhận trạng thái công bố HIỆN TẠI (còn nộp hay đã rút), đừng suy đoán từ ghi chú "đã hoàn thiện" trong hồ sơ cũ (mục 4).
-5. [ ] Mọi tỷ lệ/số đếm chuẩn hoá in ra log → ghi rõ mẫu số thật trong chính chuỗi `fprintf`, không chỉ ghi số ngữ cảnh trong ngoặc (mục 5).
+5. [ ] Mọi tỷ lệ/số đếm chuẩn hoá in ra log → ghi rõ mẫu số thật trong chính chuỗi `fprintf`; khi có 2 mẫu số hợp lý cùng tồn tại (vd kích thước archive vs kích thước tập tham chiếu), viết lại phép đếm từ dữ liệu thô để xác nhận đang dùng đúng mẫu số nào (mục 5).
 6. [ ] Monitor campaign N-lần-lặp → lọc theo mốc cố định + loại trừ cảnh báo lặp vô hại ngay từ đầu, không lọc theo mọi dòng tiến độ (mục 6).
+7. [ ] Viết bản thảo đối sánh thuật toán lần đầu đã áp dụng ngay: FE (không phải vòng lặp) làm đơn vị so sánh tốc độ; p-value đi kèm nhận xét độ lớn chênh lệch tuyệt đối; giải thích cơ chế dùng khuôn giả thuyết; không kể lại % case study cũ không liên quan; kết luận đóng khung trong phạm vi bài toán khảo sát (mục 7).

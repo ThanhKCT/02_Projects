@@ -1,0 +1,4 @@
+Pareto coverage (dung dinh nghia: so nghiem PHAN BIET trong 59 nghiem tham chieu duoc tim thay / 59)
+MOFDA: mean=52.67/59 (89.27%) std=2.63 (4.46%)
+EMOSFOA: mean=58.27/59 (98.76%) std=0.52 (0.88%)
+Wilcoxon rank-sum p=3.1437e-11
