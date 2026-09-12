@@ -103,7 +103,7 @@ function pAuthors(text) {
   return new Paragraph({
     alignment: AlignmentType.CENTER,
     spacing: { after: 120 },
-    children: [new TextRun({ text, bold: true, font: FONT, size: SZ.author })],
+    children: runs(text, { size: SZ.author, boldAll: true }),
   });
 }
 
