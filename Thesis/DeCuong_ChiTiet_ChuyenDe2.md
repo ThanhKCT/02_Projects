@@ -54,6 +54,29 @@ quá 80 trang** không kể phụ lục, **đúng 3 chương**, kết cấu Mở
 Chương 1/2/3 → Kết luận (bàn luận) và kiến nghị → Tài liệu tham khảo →
 Phụ lục.
 
+**Lề trang (bắt buộc, theo quy chế mục 7)**: lề trên 3 cm, lề dưới 3,5
+cm, lề trái 3,5 cm, lề phải 2 cm; số trang đặt giữa, phía dưới.
+
+**Front-matter bắt buộc trước Mở đầu** (theo thứ tự quy chế mục 7):
+Trang bìa → Mục lục → Danh mục chữ viết tắt và ký hiệu (CĐ2 có nhiều ký
+hiệu toán học — $a_1, E, A_1, A_2, GP, F, \lambda, CR, \sigma$... — bắt
+buộc phải có danh mục ký hiệu riêng) → Danh mục bảng → Danh mục hình →
+Mở đầu.
+
+**Đánh số phương trình/bảng/hình — QUAN TRỌNG, không được giữ số gốc
+bài báo**: bài báo Q3 dùng số phẳng (Eq. 2–13, Bảng 1–5) chỉ để **tra
+cứu nội bộ** trong file đề cương này. Khi viết vào chương thật của CĐ2,
+phải đánh số lại **gắn theo số chương** đúng quy chế mục 18–19:
+- Mọi phương trình ở Chương 2 (mục 2.2–2.4, tương ứng Eqs. gốc 2–13)
+  → đánh số lại thành (2.1), (2.2), …, (2.12) theo thứ tự xuất hiện
+  trong Chương 2 của CĐ2 (không phải "Eq. 8" như bài báo).
+- Bảng 1 (benchmark suites) và Bảng 2 (chỉ tiêu đánh giá) thuộc Chương 1
+  hoặc Chương 3 tùy vị trí đặt → đánh số Bảng 1.x hoặc Bảng 3.x tương ứng.
+- Bảng 3–5 (Chương 3: chi phí tính toán, rank Wilcoxon-Holm, độ nhạy
+  tham số) → đánh số lại Bảng 3.1, 3.2, 3.3…
+- Pseudocode Algorithm 1 → gắn số chương nếu quy chế của khoa/viện yêu
+  cầu đánh số thuật toán tương tự bảng/hình.
+
 ---
 
 ## 2. Quy tắc "giá trị gia tăng" áp dụng cho CĐ2 (bắt buộc — không được chỉ dịch lại bài báo)
@@ -129,7 +152,10 @@ sau:
 - **3.8. Phân tích chi phí tính toán** (mục 7.3 dưới — Bảng 3)
 - **3.9. Tổng hợp kết quả**
 - **3.10. Đóng góp của Chuyên đề 2**
-- **3.11. Kết luận Chuyên đề 2**
+- **3.11. Kết luận (bàn luận) và kiến nghị** — tách rõ 2 phần: (a) Kết
+  luận/bàn luận — trả lời 6 câu hỏi nghiên cứu (mục 4); (b) Kiến nghị —
+  hướng nghiên cứu cần tiếp tục (ví dụ: liên kết sang CĐ3 để kiểm chứng
+  kỹ thuật) và khuyến nghị áp dụng nếu có.
 
 ---
 
@@ -345,6 +371,16 @@ Baseline: $GP_0=0.5$, $N_r=200$, $n_{grid}=10$. One-factor-at-a-time,
 - [ ] Sáu câu hỏi nghiên cứu đều được trả lời rõ ràng trong Kết luận
       Chương 3 / Kết luận Chuyên đề.
 - [ ] Có Mở đầu, Kết luận (bàn luận) và kiến nghị, Tài liệu tham khảo.
+- [ ] **Đã đánh số lại toàn bộ phương trình/bảng theo số chương** (không
+      còn "Eq. 2", "Bảng 1" kiểu bài báo — xem mục 1).
+- [ ] Có đủ lề 3/3,5/3,5/2 cm và số trang giữa-dưới (mục 1).
+- [ ] Có Trang bìa, Mục lục, Danh mục chữ viết tắt/ký hiệu (đủ các ký
+      hiệu toán học dùng ở mục 6), Danh mục bảng, Danh mục hình trước
+      Mở đầu (mục 1).
+- [ ] Mục 3.11 tách rõ phần Kết luận/bàn luận và phần Kiến nghị.
+- [ ] Trước khi nộp: kiểm tra lại trạng thái công bố #4 (mục 10) — nếu
+      đến hạn nộp CĐ2 mà #4 vẫn "chưa nộp", cân nhắc bỏ khỏi Tài liệu
+      tham khảo chính thức, chỉ giữ ở mức thảo luận không trích dẫn.
 
 ---
 

@@ -97,7 +97,16 @@ for k = 1:numel(cfg.combo_list_for_axial)
     SM.Results.Setup.SetComboSelectedForOutput(cfg.combo_list_for_axial{k}, true);
 end
 for i = 1:numel(pileFrames)
-    [ret, NumberResults, ~, ~, ~, ~, ~, ~, P, ~, ~, M2, M3, ~, ~] = ...
+    % SUA (11/09/2026): thu tu cot THAT cua FrameForce (xac nhan qua CSI
+    % OAPI docs) la: NumberResults, Obj, ObjSta, Elm, ElmSta, LoadCase,
+    % StepType, StepNum, P, V2, V3, T, M2, M3 - ban truoc bi LECH 1 COT
+    % (doc P tu vi tri cua StepNum -> luon =0 vi day la buoc phan tich
+    % tinh don gian (khong co "step"); doc M2/M3 tu vi tri cua V3/T).
+    % Loi nay khien N_max LUON = 0 cho MOI phuong an -> rang buoc dia ky
+    % thuat (g1) chua bao gio duoc kiem tra that trong ca qua trinh vet
+    % can/pilot da chay truoc do (phat hien 11/09/2026 khi ra soat lai
+    % gamma_n). Da sua dung thu tu.
+    [ret, NumberResults, ~, ~, ~, ~, ~, ~, ~, P, ~, ~, ~, M2, M3] = ...
         SM.Results.FrameForce(pileFrames{i}, SM.eItemTypeElm.ObjectElm); %#ok<ASGLU>
     if NumberResults > 0
         Pv  = local_tonumeric(P);
@@ -117,7 +126,13 @@ diagnostic.M_max_Tm = M_max;
 % ---------------------------------------------------------------------
 SM.Results.Setup.DeselectAllCasesAndCombosForOutput();
 SM.Results.Setup.SetComboSelectedForOutput(cfg.combo_governing_disp, true);
-[~, NumberResults, ObjJ, ~, ~, ~, ~, U1, ~, ~, ~, ~, ~] = SM.Results.JointDispl('ALL', SM.eItemTypeElm.ObjectElm); %#ok<ASGLU>
+% SUA (10/09/2026): 'ALL' la TEN NHOM (group) co san cua SAP2000, phai
+% dung GroupElm - dung ObjectElm (nhu ban truoc) khien SAP2000 tim 1 "doi
+% tuong" ten "ALL" (khong ton tai) => JointDispl tra ve ret~=0/0 ket qua
+% MOI LAN, khien U_max luon = 0 va feasible=true GIA (vi khong co N/A nao
+% vuot rang buoc do khong co so lieu that). Da doi chieu dung theo
+% wharf100dwt_evaluate.m (Bai 1) dung GroupElm cho truong hop nay.
+[~, NumberResults, ObjJ, ~, ~, ~, ~, U1, ~, ~, ~, ~, ~] = SM.Results.JointDispl('ALL', SM.eItemTypeElm.GroupElm); %#ok<ASGLU>
 ObjJ = local_tocellstr(ObjJ);
 U1v  = local_tonumeric(U1);
 U_max = 0;
@@ -169,4 +184,31 @@ else
     fit = [1e12, 1e12];  % PHAT CUNG - loai khoi Pareto ngay
 end
 
+end
+
+% =========================================================================
+% BO SUNG (10/09/2026): 2 ham phu local_tocellstr/local_tonumeric duoc goi
+% o tren nhung CHUA duoc dinh nghia trong ban goc cua khung code nay - day
+% la loi thieu ham, khong phai loi cu phap se bao ngay, se gay
+% "Undefined function" khi thuc su chay evaluate_pile_design tren SAP2000
+% that. Bo sung phong thu de tuong thich voi nhieu kieu du lieu tra ve co
+% the co cua SM.*/OAPI (cellstr, string array, .NET string[]...).
+% =========================================================================
+function out = local_tocellstr(x)
+if iscellstr(x) %#ok<ISCLSTR>
+    out = x;
+elseif isstring(x) || ischar(x)
+    out = cellstr(x);
+else
+    try
+        out = cellstr(x);
+    catch
+        out = arrayfun(@char, x, 'UniformOutput', false);
+    end
+end
+end
+
+function out = local_tonumeric(x)
+out = double(x);
+out = out(:);
 end

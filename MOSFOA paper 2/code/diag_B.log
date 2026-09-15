@@ -1,0 +1,56 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ERROR: The process "SAP2000.exe" not found. 
+--- 1) Danh sach ten tiet dien frame (mau 20 dong dau + dem theo section) ---
+Tong so frame: 960
+  frame 1          -> section [Coc]
+  frame 2          -> section [Coc]
+  frame 3          -> section [Coc]
+  frame 4          -> section [Coc]
+  frame 5          -> section [Coc]
+  frame 6          -> section [Coc]
+  frame 7          -> section [Coc]
+  frame 8          -> section [Coc]
+  frame 9          -> section [Coc]
+  frame 10         -> section [Coc]
+  frame 11         -> section [Coc]
+  frame 12         -> section [Coc]
+  frame 13         -> section [Coc]
+  frame 14         -> section [Coc]
+  frame 15         -> section [Coc]
+  frame 16         -> section [Coc]
+  frame 17         -> section [Coc]
+  frame 18         -> section [DCT-S]
+  frame 19         -> section [DCT-S]
+  frame 20         -> section [Coc]
+--- Bang dem so frame theo section (tat ca) ---
+  section [Coc] : 132 frame
+  section [DCT-B] : 79 frame
+  section [DCT-G] : 79 frame
+  section [DCT-S] : 80 frame
+  section [DD] : 158 frame
+  section [DN] : 384 frame
+  section [DNHT] : 48 frame
+cfg.pile_section_name = [Coc]
+=> KHOP: 132 frame dung dung section nay.
+
+--- 2) Danh sach nut (Joint) va phan bo cao do Z (mau) ---
+Tong so nut: 2532
+Z min=-21.0900  max=0.0000  (cfg.deck_top_Z=0.0000)
+So nut co |Z-deck_top_Z|<1e-3: 2240
+
+--- 2b) Chay RunAnalysis that (giong dung flow cua evaluate_pile_design.m) ---
+SetPipe(x=1, D=300mm t=60mm) ret=0
+RunAnalysis ret=0 (112.9s)
+
+--- 3) Trich JointDispl truc tiep cho to hop khong che COMB14 ---
+SetComboSelectedForOutput ret=0
+JointDispl ret=0 NumberResults=2532
+class(U1) truoc convert = double ; sau double(): numel=2532 min=0.000000 max=0.086873
+max|U1| toan bo model = 86.8726 mm tai nut 273
+
+--- 4) Kiem tra FrameForce cho 1 frame coc mau, toan bo combo_list_for_axial ---
+FrameForce(1) ret=0 NumberResults=144
+  P range: [0.000, 0.000] T ; max|M| approx: 0.134 T.m

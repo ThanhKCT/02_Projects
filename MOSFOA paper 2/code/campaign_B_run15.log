@@ -1,0 +1,31 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[MOSFOA2 B - run15 - SONG SONG] Np=8 Max_it=20 Nr=100 Num_work=8 K=33 (FE uoc tinh=168)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+The he #0 - Kich thuoc Repository: 3
+[B-run15] Vong lap 1/20 - Repository: 4 - FE luy ke: 16 - Thoi gian: 3.1 phut
+[B-run15] Vong lap 2/20 - Repository: 4 - FE luy ke: 24 - Thoi gian: 6.3 phut
+[B-run15] Vong lap 3/20 - Repository: 5 - FE luy ke: 32 - Thoi gian: 9.4 phut
+[B-run15] Vong lap 4/20 - Repository: 6 - FE luy ke: 40 - Thoi gian: 12.4 phut
+[B-run15] Vong lap 5/20 - Repository: 6 - FE luy ke: 48 - Thoi gian: 15.6 phut
+[B-run15] Vong lap 6/20 - Repository: 6 - FE luy ke: 56 - Thoi gian: 18.7 phut
+[B-run15] Vong lap 7/20 - Repository: 6 - FE luy ke: 64 - Thoi gian: 21.8 phut
+[B-run15] Vong lap 8/20 - Repository: 6 - FE luy ke: 72 - Thoi gian: 24.9 phut
+[B-run15] Vong lap 9/20 - Repository: 6 - FE luy ke: 80 - Thoi gian: 28.0 phut
+[B-run15] Vong lap 10/20 - Repository: 6 - FE luy ke: 88 - Thoi gian: 31.1 phut
+[B-run15] Vong lap 11/20 - Repository: 6 - FE luy ke: 96 - Thoi gian: 34.2 phut
+[B-run15] Vong lap 12/20 - Repository: 6 - FE luy ke: 104 - Thoi gian: 37.3 phut
+[B-run15] Vong lap 13/20 - Repository: 6 - FE luy ke: 112 - Thoi gian: 40.4 phut
+[B-run15] Vong lap 14/20 - Repository: 6 - FE luy ke: 120 - Thoi gian: 43.5 phut
+[B-run15] Vong lap 15/20 - Repository: 6 - FE luy ke: 128 - Thoi gian: 46.7 phut
+[B-run15] Vong lap 16/20 - Repository: 6 - FE luy ke: 136 - Thoi gian: 49.7 phut
+[B-run15] Vong lap 17/20 - Repository: 6 - FE luy ke: 144 - Thoi gian: 52.9 phut
+[B-run15] Vong lap 18/20 - Repository: 6 - FE luy ke: 152 - Thoi gian: 56.0 phut
+[B-run15] Vong lap 19/20 - Repository: 6 - FE luy ke: 160 - Thoi gian: 59.2 phut
+[B-run15] Vong lap 20/20 - Repository: 6 - FE luy ke: 168 - Thoi gian: 62.2 phut
+[B-run15] HOAN THANH. Tong thoi gian: 62.22 phut. So nghiem Pareto: 6
+Parallel pool using the 'Processes' profile is shutting down.

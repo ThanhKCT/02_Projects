@@ -1,0 +1,51 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+=== VET CAN cong trinh B (VIPGreenPort 30.000DWT): 33 phuong an ===
+ERROR: The process "SAP2000.exe" not found. 
+x= 1  D= 300mm t= 60mm Class=A  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (126.3s)
+x= 2  D= 300mm t= 60mm Class=B  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.8s)
+x= 3  D= 300mm t= 60mm Class=C  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.3s)
+x= 4  D= 350mm t= 65mm Class=A  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (123.8s)
+x= 5  D= 350mm t= 65mm Class=B  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.0s)
+x= 6  D= 350mm t= 65mm Class=C  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (126.6s)
+x= 7  D= 400mm t= 75mm Class=A  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.2s)
+x= 8  D= 400mm t= 75mm Class=B  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.1s)
+x= 9  D= 400mm t= 75mm Class=C  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (123.3s)
+x=10  D= 450mm t= 80mm Class=A  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (125.4s)
+x=11  D= 450mm t= 80mm Class=B  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (123.7s)
+x=12  D= 450mm t= 80mm Class=C  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (123.6s)
+x=13  D= 500mm t= 90mm Class=A  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (123.5s)
+x=14  D= 500mm t= 90mm Class=B  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (124.0s)
+x=15  D= 500mm t= 90mm Class=C  f1=1000000000000.000T  f2=1000000000000.0000m  feasible=0  (124.2s)
+x=16  D= 600mm t=100mm Class=A  f1=  2125.292T  f2= 0.0231m  feasible=1  (123.6s)
+x=17  D= 600mm t=100mm Class=B  f1=  2125.292T  f2= 0.0231m  feasible=1  (123.9s)
+x=18  D= 600mm t=100mm Class=C  f1=  2125.292T  f2= 0.0231m  feasible=1  (123.8s)
+x=19  D= 700mm t=110mm Class=A  f1=  2758.632T  f2= 0.0170m  feasible=1  (124.3s)
+x=20  D= 700mm t=110mm Class=B  f1=  2758.632T  f2= 0.0170m  feasible=1  (123.7s)
+x=21  D= 700mm t=110mm Class=C  f1=  2758.632T  f2= 0.0170m  feasible=1  (124.0s)
+x=22  D= 800mm t=120mm Class=A  f1=  3468.416T  f2= 0.0129m  feasible=1  (124.1s)
+x=23  D= 800mm t=120mm Class=B  f1=  3468.416T  f2= 0.0129m  feasible=1  (124.8s)
+x=24  D= 800mm t=120mm Class=C  f1=  3468.416T  f2= 0.0129m  feasible=1  (124.1s)
+x=25  D= 900mm t=130mm Class=A  f1=  4254.779T  f2= 0.0100m  feasible=1  (124.3s)
+x=26  D= 900mm t=130mm Class=B  f1=  4254.779T  f2= 0.0100m  feasible=1  (124.2s)
+x=27  D= 900mm t=130mm Class=C  f1=  4254.779T  f2= 0.0100m  feasible=1  (124.0s)
+x=28  D=1000mm t=130mm Class=A  f1=  4807.344T  f2= 0.0083m  feasible=1  (123.8s)
+x=29  D=1000mm t=130mm Class=B  f1=  4807.344T  f2= 0.0083m  feasible=1  (124.2s)
+x=30  D=1000mm t=130mm Class=C  f1=  4807.344T  f2= 0.0083m  feasible=1  (123.6s)
+x=31  D=1200mm t=150mm Class=A  f1=  6694.644T  f2= 0.0053m  feasible=1  (125.2s)
+x=32  D=1200mm t=150mm Class=B  f1=  6694.644T  f2= 0.0053m  feasible=1  (124.3s)
+x=33  D=1200mm t=150mm Class=C  f1=  6694.644T  f2= 0.0053m  feasible=1  (124.8s)
+
+=== KET QUA VET CAN B ===
+So phuong an kha thi: 18 / 33
+So nghiem Pareto (tham chieu THAT): 6
+  Pareto x=17 D= 600mm Class=B  f1=  2125.292T  f2= 0.0231m
+  Pareto x=21 D= 700mm Class=C  f1=  2758.632T  f2= 0.0170m
+  Pareto x=24 D= 800mm Class=C  f1=  3468.416T  f2= 0.0129m
+  Pareto x=25 D= 900mm Class=A  f1=  4254.779T  f2= 0.0100m
+  Pareto x=29 D=1000mm Class=B  f1=  4807.344T  f2= 0.0083m
+  Pareto x=31 D=1200mm Class=A  f1=  6694.644T  f2= 0.0053m
+
+Da luu: D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\Bruteforce_B_FINAL.mat (68.4 phut)

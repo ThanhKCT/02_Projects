@@ -1,0 +1,8 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+x= 1 N_max=0.00T M_max=0.353Tm nFrames=132 Rd=90.14T feasible=0
+x=16 N_max=0.00T M_max=1.087Tm nFrames=132 Rd=268.88T feasible=1
+x=21 N_max=0.00T M_max=1.430Tm nFrames=132 Rd=348.16T feasible=1
+x=33 N_max=0.00T M_max=3.193Tm nFrames=132 Rd=892.20T feasible=1

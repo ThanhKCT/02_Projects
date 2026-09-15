@@ -51,6 +51,28 @@ A4, Times New Roman 14, giãn dòng 1,5, **không quá 80 trang** không kể
 phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 → Kết luận
 (bàn luận) và kiến nghị → Tài liệu tham khảo → Phụ lục.
 
+**Lề trang (bắt buộc, theo quy chế mục 7)**: lề trên 3 cm, lề dưới 3,5
+cm, lề trái 3,5 cm, lề phải 2 cm; số trang đặt giữa, phía dưới.
+
+**Front-matter bắt buộc trước Mở đầu** (theo thứ tự quy chế mục 7):
+Trang bìa → Mục lục → Danh mục chữ viết tắt và ký hiệu (BD/MD/MJP, các
+ký hiệu tải trọng/ràng buộc ở mục 6) → Danh mục bảng → Danh mục hình →
+Mở đầu.
+
+**Đánh số phương trình/bảng/hình — QUAN TRỌNG, không được giữ số gốc
+bài báo**: bài báo Q3 dùng số phẳng (Eqs. 14–23, Bảng 6–13) chỉ để
+**tra cứu nội bộ** trong file đề cương này. Khi viết vào chương thật
+của CĐ3, phải đánh số lại **gắn theo số chương** đúng quy chế mục
+18–19:
+- Bảng 6 (tổ hợp tải trọng), 7 (biến thiết kế), 8 (giá trị tải trọng),
+  9 (địa chất) thuộc Chương 1 → đánh số lại Bảng 1.1, 1.2, 1.3, 1.4.
+- Eqs. 14–23 (hàm mục tiêu, ràng buộc) thuộc Chương 1 → đánh số lại
+  (1.1)…(1.x) theo thứ tự xuất hiện.
+- Bảng 10–13 (kết quả BD/MD/MJP, chi phí tính toán) thuộc Chương 3 →
+  đánh số lại Bảng 3.1, 3.2, 3.3, 3.4.
+- Hình FEM/Pareto (nếu dùng lại Hình 8–10 của bài báo) → đánh số lại
+  Hình 2.x hoặc Hình 3.x tùy chương đặt.
+
 ---
 
 ## 2. Quy tắc "giá trị gia tăng" áp dụng cho CĐ3
@@ -143,7 +165,10 @@ phụ lục, **đúng 3 chương**, kết cấu Mở đầu → Chương 1/2/3 �
     chứng hai công trình và #7 phân tích độ nhạy; lập luận khả năng mở rộng
     ngoài BD/MD/MJP nhưng không biến các công bố này thành một hướng riêng.
 - **3.10. Đóng góp của Chuyên đề 3**
-- **3.11. Kết luận Chuyên đề 3**
+- **3.11. Kết luận (bàn luận) và kiến nghị** — tách rõ 2 phần: (a) Kết
+  luận/bàn luận — trả lời 7 câu hỏi nghiên cứu (mục 4); (b) Kiến nghị —
+  hướng phát triển tiếp (mục 8: surrogate model, mô hình đất–cọc phi
+  tuyến...) và khuyến nghị áp dụng cho kỹ sư thiết kế.
 
 ---
 
@@ -401,6 +426,16 @@ tế theo dự án/thời điểm khi áp dụng thực hành.
 - [ ] Giữ đúng tinh thần "utilization tiệm cận nhưng không vượt 1.0",
       không phóng đại thành "luôn an toàn tuyệt đối".
 - [ ] Có Mở đầu, Kết luận (bàn luận) và kiến nghị, Tài liệu tham khảo.
+- [ ] **Đã đánh số lại toàn bộ phương trình/bảng/hình theo số chương**
+      (không còn "Eq. 14", "Bảng 6" kiểu bài báo — xem mục 1).
+- [ ] Có đủ lề 3/3,5/3,5/2 cm và số trang giữa-dưới (mục 1).
+- [ ] Có Trang bìa, Mục lục, Danh mục chữ viết tắt/ký hiệu, Danh mục
+      bảng, Danh mục hình trước Mở đầu (mục 1).
+- [ ] Mục 3.11 tách rõ phần Kết luận/bàn luận và phần Kiến nghị.
+- [ ] Trước khi nộp: kiểm tra lại trạng thái công bố #4/#5/#6/#7 (mục
+      11) — nếu đến hạn nộp CĐ3 mà vẫn "chưa nộp", cân nhắc hạ mục
+      3.3.x xuống mức thảo luận (không phải "bằng chứng chính thức")
+      và bỏ các công bố chưa nộp khỏi Tài liệu tham khảo chính thức.
 
 ---
 

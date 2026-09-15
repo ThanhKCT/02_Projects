@@ -15,7 +15,7 @@ case 'A'
     % actxserver, doi chieu PointObj.Count=4913, FrameObj.Count=1734,
     % AreaObj.Count=4488 - KHOP TUYET DOI voi hinh hoc da biet cua cong trinh
     % A ("Ben 100.000DWT KT" goc). File nay dung duoc, khong phai ban khac.
-    cfg.sdb_path       = fullfile('D:\ResearchLab\02_Projects\MOSFOA paper 2\SapV14', 'Ben100kDWT_sensitivity.sdb');
+    cfg.sdb_path       = fullfile('D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\SapV24', 'Ben100kDWT_sensitivity.sdb'); % SUA 11/09/2026: thu muc doi ten SapV14->SapV24
     cfg.pile_section_name = 'COCBTCT';       % xac nhan truc tiep tu "Ben 100.000DWT KT.s2k": SectionName=COCBTCT, Shape=Pipe, D800-t130
     cfg.material_name     = 'Be tong M800';  % xac nhan truc tiep: Material="Be tong M800"
     cfg.steel_pile_section_name = 'COCTHEP'; % coc thep phu tro D1016-t16, GIU NGUYEN khong toi uu (muc 2.3 Danh_gia_kha_thi_Bai_2.md) - chi de tham chieu, KHONG dua vao vong loc SetPipe
@@ -30,7 +30,20 @@ case 'A'
     cfg.qb_tip_kPa    = 11100;
     cfg.sum_fi_hi_kPa_m = 366.75;
     cfg.gamma_k       = 1.4;           % he so tin cay dat nen (nhom >=21 coc, tinh theo bang tra)
-    cfg.gamma_n       = 1.0;           % Cap I -> C1 (TCVN 10304:2025 muc 7.1.6.1)
+    % SUA (11/09/2026): quyet dinh truoc day dung Cap I -> C1 (gamma_n=1.0)
+    % dua tren gia thiet "cap cong trinh dac biet/I/II/III" (Thong tu
+    % 34/2026/TT-BXD, phan cap theo DWT: A=100kDWT=Cap dac biet) TRUNG
+    % VOI thang "cap hau qua C1/C2/C3" dung de tra gamma_n trong TCVN
+    % 10304:2025. Doc ky QCVN 03:2022/BXD Phu luc A (nguon goc thuc su
+    % cua C1/C2/C3) cho thay 2 thang KHONG lien quan - C3 chi liet ke
+    % cac tieu chi rieng (dong nguoi, hoa chat, chinh tri, quy mo ket
+    % cau: nha cao>75m, nhip>=100m...), KHONG co muc nao ve "ben cang"
+    % hay DWT. Ben cau tau (kho hep, khong nhip lon, khong phai kho hoa
+    % chat) khong khop tieu chi C3/C1 nao -> mac dinh la C2 ("cong trinh
+    % khac ngoai C1 va C3"). QUYET DINH NGUOI DUNG (11/09/2026): dung
+    % dung C2 (gamma_n=1,15) cho CA 3 cong trinh (A, B, va C 70kDWT sau
+    % nay), khong phan biet theo "cap dac biet/I/II" cua Thong tu 34.
+    cfg.gamma_n       = 1.15;          % C2 (QCVN 03:2022/BXD Phu luc A) - ap dung thong nhat ca 3 cong trinh
 
     cfg.U_limit_m     = 0.030;         % gioi han chuyen vi van hanh (Bang 12 + xac nhan nguoi dung)
     % ✅ ĐÃ CHỐT BẰNG FEM THẬT — ĐỦ 37/37 tổ hợp (xem chi tiết dưới):
@@ -52,11 +65,17 @@ case 'A'
     % DEFINITIONS tu file .s2k goc bi LOI ky tu (ten co dau ngoac kep + khoang
     % trang bi cat) khien 2 ten nay bi gop nham thanh 1 dong "36 to hop" - so
     % that su la 37 to hop. Danh sach duoi day da bo sung du ca 2:
-    cfg.combo_governing_disp = '"BAO KT"';
+    % SUA (10/09/2026): xac nhan TRUC TIEP qua SM.RespCombo.GetNameList()
+    % tren model that - ten combo THAT KHONG co dau ngoac kep ("BAO KT",
+    % "BAO (storm)"). Dau ngoac kep o ban truoc la loi tach chuoi khi doc
+    % van ban .s2k (ky tu bao chuoi cua dinh dang file, khong phai 1 phan
+    % ten combo that trong SAP2000) - da gay loi CHET NGUOI: SapModel
+    % khong khop duoc ten nao => JointDispl luon tra ve 0 ket qua => U_max
+    % luon =0 => moi phuong an "khoi thi" GIA. Xem code/README_khung_code.md.
+    cfg.combo_governing_disp = 'BAO KT';
     % Danh sach day du 37 to hop (36 tu COMBINATION DEFINITIONS + bo sung
-    % "BAO KT" phat hien rieng qua file ket qua). Ten co dau ngoac kep +
-    % khoang trang PHAI GIU NGUYEN dung nhu SapModel can.
-    cfg.combo_list_for_axial = {'COMB1','"BAO (storm)"','"BAO KT"','COMB2', ...
+    % "BAO KT" phat hien rieng qua file ket qua). KHONG con dau ngoac kep.
+    cfg.combo_list_for_axial = {'COMB1','BAO (storm)','BAO KT','COMB2', ...
         'COMB3.1','COMB3.2','COMB3.3','COMB3.4','COMB3.5','COMB3.6', ...
         'COMB4.1','COMB4.2','COMB4.3','COMB4.4','COMB4.5','COMB4.6', ...
         'COMB5.1','COMB5.2', ...
@@ -72,7 +91,7 @@ case 'B'
     % SUA (10/09/2026): "Cau tau.sdb" KHONG TON TAI trong thu muc - dung dung
     % "Cau tau dau vao.sdb" (da xac nhan ngay dau phien la CUNG 1 hinh hoc,
     % chi khac phien ban SAP2000 export 16 vs 24).
-    cfg.sdb_path       = fullfile('D:\ResearchLab\02_Projects\MOSFOA paper 2\SapV14', 'Cau tau dau vao.sdb');
+    cfg.sdb_path       = fullfile('D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\SapV24', 'Cau tau dau vao.sdb'); % SUA 11/09/2026: thu muc doi ten SapV14->SapV24
     cfg.pile_section_name = 'Coc';     % xac nhan: SAP2000v1 "FRAME SECTION PROPERTIES 01", SectionName=Coc, Shape=Pipe
     cfg.material_name     = 'M600';    % xac nhan tu file .s2k goc
 
@@ -83,7 +102,7 @@ case 'B'
     cfg.qb_tip_kPa    = 8605;
     cfg.sum_fi_hi_kPa_m = 667.70;
     cfg.gamma_k       = 1.4;
-    cfg.gamma_n       = 1.15;          % Cap II -> C2
+    cfg.gamma_n       = 1.15;          % C2 (QCVN 03:2022/BXD Phu luc A, giong A - xem giai thich o nhanh 'A' o tren) - gia tri khong doi so voi truoc, chi sua lai ly do
 
     cfg.U_limit_m     = 0.030;
     cfg.combo_governing_disp = 'COMB14';   % = 'BAO' (2 ten, 1 ket qua) - da xac nhan bang FEM that (Chuyen vi. s2k.s2k)

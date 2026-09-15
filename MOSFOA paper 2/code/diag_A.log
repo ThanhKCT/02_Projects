@@ -1,0 +1,66 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ERROR: The process "SAP2000.exe" not found. 
+--- 0) Danh sach TEN COMBO THAT dang ky trong SAP2000 (RespCombo) ---
+Tong so combo: 37
+  combo  1: [COMB1]
+  combo  2: [BAO (storm)]
+  combo  3: [COMB2]
+  combo  4: [COMB3.1]
+  combo  5: [COMB3.2]
+  combo  6: [COMB3.3]
+  combo  7: [COMB3.4]
+  combo  8: [COMB3.5]
+  combo  9: [COMB3.6]
+  combo 10: [COMB4.1]
+  combo 11: [COMB4.2]
+  combo 12: [COMB4.3]
+  combo 13: [COMB4.4]
+  combo 14: [COMB4.5]
+  combo 15: [COMB4.6]
+  combo 16: [COMB5.1]
+  combo 17: [COMB5.2]
+  combo 18: [COMB6.1]
+  combo 19: [COMB6.2]
+  combo 20: [COMB6.3]
+  combo 21: [COMB6.4]
+  combo 22: [COMB6.5]
+  combo 23: [COMB6.6]
+  combo 24: [COMB6.7]
+  combo 25: [COMB6.8]
+  combo 26: [COMB6.9]
+  combo 27: [COMB6.10]
+  combo 28: [COMB6.11]
+  combo 29: [COMB6.12]
+  combo 30: [COMB7.1]
+  combo 31: [COMB7.2]
+  combo 32: [COMB8.1]
+  combo 33: [COMB8.2]
+  combo 34: [COMB8.3]
+  combo 35: [COMB8.4]
+  combo 36: [COMB7.3]
+  combo 37: [BAO KT]
+
+cfg.combo_governing_disp = ["BAO KT"]
+=> KHONG KHOP CHINH XAC! Kiem tra ten gan giong (bo dau ngoac/khoang trang):
+   -> UNG VIEN KHOP (sau khi bo dau ngoac/khoang trang): combo that = [BAO KT]
+
+--- 1) Dem frame theo section, doi chieu cfg.pile_section_name=[COCBTCT] ---
+  section [COCBTCT] : 132 frame
+  section [COCTHEP] : 60 frame
+  section [DCT1] : 88 frame
+  section [DCT2] : 88 frame
+  section [DD] : 616 frame
+  section [DN] : 660 frame
+  section [KVA1] : 9 frame
+  section [KVA2] : 36 frame
+  section [KVA_HAO] : 9 frame
+  section [VA1] : 6 frame
+  section [VA2] : 24 frame
+  section [VA_HAO] : 6 frame
+=> KHOP: 132 frame.
+
+--- 2) Phan bo cao do Z, doi chieu cfg.deck_top_Z=5.5000 ---
+Z min=-23.0091 max=5.5000 ; So nut |Z-deck_top_Z|<1e-3: 4632

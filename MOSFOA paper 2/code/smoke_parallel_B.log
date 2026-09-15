@@ -1,0 +1,12 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[MOSFOA2 B - smoke01 - SONG SONG] Np=8 Max_it=1 Nr=100 Num_work=8 K=33 (FE uoc tinh=16)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+The he #0 - Kich thuoc Repository: 3
+[B-smoke01] Vong lap 1/1 - Repository: 4 - FE luy ke: 16 - Thoi gian: 3.1 phut
+[B-smoke01] HOAN THANH. Tong thoi gian: 3.14 phut. So nghiem Pareto: 4
+Parallel pool using the 'Processes' profile is shutting down.

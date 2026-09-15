@@ -1,0 +1,31 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+run01: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.9 phut
+run02: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.6 phut
+run03: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.4 phut
+run04: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.5 phut
+run05: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.9 phut
+run06: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.8 phut
+run07: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.6 phut
+run08: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.3 phut
+run09: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.3 phut
+run10: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.1 phut
+run11: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.6 phut
+run12: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.5 phut
+run13: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.7 phut
+run14: Repository= 6  khop_tham_chieu=6/6  thoi_gian=61.7 phut
+run15: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.2 phut
+run16: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.0 phut
+run17: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.1 phut
+run18: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.0 phut
+run19: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.0 phut
+run20: Repository= 6  khop_tham_chieu=6/6  thoi_gian=62.1 phut
+
+=== TONG KET DO ON DINH - CONG TRINH B (20 lan chay) ===
+Mat Pareto tham chieu (that, vet can): 6 diem
+Repository size: mean=6.00  std=0.000  min=6  max=6
+So diem tham chieu tim duoc/lan chay: mean=6.00/6  std=0.000  min=6  max=6
+Ty le lan chay tim DU 100% mat Pareto tham chieu: 20/20 (100.0%)
+Thoi gian chay: mean=61.9 phut  std=0.3  min=61.3  max=62.4

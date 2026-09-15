@@ -1,0 +1,214 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)
+ File: D:\ResearchLab\02_Proje...s\MOSFOA paper 2\SapV24\W08\Cau tau dau vao.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2026/09/12  16:01:17
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        2532
+    WITH RESTRAINTS                        =         132
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         960
+ NUMBER OF SHELL ELEMENTS                  =        2289
+ NUMBER OF LOAD PATTERNS                   =          14
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          15
+ NUMBER OF MASS SOURCES                    =           1
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = tonf, m, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9.806650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      47.905 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          14
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =          14
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          14
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
+
+
+ E L E M E N T   F O R M A T I O N                                      16:01:18
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        16:01:18
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =       14400
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      384012
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  16:01:19
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =          11
+ NUMBER OF CASES TO SOLVE PER BLOCK        =          11
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: BT
+ CASE: VA
+ CASE: NEO
+ CASE: HH1
+ CASE: HH2
+ CASE: HH3
+ CASE: HH4
+ CASE: QC-(BAO)
+ CASE: HH5
+ CASE: HH6
+
+
+ I N F L U E N C E   L O A D   C A S E                                  16:01:20
+
+ CASE: <Influence>
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF BRIDGE INFLUENCE LOADS          =         403
+ NUMBER OF LOADS TO SOLVE PER BLOCK        =         403
+
+ SIZE OF THE INFLUENCE RESULTS FILE        =      46.710 MB
+
+
+
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    16:01:24
+
+ CASE: <Vehicle 1 0 0>
+
+ USING INFLUENCE RESPONSE FROM CASE: <Influence>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+ NUMBER OF LOAD-DIRECTION PERMUTATIONS     =           1
+
+ NUMBER OF FIXED/FLOATING LANE SURFACES    =           5
+ NUMBER OF FIXED LANES                     =           5
+ NUMBER OF FLOATING LANES                  =           0
+ TOTAL NUMBER OF LOADED LANES              =           5
+
+ NUMBER OF VEHICLES                        =           5
+ NUMBER OF VEHICLES ON LANES RUN BEFORE    =           0
+ NUMBER OF VEHICLES ON LANES TO BE RUN NOW =           6
+
+ NUMBER OF INFLUENCE LOAD POINTS           =         403
+ CALCULATION METHOD (QUICK OR "EXACT")     =      "EXACT"
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+
+ ALLOW LOADS TO REDUCE RESPONSE SEVERITY   =          NO
+
+ NUMBER OF DISPLACEMENT RESPONSE POINTS    =        2532     NO CORRESPONDENCE
+ NUMBER OF SPRING RESPONSE POINTS          =        2532     NO      ---
+ NUMBER OF REACTION RESPONSE POINTS        =         132     NO      ---
+ NUMBER OF FRAME RESPONSE POINTS           =        3664     NO      ---
+ NUMBER OF SHELL RESPONSE POINTS           =        9156     NO      ---
+                                               ----------
+ TOTAL NUMBER OF RESPONSE POINTS           =       18016   NONE
+
+ TIME FOR COMPUTING JOINT RESPONSE         =        5.03
+
+ TIME FOR COMPUTING SPRING RESPONSE        =        4.54
+ TIME FOR COMPUTING REACTION RESPONSE      =        1.84
+ TIME FOR COMPUTING FRAME RESPONSE         =        5.24
+ TIME FOR COMPUTING SHELL RESPONSE         =       46.74
+ TIME FOR CONTROLLING ANALYSIS             =        0.01
+                                               ----------
+ TOTAL TIME FOR THIS ANALYSIS              =       63.45
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                16:02:28
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =       14400
+ NUMBER OF MASS DEGREES OF FREEDOM         =        7200
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     12:  EV= 3.8156709E+00, f=    0.310889, T=    3.216580
+ Found mode      2 of     12:  EV= 1.9330349E+01, f=    0.699745, T=    1.429091
+ Found mode      3 of     12:  EV= 2.3278378E+01, f=    0.767886, T=    1.302277
+ Found mode      4 of     12:  EV= 1.4522878E+03, f=    6.065219, T=    0.164875
+ Found mode      5 of     12:  EV= 1.5396718E+03, f=    6.245025, T=    0.160127
+ Found mode      6 of     12:  EV= 1.7057695E+03, f=    6.573252, T=    0.152132
+ Found mode      7 of     12:  EV= 1.9771628E+03, f=    7.076872, T=    0.141305
+ Found mode      8 of     12:  EV= 2.2540807E+03, f=    7.556225, T=    0.132341
+ Found mode      9 of     12:  EV= 2.4238937E+03, f=    7.835684, T=    0.127621
+ Found mode     10 of     12:  EV= 2.5011622E+03, f=    7.959597, T=    0.125635
+ Found mode     11 of     12:  EV= 2.7423416E+03, f=    8.334526, T=    0.119983
+ Found mode     12 of     12:  EV= 2.9961107E+03, f=    8.711623, T=    0.114789
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =          11
+ NUMBER OF STIFFNESS SHIFTS                =           0
+
+
+ M O V I N G   L O A D   A N A L Y S I S                                16:02:34
+
+ CASE: OTO
+
+ USING VEHICLE RESPONSE FROM CASE: <Vehicle 1 0 0>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+
+ M O V I N G   L O A D   A N A L Y S I S                                16:03:06
+
+ CASE: CT-QC
+
+ USING VEHICLE RESPONSE FROM CASE: <Vehicle 1 0 0>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+
+ M O V I N G   L O A D   A N A L Y S I S                                16:03:34
+
+ CASE: CT-KE
+
+ USING VEHICLE RESPONSE FROM CASE: <Vehicle 1 0 0>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/09/12  16:04:02

@@ -1,0 +1,10 @@
+[2026-09-11 17:56:52] === run_full_campaign BAT DAU (PID 22756) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-11 17:56:52] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-12 16:04:27] --- Cong trinh B: HOAN THANH ---
+[2026-09-12 16:04:27] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-14 07:51:46] === run_full_campaign BAT DAU (PID 20484) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-14 07:51:46] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-14 07:51:53] --- Cong trinh B: HOAN THANH ---
+[2026-09-14 07:51:53] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-14 22:15:20] --- Cong trinh A: HOAN THANH ---
+[2026-09-14 22:15:20] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===
