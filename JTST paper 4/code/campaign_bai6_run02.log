@@ -1,0 +1,17 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Bai 6 MOSFOA - SONG SONG] Np=20 Max_it=100 Nr=100 Num_work=8 (FE uoc tinh=2020)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 8 workers.
+KHOI TAO SEED MOI cho run nay: 482516343 (da luu, xem ket qua .mat truong rngSeedUsed).
+The he #0 - Kich thuoc Repository: 8 (kha thi: 20/20)
+Vong lap 1/100 - Repository: 12 - FE luy ke: 40 - Thoi gian: 3.6 phut
+Vong lap 2/100 - Repository: 12 - FE luy ke: 60 - Thoi gian: 7.3 phut
+Vong lap 3/100 - Repository: 14 - FE luy ke: 80 - Thoi gian: 10.8 phut
+Vong lap 4/100 - Repository: 20 - FE luy ke: 100 - Thoi gian: 14.2 phut
+Vong lap 5/100 - Repository: 23 - FE luy ke: 120 - Thoi gian: 17.7 phut
+Vong lap 6/100 - Repository: 26 - FE luy ke: 140 - Thoi gian: 21.2 phut
+Vong lap 7/100 - Repository: 28 - FE luy ke: 160 - Thoi gian: 24.7 phut

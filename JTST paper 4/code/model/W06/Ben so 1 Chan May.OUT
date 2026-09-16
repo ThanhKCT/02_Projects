@@ -1,0 +1,104 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)                       
+ File: D:\ResearchLab\02_Proje...ST paper 4\code\model\W06\Ben so 1 Chan May.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1934 TO     210    A   A   A   A   A   A
+    1944 TO    1938    -   -   -   -   -   -
+    1930 TO     195    A   A   A   A   A   A
+    1940 TO    1939    -   -   -   -   -   -
+    1926 TO     547    A   A   A   A   A   A
+    1943 TO    1937    -   -   -   -   -   -
+    1920 TO     545    A   A   A   A   A   A
+     197 TO    1936    -   -   -   -   -   -
+    1919 TO     229    A   A   A   A   A   A
+     202 TO     200    -   -   -   -   -   -
+     191 TO     529    A   A   A   A   A   A
+    1935 TO     196    -   -   -   -   -   -
+    1896 TO     527    A   A   A   A   A   A
+     179 TO     194    -   -   -   -   -   -
+    1895 TO     228    A   A   A   A   A   A
+     183 TO     180    -   -   -   -   -   -
+     174 TO     511    A   A   A   A   A   A
+     189 TO     177    -   -   -   -   -   -
+    1872 TO     509    A   A   A   A   A   A
+     160 TO     172    -   -   -   -   -   -
+    1871 TO     227    A   A   A   A   A   A
+     163 TO     162    -   -   -   -   -   -
+     157 TO     493    A   A   A   A   A   A
+     170 TO     155    -   -   -   -   -   -
+    1848 TO     491    A   A   A   A   A   A
+     138 TO     149    -   -   -   -   -   -
+    1847 TO     489    A   A   A   A   A   A
+    1945               -   -   -   -   -   -
+    1834 TO     226    A   A   A   A   A   A
+     145 TO     143    -   -   -   -   -   -
+     140 TO     475    A   A   A   A   A   A
+     151 TO     136    -   -   -   -   -   -
+    1824 TO     473    A   A   A   A   A   A
+     119 TO     134    -   -   -   -   -   -
+    1823 TO     225    A   A   A   A   A   A
+     126               -   -   -   -   -   -
+     123 TO     122    A   A   A   A   A   A
+     121               -   -   -   -   -   -
+     120 TO     457    A   A   A   A   A   A
+     132 TO     117    -   -   -   -   -   -
+    1800 TO     455    A   A   A   A   A   A
+     100 TO     115    -   -   -   -   -   -
+    1799 TO     105    A   A   A   A   A   A
+     104               -   -   -   -   -   -
+     103               A   A   A   A   A   A
+     102               -   -   -   -   -   -
+     101 TO     439    A   A   A   A   A   A
+     112 TO      98    -   -   -   -   -   -
+    1776 TO     437    A   A   A   A   A   A
+      81 TO      95    -   -   -   -   -   -
+    1775 TO      86    A   A   A   A   A   A
+      85               -   -   -   -   -   -
+      84               A   A   A   A   A   A
+      83               -   -   -   -   -   -
+      82 TO     421    A   A   A   A   A   A
+      94 TO      78    -   -   -   -   -   -
+    1752 TO     419    A   A   A   A   A   A
+      61 TO      77    -   -   -   -   -   -
+    1751 TO      67    A   A   A   A   A   A
+      66               -   -   -   -   -   -
+      65               A   A   A   A   A   A
+      64               -   -   -   -   -   -
+      56 TO     403    A   A   A   A   A   A
+      75 TO      60    -   -   -   -   -   -
+    1728 TO     401    A   A   A   A   A   A
+      51 TO      58    -   -   -   -   -   -
+    1727 TO      46    A   A   A   A   A   A
+      43               -   -   -   -   -   -
+      42 TO      48    A   A   A   A   A   A
+      47 TO      44    -   -   -   -   -   -
+      39 TO     385    A   A   A   A   A   A
+      53 TO      41    -   -   -   -   -   -
+    1704 TO     383    A   A   A   A   A   A
+      24 TO      36    -   -   -   -   -   -
+    1703 TO      31    A   A   A   A   A   A
+      27 TO      26    -   -   -   -   -   -
+      22 TO     367    A   A   A   A   A   A
+      34 TO      15    -   -   -   -   -   -
+    1680 TO     365    A   A   A   A   A   A
+       7 TO      13    -   -   -   -   -   -
+    1679 TO      20    A   A   A   A   A   A
+      19               -   -   -   -   -   -
+      18               A   A   A   A   A   A
+      17               -   -   -   -   -   -
+      16 TO      11    A   A   A   A   A   A
+      10               -   -   -   -   -   -
+       4 TO     209    A   A   A   A   A   A
+       8 TO       5    -   -   -   -   -   -

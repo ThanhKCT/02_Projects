@@ -1,0 +1,162 @@
+
+
+ SAP2000 v24.0.0 Ultimate 64-bit (Analysis Build 9894/64)
+ File: D:\ResearchLab\02_Proje...ST paper 4\code\model\W06\Ben so 1 Chan May.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2026/09/16  18:44:30
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1942
+    WITH RESTRAINTS                        =          96
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         746
+ NUMBER OF SHELL ELEMENTS                  =        1750
+ NUMBER OF LOAD PATTERNS                   =          21
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          21
+ NUMBER OF MASS SOURCES                    =           1
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = tonf, m, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9.806650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      47.905 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          14
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =          14
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          14
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          14
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
+
+
+ E L E M E N T   F O R M A T I O N                                      18:44:30
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        18:44:30
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =       11076
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      294186
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  18:44:31
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =          20
+ NUMBER OF CASES TO SOLVE PER BLOCK        =          20
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: BT
+ CASE: VA1
+ CASE: NEO1
+ CASE: NEO2
+ CASE: VA2
+ CASE: CT
+ CASE: HH1
+ CASE: HH2
+ CASE: HH3
+ CASE: HH4
+ CASE: HH5
+ CASE: HH6
+ CASE: HH8
+ CASE: HH9
+ CASE: HH10
+ CASE: MT1
+ CASE: MT2
+ CASE: HH7
+ CASE: MT1-SLS
+ CASE: MT2-SLS
+
+
+ I N F L U E N C E   L O A D   C A S E                                  18:44:33
+
+ CASE: <Influence>
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF BRIDGE INFLUENCE LOADS          =          25
+ NUMBER OF LOADS TO SOLVE PER BLOCK        =          25
+
+ SIZE OF THE INFLUENCE RESULTS FILE        =       2.222 MB
+
+
+
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    18:44:33
+
+ CASE: <Vehicle 1 0 0>
+
+ USING INFLUENCE RESPONSE FROM CASE: <Influence>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+ NUMBER OF LOAD-DIRECTION PERMUTATIONS     =           1
+
+ NUMBER OF FIXED/FLOATING LANE SURFACES    =           1
+ NUMBER OF FIXED LANES                     =           1
+ NUMBER OF FLOATING LANES                  =           0
+ TOTAL NUMBER OF LOADED LANES              =           1
+
+ NUMBER OF VEHICLES                        =           1
+ NUMBER OF VEHICLES ON LANES RUN BEFORE    =           0
+ NUMBER OF VEHICLES ON LANES TO BE RUN NOW =           1
+
+ NUMBER OF INFLUENCE LOAD POINTS           =          25
+ CALCULATION METHOD (QUICK OR "EXACT")     =      "EXACT"
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+
+ ALLOW LOADS TO REDUCE RESPONSE SEVERITY   =          NO
+
+ NUMBER OF DISPLACEMENT RESPONSE POINTS    =        1942     NO CORRESPONDENCE
+ NUMBER OF SPRING RESPONSE POINTS          =        1942     NO      ---
+ NUMBER OF REACTION RESPONSE POINTS        =          96     NO      ---
+ NUMBER OF FRAME RESPONSE POINTS           =        2318     NO      ---
+ NUMBER OF SHELL RESPONSE POINTS           =        7000     NO      ---
+                                               ----------
+ TOTAL NUMBER OF RESPONSE POINTS           =       13298   NONE
+
+ TIME FOR COMPUTING JOINT RESPONSE         =        0.28
+
+ TIME FOR COMPUTING SPRING RESPONSE        =        0.25
+ TIME FOR COMPUTING REACTION RESPONSE      =        0.09
+ TIME FOR COMPUTING FRAME RESPONSE         =        0.31
+ TIME FOR COMPUTING SHELL RESPONSE         =        2.57
+ TIME FOR CONTROLLING ANALYSIS             =        0.00
+                                               ----------
+ TOTAL TIME FOR THIS ANALYSIS              =        3.50
+
+
+ M O V I N G   L O A D   A N A L Y S I S                                18:44:36
+
+ CASE: OTO
+
+ USING VEHICLE RESPONSE FROM CASE: <Vehicle 1 0 0>
+
+ VERTICAL DIRECTION FACTOR                 =    1.000000
+ BRAKING/ACCELERATION DIRECTION FACTOR     =     .000000
+ CENTRIFUGAL DIRECTION FACTOR              =     .000000
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/09/16  18:44:39

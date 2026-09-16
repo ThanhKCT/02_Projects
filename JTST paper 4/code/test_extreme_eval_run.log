@@ -1,0 +1,6 @@
+--- Diem NHO NHAT (x=[1 1 1 1]) ---
+h_DN=1.10 h_DD=1.10 h_DCT=1.40 t_BMC=0.25 -> N_max_pile=210.00 T, f1=2311.9 T, eta_max=0.405
+
+--- Diem LON NHAT (x=[19 19 23 5]) ---
+h_DN=2.00 h_DD=2.00 h_DCT=2.50 t_BMC=0.45 -> N_max_pile=228.69 T, f1=4172.6 T, eta_max=0.157
+DONE_MARKER

@@ -1,0 +1,33 @@
+[Warning: Chua co geom_constants_bai6.mat - chay diagnose_bai6.m truoc de do L_DN/L_DD/L_DCT/A_BMC that.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('project_config_bai6', 'D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\project_config_bai6.m', 71)" style="font-weight:bold">project_config_bai6</a> (<a href="matlab: opentoline('D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\project_config_bai6.m',71,0)">line 71</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diagnose_bai6', 'D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\diagnose_bai6.m', 12)" style="font-weight:bold">diagnose_bai6</a> (<a href="matlab: opentoline('D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\diagnose_bai6.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\lang\run.m', 99)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\lang\run.m',99,0)">line 99</a>)] 
+=== DIAGNOSE BAI 6 ===
+sdb_path (lam viec) = D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\model\Ben so 1 Chan May.sdb
+
+--- Frame section assignments (tong 747 frame) ---
+  Coc1       : 96 phan tu
+  DCT        : 140 phan tu
+  DD         : 210 phan tu
+  DN         : 282 phan tu
+  MR         : 18 phan tu
+  None       : 1 phan tu
+  (Doi chieu FEM_Ben70000DWT_ChanMay.md muc 4: Coc1=96, DN=282, DD=210, DCT=140, MR=18, khong gan=1)
+
+--- Area: tong 1750 phan tu (ky vong 1750, toan bo BMC theo muc 5) ---
+
+--- To hop tai trong: tong 410 (ky vong 410: 388 ULSB+20 SLSDH+2 bao) ---
+  "BAO-ULSB" ton tai? 1
+  "BAO-SLSDH" ton tai? 1
+
+--- Nut 1945 (bug da biet, xem FEM_Ben70000DWT_ChanMay.md muc 7) ---
+  Restraint hien tai [U1 U2 U3 R1 R2 R3] = [false;false;false;false;false;false]
+  Neu toan bo false -> CHUA fix, chay prepare_model_bai6.m truoc khi toi uu.
+
+--- Do hinh hoc (L_DN/L_DD/L_DCT/A_BMC) ---
+  L_DN_total  = 273.000 m
+  L_DD_total  = 180.000 m
+  L_DCT_total = 120.000 m
+  A_BMC_total = 1440.000 m2 (ky vong ~ 24m x 60m = 1440 m2 theo hinh hoc mo hinh muc 2)
+
+Da luu geom_constants_bai6.mat -- project_config_bai6.m se tu dong nap lai tu lan sau.

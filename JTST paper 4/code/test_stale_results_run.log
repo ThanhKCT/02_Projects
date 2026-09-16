@@ -1,0 +1,8 @@
+Design A: x=[10 10 1 3] -> h_DCT=1.40 M_DCT=1512.70 Mu_DCT=16602.50 eta_DCT=0.0911 f1=3066.38 f2=0.1946
+Design B: x=[10 10 23 3] -> h_DCT=2.50 M_DCT=3626.73 Mu_DCT=55234.30 eta_DCT=0.0657 f1=3418.16 f2=0.1960
+Design A (lap lai sau B): M_DCT=1512.70 Mu_DCT=16602.50 eta_DCT=0.0911 f1=3066.38 f2=0.1946
+
+=== KET LUAN ===
+OK: Mu_DCT thay doi dung theo h_DCT (A=16602.50, B=55234.30) - khong stale.
+OK: Danh gia lai DUNG Design A cho DUNG ket qua cu (tai lap duoc, khong bi "dinh" theo B).
+DONE_MARKER

@@ -1,0 +1,18 @@
+--- Baseline ---
+M_DN=1792.49 M_DD=1593.47 M_DCT=2579.78 M_BMC=113.61 f1=3242.27
+
+--- Chi doi X1 (h_DN): 10 -> 19 (max) ---
+h_DN: 1.55->2.00 | Mu_DN: 15802.31->26830.55 | f1: 3242.27->3479.98
+OK: X1 thay doi dung lam Mu_DN va f1 thay doi.
+
+--- Chi doi X2 (h_DD): 10 -> 19 (max) ---
+h_DD: 1.55->2.00 | Mu_DD: 15802.31->26830.55 | f1: 3242.27->3399.01
+OK: X2 thay doi dung lam Mu_DD va f1 thay doi.
+
+--- Chi doi X4 (t_BMC): 3 -> 5 (max) ---
+t_BMC: 0.35->0.45 | Mu_BMC: 582.05->1062.16 | f1: 3242.27->3602.27
+OK: X4 thay doi dung lam Mu_BMC va f1 thay doi.
+
+--- Kiem tra CHEO: doi X1 co lam nham anh huong DD/DCT/BMC khong? ---
+OK: doi X1 CHI anh huong DN, khong lam thay doi DD/DCT/BMC.
+DONE_MARKER

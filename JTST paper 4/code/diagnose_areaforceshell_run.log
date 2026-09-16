@@ -1,0 +1,33 @@
+Dung phan tu BMC mau: 302
+N=30 LOI: Too many output arguments.
+N=29 LOI: Too many output arguments.
+N=28 LOI: Too many output arguments.
+N=27 LOI: Too many output arguments.
+N=26 LOI: Too many output arguments.
+N=25 THANH CONG (khong loi "too many output arguments")
+  out{1} = 0
+  out{2} = 8
+  out{3} = (class cell)
+  out{4} = (class cell)
+  out{5} = (class cell)
+  out{6} = (class cell)
+  out{7} = (class cell)
+  out{8} = [8x1 numeric], first=0
+  out{9} = [8x1 numeric], first=-0.118261660299077
+  out{10} = [8x1 numeric], first=-0.123876963204687
+  out{11} = [8x1 numeric], first=0.34080961921954
+  out{12} = [8x1 numeric], first=0
+  out{13} = [8x1 numeric], first=0
+  out{14} = [8x1 numeric], first=0
+  out{15} = [8x1 numeric], first=0
+  out{16} = [8x1 numeric], first=-0.00056978348646302
+  out{17} = [8x1 numeric], first=0.0576984122776476
+  out{18} = [8x1 numeric], first=-0.092426156338408
+  out{19} = [8x1 numeric], first=0
+  out{20} = [8x1 numeric], first=0
+  out{21} = [8x1 numeric], first=0
+  out{22} = [8x1 numeric], first=-0.229734215518134
+  out{23} = [8x1 numeric], first=1.03903546770374
+  out{24} = [8x1 numeric], first=0
+  out{25} = [8x1 numeric], first=0
+DONE_MARKER

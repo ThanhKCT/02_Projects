@@ -1,0 +1,14 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Bai 6 MOSFOA - SONG SONG] Np=8 Max_it=3 Nr=100 Num_work=2 (FE uoc tinh=32)
+ERROR: The process "SAP2000.exe" not found. 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to parallel pool with 2 workers.
+Tim thay checkpoint D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\results\Bai6_MOSFOA_Np8_Maxit3_smoke3_CKPT.mat -- dang nap lai de tiep tuc...
+Tiep tuc tu vong lap 2/3 (seed=480003681).
+Vong lap 2/3 - Repository: 10 - FE luy ke: 24 - Thoi gian: 4.3 phut
+Vong lap 3/3 - Repository: 12 - FE luy ke: 32 - Thoi gian: 8.9 phut
+HOAN THANH campaign MOSFOA Bai 6. Tong thoi gian: 0.15 gio. So nghiem Pareto: 12. Seed=480003681
+Parallel pool using the 'Processes' profile is shutting down.

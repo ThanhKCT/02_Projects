@@ -3053,3 +3053,91 @@
 [2026-09-14 22:14:57] run20 : poll - elapsed=2983s log_stale=130s
 [2026-09-14 22:15:17] run20 : THANH CONG - D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run20_FINAL.mat da xuat hien.
 [2026-09-14 22:15:17] === HOAN THANH TOAN BO CAMPAIGN cho cong trinh A (20 lan chay) ===
+[2026-09-15 07:57:11] === watchdog_campaign start: Proj=A Nrun=20 Npop=8 Max_it=20 Num_work=8 ===
+[2026-09-15 07:57:14] run01 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run01_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run02 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run02_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run03 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run03_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run04 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run04_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run05 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run05_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run06 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run06_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run07 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run07_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run08 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run08_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run09 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run09_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run10 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run10_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run11 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run11_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run12 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run12_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run13 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run13_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run14 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run14_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run15 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run15_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run16 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run16_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run17 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run17_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run18 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run18_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run19 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run19_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] run20 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run20_FINAL.mat) - BO QUA.
+[2026-09-15 07:57:14] === HOAN THANH TOAN BO CAMPAIGN cho cong trinh A (20 lan chay) ===
+[2026-09-15 08:09:02] === watchdog_campaign start: Proj=A Nrun=20 Npop=8 Max_it=20 Num_work=8 ===
+[2026-09-15 08:09:05] run01 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run01_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run02 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run02_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run03 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run03_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run04 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run04_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run05 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run05_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run06 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run06_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run07 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run07_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run08 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run08_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run09 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run09_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run10 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run10_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run11 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run11_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run12 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run12_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run13 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run13_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run14 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run14_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run15 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run15_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run16 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run16_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run17 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run17_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run18 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run18_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run19 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run19_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] run20 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run20_FINAL.mat) - BO QUA.
+[2026-09-15 08:09:06] === HOAN THANH TOAN BO CAMPAIGN cho cong trinh A (20 lan chay) ===
+[2026-09-15 09:03:39] === watchdog_campaign start: Proj=A Nrun=20 Npop=8 Max_it=20 Num_work=8 ===
+[2026-09-15 09:03:42] run01 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run01_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run02 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run02_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run03 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run03_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run04 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run04_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run05 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run05_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run06 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run06_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run07 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run07_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run08 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run08_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run09 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run09_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run10 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run10_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run11 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run11_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run12 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run12_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run13 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run13_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run14 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run14_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run15 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run15_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run16 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run16_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:42] run17 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run17_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:43] run18 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run18_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:43] run19 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run19_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:43] run20 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run20_FINAL.mat) - BO QUA.
+[2026-09-15 09:03:43] === HOAN THANH TOAN BO CAMPAIGN cho cong trinh A (20 lan chay) ===
+[2026-09-15 11:00:15] === watchdog_campaign start: Proj=A Nrun=20 Npop=8 Max_it=20 Num_work=8 ===
+[2026-09-15 11:00:18] run01 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run01_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run02 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run02_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run03 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run03_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run04 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run04_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run05 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run05_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run06 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run06_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run07 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run07_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run08 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run08_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run09 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run09_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run10 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run10_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run11 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run11_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run12 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run12_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run13 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run13_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run14 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run14_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run15 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run15_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run16 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run16_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run17 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run17_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run18 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run18_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run19 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run19_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] run20 : da co ket qua (D:\ResearchLab\02_Projects\02_Projects\MOSFOA paper 2\code\results\MOSFOA2_A_Np8_Maxit20_run20_FINAL.mat) - BO QUA.
+[2026-09-15 11:00:18] === HOAN THANH TOAN BO CAMPAIGN cho cong trinh A (20 lan chay) ===

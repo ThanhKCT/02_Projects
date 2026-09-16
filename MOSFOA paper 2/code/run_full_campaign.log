@@ -8,3 +8,27 @@
 [2026-09-14 07:51:53] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
 [2026-09-14 22:15:20] --- Cong trinh A: HOAN THANH ---
 [2026-09-14 22:15:20] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===
+[2026-09-15 07:57:04] === run_full_campaign BAT DAU (PID 21432) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-15 07:57:04] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-15 07:57:10] --- Cong trinh B: HOAN THANH ---
+[2026-09-15 07:57:10] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-15 07:57:17] --- Cong trinh A: HOAN THANH ---
+[2026-09-15 07:57:17] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===
+[2026-09-15 08:08:56] === run_full_campaign BAT DAU (PID 21412) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-15 08:08:56] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-15 08:09:02] --- Cong trinh B: HOAN THANH ---
+[2026-09-15 08:09:02] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-15 08:09:09] --- Cong trinh A: HOAN THANH ---
+[2026-09-15 08:09:09] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===
+[2026-09-15 09:03:33] === run_full_campaign BAT DAU (PID 20492) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-15 09:03:33] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-15 09:03:39] --- Cong trinh B: HOAN THANH ---
+[2026-09-15 09:03:39] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-15 09:03:46] --- Cong trinh A: HOAN THANH ---
+[2026-09-15 09:03:46] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===
+[2026-09-15 11:00:08] === run_full_campaign BAT DAU (PID 20432) - se chay B roi A, tu resume neu bi ngat quang ===
+[2026-09-15 11:00:08] --- Cong trinh B: goi watchdog_campaign.ps1 -Proj B ---
+[2026-09-15 11:00:15] --- Cong trinh B: HOAN THANH ---
+[2026-09-15 11:00:15] --- Cong trinh A: goi watchdog_campaign.ps1 -Proj A ---
+[2026-09-15 11:00:21] --- Cong trinh A: HOAN THANH ---
+[2026-09-15 11:00:21] === TOAN BO CAMPAIGN (B + A, 20 lan/cong trinh) DA HOAN THANH ===

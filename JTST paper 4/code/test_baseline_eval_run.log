@@ -1,0 +1,32 @@
+
+=== KET QUA BASELINE (x=[10 10 12 3] -> h_DN=1.55 h_DD=1.55 h_DCT=1.95 t_BMC=0.35) ===
+fit = [3242.2702, 0.1952]
+           x_rounded: [10 10 12 3]
+                h_DN: 1.5500
+                h_DD: 1.5500
+               h_DCT: 1.9500
+               t_BMC: 0.3500
+            M_DN_kNm: 1.7925e+03
+            M_DD_kNm: 1.5935e+03
+           M_DCT_kNm: 2.5798e+03
+     M_BMC_kNm_per_m: 113.6136
+        N_max_pile_T: 220.3833
+             U_max_m: 0.0037
+                f1_T: 3.2423e+03
+           Mu_DN_kNm: 1.5802e+04
+           Mu_DD_kNm: 1.5802e+04
+          Mu_DCT_kNm: 3.3100e+04
+          Mu_BMC_kNm: 582.0460
+              eta_DN: 0.1134
+              eta_DD: 0.1008
+             eta_DCT: 0.0779
+             eta_BMC: 0.1952
+          f2_eta_max: 0.1952
+           g1_eta_ok: 1
+      g2_chuyenvi_ok: 1
+    g3_diakythuat_ok: 1
+    g4_ungsuatcoc_ok: 1
+    sigma_pile_kGcm2: 82.5901
+            feasible: 1
+
+ELAPSED_SEC=86.1
