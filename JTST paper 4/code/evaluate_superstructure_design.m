@@ -119,6 +119,25 @@ end
 diagnostic.U_max_m = U_max;
 
 % ---------------------------------------------------------------------
+% 4b) KIEM TRA BAO VE - phat hien loi trich xuat COM "im lang" (2026-09-21,
+% phat hien qua run20/20 cua campaign chinh thuc: SAP2000 tra ve
+% NumberResults=0 cho TOAN BO cac dai luong do 1 truc trac COM thoang qua,
+% khong bao loi gi - khien M_DN=M_DD=M_DCT=M_BMC=N_max_pile=U_max=0 dong
+% thoi, tao ra fitness "hoan hao gia" (eta_max=0) khien MOSFOA hoi tu sai
+% huong, sup archive tu 60 xuong con 2-3 nghiem trong phan con lai cua run).
+% Voi 1 ket cau dang chiu tai (tu trong + hoat tai luon > 0), viec CA 6 dai
+% luong nay dong thoi bang dung 0 la VO LY VE VAT LY - phai coi la loi
+% trich xuat, KHONG phai ket qua that.
+if M_DN == 0 && M_DD == 0 && M_DCT == 0 && M_BMC_per_m == 0 && N_max_pile == 0 && U_max == 0
+    warning('evaluate_superstructure_design:AllZeroResults', ...
+        'M/N/U DEU BANG 0 dong thoi cho x=[%s] - nghi loi trich xuat COM (SAP2000 glitch), coi la infeasible.', mat2str(xi));
+    fit = [1e12, 1e12];
+    diagnostic.error = 'AllZeroResults_suspected_COM_glitch';
+    diagnostic.feasible = false;
+    return;
+end
+
+% ---------------------------------------------------------------------
 % 5) f1 (khoi luong be tong) - dung hang so hinh hoc da do san (khong doi theo x)
 % ---------------------------------------------------------------------
 f1 = cfg.mat.DN_rho_Tm3  * cfg.sec.DN_b  * X1 * cfg.geom.L_DN_total_m + ...

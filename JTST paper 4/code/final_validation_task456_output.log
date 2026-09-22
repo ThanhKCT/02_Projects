@@ -1,0 +1,39 @@
+﻿Cac nghiem co trong governing_combos_analysis.mat: sol_A, sol_B, sol_C
+
+========== TASK 4: XAC NHAN A/B/C ==========
+
+--- sol_A ---
+  x = [1 1 1 1]
+  eta_DN=0.2183  eta_DD=0.1749  eta_DCT=0.1008  eta_BMC=0.3538
+  eta_max_true = 0.3538 (cau kien chi phoi: BMC)
+  N_pile = 210.00 T (combo ULSB-051)
+  U_max = 0.0491 m (combo ULSB-051)
+  Combo chi phoi: M_DN=ULSB-044 M_DD=ULSB-252 M_DCT=ULSB-024 M_BMC=ULSB-038
+
+--- sol_B ---
+  x = [1 3]
+  eta_DN=0.1860  eta_DD=0.1162  eta_DCT=0.0931  eta_BMC=0.2082
+  eta_max_true = 0.2082 (cau kien chi phoi: BMC)
+  N_pile = 218.01 T (combo ULSB-051)
+  U_max = 0.0490 m (combo ULSB-051)
+  Combo chi phoi: M_DN=ULSB-044 M_DD=ULSB-024 M_DCT=ULSB-024 M_BMC=ULSB-029
+
+--- sol_C ---
+  x = [19 19 1 5]
+  eta_DN=0.0937  eta_DD=0.0931  eta_DCT=0.0802  eta_BMC=0.1550
+  eta_max_true = 0.1550 (cau kien chi phoi: BMC)
+  N_pile = 227.62 T (combo ULSB-051)
+  U_max = 0.0487 m (combo ULSB-051)
+  Combo chi phoi: M_DN=ULSB-043 M_DD=ULSB-024 M_DCT=ULSB-024 M_BMC=ULSB-029
+
+========== TASK 5: KIEM TRA GOVERNING COMBO CO NGOAI LE KHONG ==========
+M_DCT governing combos (A,B,C): ULSB-024,ULSB-024,ULSB-024 -> tat ca giong nhau? 1
+N_pile governing combos (A,B,C): ULSB-051,ULSB-051,ULSB-051 -> tat ca giong nhau? 1
+U_max governing combos (A,B,C): ULSB-051,ULSB-051,ULSB-051 -> tat ca giong nhau? 1
+BMC chi phoi eta_max o CA 3 nghiem? 1
+
+========== TASK 6: ENVELOPE vs INDIVIDUAL ==========
+Nghiem f2_search(bao)  f2_true(combo)  Chenh lech  
+sol_A  0.4053          0.3538          0.0515      
+sol_B  0.2082          0.2082          0.0000      
+sol_C  0.1550          0.1550          -0.0000     

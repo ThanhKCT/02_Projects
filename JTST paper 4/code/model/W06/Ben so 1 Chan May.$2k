@@ -21933,8 +21933,7 @@ TABLE:  "AREA SECTION ASSIGNMENTS"
    Area=2051   Section=BMC   MatProp=Default
  
 TABLE:  "AREA SECTION PROPERTIES"
-   Section=BMC   Material=M400   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.45   BendThick=0.45   Color=Gray8Dark   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
-        MMod=1   WMod=1
+   Section=BMC   Material=M400   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=No   Thickness=0.4   BendThick=0.4   Color=Green   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1   MMod=1   WMod=1
  
 TABLE:  "AREA SECTION PROPERTY DESIGN PARAMETERS"
    Section=BMC   RebarMat=None   RebarOpt=Default
@@ -33231,12 +33230,13 @@ TABLE:  "FRAME SECTION PROPERTIES 01 - GENERAL"
         CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Cyan   FromFile=No   AMod=0.4   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1   Notes="Added 3/30/2021 6:03:33 PM"
    SectionName=DCT   Material=M400-DCT   Shape=Rectangular   t3=1.4   t2=1.3   Area=1.82   TorsConst=0.46264541161018   I33=0.297266666666667   I22=0.256316666666667   I23=0   AS2=1.51666666666667   AS3=1.51666666666667 _
         S33Top=0.424666666666667   S33Bot=0.424666666666667   S22Left=0.394333333333333   S22Right=0.394333333333333   Z33=0.637   Z22=0.5915   R33=0.404145188432738   R22=0.375277674973257   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0 _
-        Cw=0   Color=White   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+        Cw=0   Color=Blue   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
    SectionName=DD   Material=M400-DN   Shape=Rectangular   t3=2   t2=1   Area=2   TorsConst=0.457760416666667   I33=0.666666666666667   I22=0.166666666666667   I23=0   AS2=1.66666666666667   AS3=1.66666666666667   S33Top=0.666666666666667 _
-        S33Bot=0.666666666666667   S22Left=0.333333333333333   S22Right=0.333333333333333   Z33=1   Z22=0.5   R33=0.577350269189626   R22=0.288675134594813   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Yellow   FromFile=No _
-        AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
-   SectionName=DN   Material=M400-DN   Shape=Rectangular   t3=1.2   t2=1   Area=1.2   TorsConst=0.198439429012346   I33=0.144   I22=0.1   I23=0   AS2=1   AS3=1   S33Top=0.24   S33Bot=0.24   S22Left=0.2   S22Right=0.2   Z33=0.36   Z22=0.3 _
-        R33=0.346410161513776   R22=0.288675134594813   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Magenta   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+        S33Bot=0.666666666666667   S22Left=0.333333333333333   S22Right=0.333333333333333   Z33=1   Z22=0.5   R33=0.577350269189626   R22=0.288675134594813   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0   Cw=0   Color=Gray8Dark _
+        FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName=DN   Material=M400-DN   Shape=Rectangular   t3=1.9   t2=1   Area=1.9   TorsConst=0.424676171402409   I33=0.571583333333333   I22=0.158333333333333   I23=0   AS2=1.58333333333333   AS3=1.58333333333333 _
+        S33Top=0.601666666666667   S33Bot=0.601666666666667   S22Left=0.316666666666667   S22Right=0.316666666666667   Z33=0.9025   Z22=0.475   R33=0.548482755730144   R22=0.288675134594813   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0 _
+        Cw=0   Color=White   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
    SectionName=MR   Material=M400-DN   Shape=Rectangular   t3=1.55   t2=1.4   Area=2.17   TorsConst=0.655741409069564   I33=0.434452083333333   I22=0.354433333333333   I23=0   AS2=1.80833333333333   AS3=1.80833333333333 _
         S33Top=0.560583333333333   S33Bot=0.560583333333333   S22Left=0.506333333333333   S22Right=0.506333333333333   Z33=0.840875   Z22=0.7595   R33=0.44744645862196   R22=0.404145188432738   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0 _
         Cw=0   Color=Yellow   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1   Notes="Added 04/12/2020 8:27:50 AM"

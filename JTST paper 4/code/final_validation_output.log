@@ -1,0 +1,100 @@
+﻿
+========== TASK 1: CAMPAIGN 20 RUNS ==========
+So run doc duoc: 20/20
+Tat ca Npop=20? 1   Tat ca Max_it=100? 1
+Tong FE thuc te (tong TotalFE cua 20 run) = 40400  (ky vong 20x2020=40400)
+So seed KHAC NHAU trong 20 run: 20/20 (phai =20 neu khong trung)
+
+--- Bang chi tiet 20 run ---
+Run   Seed         TotalFE  Feasible  Infeas    ArchSz  BestF1     BestF2  
+1     480367125    2020     2020      0         82      2311.93    0.1550  
+2     482516343    2020     2020      0         78      2311.93    0.1550  
+3     484654065    2020     2020      0         75      2311.93    0.1550  
+4     486803840    2020     2020      0         83      2311.93    0.1550  
+5     488938522    2020     2020      0         75      2311.93    0.1550  
+6     491052015    2020     2020      0         72      2311.93    0.1550  
+7     493192904    2020     2020      0         80      2311.93    0.1550  
+8     495309583    2020     2020      0         78      2311.93    0.1550  
+9     497438078    2020     2020      0         74      2311.93    0.1550  
+10    499572458    2020     2020      0         80      2311.93    0.1550  
+11    501725463    2020     2020      0         83      2311.93    0.1550  
+12    503869175    2020     2020      0         76      2311.93    0.1550  
+13    506009537    2020     2020      0         74      2311.93    0.1550  
+14    508159148    2020     2020      0         79      2311.93    0.1550  
+15    510261322    2020     2020      0         77      2311.93    0.1550  
+16    512302977    2020     2020      0         75      2311.93    0.1550  
+17    514504181    2020     2020      0         77      2311.93    0.1552  
+18    516629849    2020     2020      0         75      2311.93    0.1550  
+19    518755487    2020     2020      0         79      2311.93    0.1550  
+20    523248598    2020     2016      4         84      2311.93    0.1550  
+
+--- FINAL_CAMPAIGN_STATISTICS ---
+f1_min qua 20 run: min=2311.930500 max=2311.930500 mean=2311.930500 std=0.00000000 median=2311.930500
+f2_min qua 20 run: min=0.154960 max=0.155175 mean=0.154973 std=0.00004914 median=0.154960
+ArchiveSize qua 20 run: min=72 max=84 mean=77.80 std=3.4121 median=77.5
+So run co f1_min = 2311,93 (sai so <0.01): 20/20
+Gia tri f1_min CHINH XAC tung run (de doi chieu bang mat, khong lam tron):
+   1.0e+03 *
+
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+    2.3119
+
+
+========== TASK 2: PARETO FRONT ==========
+So dong trong CSV (mat Pareto tong the da luu): 90
+So dong SAU KHI loai duplicate (theo X1-X4): 90 (neu < 90 nghia la CSV van con duplicate)
+So diem BI TROI trong chinh file CSV da xuat (phai =0 neu CSV dung la mat Pareto that): 0/90
+
+A (min f1) = dong 1: h_DN=1.10 h_DD=1.10 h_DCT=1.40 t_BMC=0.25 f1=2311.93 f2=0.4053
+B (knee)   = dong 40: h_DN=1.15 h_DD=1.45 h_DCT=1.40 t_BMC=0.35 f1=2820.25 f2=0.2082
+C (min f2) = dong 90: h_DN=2.00 h_DD=2.00 h_DCT=1.40 t_BMC=0.45 f1=3820.83 f2=0.1550
+
+========== TASK 3: CONVERGENCE ==========
+File FINAL.mat co luu History.BestObjectives + History.RepositorySize theo tung vong lap? 1
+So diem du lieu hoi tu/run (Max_it+1): 101
+
+Hoi tu min-f1 tai cac moc vong lap (tat ca 20 run):
+Run   iter0    iter20   iter50   iter100  
+1     2560.91  2311.93  2311.93  2311.93  
+2     2677.83  2311.93  2311.93  2311.93  
+3     2996.62  2311.93  2311.93  2311.93  
+4     2542.78  2311.93  2311.93  2311.93  
+5     2792.99  2311.93  2311.93  2311.93  
+6     2621.44  2311.93  2311.93  2311.93  
+7     2840.99  2311.93  2311.93  2311.93  
+8     2595.29  2311.93  2311.93  2311.93  
+9     2583.73  2311.93  2311.93  2311.93  
+10    2617.88  2311.93  2311.93  2311.93  
+11    2791.60  2311.93  2311.93  2311.93  
+12    2499.22  2311.93  2311.93  2311.93  
+13    2687.41  2311.93  2311.93  2311.93  
+14    2747.90  2311.93  2311.93  2311.93  
+15    2780.60  2311.93  2311.93  2311.93  
+16    2500.65  2311.93  2311.93  2311.93  
+17    2640.55  2311.93  2311.93  2311.93  
+18    2576.90  2311.93  2311.93  2311.93  
+19    2495.53  2311.93  2311.93  2311.93  
+20    2626.13  2311.93  2311.93  2311.93  
+
+========== TASK 7: REPRODUCIBILITY FIELDS (kiem tra tren run01) ==========
+Cac truong co trong file FINAL.mat: BestObjective1, BestObjective2, FinalArchiveSize, History, Max_it, Npop, Nr, Num_work, REP, RunEndTime, RunID, RunStartTime, TotalFE, TotalFeasible, TotalInfeasible, cfg, elapsedSec, rngSeedUsed
+
+===== HOAN THANH SCRIPT PHAN TICH (Task 1,2,3,7 data) =====
