@@ -1,0 +1,789 @@
+[P0] TỔNG CÔNG TY HÀNG HẢI VIỆT NAM	CỘNG HÒA XÃ HỘI CHỦ  NGHĨA VIỆT NAM
+[P1] 	CÔNG TY CP TƯ VẤN XÂY DỰNG CT HÀNG HẢI                 ĐỘC LẬP – TỰ DO – HẠNH PHÚC
+[P3] 	        Số:           /2014/ TKCT-1 	                       Hà Nội, ngày    tháng 12 năm 2014  	 
+[P4] thuyÕt minh
+[P5] thiÕt kÕ kü thuËt
+[P6] c¸c h¹ng môc c«ng tr×nh thuéc gãi thÇu xl01: 
+cÇu tµu 100.000 dwt, xö lý nÒn ®Êt yÕu gÇm bÕn, bÕn sµ lan, 
+n¹o vÐt khu n­íc ®Ëu tµu
+[P7] =  =
+[P8] Giới thiệu chung:
+[P9] I.1. Chủ đầu tư:
+[P10] Chủ đầu tư là Công ty TNHH Cảng CÔNG-TEN-NƠ Quốc tế Hải Phòng, là công ty liên Doanh được thành lập gồm các thành viên:
+[P11] - Tổng Công ty Tân cảng Sài Gòn.
+[P12] - Công ty Molnykit Co., Ltd là liên doanh giữa 3 nhà đầu tư Nhật Bản đã được Đại sứ quán Nhật Bản giới thiệu và được Thủ tướng Chính phủ chấp thuận là: Công ty TNHH Mitsui O.S.K. Lines Ltd (MOL), Công ty Nippon Yusen Kabushiki Kaisha (NYK) và công ty thương mại ITOCHU Corporation.
+[P13] I.2. Vị trí xây dựng:
+[P14] Cảng cửa ngõ quốc tế Hải Phòng (giai đoạn khởi động) được xây dựng tại huyện Cát Hải, thành phố Hải Phòng, cách thành phố Hải Phòng khoảng 25km về phía Đông Bắc, có toạ độ địa lý: N :  20o48’; E : 106o54’. Vị trí cảng nằm trong tổng thể quy hoạch không gian thành phố Hải Phòng.
+[P15] I.3. Tổng quan về dự án cảng cửa ngõ quốc tế Hải Phòng
+[P16] Dự án Cảng cửa ngõ Quốc tế Hải Phòng được Bộ Giao thông vận tải phê duyệt tại Quyết định số: 476/QĐ-BGTVT ngày 15/3/2011 và dự án được chia ra 2 hợp phần: A và B.
+[P17] I.3.1.Quy mô xây dựng Hợp phần A Thuộc Dự án Cảng cửa ngõ quốc tế Hải Phòng:
+[P18] a, Chủ đầu tư: Cục Hàng hải Việt Nam; 
+[P19] b, Đại diện Chủ đầu tư trực tiếp điều hành quản lý dự án: Ban QLDA hàng hải II. 
+[P20] c, Quy mô các hạng mục của Hợp phần A gồm:
+[P21] - Đê chắn sóng đoạn A, Kè bảo vệ, Tường chắn đất, Tôn tạo xử lý nền, Bến công vụ, Đường sau cảng, Hạ tầng điện nước.
+[P22] - Luồng tàu, vũng quay tàu, đê chắn sóng, đê chắn cát, đường ngoài cảng.
+[P23] + Luồng tàu rộng 160m, cao độ đáy thiết kế -14m (hải đồ).
+[P24] + Vũng quay tàu đường kính 660m có tàu lai dắt hỗ trợ.
+[P25] + Đê chắn sóng dài 3230m, đê chắn cát dài 7600m. 
+[P26] - Các công trình phục vụ gồm: bến công vụ, đường bãi khu hành chính, các công trình kiến trúc khu vực cơ quan quản lý nhà nước.
+[P27] Hiện Chủ đầu tư đang triển khai thi công xây dựng gói thầu số 6: Tôn tạo bãi, xử lý nền đất yếu, Kè/Đê chắn sóng đoạn A và khu quản lý hành chính cảng dự kiến sẽ bàn giao một phần vào tháng 7/2015 và toàn bộ vào tháng 5/2017; Các gói thầu đã triển khai đấu thầu, thiết kế gồm gói thầu số 8: Công tác nạo vét luồng và đổ đất nạo vét - Phần A, gói thầu số 9: Công tác nạo vét luồng và đổ đất nạo vét - Phần B, gói thầu số 10: Đê chắn sóng và đê chắn cát.
+[P28] I.3.2. Quy mô xây dựng 2 Bến khởi động (Hợp phần B) Thuộc Dự án Cảng cửa ngõ quốc tế Hải Phòng được điều chỉnh với một số nội dung chính như sau:
+[P29] - Chủ đầu tư dự án đầu tư xây dựng cảng: là Công ty TNHH Cảng CÔNG-TEN-NƠ Quốc tế Hải Phòng (HICT), là công ty liên Doanh được thành lập gồm các thành viên:
+[P30] + Tổng Công ty Tân cảng Sài Gòn (thay thế cho Tổng công ty Hàng hải Việt Nam)
+[P31] + Công ty Molnykit Co., Ltd (Nhật Bản).
+[P32] - Tiến độ đầu tư, khai thác do toàn bộ dự án (cả hợp phần A, B) bị triển khai chậm, thay thời điểm khai thác 2 bến khởi động từ năm 2015 thành cuối năm 2017 - Đầu năm 2018.
+[P33] - Khối lượng hàng hóa thông qua cảng phù hợp với tiến độ thực hiện dự án ở thời điểm hiện tại nhằm đáp ứng một phần trong nhu cầu tổng lượng hàng hóa qua cảng dự báo đến 2020 là khoảng 30 đến 35 triệu tấn/năm (trong đó có 2,33 triệu Teus) và đảm bảo hiệu quả đầu tư của dự án. Công suất thông qua 2 Bến khởi động từ 1.050.000 TEU/năm đến 1.100.000 TEU/năm.
+[P34] - Thiết bị khai thác trên bãi RTG chạy diezel chuyển sang chạy điện, thiết bị nâng trên bến sử dụng 06 cần trục giàn sức nâng 65T, bước ray 24m. 
+[P35] - Vốn đầu tư: Cập nhật cơ cấu vốn, nguồn vốn, chế độ chính sách và giá cả phù hợp thời điểm hiện tại
+[P36] - Cập nhật quy mô, quy hoạch mặt bằng cảng phù hợp với hoạt động khai thác cảng.
+[P37] I.4. Phân chia gói thiết kế và phạm vi công tác thiết kế gói XL01:
+[P38] I.4.1. Phân chia gói thiết kế:
+[P39] Căn cứ vào yêu cầu của chủ đầu tư về trình tự đầu tư các hạng mục công trình, có xét đến tính chất kỹ thuật, tính đồng bộ của dự án và có quy mô gói thầu hợp lý, các hạng mục công trình của cảng được phân chia theo các gói thầu thiết kế như sau:
+[P40] Gói thiết kế XL01: Cầu tàu 100.000DWT, Xử lý nền đất yếu gầm bến, Bến sà lan, Nạo vét khu nước đậu tàu;   
+[P41] Gói thiết kế XL02: Khu bãi container có hàng và bãi lạnh, Đường nội bộ, Công trình hạ tầng kĩ thuật;   
+[P42] Gói thiết kế XL03: Khu xưởng sửa chữa Container; Khu xưởng bảo dưỡng; Khu văn phòng; Các công trình phụ trợ;
+[P43] I.4.2. Phạm vi công tác  thiết kế gói XL01:
+[P44] Thiết kế kỹ thuật và thiết kế bản vẽ thi công cầu tàu 100.000 DWT;
+[P45] Thiết kế kỹ thuật và thiết kế bản vẽ thi công Xử lý nền đất yếu gầm bến;
+[P46] Thiết kế kỹ thuật và thiết kế bản vẽ thi công Bến Sà lan;
+[P47] Thiết kế kỹ thuật và thiết kế bản vẽ thi công Nạo vét khu nước đậu tàu.
+[P48] I.5. Các căn cứ pháp lý:
+[P49] Luật Xây dựng số 16/2003/QH11 ngày 26/11/2003; 
+[P50] Căn cứ Nghị định số: 12/2009/NĐ-CP ngày 12/2/2009 của Chính phủ về Quản lý dự án đầu tư xây dựng công trình và Nghị định số: 83/2009/NĐ-CP ngày 15/10/2009 của Chính phủ về sửa đổi bổ sung một số điều của Nghị định 12/2009/NĐ-CP;
+[P51] Căn cứ Nghị định số: 15/2013/NĐ-CP ngày 06/02/2013 của Chính phủ về quản lý chất lượng công trình xây dựng;
+[P52] Căn cứ thông tư số 10/2013/TT-BXD ngày 25/7/2013 của Bộ Xây Dựng quy định chi tiết một số nội dung về quản lý chất lượng công trình xây dựng;
+[P53] Quyết định số 1741/QĐ-BGTVT ngày 3/8/2011 của Bộ GTVT phê duyệt quy hoạch chi tiết nhóm cảng biển phía Bắc (Nhóm 1) đến năm 2020, định hướng đến năm 2030; Quyết định 1037/QĐ-TTg ngày 24/6/2014 của Thủ tướng Chính phủ phê duyệt Điều chỉnh quy hoạch tổng thể phát triển hệ thống cảng biển Việt Nam đến năm 2020, định hướng đến 2030; 
+[P54] Văn bản số 1346/TTg-KTN ngày 3/8/2010 của Thủ tướng Chính phủ về việc điều chỉnh dự án đầu tư cơ sở hạ tầng cảng cửa ngõ quốc tế Hải Phòng và đường ô tô Tân Vũ – Lạch Huyện; Quyết định số 2531/QĐ-BGTVT ngày 30/10/2012 của Bộ GTVT phê duyệt điều chỉnh dự án đầu tư đường ô tô Tân Vũ – Lạch Huyện (Hải Phòng) sử dụng vốn vay ODA theo điều khoản đặc biệt (Step) của Chính phủ Nhật Bản;
+[P55] Quyết định số 1386/QĐ-BGTVT ngày 19/5/2008, số 1594/QĐ-BGTVT ngày 20/7/2011, số 1511/QĐ-BGTVT ngày 27/6/2012 của Bộ trưởng Bộ Giao thông Vận tải về việc phê duyệt danh mục, tiêu chuẩn áp dụng cho dự án đầu tư xây dựng công trình cảng cửa ngõ Quốc tế Hải Phòng và thay thế các tiêu chuẩn đã hết hiệu lực bằng tiêu chuẩn hiện hành theo quy định;
+[P56] Báo cáo cuối kỳ về nghiên cứu sơ bộ dự án xây dựng hạ tầng cảng Lạch Huyện Việt Nam của cơ quan hợp tác quốc tế Nhật Bản – tháng 7/2010;
+[P57] Quyết định số 476/QĐ-BGTVT ngày 15/3/2011 của Bộ Giao thông Vận tải về việc phê duyệt điều chỉnh dự án đầu tư xây dựng công trình Cảng cửa ngõ quốc tế Hải Phòng – giai đoạn khởi động;
+[P58] Chứng chỉ quy hoạch số 59/CCQH ngày 1/6/2011 của Sở Xây dựng thành phố Hải Phòng cấp cho Tổng công ty Hàng hải Việt Nam về lô đất xây dựng Cảng cửa ngõ quốc tế Hải Phòng (Hợp phần B);.
+[P59] Quyết định số 2973/QĐ-BGTVT ngày 5/8/2014 của Bộ Giao thông vận tải phê duyệt điều chỉnh quy hoạch khu bến cảng Lạch Huyện thuộc cảng biển Hải Phòng đến năm 2020 định hướng đến 2030;
+[P60] Văn bản số 7349/VPCP - KTN ngày 22/9/2014 của Văn phòng Chính phủ gửi Công ty TNHH container quốc tế Hải Phòng về việc tiếp định chỉ định thầu tư vấn thực hiện hợp phần B của dự án cảng conatiner quốc tế Hải Phòng;
+[P61] Điều chỉnh dự án đầu tư xây dựng bến khởi động Cảng cửa ngõ Quốc tế Hải Phòng (Hợp phần B) do Công ty CP Tư vấn Xây dựng CT Hàng hải lập tháng 10 năm 2014;
+[P62] Hồ sơ yêu cầu gói thầu TV01: Tư vấn khảo sát xây dựng bổ sung, thiết kế kĩ thuật, thiết kế bản vẽ thi công, lựa chọn nhà thầu thi công xây dựng công trình thuộc Dự án đầu tư xây dựng công trình Cảng cửa ngõ quốc tế Hải Phòng - Hợp phần B (giai đoạn khởi động) của Công ty TNHH Cảng CÔNG-TEN-NƠ Quốc tế Hải Phòng;
+[P63] Hồ sơ đề xuất kỹ thuật gói thầu TV01: Tư vấn khảo sát xây dựng bổ sung, thiết kế kĩ thuật, thiết kế bản vẽ thi công, lựa chọn nhà thầu thi công xây dựng công trình thuộc Dự án đầu tư xây dựng công trình Cảng cửa ngõ quốc tế Hải Phòng - Hợp phần B (giai đoạn khởi động) do Công ty CP Tư vấn Xây dựng CT Hàng hải lập. 
+[P64] I.6. Qui trình qui phạm, tiêu chuẩn và phần mềm thiết kế:
+[P65] Công tác thiết kế hạng mục công trình thuộc Gói thiết kế XL01 được căn cứ vào khung tiêu chuẩn được duyệt theo Quyết định số 1386/QĐ-BGTVT ngày 19/5/2008, số 1594/QĐ-BGTVT ngày 20/7/2011, số 1511/QĐ-BGTVT ngày 27/6/2012 của Bộ trưởng Bộ Giao thông Vận tải về việc phê duyệt danh mục, tiêu chuẩn áp dụng cho dự án và áp dụng các phần mềm trợ giúp tính toán thiết kế sau:
+[P67] I.7. Tuổi thọ công trình:
+[P68] Các công trình thuộc cảng cửa ngõ Quốc tế Hải Phòng được thiết kế với  tuổi thọ công trình 50 năm.
+[P69] Điều kiện tự nhiên
+[P70] II.1. Vị trí địa lý:
+[P71] Cảng cửa ngõ quốc tế Hải Phòng (giai đoạn khởi động) được xây dựng tại  tại Huyện Cát Hải, Thành phố Hải Phòng, cách thành phố Hải Phòng khoảng 25km về phía Đông Bắc, có vị trí địa lý: 
+[P72] E : 106o 54’
+[P73] N :  20o 48’
+[P74] II.2. Đặc điểm địa hình khu vực xây dựng:
+[P75] Địa điểm xây dựng Cảng cửa ngõ quốc tế Hải Phòng đã được xác định tại huyện Cát Hải, Thành phố Hải Phòng. Khu vực dự kiến xây dựng cảng nằm bờ phải ở cửa sông Lạch Huyện. Tổng chiều dài theo quy hoạch của cảng cửa ngõ là trên 10km chạy dọc theo bờ sông. Khu vực dự án nằm dọc theo bờ phía Tây của vịnh Hải Phòng ở phía Đông Nam đảo Cát Hải. Khu vực xây dựng cảng là vùng nước nửa kín, phía Bắc, Đông Bắc và phía Tây được che chắn bởi đảo Cát Bà, Cát Hải. Địa hình đáy biển tại đây bị ảnh hưởng và chia cắt bởi các sông lớn chảy vào vịnh như sông Bạch Đằng và sông Chanh.
+[P76] Địa hình đáy biển của vịnh Hải Phòng khá thoải với độ dốc trung bình từ 0,04% đến 0,08% theo hướng Nam - Đông Nam. Những doi cát và đụn cát xuất hiện dọc theo các cửa sông và trồi lên khi thủy triều xuống. Khu vực xây dựng cảng nằm trên các doi cát dọc bờ phía Tây Nam cửa sông Lạch Huyện, bắt đầu từ tuyến kè phía Đông đảo Cát Hải với chiều dài khoảng 6000m và chiều rộng khoảng 1000m. Cao độ biến đổi từ +2,0m đến 0m theo hệ Hải đồ,  sâu dần về phía Đông-Nam.
+[P77] Đoạn cửa sông này là một phần của tuyến luồng từ Cảng Hải Phòng ra biển với chiều rộng là khá lớn, chỗ hẹp nhất (Chỗ thắt vào phía ngoài đường dây cao thế khoảng 1000m) cũng đạt khoảng 1000m. Hiện nay tuyến luồng đã được nạo vét đến chiều sâu đạt -7,2m.
+[P78] Vùng nước từ Bến Gót trở ra khoảng 4000m là một vùng trũng sâu có độ sâu lớn, điểm sâu nhất đạt đến -12,5m. Chiều rộng trũng sâu khoảng 400~500m.
+[P79] Địa hình vị trí xây dựng 2 bến khởi động: Theo bình đồ khảo sát địa hình tỷ lệ 1:1000 do Công ty CP Tư vấn Xây dựng CT Hàng hải thực hiện tháng 7/2009 và tham khảo bình đồ khảo sát phục vụ thiết kế luồng tàu (hợp phần A) thực hiện năm 2011 cho thấy: Cao độ tự nhiên phía trước tường chắn đất ra đến tuyến mép bến có cao độ -1,5m đến -5,5m(Hải đồ), trong phạm vi khu nước trước bến 100.000DWT có cao độ tự nhiên -1,9m đến -8,0m(Hải đồ) 
+[P80] II.3. Đặc điểm địa chất công trình
+[P81] Theo tài liệu khảo sát địa chất công trình của 38 lỗ khoan trong khu vực xây dựng. Trong đó khu vực cầu cảng và bãi là 28 lỗ và 6 lỗ khoan cắt cánh; khu vực luồng và vũng quay là 4 lỗ khoan. Trong quá trình tổng hợp tài liệu có kết hợp với tài liệu khoan bước lập dự án. Địa tầng khu vực khảo sát được phân thành các lớp đất đá từ trên xuống dưới như sau:
+[P82] Lớp 1a: Cát hạt bụi màu xám vàng kết cấu rời rạc. Lớp xuất hiện tại khu vực các lỗ khoan trên cạn như TK14, TK18, TK21 và VT5 với chiều dày thay đổi từ 0,7 m (TK18) đến 5,0 m (TK14). Đây là lớp đất có khả năng chịu tải yếu. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 4  7
+[P83] Lớp 1: Cát hạt trung màu xám đen, kết cấu rời rạc. Lớp có diện phân bố hạn hẹp tại các lỗ khoan dưới nước, tồn tại không theo dải liên tục với chiều dày nhỏ thay đổi từ 0,4m(TK1) đến 5,4m(TK31). Đây là lớp đất có khả năng chịu tải yếu. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 10
+[P84] Lớp 2: Sét màu xám nâu kẹp cát trang thái chảy. Lớp có diện phân bố rộng khắp trong khu vực khảo sát với chiều dày thay đổi từ 3,8m (TK29) đến 17,1m (VT5). Đây là lớp đất có khả năng chịu tải kém, tính biến dạng lớn. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 1  4
+[P85] Lớp 3: Sét pha màu xám nâu, xám vàng trạng thái dẻo chảy. Lớp có diện phân bố bố hạn hẹp, xuất hiện tại khu vực các lỗ khoan TK2, TK6, TK8, TK15, TK16, TK17, TK22, TK23, TK24, với chiều dày thay đổi lớn từ 0.8m(TK2) đến 5,3m (TK16). Đây là lớp đất có khả năng chịu tải kém, tính biến dạng tương đối lớn. Cao độ đáy lớp thay đổi từ  -14,30m (TK22) đến -7,43m (TK8). Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 1  6
+[P86] Lớp 4: Cát bụi màu xám vàng kết cấu chặt vừa. Lớp có diện phân bố bố hạn hẹp, xuất hiện tại khu vực lỗ khoan TK3, TK4, TK9, TK10, TK17, TK18, TK20, TK21, TK22, TK23, TK24, TK27, VT2 và VT6 với chiều dày nhỏ thay đổi từ 1.2m(TK22) đến 4,9m (VT6). Đây là lớp đất có khả năng chịu tải trung bình. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 10  17
+[P87] Lớp 5: Cát pha màu xám vàng trạng thái chảy. Lớp có diện phân bố hạn hẹp, xuất hiện tại khu vực lỗ khoan TK1, TK19, TK25 với chiều dày thay đổi  từ 2,0m (TK25) đến 3,0m (TK1). Đây là lớp đất có khả năng chịu tải kém, tính biến dạng lớn. Cao độ đáy lớp thay đổi từ  -12,11m (TK1) đến -8,58m (TK25). Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 3 5
+[P88] Lớp TK1: Sét  màu xám nâu trạng thái dẻo chảy. Lớp chỉ bắt gặp tại TK9 với chiều dày 3,7m. Đây là lớp đất có khả năng chịu tải kém, tính biến dạng lớn. Cao độ đáy lớp  -14,00m. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 2  3
+[P89] Lớp 6: Cát pha màu xám vàng trạng thái dẻo. Lớp có diện phân bố hạn hẹp, xuất hiện tại khu vực lỗ khoan TK9, TK10, TK13, TK25, TK26 và VT1 với chiều dày thay đổi từ 2,0m(TK9) đến 7,0m(TK25). Đây là lớp đất có khả năng chịu tải tương đối tốt, tính biến dạng nhỏ. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 6  17
+[P90] Lớp 7: Sét pha màu xám nâu trạng thái dẻo mềm. Lớp có diện phân bố hạn hẹp, xuất hiện tại khu vực lỗ khoan TK1, TK3, TK7, TK11, TK12, TK29, TK30, VT2, VT3 và VT4 với chiều dày thay đổi  từ 1.7m (TK30) đến 6,5m (VT3). Đây là lớp đất có khả năng chịu tải và tính biến dạng trung bình. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 4  7
+[P91] Lớp 8: Sét màu xám nâu trạng thái dẻo cứng. Lớp có diện phân bố tương đối rộng với chiều dày thay đổi mạnh từ 0,3m (TK16) đến 9,0m (KB3). Đây là lớp đất có khả năng chịu tải tương đối tốt, tính biến dạng nhỏ. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 8  16
+[P92] Lớp 9: Sét màu xám xanh trạng thái dẻo chảy. Lớp có diện phân bố rộng khắp với chiều dày lớn thay đổi rất mạnh, trong phạm vi nghiên cứu đã khoan vào lớp từ 1,0m (TK30) đến 16,7m (VT6). Đây là lớp đất có khả năng chịu tải kém, tính biến dạng lớn, nằm dưới sâu. Các lỗ khoan TK11, TK12, TK13, TK14, TK15, TK16, và TK20, TK21 với chiều sâu khảo sát phía dưới là mặt đá cứng. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 3  8
+[P93] Lớp TK2: Cát pha màu xám đen lẫn dăm sạn trạng thái cứng. Lớp chỉ xuất hiện tại VT3 với chiều dày 1,1 m. Đây là lớp đất tốt có khả năng chịu tả cao, tính biến dạng nhỏ
+[P94] Lớp 10: Đá sét kết phong hoá hoàn toàn thành sét pha màu nâu đỏ trạng thái cứng. Lớp có diện phân bố bố hạn hẹp, do chiều sâu khoan hạn chế nên mới chỉ bắt gặp tại TK1, TK2, TK4, TK5, TK6, TK18, TK24, TK25, TK27, TK28, KB1, KB3 và VT3 với chiều dày nhỏ thay đổi từ 0,3m (TK4, TK28) đến 5,0m (KB1). Đây là lớp đất có khả năng chịu tải tốt, tính biến dạng nhỏ. 
+[P95] Lớp này có nguồn gốc phong hóa, trong phạm vi nghiên cứu mức độ và phạm vi phong hóa thay đổi mạnh dẫn đến chiều dày lớp phong hóa thay đổi rất lớn và không đồng nhất. Giá trị  thí nghiệm xuyên tiêu chuẩn (SPT) N30 = 41  >50
+[P96] Lớp 11: Đá sét kết màu nâu đỏ bị phong hoá mạnh, nứt nẻ. Do chiều sâu khoan hạn chế nên mới khoan vào lớp tại các lỗ khoan TK1, TK10, TK17, TK19, TK22, TK23, KB1 và KB3 với chiều dày thay đổi từ 1,0 m (TK17, TK19, TK22, TK23) đến 5,5 m (KB1). Đây là lớp đá bị phong hoá nứt nẻ có khả năng chịu tải cao.
+[P97] Lớp 12: Đá sét kết màu tím gan gà, phong hoá nhẹ cứng chắc. Với chiều sâu nghiên cứu lớp xuất hiện tại các lỗ khoan từ TK2 đến TK9, KB2 và KB4 với chiều dày đã khoan vào lớp từ 2,0m (TK4, TK5, TK8, TK9) đến 8,1m (KB2). Đây là lớp đá gốc của khu vực có khả năng chịu tải cao.
+[P98] Bảng tổng hợp chỉ tiêu cơ lý các lớp đất xem trang sau.  
+[P99] Nhận xét:
+[P100] Từ đặc điểm địa chất công trình nêu trên cho thấy cấu trúc địa chất tại khu vực khảo sát có đặc điểm sau:
+[P101] - Khu vực khảo sát có cấu trúc địa chất rất phức tạp, có nhiều sự biến đổi về cấu trúc, hầu hết các lớp đất không duy trì liên tục, cao độ mặt đá gốc thay đổi mạnh.
+[P102] - Lớp đất số 1a, 1 là lớp đất phân bố tại bề mặt khu vực có khả năng chịu tải thấp.
+[P103] - Lớp đất số 2 là các lớp đất yếu, chiều dày lớn phân bố trên diện rộng.
+[P104] - Lớp đất số 3, 5, TK1 là các lớp đất yếu, chiều dày trung bình diện phân bố hạn hẹp.
+[P105] - Lớp đất 4, 6, 7  có khả năng chịu tải trung bình
+[P106] - Lớp đất 9 là lớp đất yếu có chiều dày lớn được phân bố dưới sâu trên diện rộng.
+[P107] - Lớp đất số 8, 10 và TK2  là các lớp đất tốt có khả năng chịu tải cao.
+[P108] - Lớp đá 11 là lớp bị phong hoá mạnh, nứt nẻ nhiều có khả năng chịu tải cao.
+[P109] - Lớp đất 12 là các lớp đá gốc trong khu vực, có khả năng chịu tải cao
+[P110] Từ đặc điểm địa chất công trình trên cho thấy:
+[P111] Lớp đất 1 đến 9 là các lớp đất có khả năng chịu tải yếu đến trung bình, chiều dày thay đổi từ 18,8 m đến 29,9m. Trị số thí nghiệm SPT thay đổi từ 1 đến 17 búa.
+[P112] Lớp 10 là lớp đất tốt có khả năng chịu lực cao, tính biến dạng nhỏ và không duy trì liên tục.
+[P113] Lớp đất 11 là lớp đá phong hoá mạnh, nứt nẻ, có khả năng chịu tải cao.
+[P114] Lớp 12 là lớp đá gốc phong hoá nhẹ có khả năng chịu lực tốt, nhưng khả năng đóng cọc để neo ngàm đá thấp.
+[P115] Khu nước trước bến: Trong giới hạn chiều sâu nạo vét, có gặp lớp sét dẻo cứng (lớp số 8), công tác nạo vét phải kết hợp tàu hút và tàu cuốc.
+[P117] Bảng 1: Bảng tổng hợp chỉ tiêu cơ lý các lớp đất  
+[P120] II.4.  Đặc điểm khí tượng:
+[P121] II.4.1.  Nhiệt độ không khí:
+[P122] Nhiệt độ không khí cao nhất trong 21 năm quan trắc được là 38,6C (ngày 3/8/1985).
+[P123] Nhiệt độ không khí thấp nhất là 6,6C (ngày 21/2/1996).
+[P124] Nhiệt độ trung bình nhiều năm là 23,9oC.
+[P125] Nhiệt độ trung bình mùa đông (từ tháng 11 đến tháng 4) là 20C.
+[P126] Nhiệt độ trung bình mùa hạ (từ tháng 5 đến tháng 10) là 27,9C.
+[P127] II.4.2. Độ ẩm không khí:
+[P128] Độ ẩm không khí trung bình nhiều năm là 85,7%, độ ẩm không khí thấp nhất là 27% (tháng 10/1991). 
+[P129] II.4.3. Lượng mưa:
+[P130] Tổng lượng mưa trung bình nhiều năm là 1447,7mm. 
+[P131] Lượng mưa lớn trong năm thường tập trung từ tháng 5 đến tháng 10. Tháng 8 có lượng mưa nhiều nhất là 319mm. Tháng 1 có tổng lượng mưa trung bình nhỏ nhất là 19mm. Tổng lượng mưa mùa mưa chiếm 86,5% lượng mưa năm.
+[P132] Tổng lượng mưa trung bình mùa mưa là 1250,7mm, tổng lượng mưa trung bình mùa khô là 196,9mm.
+[P133] Số ngày mưa trung bình năm là 131 ngày. Tháng 8 có số ngày mưa nhiều nhất 15,4 ngày, tháng 12 có số ngày mưa ít nhất là 5,7 ngày.
+[P134] Lượng mưa ngày lớn nhất quan trắc được là 320,5mm (ngày 14/7/1992)
+[P135] II.4.4. Gió: 
+[P136] Theo tài liệu gió tại trạm Hòn Dấu từ 1974  2004 cho thấy tốc độ gió lớn nhất nhiều lần đo được là 40m/s theo hướng Đông Đông Bắc (ENE) năm 1975; hướng Bắc Tây Bắc (NNW) năm 1977; hướng Nam Đông Nam (SSE) năm 1980; hướng Tây Nam, Nam (SW, S) năm 1989. 
+[P137] Dựa vào tốc độ gió thực đo đã tính tần suất tốc độ và hướng gió, vẽ hoa gió tổng hợp các tháng và năm. Nhìn vào hoa gió tổng hợp cho thấy gió chủ yếu ở tốc độ từ 0,1  8,9m/s; gió thịnh hành nhất là hướng Đông chiếm 28,27%; gió hướng Bắc chiếm 14,36%; gió lặng chiếm 5,6%.
+[P138] Hoa gió các tháng: từ tháng 10 đến tháng 1 gió thịnh hành hướng Đông và hướng Bắc; tháng 2 đến tháng 5 gió thịnh hành hướng Đông; tháng 6 đến tháng 8 gió thịnh hành hướng Nam và Đông Nam; tháng 9 gió có nhiều hướng.
+[P139] II.4.5. Bão: 
+[P140] 	Bão thường đổ bộ vào tháng 6 và kết thúc vào tháng 11. Tính từ năm 1961 đến 2012 , có khoảng 272 cơn bão đổ bộ vào Việt Nam trong đó có khoảng 52 cơn bão đổ bộ vào Quảng Ninh – Hải Phòng chiếm tỷ lệ 18%. Tháng có nhiều bão nhất là tháng 8. Sức gió mạnh nhất trong bão đo được đến cấp 13 vận tốc >133km/h.  
+[P141] II.4.6.  Sương mù và tầm nhìn:
+[P142] Sương mù trong năm thường tập trung vào các tháng mùa Đông, bình quân năm là 21,2 ngày; tháng 3 là tháng có nhiều sương mù nhất, trung bình trong tháng 6,5 ngày có sương mù; các tháng mùa hạ hầu như không có sương mù. Do ảnh hưởng của sương mù nên tầm nhìn bị hạn chế, số ngày có tầm nhìn dưới 1km thường xuất hiện vào mùa Đông, còn các tháng mùa hạ hầu hết các ngày trong tháng có tầm nhìn >10km.
+[P143] II.5.  Đặc điểm thủy văn:
+[P144] II.5.1. Mực nước và thủy triều:
+[P145] Mực nước tại Hòn Dấu thuộc chế độ nhật triều thuần nhất, trong tháng có khoảng 25 ngày có 1 lần nước lớn, một lần nước ròng. Độ lớn triều ở đây thuộc loại lớn, khoảng 3  4m. Vào kỳ triều cường mực nước cao nhất đo được là 421cm (22/10/1985), mực nước thấp nhất là -3cm (2/1/1991).
+[P146] Bảng 2: Mực nước ứng với các tần suất lý luận tại Hòn Dấu
+[P147] Dựa vào mực nước giờ, đỉnh triều, chân triều, trung bình tính tần suất lũy tích cho kết quả mực nước ứng với các tần suất.
+[P148] Bảng 3: Mực nước ứng với các tần suất lũy tích tại Hòn Dấu
+[P149] II.5.2. Dòng chảy:
+[P150] Theo nguồn tài liệu nghiên cứu DAĐT xây dựng cảng cửa ngõ Quốc tế Hải Phòng đã thực hiện trước đây cùng các đợt đo đạc thủy văn tại khu vực cho thấy tốc độ lớn nhất lớn nhất của dòng chảy đo được là 1,55m/s.
+[P151] II.5.3. Sóng tại khu vực Lạch Huyện:
+[P152] Theo các tài liệu quan trắc sóng tại khu vực này trong 1 năm (từ 12/7/2005 đến 15/8/2006) và kết quả tổng hợp, xác định tần suất sóng 22 năm (1961-1983) tại trạm Hòn Dấu cho thấy: 
+[P153] - Dựa trên hoa sóng các tháng cho thấy vào mùa đông (từ tháng 10 năm trước đến tháng 2 năm sau) vùng biển tại khu vực xây dựng cảng không chịu ảnh hưởng của gió mùa Đông Bắc vì có đảo Cát Bà che chắn. Từ tháng 10 năm trước đến tháng 4 năm sau, độ cao sóng có nghĩa tại khu vực thấp (H1/3 < 1,25m) và chủ yếu theo hướng Đông Nam, riêng tháng 3 và tháng 4 sóng có hướng phân tán. Từ tháng 5 đến tháng 9 độ cao sóng có nghĩa tại vùng biển xây dựng cảng có lúc lên đến 2m, chủ yếu theo hướng Đông Nam do chịu ảnh hưởng của gió Đông Nam là chính.
+[P154] - Theo bảng tần suất độ cao sóng Hòn Dấu (1961 - 1983) (Trích dự án ĐTXD cảng cửa ngõ Quốc tế Hải Phòng do TEDI lập): Tổng tần suất sóng theo hướng Đông Nam và Nam là 38,29%:
+[P155] + Sóng hướng Đông Nam chiếm 25,44% trong đó chỉ có 3,31% thời gian có chiều cao sóng < 0,5m;
+[P156] + Sóng hướng Nam chiếm 12,85% trong đó chỉ có 0,83% thời gian có chiều cao sóng < 0,5m;
+[P157] Khu vực xây dựng cảng giai đoạn khởi đầu chỉ chịu ảnh hưởng trực tiếp từ biển các hướng sóng Đông Nam, Nam. Các hướng khác được che chắn hoặc chịu ảnh hưởng của sóng nhiễu xạ có chiều cao không lớn.
+[P158] II.5.4. Sa bồi:
+[P159] Đánh giá sa bồi đã được nghiên cứu trong các báo cáo trước đây của dự án. Tổng hợp kết quả nghiên cứu về vấn đề sa bồi trước và sau khi nạo vét luồng tàu vũng quay theo kết quả duy tu và quan trắc hàng năm (tính trong điều kiện hiện trạng) như sau:
+[P160] Bảng 4: Hệ số sa bồi tính toán theo số liệu các đợt đo đạc 
+[P161] Hệ số sa bồi luồng Lạch Huyện với năm đầu tiên sau nạo vét là  0,234. Hệ số sa bồi luồng sau khi mái dốc luồng ổn định là 0,144. Theo nghiên cứu của TEDI, dự báo khối lượng sa bồi luồng tàu sau khi nạo vét tuyến luồng đến -14m(HĐ), sau khi có công trình bảo vệ đê chắn cát xấp xỉ 1,711 triệu m3/năm (chiều sâu dự phòng sa bồi Z4 là 0,5m - 0,6m). Với các khối lượng sa bồi như trên thì một năm cần nạo vét duy tu 1 lần. Dự phòng chiều sâu sa bồi ở luồng cũng cần được xác định chính xác lại khi có số liệu từ quá trình vừa khai thác vừa đánh giá hiệu quả luồng. 
+[P162] II.6. Cấp động đất: 
+[P163] Theo sơ đồ phân vùng động đất Việt Nam (Thiết kế công trình chịu động đất - TCVN 9386 : 2012), khu vực Cảng cửa ngõ Quốc tế Hải Phòng, nằm tại Huyện Cát Hải - thành phố Hải Phòng thuộc vùng động đất cấp VI (theo thang MSK-64) có hệ số gia tốc nền là 0,0368.
+[P164] Công nghệ khai thác:
+[P165] III.1. Công nghệ khai thác trên cầu tàu 100.000DWT:
+[P166] Tuyến bến sử dụng cần trục chạy trên ray có sức nâng 65 tấn dưới thiết bị kẹp container, tầm với phía trước bến 56,6m, tầm với phía sau bến 15m . Các thông số kỹ thuật chính của cần trục trên bến như sau:
+[P167] - Tầm với lớn nhất		:	55,0m
+[P168] - Sức nâng danh nghĩa lớn nhất:	65 tấn (dưới Spreader) cẩu đúp container 20’
+[P169] - Khẩu độ ray rộng		:	24,0 m
+[P170] - Số cụm bánh xe trên 1 ray:	02 cụm
+[P171] - Số bánh xe trong 1 cụm	:	8 bánh /01 cụm
+[P172] III.2. Công nghệ khai thác trên bến Sà lan:
+[P174] Tuyến bến sử dụng cần trục bờ cố định có thông số như sau:
+[P175] - Tầm với lớn nhất		:	20,0m
+[P176] - Sức nâng dưới khung chụp:	40 tấn 
+[P177] Nội dung thiết kế cầu tàu 100.000DWT: 
+[P178] IV.1. Các thông số của cầu tàu:
+[P179] Cầu cảng được xây dựng dạng bến liền bờ, các thông số cơ bản của cầu cảng như sau:
+[P180] - Chiều dài cầu cảng	 		: 750,0m.
+[P181] - Chiều rộng mặt cầu 			: 50,0m.
+[P182] - Cao trình đỉnh bến			: + 5,50m (Hải đồ).  
+[P183] - Cao trình đáy bến (hoàn thiện)	: - 16,0m (Hải đồ).  
+[P184] - Mực nước cao thiết kế  		: + 3,55m (Hải đồ) (suất bảo đảm 1% mực nước giờ).
+[P185] - Mực nước thấp thiết kế  		: + 0,43m (Hải đồ) (suất bảo đảm 99% mực nước giờ).
+[P186] IV.2. Tàu khai thác: 
+[P187] IV.3. Tải trọng khai thác mặt cầu:
+[P188] Tải trọng do cần trục sức nâng 65T (dưới khung nâng); Tầm với phía trước bến 50m, phía sau bến 15m, khẩu độ ray rộng 24m. Trên mỗi ray có 2 cụm bánh xe, số bánh xe trên một cụm 8 bánh. áp lực lớn nhất trên một bánh xe tương ứng với điều kiện làm việc và neo giữ khi có bão thể hiện trong bảng sau:
+[P189] - Phương tiện vận tải				: Xe đầu kéo chuyên dụng.
+[P190] - Tải trọng hàng hoá phân bố đều		: 4 tấn/m2.
+[P191] IV.4. Điều kiện khai thác:
+[P192] - Vận tốc dòng chảy 		: 	1,55 m/s
+[P193] - Chiều cao sóng	 		: 	 1,0m
+[P194] - Vận tốc gió (cấp 8)	 	: 	 20,7m/s (Tàu neo cập tại bến)
+[P195] - Vận tốc gió			: 	 16m/s (Thiết bị bốc xếp hoạt động tại bến)
+[P196] - Vận tốc cập tàu			: 	 0,12m/s
+[P197] IV.5. Phân cấp công trình:
+[P198] 	Với tàu khai thác 100.000 DWT, chiều cao bến H=21,5m, khi đó theo Thông tư 10/2013/TT-BXD ngày 25/7/2013 của Bộ Xây dựng, Quy định chi tiết một số nội dung về quản lý chất lượng công trình xây dựng => Cầu tàu 100.000DWT là công trình giao thông hàng hải cấp I.
+[P199] IV.6. Giải pháp kết cấu: 
+[P200] Kết cấu cầu tàu dạng bệ cọc cao đài mềm gồm hệ thống dầm, bản BTCT M400-B10 trên nền cọc ống BTCT M800 dự ứng lực (DƯL) đường kính D(800-540) kết hợp với cọc ống thép D1016mm. 
+[P201] IV.6.1.  Nền cọc:
+[P202] - Nền cọc là sự kết hợp của các cọc thép D=1016mm, dày 16mm; với các cọc BTCT DƯL có đường kính D(800-540) loại C. Trong một phân đoạn cầu tầu các cọc được đóng theo hàng ngang và hàng dọc cầu, khoảng cách các hàng cọc theo phương ngang là 2,0m + 4x6,0m + 4x5,25m; theo phương dọc là 5,1m. 
+[P203] - Các cọc thép được đóng dưới dầm cần cẩu, đóng chụm đôi với độ xiên 6:1, riêng hàng cọc ngoài cùng xiên ra phía khu nước với độ xiên 7:1 và tại chân cọc được khoan tạo lỗ và cấy cốt thép đổ bê tông để đảm bảo độ ngàm của chân cọc, tăng khả năng chịu lực nhổ. Chiều dài cọc dự kiến L=2935m
+[P204] - Để khống chế chuyển vị của cầu tàu theo phương dọc trong mỗi phân đoạn còn bố trí hai hàng cọc BTCT DƯL đường kính D(800-540) chụm đôi theo phương dọc với độ xiên 6:1. 
+[P205] - Dưới các dầm dọc, ngang còn lại là những cọc BTCT DƯL kéo trước đóng thẳng đứng.
+[P206] - Cọc ống BTCT M800 DƯL đường kính D(800-540), mũi cọc đặt vào lớp đá chịu lực, chiều dài cọc thay đổi theo địa tầng dự kiến từ 28m đến 34m.
+[P207] - Để bảo vệ chống sự ăn mòn, tất cả các đầu cọc ống thép trong phạm vi vùng mực  nước dao động được bọc lớp BTCT M400-B10 đá 1x2 (có phụ gia trương nở) dày 15cm bảo vệ, phần cọc ngập trong nước có lắp đặt các anốt chống ăn mòn.
+[P208] - Toàn bộ công trình có 600 cọc ống thép D1016mm và 1320 cọc ống BTCT dự ứng lực D(800-540).
+[P209] IV.6.2. Hệ dầm ngang - dầm dọc:
+[P210] Hệ thống dầm bao gồm dầm ngang, dầm dọc, bản tựa tàu, có kết cấu BTCT, mác bê tông M400-B10 đá 1x2 đổ tại chỗ
+[P211] Dầm ngang : Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ, được chia làm 2 loại:
+[P212] + Loại 1(DN1,DN1A): Tiết diện bxh = 120x190cm (kể cả bản mặt cầu), đầu dầm phía ngoài trong phạm vi từ giữa hàng cọc thứ nhất và thứ hai trở ra sông được hạ thấp xuống thành tiết diện bxh = 120x250cm (kể cả bản mặt cầu) để tăng độ cứng cho cầu.
+[P213] + Loại 2(DN2): Tiết diện bxh = 120x190cm (kể cả bản mặt cầu), đầu dầm phía ngoài trong phạm vi từ giữa hàng cọc thứ nhất và thứ hai trở ra sông được hạ thấp và mở rộng thành tiết diện bxh = 220x250cm (kể cả bản mặt cầu) để tăng độ cứng cho cầu và bố trí lắp đặt đệm tàu. 
+[P214] Dầm dọc Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ, được chia làm 4 loại:
+[P215] + Loại 1 (DD1; DD1A; DD2; DD2A): Dầm dọc thường tiết diện bxh = 120x190cm (kể cả bản mặt cầu).
+[P216] + Loại 2 (DD1B; DD2B): Dầm dọc thường có tiết diện bxh = 120x190cm (kể cả bản mặt cầu), đầu phía thượng lưu được hạ thấp xuống thành tiết diện bxh = 120x350cm (kể cả bản mặt cầu) để bố trí lắp đặt đệm va bến sà lan.  
+[P217] + Loại 3 (DCT1; DCT1A; DCT2; DCT2A) : Dầm cầu trục tiết diện bxh = 160x250cm (kể cả bản mặt cầu). 
+[P218] + Loại 4 (DCT1B ; DCT2B): Dầm cầu trục tiết diện bxh = 160x250cm (kể cả bản mặt cầu), đầu phía thượng lưu của dầm được hạ thấp xuống thành tiết diện bxh = 160x350 (kể cả bản mặt cầu) để bố trí lắp đặt đệm va bến sà lan.  
+[P219] IV.6.3. Bản tựa tàu: 
+[P220] Bản tựa tàu bằng BTCT M400-B10 đá 1x2 đổ tại chỗ, được chia làm 2 loại:
+[P221] + Loại 1 : Bố trí ở mặt trước cầu tàu có kích thước bxh = 40x265cm.
+[P222] + Loại 2: Bố trí tại đầu bến phía thượng lưu sử dụng bản sẵn kích thước (120160)x100cm, dày 30cm liên kết với đầu dầm hạ thấp.
+[P223] IV.6.4. Bản mặt cầu:
+[P224] + Từ mép hào công nghệ ra đến mép bến: Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ có chiều dày 55cm. 
+[P225] + Từ mép hào công nghệ trở vào phía trong: Bằng BTCT M400-B10 đá 1x2, các ô bản xung quanh được đổ tại chỗ có chiều dày 50cm, các ô bản ở giữa dày 50cm được kết hợp giữa ô bản đúc sẵn dày 30cm lớp dưới lắp ghép và phần bê tông đổ tại chỗ dày 20cm. Phía trên bản mặt cầu có phủ lớp bê tông nhựa hạt mịn dày 5cm. Để thoát nước mặt cầu và thông thoáng gầm cầu, tại giữa mỗi ô bản có bố trí các lỗ thông hơi bằng sắt tráng kẽm 60 dài L=55cm.
+[P226] IV.6.5. Gờ chắn xe: 
+[P227] Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ cùng với bê tông bản mặt cầu, tiết diện gờ chắn xe hình chữ nhật, tiết diện BxH= 25x20cm. Gờ chắn xe được sơn phản quang kẻ vạch vàng - đen.
+[P228] IV.6.6. Hào công nghệ: 
+[P229] Tuyến hào công nghệ được bố trí chạy dọc theo chiều dài tuyến mép bến phía sông và hai đầu bến. Hào công nghệ bằng BTCT M400-B10 đổ tại chỗ cùng với hệ thống dầm bản. Hào công nghệ có tiết diện phía trong lòng BxH = 60x78cm. Tại mép trong phía trên 2 bên thành hào bố trí thép hình mạ kẽm L130x100x10 gia cường mép bê tông. Trong lòng hào công nghệ bố trí các giá đỡ đường ống công nghệ bằng thép hình mạ kẽm L100x10 với khoảng cách a = 1,0m. Tại bản đáy hào công nghệ bố trí các ống thoát nước uPVC D48 tại vị trí giữa hai dầm ngang. Nắp hào bằng BTCT M400-B10 đúc sẵn, kích thước: 57x76x12cm, 78x76x12cm và 100x76x12cm, nắp hào được viền bằng thép hình mạ kẽm L120x100x10.
+[P230] Hệ thống cáp cấp điện và đường ống công nghệ trong hào có hồ sơ thiết kế riêng
+[P231] IV.6.7. Thiết bị phụ trợ bố trí trên cầu tàu:
+[P232] Bích neo:
+[P233] Tuyến mép bến bố trí bích neo tàu bằng gang đúc 150T nhập ngoại cùng các chi tiết liên kết đồng bộ (nguồn gốc xuất xứ trừ Trung Quốc). Tổng số 26 bích neo tàu . 
+[P234] Đầu bến phía thượng lưu bố trí bích neo tàu bằng gang đúc 30T sản xuất trong nước cùng các chi tiết liên kết đồng bộ để neo sà lan. Bích neo có đường kính ngoài 255mm, chiều cao h = 365mm, liên kết giữa bích neo tàu với dầm bằng các bu lông d=38mm chiều dài 540mm. Tổng số 03 bích neo tàu . 
+[P235] Đệm tàu:
+[P236] - Đệm tàu phía trước cầu tàu: Thiết bị đệm tầu sử dụng loại đệm hình trụ có chiều cao 1600mm kết hợp với tấm panel bằng thép kích thước 2000x3600mm cùng các phụ kiện được nhập ngoại đồng bộ (nguồn gốc xuất xứ trừ Trung Quốc). Tổng số có 51 bộ.
+[P237] - Bố trí 09 đệm tàu Λ400H-4000L tại đầu phía thượng lưu, đệm tàu được sản xuất trong nước cùng với phụ kiện đồng bộ.
+[P238] Ray cần trục:
+[P239] + Ray dùng loại A120, chất lượng tối thiểu ST90, giới hạn bền tối thiểu 880N/mm2, độ cứng tối thiểu 260
+[P240] + Cóc ray sử dụng loại cóc ray hàn được chế tạo bằng phương pháp đúc, đảm bảo chịu lực ngang tối thiểu 165KN, cóc ray có tính năng tự khóa, tự xiết chặt. Bu lông liên kết cóc ray sử dụng bu lông M16 cấp bền 8.8
+[P241] + Thép đệm ray bằng thép bằng thép tấm mạ kẽm có kích thước 2980x320x20mm, giữa ray và tấm đế ray là tấm cao su có loại thép gia cường đồng bộ với ray A120. Phía dưới thép tấm đệm ray được bơm vữa Epoxy.
+[P242] + Bu lông liên kết thép đệm ray và dầm sử dụng bu lông M20 cấp bền 4.6, bu lông được mạ kẽm bằng phương pháp nhúng nóng.
+[P243] Ray, cóc ray, bu lông liên kết được nhập khẩu đồng bộ từ châu Âu
+[P244] + Cuối đường ray cần trục bố trí hệ thống mốc chắn để đảm bảo an toàn cho cần trục. Hệ thống mốc chắn bằng BTCT M400-B10 đá 1x2.
+[P245] + Dọc theo hào công nghệ bố trí rãnh trải cáp điện cần trục để cáp không bị các thiết bị chạy trên cầu cán lên, rãnh có tiết diện hình chữ nhật kích thước bxh = 10x32cm. 
+[P246] Hố cấp điện:
+[P247] Trên cầu cảng bố trí 06 hố cấp điện bằng BTCT M400-B10 đá 1x2 tại các phân đoạn: 2, 3, 5, 6, 8, 9. Kích thước lòng hố: LxBxH = 390x205x175cm. Mỗi hố cấp điện bố trí 02 tấm nắp có kích thước LxBxH = 223x203x10cm bằng thép hình L100x10 và thép tấm dày 10mm.
+[P248] Chốt khóa, móc neo cần trục:
+[P249] Chính giữa các phân đoạn bố trí các cụm chốt khóa cần trục và móc neo để khóa cần trục khi có bão.
+[P250] Xử lý nền đất yếu gầm bến :
+[P251] V.1. Xử lý nền đất yếu gầm bến:
+[P252] Theo hồ sơ thiết kế gói thầu số 6 thuộc Hợp phần A quy định mái dốc nạo vét gầm bến (khối đất trước kè) là 1:3.  Tuy nhiên, do mái dốc có lớp đất yếu (đặc biệt là lớp bùn sét số 2 có có SPT 1 4, dày 9m) độ ổn định thấp. Qua kiểm tra, tính toán đề xuất phương án xử lý nền đất yếu gầm bến (trước tường chắn đất) như sau:
+[P253] - Trước khi đóng cọc: Tiến hành nạo vét từng lớp theo mái dốc m = 5 với lớp đất số 2 và nạo vét theo mái dốc m = 3 với các lớp đất phía dưới.
+[P254] - Sau khi đóng cọc tiến hành bổ sung đệm đá, phía trên xếp đá hộc để đảm bảo mái dốc hoàn thiện m = 3.
+[P255] Lăng thể đá gầm bến có kết cấu như sau : 
+[P256] - Phạm vi từ chân khay -17,2m đến cao trình -10,0m, theo mái dốc nạo vét m = 3, kết cấu từ trên xuống như sau:
+[P257] + Đá hộc xếp dày 50cm.
+[P258] + Đá hộc đổ dày 70cm.
+[P259] - Phạm vi từ cao trình -10,0m về phía cừ, theo mặt đất nạo vét kết cấu từ trên xuống như sau:
+[P260] + Đá hộc xếp dày 50cm.
+[P261] + Đá hộc đổ dày 70cm.
+[P262] + Đệm đá 4x6.
+[P263] + Vải địa kỹ thuật 25kN/m.
+[P265] V.2. Kè chắn đất phía hạ lưu:
+[P266] - Để đảm bảo ổn định khu đất phía hạ lưu cầu cảng trong quá trình thi công nạo vét phạm vi nối tiếp tuyến kè sau bến nối dài 30m sử dụng hàng cọc ống ván thép D600mm, dày 12mm.  
+[P267] - Phía trước tường cừ được bảo vệ bằng khối đá hộc phủ từ cao trình -15,2m đến cao trình -5,2m, chiều dày lớp kết cấu từ trên xuống đá hộc phủ dày 50cm, đá hộc đổ dày 70cm. 
+[P268] Nội dung thiết kế bến sà lan
+[P269] VI.1. Các thông số của bến sà lan:
+[P270] - Chiều dài bến					:	150,0m.
+[P271] - Chiều rộng bến					:	30,0m.
+[P272] - Cao trình đỉnh bến				: 	+ 5,5m (hệ Hải đồ).
+[P273] - Cao trình đáy bến thiết kế			: 	- 5,0m (hệ Hải đồ).
+[P274] - MN cao thiết kế					:	+3,55m (hệ Hải đồ).
+[P275] - MN thấp thiết kế				:	+0,43m (hệ Hải đồ).
+[P276] VI.2.  Tàu khai thác: 
+[P277] Sà lan tính toán lớn nhất là sà lan container có trọng tải đến 160TEU có các thông số kỹ thuật chủ yếu như sau:
+[P278] 	+ Chiều dài sà lan lớn nhất			:	L = 77,0m.
+[P279] 	+ Chiều rộng sà lan lớn nhất		:	B = 15,2m.
+[P280] 	+ Mớn nước đầy tải				:	Tc = 4,1m.
+[P281] VI.3. Tải trọng khai thác trên mặt bến:
+[P282] Cần trục cố định bốc xếp container có thông số kỹ thuật như sau :
+[P283] + Sức nâng 						: 	40T ở tầm với 29,5m.
+[P284] 	+ Tải trọng thẳng đứng tính đến vòng xoay	: 	120T
+[P285] 	+ Mô men lật khi cẩu tính đến vòng xoay	: 	1710Tm
+[P286] 	+ Lực cắt khi cẩu tính đến vòng xoay		: 	5,5T
+[P287] 	+ Mô men xoay khi cẩu				:	110Tm
+[P288] - Phương tiện vận tải					: Xe đầu kéo chuyên dụng.
+[P289] - Tải trọng hàng hoá phân bố đều			: 2 tấn/m2.
+[P290] VI.4. Điều kiện khai thác:
+[P291] - Chiều cao sóng	 		: 	 0,5m
+[P292] - Vận tốc gió (cấp 8)	 	: 	20,7m/s (Tàu neo cập tại bến)
+[P293] - Vận tốc gió			: 	 16m/s (Thiết bị bốc xếp hoạt động tại bến)
+[P294] - Vận tốc cập tàu			: 	 0,3m/s
+[P295] VI.5. Phân cấp công trình:
+[P296] 	Với tàu khai thác 160TEU, chiều cao bến H=10,5m, khi đó theo Thông tư 10/2013/TT-BXD ngày 25/7/2013 của Bộ Xây dựng, Quy định chi tiết một số nội dung về quản lý chất lượng công trình xây dựng => Bến Sà lan là công trình giao thông hàng hải cấp III.
+[P297] VI.6. Giải pháp kết cấu: 
+[P298] Bến sà lan có dạng bến liền bờ, kết cấu dạng bệ cọc cao đài mềm, bao gồm hệ thống dầm bản BTCT, mác bê tông M400-B10 đá 1x2 đổ tại chỗ trên nền cọc ống BTCT M800 DƯL D(600-340) .
+[P299] VI.6.1. Nền cọc
+[P300] Nền cọc bến sà lan: Sử dụng cọc ống BTCT M800 , D(600-340) loại C, chiều dài cọc dự kiến L = 26m  28m.
+[P301] + Theo phương ngang có 07 cọc được đóng thành 07 hàng, trong đó có hàng cọc thứ 2, 4, 5 tính từ tuyến mép bến vào được đóng xiên 6:1, các hàng cọc còn lại được đóng thẳng. Bước cọc theo phương ngang thứ tự từ ngoài sông vào là: 1,0 + 4,0 + 4x5,6m; Bước cọc theo phương dọc là 5,2m. 
+[P302] + Tại vị trí bệ cẩu cố định được đóng 16 cọc, chiều dài cọc L = 26m  27m. Trong đó có 13 cọc được đóng xiên 6:1, 03 cọc hàng ngoài cùng đóng thẳng.  Bước cọc theo phương ngang thứ tự từ ngoài sông vào trong là: 1,5 + 2x1,0 +1,5m, theo phương dọc bến bước cọc là: 0,9 + 4x0,85 + 0,9m. 
+[P303] VI.6.2. Hệ dầm ngang - dầm dọc:
+[P304] + Hệ dầm ngang: Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ có tiết diện bxh = 90x140cm (kể cả bản mặt cầu). Đầu dầm phía ngoài trong phạm vi từ hàng cọc thứ 2 trở ra sông được hạ thấp xuống thành tiết diện bxh = 90x355cm để tăng độ cứng cho cầu và liên kết với dầm tựa tàu. Tại vị trí các dầm ngang đặt chờ sẵn ống nhựa uPVC D140 để luồn đường ống công nghệ qua dầm.
+[P305] + Dầm dọc: Bằng BTCT M400-B10 đá 1x2 đổ tại chỗ có tiết diện bxh = 90x140cm (kể cả bản mặt cầu).
+[P306] VI.6.3. Bệ cẩu cố định: 
+[P307]  Bệ cẩu cố định bằng BTCT M400-B10 đá 1x2 được bố trí ở giữa mỗi phân đoạn 1, 2, có kích thước LxBxH = 6,45x6,1x2,5m, phía ngoài mép trụ đài bệ được hạ thấp với kích thước LxBxH = 6,1x(1,45-1,95)x1,05m để liên kết với bản tựa tàu.
+[P308] VI.6.4. Bản tựa tàu: 
+[P309] + Bản tựa tàu được bố trí ở mặt trước bến có kích thước bxh = 30x225cm. Tại vị trí tiếp giáp với bệ cẩu cố định có khe rộng 3cm.
+[P310] + Bản tựa tàu lắp ghép được đúc sẵn, dày 30 ÷ 60cm, rộng 1,2m, cao 1,0m, bố trí tại các vị trí đầu dầm ngang và tại vị trí các trụ cẩu. Bản tựa tàu lắp ghép được liên kết với các đầu dầm thông qua các thanh thép hình đặt sẵn trong dầm.
+[P311] VI.6.5. Bản mặt cầu:
+[P312] Bằng BTCT M400-B10 đá 1x2, các ô bản xung quanh được đổ tại chỗ có chiều dày 40cm, các ô bản ở giữa dày 40cm được kết hợp giữa ô bản đúc sẵn dày 25cm lớp dưới lắp ghép và phần bê tông đổ tại chỗ dày 15cm. Phía trên bản mặt cầu có phủ lớp bê tông nhựa hạt mịn dày 5cm. Để thoát nước mặt cầu và thông thoáng gầm cầu, tại giữa mỗi ô bản có bố trí các lỗ thông hơi bằng ống nhựa 60 dài L = 45cm.
+[P313] VI.6.6. Gờ chắn xe: 
+[P314] Bằng BTCT M400-B10 đổ tại chỗ cùng với bê tông bản mặt cầu, tiết diện gờ chắn xe hình chữ nhật, tiết diện BxH = 25x20cm. Gờ chắn xe được sơn phản quang kẻ vạch vàng - đen.
+[P315] VI.6.7. Hào công nghệ: 
+[P316] + Hào công nghệ: Tuyến hào công nghệ được bố trí chạy dọc theo chiều dài tuyến mép bến phía sông. Hào công nghệ thi công đổ tại chỗ cùng hệ thống dầm bản. Hào công nghệ có tiết diện phía trong lòng bxh = 60x78cm. Tại mép trong phía trên 2 bên thành hào bố trí thép hình mạ kẽm L130x100x10 gia cường mép bê tông. Trong lòng hào công nghệ bố trí các giá đỡ đường ống công nghệ bằng thép hình mạ kẽm L100x10 với khoảng cách a = 1,0m. Tại bản đáy hào công nghệ bố trí các ống thoát nước uPVC D60; L = 0,4m tại vị trí giữa hai dầm ngang. Nắp hào bằng BTCT M400-B10 đúc sẵn, kích thước: 100x76x12cm, nắp hào được viền bằng thép hình mạ kẽm L120x100x1. Tại các vị trí tương ứng với vị trí đặt tủ điện trên mặt bến thành hào công nghệ có đặt sẵn 02 ống uPVC D140 phục vụ luồn cáp điện từ hào công nghệ lên tủ điện
+[P317] Hệ thống cáp cấp điện và đường ống công nghệ trong hào có hồ sơ thiết kế riêng
+[P318] VI.6.8. Thiết bị phụ trợ bố trí trên bến:
+[P319] Bích neo:
+[P320] Sử dụng bích neo tàu bằng gang đúc 30T sản xuất trong nước cùng các chi tiết liên kết đồng bộ để neo sà lan. Bích neo có đường kính ngoài 255mm, chiều cao h = 365mm, liên kết giữa bích neo tàu với dầm bằng các bu lông d = 38mm chiều dài 540mm. Tổng số 08 bích neo tàu . 
+[P321] Đệm tàu:
+[P322] Sử dụng loại đệm tàu Λ400H-4000L , đệm tàu được sản xuất trong nước cùng với phụ kiện đồng bộ.Tổng số có 30 bộ đệm tàu 400H - 4000L.
+[P323] Nội dung thiết kế nạo vét khu nước đậu tàu:
+[P324] VII.1.  Thông số cơ bản của khu nước trước bến:
+[P325] - Chiều dài khu nước				: 750m
+[P326] - Chiều rộng khu nước 				: 95m
+[P327] (bao gồm cả vũng quay tàu chồng lấn)
+[P328] - Cao trình đáy nạo vét				: -16,0m (riêng phạm vi chân khay nạo vét đến cao trình -17,2m)
+[P329] - Mái dốc nạo vét khu nước phía ngoài	: m = 10
+[P330] - Mái dốc nạo vét khu nước gầm bến	: m = 3, m=5
+[P331]  Quá trình nạo vét khu nước được chia thành 2 đợt: Đợt 1 nạo vét phục vụ thi công với chiều rộng khu nước là 15m, đợt 2 tiến hành nạo vét hoàn thiện để đưa vào khai thác.
+[P332] VII.2. Địa chất đáy khu nước trước bến:
+[P333] Trong giới hạn chiều sâu nạo vét, phần trên mặt là các lớp 2, 3, 5, 7, TK là những lớp đất có thành phần chủ yếu là sét, sét pha trạng thái chảy đến dẻo chảy, thuộc đất loại 1 và có xen kẹp lớp đất số 8 (sét trạng thái dẻo cứng) thuộc đất loại 5.
+[P334] VII.3. Khối lượng nạo vét:
+[P335] Khối lượng nạo vét khu nước bao gồm khối lượng nạo vét hình học và khối lượng nạo vét sai số, tính toán theo sai số cho phép của qui trình 924/QĐ - KT của Bộ giao thông vận tải, sai số về chiều sâu lớn nhất là -0,3m so với độ sâu thiết kế, sai số về bề rộng là  2,0m so với bề rộng đáy thiết kế.
+[P336] - Khối lượng nạo vét khu nước trước bến:
+[P337] + Tổng khối lượng nạo vét	:	V	=	724.996,9 m3
+[P338] + Khối lượng nạo vét hình học	:	Vhh	=	677.887,2 m3
+[P339] + Khối lượng nạo vét sai số	:	Vss	=	47.109,7 m3
+[P340] Trong đó:
+[P341] - Khối lượng nạo vét đợt 1:
+[P342] Khối lượng nạo vét đất loại 1: 
+[P343] + Tổng khối lượng nạo vét	:	V	=	473.244,1 m3
+[P344] + Khối lượng nạo vét hình học	:	Vhh	=	453.251,6 m3
+[P345] + Khối lượng nạo vét sai số	:	Vss	=	19.992,5 m3
+[P346] Khối lượng nạo vét đất loại 5: 
+[P347] + Tổng khối lượng nạo vét	:	V	=	55.744,5 m3
+[P348] + Khối lượng nạo vét hình học	:	Vhh	=	50.811,9 m3
+[P349] + Khối lượng nạo vét sai số	:	Vss	=	4.932,6 m3
+[P350] - Khối lượng nạo vét đợt 2:
+[P351] Khối lượng nạo vét đất loại 1: 
+[P352] + Tổng khối lượng nạo vét	:	V	=	100.886,3 m3
+[P353] + Khối lượng nạo vét hình học	:	Vhh	=	84.060,5 m3
+[P354] + Khối lượng nạo vét sai số	:	Vss	=	16.825,8 m3
+[P355] Khối lượng nạo vét đất loại 5: 
+[P356] + Tổng khối lượng nạo vét	:	V	=	95.122,2 m3
+[P357] + Khối lượng nạo vét hình học	:	Vhh	=	89.763,4 m3
+[P358] + Khối lượng nạo vét sai số	:	Vss	=	5.358,8 m3
+[P359] Hiện nay do chưa xin phép được các cơ quan quản lý nhà nước cho phép triển khai công tác khảo sát địa hình, nên khối lượng nạo vét được tính toán trên cơ sở tham khảo bình đồ khảo sát phục vụ thiết kế luồng tàu (hợp phần A) thực hiện năm 2011. Khối lượng nạo vét sẽ được xác định chính xác khi có kết quả khảo sát địa hình khu vực xây dựng.
+[P360] Vũng quay tàu (thuộc hợp phần A) là hạng mục công trình hạ tầng công cộng thuộc luồng tàu do Nhà nước đầu tư. Khối lượng, kinh phí nạo vét hạng mục này đã được thiết kế trong gói thầu số 8 – Hợp phần A và đang trình Chủ đầu tư hợp phần A phê duyệt.
+[P361] Tiến độ xây dựng gói thầu số 8 hiện tại chưa được xác định chính xác và đang bị chậm so với kế hoạch ban đầu. Trường hợp công tác nạo vét khu nước đậu tàu triển khai trước sẽ có sự xen kẽ, trùng lặp khối lượng nạo vét với gói thầu số 8 được mô tả như hình vẽ dưới đây. Bởi vậy, khi triển khai hạng mục nạo vét khu nước đậu tàu, HICT cần trao đổi thống nhất với Chủ đầu tư hợp phần A để có kế hoạch chi tiết.
+[P362] Trong trường hợp nạo vét khu nước đậu tàu thực hiện trước với 2 đợt nạo vét như thiết kế thì khối lượng và dự toán kinh phí phần trùng lặp do Hợp phần A phải chi trả như sau:
+[P363] + Phần khối lượng trùng lặp trong nạo vét đợt 1: 
+[P364] Đ1 = 117.587m3, kinh phí khoảng 23.794.000.000 đồng
+[P365] + Phần khối lượng trùng lặp trong nạo vét đợt 2:
+[P366] Đ2 = 857.494m3, kinh phí khoảng 173.517.000.000 đồng
+[P369] VII.4. Phương tiện và thiết bị nạo vét:
+[P370] Với đất loại 1 dùng tàu hút bụng để nạo vét và vận chuyển đến khu vực đổ đất;
+[P371] Với đất loại 2 dùng tàu cuốc biển để nạo vét và vận chuyển đến khu vực đổ đất.    
+[P372] VII.5. Vị trí đổ đất:
+[P373] Hiện nay vị trí đổ đất nạo vét đã được Bộ Tài nguyên và môi trường chấp thuận tại quyết định số 177/QĐ-BTNMT ngày 07/2/2013 và Ủy ban Nhân dân thành phố Hải Phòng đã chấp thuận tại văn bản số 3311/UBND-GT ngày 17/5/2013. Vị trí đổ đất ngoài khơi cách vị trí xây dựng 27km có toạ độ như sau :
+[P374] Trước khi thi công nạo vét, vị trí đổ đất cần được xác định và thống nhất giữa đơn vị thi công và các cơ quan quản lý Nhà nước (Cảng vụ Hàng Hải Hải Phòng, Sở tài nguyên môi trường thành phố Hải Phòng...).
+[P375] Theo chiều sâu tiến hành nạo vét theo từng lớp có chiều dày từ 0,5  1,0m, không được nạo vét thành hố sâu lớn hơn độ sâu thiết kế gây sụt lở đất gây ảnh hưởng đến độ ổn định của các công trình lân cận trong khu vực.
+[P376] Theo mặt bằng tiến hành nạo vét từ 1 đầu (thượng lưu hoặc hạ lưu) theo từng lớp, nạo vét tiến dần về đầu kia và ngược lại.
+[P377] Khối lượng nạo vét sẽ được xác định trên cơ sở đo đạc hoàn công theo từng giai đoạn và hoàn thiện.
+[P378] Trình tự các bước thi công chính: 
+[P379] VIII.1. Trình tự thi công cầu tàu 100.000DWT; Xử lý nền đất yếu gầm bến; Nạo vét khu nước đậu tàu:
+[P380] Thi công cầu tàu theo từng phân đoạn và với phương pháp ”cuốn chiếu” theo từng mũi thi công, kết hợp biện pháp thủ công và cơ giới trong toàn bộ quá trình thi công. Trình tự thi công chính như sau:
+[P381] Định vị công trình bằng máy kinh vĩ, thiết lập hệ trục toạ độ công trình và mốc thi công;
+[P382] Thi công kè chắn đất phía hạ lưu;
+[P383] Nạo vét giai đoạn 1 đến cao độ thiết kế phục vụ thi công đóng cọc;
+[P384] Đúc và đóng cọc thử bằng phương pháp tải trọng động + PDA;
+[P385] Đúc cọc đại trà và các cấu kiện đúc sẵn (nắp hào công nghệ, nắp họng kỹ thuật, bản mặt cầu đúc sẵn); Cọc thép sản xuất tại Nhà máy ở Việt Nam hoặc nhập ngoại;
+[P386] Thi công đóng cọc cầu tàu và gông đầu cọc bằng dầm thép;
+[P387] Khoan tạo lỗ tại chân các cọc ống thép, vệ sinh sạch lỗ khoan dùng nước ngọt thổi rửa bằng máy nén khí;
+[P388] Lắp dựng cốt thép và đổ bê tông neo chân cọc vào trong đá.
+[P389] Thi công lăng thể đá gầm bến;
+[P390] Thi công các bệ liên kết đầu cọc, lắp dựng ván khuôn, cốt thép dầm ngang, dầm dọc, dầm tựa tàu;
+[P391] Thi công đổ bê tông hệ dầm ngang, dầm dọc, dầm tựa tàu;
+[P392] Thi công lắp đặt bản mặt cầu đúc sẵn;
+[P393] Thi công ván khuôn, cốt thép bản mặt cầu và gờ chắn xe;
+[P394] Thi công đổ bê tông bản mặt cầu và gờ chắn xe;
+[P395] Thi công lớp bê tông phủ mặt cầu;
+[P396] Thi công lắp đặt hệ thống đường ray cẩu;
+[P397] Lắp đặt hệ thống đệm va tàu và bích neo tàu;
+[P398] Nạo vét trước bến đến cao độ thiết kế và kiểm tra thanh thải chướng ngại vật khu nước trước bến;
+[P399] Hoàn thiện, nghiệm thu bàn giao đưa vào sử dụng;
+[P400] VIII.2. Thi công sơn cọc ống thép, bảo vệ Anôt cho cọc thép:
+[P401] <> Thi công sơn cọc:
+[P402] - Phần ngập nước sử dụng 3 lớp sơn epoxy hai thành phần dày 500 micro met;
+[P403] - Phần ngập đất sử dụng 1 lớp sơn epoxy hai thành phần dày 100 micro met.
+[P404] <> Lắp đặt Anôt:
+[P405] - Anôt sau khi được vận chuyển đến công trình; 
+[P406] - Kiểm tra bằng mắt thường loại bỏ hoặc sửa chữa các hư hỏng trong quá trình vận chuyển trước khi lắp đặt. 
+[P407] - Hàn dưới nước anôt vào cọc thép. Hàn dưới nước phải tuân thủ theo yêu cầu kỹ thuật AWS D3.6M-99. 
+[P408] <> Kiểm tra đưa vào sử dụng: Các Anôt sau khi hàn vào cọc phải được kiểm tra các thông số sau:
+[P409] - Kiểm tra cao độ lắp đặt ;
+[P410] - Kiểm tra các mối hàn (bằng camera);
+[P411] - Kiểm tra điện thế bảo vệ cọc thép so với điện cực so sánh Ag/AgCl trong nước biển. 
+[P412] + Đối với từng cọc phải kiểm tra ít nhất 03 vị trí: Đáy biển, gần anốt và cách mặt nước 0,5-1m. 
+[P413] + Mỗi vị trí phải thực hiện ít nhất 3 lần đo xung quanh trụ. 
+[P414] + Điện thế của cọc thép phải âm hơn – 800mV mới cho phép 
+[P415] Sau khi xác định các thông số đo đạc thỏa mãn yêu cầu của thiết kế đề ra, hệ thống bảo vệ catốt bằng anốt hy sinh đã được đưa vào sử dụng.
+[P416] VIII.3. Trình tự thi công bến sà lan:
+[P417] Thi công bến sà lan theo từng phân đoạn và với phương pháp ”cuốn chiếu” theo từng mũi thi công, kết hợp biện pháp thủ công và cơ giới trong toàn bộ quá trình thi công. Trình tự thi công chính như sau:
+[P418] 1. Định vị công trình bằng máy kinh vĩ, thiết lập hệ trục toạ độ công trình và mốc thi công;
+[P419] 2. Đúc và đóng cọc thử bằng phương pháp tải trọng động + PDA;
+[P420] 3. Đúc cọc đại trà và các cấu kiện đúc sẵn (nắp hào công nghệ, nắp họng kỹ thuật, bản mặt cầu đúc sẵn);
+[P421] 4. Thi công đóng cọc và gông đầu cọc bằng dầm thép;
+[P422] 5. Thi công các bệ liên kết đầu cọc, lắp dựng ván khuôn, cốt thép dầm ngang, dầm dọc, bệ cẩu cố định, dầm tựa tàu;
+[P423] 6. Thi công đổ bê tông hệ dầm ngang, dầm dọc, bệ cẩu cố định, dầm tựa tàu;
+[P424] 7. Thi công lắp đặt bản mặt cầu đúc sẵn;
+[P425] 8. Thi công ván khuôn, cốt thép bản mặt cầu và gờ chắn xe;
+[P426] 9. Thi công đổ bê tông bản mặt cầu và gờ chắn xe;
+[P427] 10. Thi công lớp bê tông phủ mặt cầu;
+[P428] 11. Lắp đặt hệ thống đệm va tàu và bích neo tàu;
+[P429] 12. Hoàn thiện, nghiệm thu bàn giao đưa vào sử dụng;
+[P430] Những điểm lưu ý trong thi công:  
+[P431] 	1. Tiến hành thử động cọc, kiểm tra sức chịu tải cọc theo thiết kế thử cọc để quyết định chính thức chiều dài cọc trước khi tiến hành đúc và đóng cọc. 
+[P432] 2. Cọc ống thép phải được chế tạo, kiểm tra, thí nghiệm theo tiêu chuẩn TCVN 9245: 2012.
+[P433] 3. Cọc bê tông ƯST phải được kiểm tra độ bền, mối nối cọc theo tiêu chuẩn TCVN 7888: 2008.
+[P434] 	4. Trong quá trình thi công phải tuân thủ theo các quy trình, quy phạm thi công do Bộ giao thông vận tải, Bộ xây dựng và các đơn vị chuyên ngành điện, nước ban hành. Các quy trình chính bao gồm:
+[P435] + Qui định về đóng cọc.
+[P436] + Các quy định về vật liệu: xi măng, cát, đá, cốt thép ...
+[P437] + Qui định về thép xây dựng, đường hàn, bê tông và bê tông cốt thép, các quy định về mẫu thử vật liệu và sản phẩm.
+[P438] + Các qui định về sai số cho phép khi lắp đặt ván khuôn đổ bê tông tại chỗ, các sai số cho phép với các cấu kiện bê tông đúc sẵn hoặc đổ tại chỗ.
+[P439] + Các qui định về nghiệm thu công tác đổ bê tông (phần cốt liệu phải đạt tiêu chuẩn, cát đá phải sạch, hàm lượng hạt bẩn không vượt quá giới hạn cho phép).
+[P440] + Các qui định về nghiệm thu hạng mục và nghiệm thu bàn giao công trình.
+[P441] 	5. Đơn vị thi công căn cứ vào trình tự và các biện pháp thi công chính ở trên lập biện pháp tổ chức thi công chi tiết cho phù hợp khả năng của đơn vị; phương án an toàn lao động; phương án phòng chống chảy nổ; phương án đảm bảo an toàn hàng hải cho các phương tiện hành thuỷ trên luồng; biện pháp bảo vệ khi xuất hiện hiện tượng thời tiết dị thường và thông qua bên A trước khi tiến hành thi công.
+[P442] 6. Đặc biệt lưu ý đảm bảo độ xiên của các cọc xiên, nếu không đảm bảo độ xiên theo quy định thì phải nhổ cọc lên đóng lại hoặc phải đóng bổ sung cây cọc khác, vị trí đóng bổ sung do kỹ sư thiết kế chỉ định tại hiện trường, mọi phí tổn phát sinh do nhà thầu chịu trách nhiệm.
+[P443] 7. Độ lệch của trục cọc so với thiết kế không được vượt quá 1/100; Sai số về vị trí của cọc không được vượt quá 10cm đối với các cọc biên và 15cm đối với các cọc giữa. Số cọc có độ lệch, sai số lớn nhất cho phép không được vượt quá 25% tổng số cọc. 
+[P444] 	8. Sau khi đóng cọc đến cao độ thiết kế, Nhà thầu phải có biện pháp gông đầu cọc, bảo vệ cọc, tránh hư hỏng cọc khi chưa thi công hệ dầm, bản.
+[P445] 	9. Khi đổ bê tông dầm: với dầm ngang nên đổ liền một đợt, với dầm dọc điểm dừng khi đổ cùng bê tông dầm ngang tại điểm 1/4 nhịp dầm (giữa hai dầm ngang), còn với dầm ngang nếu buộc phải dừng thì điểm dừng bê tông cũng tương tự. Lưu ý: phải xử lý các điểm dừng theo các quy phạm hiện hành.
+[P446] 	10. Khi đổ bê tông dầm tới chiều cao bằng mép dưới bản phải đảm bảo độ phẳng nhẵn tại vị trí kê bản lắp ghép. Sau khi các dầm đảm bảo điều kiện chịu lực sẽ tiến hành lắp tấm sàn đúc sẵn.
+[P447] 	11. Trước khi trải lớp bê tông nhựa phải tiến hành tưới lớp nhựa dính bám, sau đó tiến hành thi công theo đúng trình tự thi công mặt đường bê tông nhựa nóng. Chỉ được thi công thảm nhựa mặt cầu trong những ngày không mưa, bề mặt cầu khô ráo.
+[P448] 	12. Do công trình bao gồm nhiều hạng mục có liên quan đến nhau nên trong quá trình thi công, Nhà thầu thi công các hạng mục cần phối hợp để tránh trùng lặp và gây ảnh hưởng đến nhau.
+[P449] 	13. Trong khi thi công phải có biện pháp an toàn lao động. Nội quy lao động phải được thông báo cụ thể và chi tiết đến từng người lao động. Nhà thầu phải mua bảo hiểm cho các công nhân làm việc tại công trường.
+[P450] 	14. Tất cả các thay đổi chủng loại vật tư, thiết bị trong hồ sơ thiết kế quy định đều phải được sự chấp thuận của thiết kế, Chủ đầu tư.
+[P451] 	15. Quá trình thi công cần có sự phối hợp chặt chẽ giữa Chủ đầu tư, Tư vấn thiết kế, Nhà thầu để kịp thời xử lý các phát sinh trong thi công. Trong quá trình thi công nếu có hiện tượng gì bất thường, phải dừng ngay thi công và thông báo cho thiết kế xử lý.
+[P452] Công tác duy tu, bảo trì công trình:
+[P453] Trong quá trình khai thác công trình, phải tiến hành công tác bảo trì công trình theo Nghị định số 114/2010/NĐ-CP ngày 06/12/2010 của Chính phủ về bảo trì công trình xây dựng; Nghị định số 21/2012/NĐ-CP ngày 21/3/2013 của Chính phủ về quản lý cảng biển và luồng hàng hải; Thông tư số 10/2013/TT-BGTVT ngày 08/05/2013 của Bộ giao thông vận tải hướng dẫn thực hiện một số điều của Nghị định số 21/2012/NĐ-CP; Thông tư số 14/2013/TT-BGTVT ngày 05/07/2013 của Bộ giao thông vận tải quy định về bảo trì công trình hàng hải; Tiêu chuẩn xây dựng Việt nam: Kết cấu BT và BTCT - Hướng dẫn công tác bảo trì TCVN 9343:2012 và các tiêu chuẩn, quy định khác có liên quan.
+[P454] Cơ quan quản lý và khai thác công trình phải thường xuyên kiểm tra trạng thái hoạt động của công trình để có kế hoạch sửa chữa kịp thời khi có sự cố và các hư hỏng xảy ra.
+[P455] Công tác bảo trì phải được thực hiện trên toàn bộ công trình với các nội dung và các bước thực hiện chính như sau:
+[P456] Nội dung bảo trì
+[P457] Công tác bảo trì được thực hiện với những nội dung sau đây:
+[P458] <> Kiểm tra:
+[P459] - Kiểm tra ban đầu: Là quá trình khảo sát kết cấu bằng trực quan (nhìn, gõ, nghe...) hoặc bằng các phương tiện đơn giản và xem xét hồ sơ hoàn công để phát hiện những sai sót chất lượng sau khi thi công so với yêu cầu thiết kế. Từ đó tiến hành khắc phục ngay để đảm bảo công trình được đưa vào sử dụng theo đúng yêu cầu thiết kế. 
+[P460] Công tác kiểm tra ban đầu nhằm thiết lập các số liệu đo đầu tiên của kết cấu, phát hiện kịp thời những sai sót ban đầu của kết cấu và khắc phục ngay để đưa kết cấu vào sử dụng.
+[P461] - Kiểm tra thường xuyên: Là quá trình thường ngày xem xét công trình bằng mắt hoặc bằng các phương tiện đơn giản để phát hiện kịp thời dấu hiệu xuống cấp.
+[P462] Kiểm tra thường xuyên được tiến hành nhằm theo dõi, giám sát kết cấu thường ngày sau kiểm tra ban đầu.
+[P463] Kiểm tra thường xuyên được thực hiện trên toàn bộ kết cấu ở những chỗ có thể quan sát được, để nắm được kịp thời tình trạng làm việc của kết cấu, những sự cố hư hỏng có thể xảy ra (tại các vị trí xung yếu, có nội lực lớn, các mối nối giữa các cấu kiện...) để sớm có biện pháp khắc phục, tránh tình trạng để hư hỏng kéo dài dẫn đến ngày càng trầm trọng.
+[P464] - Kiểm tra định kỳ: là quá trình khảo sát theo chu kỳ để phát hiện các dấu hiệu xuống cấp cần khắc phục sớm.
+[P465] Kiểm tra định kỳ được tiến hành trên toàn bộ công trình và được thực hiện bởi các đơn vị có chức năng. Đầu tiên việc kiểm tra được thực hiện bằng trực quan (nhìn, gõ và nghe). Khi nghi ngờ có hư hỏng hoặc suy thoái chất lượng thì có thể sử dụng thiết bị thử nghiệm không phá hủy hoặc khoan lõi bê tông để kiểm tra. 
+[P466] - Kiểm tra bất thường: Là quá trình khảo sát đánh giá công trình khi có hư hỏng đột xuất (do gió bão, lũ lụt, động đất, đâm va, cháy nổ...). Kiểm tra bất thường thường đi liền với kiểm tra chi tiết.
+[P467] Công tác kiểm tra bất thường cần đưa ra kết luận có tiến hành kiểm tra chi tiết hay không. Nếu không thì đề ra ngay giải pháp sửa chữa phục hồi kết cấu. Nếu cần thì tiến hành kiểm tra chi tiết và đề ra giải pháp sửa chữa.  
+[P468] - Kiểm tra chi tiết: Là quá trình khảo sát, đánh giá mức độ hư hỏng công trình nhằm đáp ứng yêu cầu của các loại hình kiểm tra trên. Kiểm tra chi tiết đi liền với việc xác định cơ chế xuống cấp, đánh giá mức độ xuống cấp và đi đến giải pháp sửa chữa cụ thể.
+[P469] Kiểm tra chi tiết được thực hiện sau khi qua kiểm tra ban đầu, kiểm tra thường xuyên, kiểm tra định kỳ, kiểm tra bất thường thấy cần phải kiểm tra kỹ kết cấu để đánh giá mức độ xuống cấp và đề ra giải pháp sửa chữa.
+[P470] Kiểm tra chi tiết được thực hiện bằng các thiết bị chuyên dùng để đánh giá lượng hóa chất lượng vật liệu sử dụng và mức độ xuống cấp của kết cấu. Phương pháp thí nghiệm cần được thực hiện theo các tiêu chuẩn và quy phạm hiện hành.
+[P471] <> Phân tích cơ chế xuống cấp:
+[P472] Trên cơ sở các số liệu kiểm tra cần xác định xem xuống cấp đang xảy ra theo cơ chế nào, từ đó xác định hướng giải quyết khắc phục.
+[P473] <> Đánh giá mức độ và tốc độ xuống cấp:
+[P474] Sau khi phân tích được cơ chế xuống cấp thì đánh giá mức độ và tốc độ xuống cấp đã đến đâu và yêu cầu đòi hỏi phải sửa chữa đến mức nào, hoặc có thể phải phá dỡ.
+[P475] <> Xác định giải pháp sửa chữa:
+[P476] Xuất phát từ mức độ yêu cầu phải sửa chữa để thiết kế giải pháp sửa chữa cụ thể.
+[P477] <> Sửa chữa:
+[P478] Bao gồm quá trình thực thi thiết kế và thi công sửa chữa hoặc gia cường kết cấu.
+[P479] Tuỳ theo mức độ, yêu cầu của công tác bảo trì, chủ công trình có thể tự thực hiện những nội dung bảo trì nêu trên hoặc thuê một đơn vị Tư vấn chuyên nghành thiết kế hoặc thi công thực hiện.
+[P480] b. Nội dung công tác kiểm tra
+[P481] <> Kiểm tra các kích thước hình học và sự toàn vẹn của các cấu kiện của công trình:
+[P482] - Khảo sát kết cấu để thu thập các số liệu sau:
+[P483] + Kích thước hình học chung của từng cấu kiện;
+[P484] + Độ nghiêng, lún, biến dạng của các cấu kiện và công trình;
+[P485] + Xuất hiện vết nứt;
+[P486] + Tình trạng bong rộp;
+[P487] + Tình trạng gỉ và mức độ ăn mòn cốt thép;
+[P488] + Biến màu mặt ngoài;
+[P489] + Chất lượng bê tông;
+[P490] + Các khuyết tật nhìn thấy;
+[P491] + Sự đảm bảo về trạng thái sử dụng của cấu kiện và công trình.
+[P492] - Với những chỗ sứt vỡ, hư hỏng của BTCT: kiểm tra vị trí không gian tương đối và phạm vi hư hỏng sứt vỡ (chiều dài, chiều rộng, độ sâu vùng nứt vỡ).
+[P493] - Với những chỗ nứt nẻ của BTCT: kiểm tra vị trí không gian tương đối của nơi bị nứt nẻ, đặc tính của vết nứt (ngang tiết diện hay dọc theo cốt thép chủ...), chiều dài, chiều rộng, độ sâu khe nứt.
+[P494] <> Kiểm tra tình trạng chuyển dịch ngang, dọc của công trình:
+[P495] - Các điểm đặc trưng cần kiểm tra: Kiểm tra tối thiểu 16 điểm (kiểm tra 4 điểm gần 4 góc). Các điểm đặc trưng kiểm tra cần được xây dựng và đánh dấu cẩn thận để phục vụ cho công tác kiểm tra trong suốt thời gian tuổi thọ của công trình.
+[P496] - Phương pháp kiểm tra: Sử dụng lưới khống chế đã xây dựng trong giai đoạn thi công để kiểm tra. Nếu không có hoặc đã bị sai lệch, hư hỏng thì phải xây dựng lưới không chế mới theo đúng yêu cầu kỹ thuật về công tác trắc địa trong xây dựng.
+[P497] Các máy đo đạc thực hiện công tác kiểm tra phải có độ chính xác cao.
+[P498] <> Kiểm tra cao độ công trình:
+[P499] - Các điểm đặc trưng cần kiểm tra: Trùng với các điểm kiểm tra tình trạng chuyển dịch ngang dọc của công trình.
+[P500] - Phương pháp kiểm tra: Xây dựng các mốc đo vĩnh cửu trong phạm vi thích hợp theo đúng yêu cầu kỹ thuật của công tác trắc địa trong xây dựng.
+[P501] Sử dụng các máy thuỷ bình có độ chính xác cao để đo cao độ.
+[P502] <> Kiểm tra khu nước cầu cảng:
+[P503] - Khảo sát địa hình khu nước, phát hiện các chướng ngại vật trong vũng neo đậu tàu và khu nước ra luồng.
+[P504] - Phân tích sự bồi xói, tiến hành nạo vét (nếu cần thiết) và thanh thải chướng ngại vật (nếu có) để đảm bảo độ sâu dự trữ khai thác và an toàn cho tàu neo, cập và làm hàng tại cầu cảng.
+[P505] <> Kiểm tra các trang thiết bị và mạng kỹ thuật của cầu cảng:
+[P506] - Kiểm tra thường xuyên hệ thống đệm tàu, bích neo...và các liên kết giữa các thiết bị này với cầu cảng.
+[P507] - Kiểm tra thường xuyên mạng lưới kỹ thuật cấp nước, cấp điện, hệ thống phòng chống cháy nổ, bảo vệ môi trường được bố trí tại cầu cảng.
+[P508] c. Kỳ hạn kiểm tra định kỳ
+[P509] Chế độ kiểm tra định kỳ các đối tượng của công trình được thực hiện với kỳ hạn như sau:
+[P510] + Các cấu kiện của cầu cảng (trụ, dầm, cọc, bản, mối nối các cấu kiện...); tình trạng chuyển dịch ngang, dọc cầu cảng; cao độ cầu cảng: 5 năm 1 lần;
+[P511] + Vùng nước của cầu cảng: Phải khảo sát sự bồi xói  khu nước cầu cảng theo định kì 6 tháng 1 lần vào sau các mùa mưa và mùa khô ;
+[P512] + Các thiết bị phụ trợ (hệ thống bích neo, đệm tàu, liên kết giữa các thiết bị phụ trợ với cầu cảng,...): 1 năm 1 lần;
+[P513] + Mạng lưới kĩ thuật cấp nước, phòng cháy chữa cháy, cấp điện... được kiểm tra định kì theo quy định kĩ thuật chuyên ngành;
+[P514] - Việc kiểm tra, xác định cơ chế xuống cấp, đánh giá mức độ hư hỏng và đề ra giải pháp sửa chữa công trình phải do các đơn vị Tư vấn chuyên ngành có năng lực phù hợp thực hiện. Các giải pháp sửa chữa cần được xác định trên cơ sở các số liệu kiểm tra trước đó và có sử dụng bản vẽ thiết kế, bản vẽ hoàn công, các kết quả kiểm tra chất lượng, vật liệu đã sử dụng, các biên bản và sổ nhật ký thi công công trình.
+[P515] - Khi phát hiện thấy công trình có khuyết tật hoặc hư hỏng ảnh hưởng đến điều kiện khai thác bình thường hoặc ảnh hưởng đến khả năng chịu lực của công trình, cần phải ngừng khai thác hoặc giảm tải trọng khai thác (với sự chấp thuận của đơn vị Tư vấn chuyên ngành) và tiến hành ngay công tác kiểm tra, đánh giá mức độ hư hỏng và đề ra biện pháp sửa chữa để đảm bảo khả năng khai thác của công trình.
+[P516] - Mọi diễn biến của công tác bảo trì cần được ghi chép và lưu giữ để sử dụng lâu dài. Cơ quan quản lý và khai thác công trình sẽ lưu giữ hồ sơ bảo trì bao gồm: các biên bản kiểm tra, các ghi chép cùng các bản vẽ và các tài liệu kỹ thuật khác liên quan đến việc bảo trì.
+[P517] Chỉ dẫn kỹ thuật của vật liệu:
+[P518] XI.1. Đệm tầu:
+[P519] - Đệm tàu hình trụ 1600H có các thông số kỹ thuật chính như sau :
+[P520] + 	Năng lượng biến dạng		:	136 Tm
+[P521] + 	Phản lực khi nén			:	187 T
+[P522] + 	Trị số biến dạng tới hạn		:	52,5 % 
+[P523] - Đệm tàu Λ400H-4000L có các thông số kỹ thuật chính như sau :
+[P524] + 	Năng lượng biến dạng		:	14,7 Tm
+[P525] + 	Phản lực khi nén			:	87,5 T
+[P526] + 	Trị số biến dạng tới hạn		:	52,5%
+[P527] XI.2. Cọc ống thép:
+[P528] Cọc ống thép phải được gia công chế tạo, kiểm tra và thí nghiệm theo tiêu chuẩn TCVN 9245: 2012;
+[P529] - Chỉ tiêu cơ lý của cọc ống thép:
+[P530] Độ bền kéo				:	≥ 490N/mm2
+[P531] Giới hạn chảy				:	≥ 315N/mm2
+[P532] Độ giãn dài				:	≥ 18mm
+[P533] Bảng 5: Thành phần hoá học của thép
+[P534] XI.3. Cọc ống BTCT:
+[P535] Cọc ống BTCT ƯST M800 phải được kiểm tra độ bền uốn nứt, bền uốn gãy, khả năng bền cắt thân cọc và độ bền mối nối theo tiêu chuẩn TCVN 7888 : 2008;
+[P536] - Các đặc trưng của cọc ống BTCT ƯST D600:
+[P537] Đường kính ngoài				:	D = 600mm
+[P538] Đường kính trong				: 	d  = 340mm
+[P539] Bề dày thành cọc				:	t   = 130mm
+[P540] Mômen uốn nứt				:	30,8 Tm
+[P541] Mômen uốn tới hạn				:	61,6 Tm
+[P542] Lực dọc cực hạn				:	466 T
+[P543] - Các đặc trưng của cọc ống BTCT ƯST D800:
+[P544] Đường kính ngoài				:	D = 800mm
+[P545] Đường kính trong				: 	d  = 540mm
+[P546] Bề dày thành cọc				:	t   = 130mm
+[P547] Mômen uốn nứt					:	67,4 Tm
+[P548] Mômen uốn tới hạn				:	134,8 Tm
+[P549] Lực dọc cực hạn				:	658 T
+[P550] - Các qui định khi hàn nối cọc ống BTCT ƯST
+[P551] 	+ Tiêu chuẩn hàn: TCXDVN 170:2007 “Kết cấu thép - Gia công, lắp ráp và nghiệm thu - Yêu cầu kỹ thuật”
+[P552] + Que hàn dùng để hàn mối nối phải đạt được yêu cầu sau:
+[P553] 		Ứng suất chảy				:	 430N/mm2
+[P554] 		Ứng suất kéo				:	 520N/mm2
+[P555] Phải kiểm tra độ lệch tâm của cọc khi nối, sai số cho phép < (1/600)Li (Li: chiều dài nhỏ nhất của đoạn cọc nối)
+[P556] XI.4. Cốt thép sử dụng trong kết cấu bê tông thường:
+[P557] Cốt thép lắp đặt vào kết cấu BTCT của công trình phải đạt yêu cầu của các tiêu chuẩn cốt thép bê tông hiện hành:
+[P558] + TCVN 1651 - 2008: Thép cốt bê tông cán nóng
+[P559] Thép thanh sử dụng trong kết cấu BTCT của công trình có các chỉ tiêu cơ lý sau:
+[P560] + Cốt thép AI:
+[P561] 	Giới hạn chảy		:	≥ 235 N/mm2
+[P562] 	Độ bền tức thời		:	≥ 380 N/mm2
+[P563] 	Độ dãn dài tương đối	:	≥ 25 %
+[P564] 	Mô đun đàn hồi		:	2,1106 kg/cm2
+[P565] + Cốt thép AII:
+[P566] 	Giới hạn chảy		:	≥ 300 N/mm2
+[P567] 	Độ bền tức thời		:	≥ 500 N/mm2
+[P568] 	Độ dãn dài tương đối	:	≥ 19 %
+[P569] 	Mô đun đàn hồi		:	2,1106 kg/cm2
+[P570] Nội dung, khối lượng, phương pháp tính, báo cáo kết quả thử kéo và uốn phải tuân thủ theo các tiêu chuẩn:
+[P571] + TCVN 197 - 1985: Kim loại - Phương pháp thử kéo
+[P572] + TCVN 198 - 1985: Kim loại - Phương pháp thử uốn
+[P573] XI.5. Bê tông:
+[P574] Bê tông của công trình có cường độ và mô đun đàn hồi của mẫu thí nghiệm như sau:
+[P575] - Bê tông M400-B10 đá 12:
+[P576] + Cương độ  		: 	R28	=  40 N/mm2.
+[P577] + Mô đun đàn hồi 	:	E 	= 3,3105 daN/cm2.
+[P578] + Mác chống thấm 	:	B-10.
+[P579] Các chỉ tiêu nêu trên đạt được với mẫu ở 28 ngày tuổi.
+[P580] XI.6. Vật liệu sản xuất bê tông:
+[P581] XI.6.1. Xi măng:
+[P582] - Xi măng dùng để chế tạo BT và BTCT cho công trình phải đạt yêu cầu của tiêu chuẩn TCVN 6260-2009: Xi măng poóclăng hỗn hợp.
+[P583] - Lấy mẫu và chuẩn bị mẫu thử xi măng theo TCVN 4787 : 2001;
+[P584] - Xác định các thành phần hóa học của xi măng theo TCVN 141 : 2008;
+[P585] - Xác định các chỉ tiêu cơ lý của xi măng theo các tiêu chuẩn từ TCVN 6016:1995; TCVN 4030 : 2003; TCVN 4031-1985; TCVN 4032 : 1985 và TCVN 9203 : 2012.
+[P586] - Các chỉ tiêu chất lượng của xi măng poóclăng hỗn hợp đối với từng mác được qui định theo bảng 6.
+[P587] Bảng 6: Chất lượng xi măng
+[P588]  XI.6.2. Cát (cốt liệu nhỏ):
+[P589] Cát sử dụng sử dụng cho công trình phải đáp ứng yêu cầu kỹ thuật đối với vật liệu làm bê tông và bê tông cốt thép đạt tính năng chống ăn mòn trong môi trường nước biển theo TCVN 9346:2012: 
+[P590] + Mô đun lớn hơn hoặc bằng 2,0;
+[P591] 	+ Không gây phản ứng kiềm – Silic, thử theo TCVN 7572-14:2006;
+[P592] 	+ Hàm lượng cl- hòa tan nhỏ hơn hoặc bằng 0,05% khối lượng cát cho BTCT thường, nhỏ hơn hoặc bằng 0,01% cho BTCT ứng suất trước, thử theo TCVN 7572-15:2006;
+[P593] 	+ Các chỉ tiêu khác theo TCVN 7570: 2006.
+[P594] XI.7.3. Đá dăm (cốt liệu lớn):
+[P595] Đá sử dụng sử dụng cho công trình phải đáp ứng yêu cầu kỹ thuật đối với vật liệu làm bê tông và bê tông cốt thép đạt tính năng chống ăn mòn trong môi trường nước biển theo TCVN 9346:2012: 
+[P596] + Đường kính hạt lớn nhất (Dmax) nhỏ hơn hoặc bằng 40mm cho bê tông có chiều dày lớp bảo vệ lớn hơn 40mm;
+[P597] 	+ Đường kính hạt lớn nhất (Dmax) nhỏ hơn hoặc bằng 20mm cho bê tông có chiều dày lớp bảo vệ nhỏ hơn hoặc bằng 40mm;
+[P598] 	+ Không gây phản ứng kiềm – Silic, thử theo TCVN 7572-14:2006;
+[P599] 	+ Hàm lượng cl- hòa tan nhỏ hơn hoặc bằng 0,01% khối lượng cốt liệu lớn, thử theo TCVN 7572-15:2006;
+[P600] 	+ Các chỉ tiêu khác theo TCVN 7570: 2006.
+[P601] XI.7.4. Nước trộn bê tông:
+[P602] Nước sử dụng để trộn bê tông phải đáp ứng yêu cầu kỹ thuật đối với vật liệu làm bê tông và bê tông cốt thép đạt tính năng chống ăn mòn trong môi trường nước biển theo TCVN 9346:2012: 
+[P603] + Độ PH từ 6,5 đến 12,5;
+[P604] + Hàm lượng cl- nhỏ hơn hoặc bằng 500mg/L cho bê tông thường và nhỏ hơn hoặc bằng 350mg/L  cho bê tông cốt thép ứng suất trước;
+[P605] + Hàm lượng SO3 không vượt quá 1000mg/L;
+[P606] + Tổng lượng muối hòa tan không vượt quá 2000mg/L;
+[P607] + Các chỉ tiêu khác theo TCVN 4506: 2012;
+[P608] XI.6.5. Phụ gia bê tông
+[P609] Khi trộn bê tông phải sử dụng phụ gia siêu dẻo, đối với các cấu kiện nằm trong vùng nước thay đổi và vùng ngập nước sử dụng phụ gia silicafume, phụ gia dùng cho công trình phải đảm bảo:
+[P610] Tạo ra hỗn hợp bê tông có tính năng phù hợp với công nghệ thi công.
+[P611] Không gây ảnh hưởng đến tiến độ thi công và không làm ảnh làm tác hại tới yêu cầu sử dụng của công trình sau này.
+[P612] Không gây ảnh hưởng đến ăn mòn cốt thép.
+[P613] Phụ gia bê tông phải thoả mãn các yêu cầu của tiêu chuẩn TCVN 8826: 2011 "Phụ gia hoá học cho bê tông".
+[P614] XI.7. Thép tấm:
+[P615] Thép tấm sử dụng phải đạt yêu cầu của các tiêu chuẩn thép cán hiện hành:
+[P616] + TCVN 6522-2008: Thép tấm kết cấu cán nóng.
+[P617] + TCVN 6523-2006: Thép tấm kết cấu cán nóng có giới hạn chảy cao.
+[P618] Thép tấm sử dụng trong kết cấu thép của công trình có các chỉ tiêu cơ lý như sau:
+[P619] + Giới hạn chảy		:	≥ 240 N/mm2
+[P620] + Độ bền kéo		:	380  490 N/mm2
+[P621] + Độ dãn dài		:	≥ 25%
+[P622] + Mô đun đàn hồi		:	2,1105 N/mm2
+[P623] XI.8. Thép hình:
+[P624] Thép hình sử dụng cho công trình phải đạt yêu cầu của các tiêu chuẩn thép cán hiện hành:
+[P625] + TCVN 7571: 2006: Thép cán nóng - Kích thước - Dung sai - Đặc tính mặt cắt
+[P626] Thép hình sử dụng trong kết cấu thép của công trình có các chỉ tiêu cơ lý như sau:
+[P627] + Giới hạn chảy			:	≥ 240 N/mm2
+[P628] + Độ bền tức thời			:	≥ 380 N/mm2
+[P629] + Độ dãn dài tương đối		:	≥ 22 %
+[P630] + Mô đun đàn hồi			:	2,1105 N/mm2
+[P631] XI.9. Bê tông nhựa:
+[P632] - Các yêu cầu kỹ thuật của bê tông nhựa hạt mịn rải nóng theo Yêu cầu thi công và nghiệm thu TCVN 8819-2011;
+[P633] + Thành phần cấp phối các cỡ hạt của hỗn hợp bê tông loại bê tông nhựa chặt hạt mịn BTNC 9,5.
+[P634] + Các chỉ tiêu cơ lý của bê tông nhựa chặt (BTNC 9,5).
+[P635] - Đối với nhựa dính bám: Dùng nhựa pha dầu hoặc nhựa nhũ tương.
+[P636] - Bê tông nhựa phải được trải ở nhiệt độ ≥ 1200C.
+[P638] XI.10. Các vật liệu khác 
+[P639] 	Tất cả các vật liệu khác sử dụng cho công trình phải tiến hành lấy mẫu thí nghiệm, tiến hành kiểm tra theo các tiêu chuẩn hiện hành. Chất lượng của vật liệu sử dụng cho công trình phải đảm bảo các yêu cầu của nhà sản xuất và các tiêu chuẩn hiện hành.
+[P640] CÔNG TY CP TƯ VẤN XDCT HÀNG HẢI
+
+=== TABLE 0 (83x3) ===
+STT | TÊN TIÊU CHUẨN | MÃ HIỆU
+I | Các tiêu chuẩn áp dụng trong công tác thiết kế | 
+1 | Tải trọng và tác động - Tiêu chuẩn thiết kế | TCVN 2737:1995
+2 | Kết cấu BTCT - Tiêu chuẩn thiết kế | TCVN 5574:2012
+3 | Kết cấu thép - Tiêu chuẩn thiết kế | TCVN 5575:2012
+4 | Móng cọc - Tiêu chuẩn thiết kế | TCVN 10304:2014
+5 | Thiết kế công trình chịu động đất | TCVN 9386:2012
+6 | Kết cấu bê tông và bê tông cốt thép - Yêu  cầu bảo vệ chống ăn mòn trong môi trường biển | TCVN 9346 : 2012
+7 | Công trình bến cảng biển - Tiêu chuẩn thiết kế | 22-TCN 207-92
+8 | Tải trọng và tác động (do sóng và tàu) lên công trình thủy - Tiêu chuẩn thiết kế | 22-TCN 222-95
+9 | Nền các công trình thủy công - Tiêu chuẩn thiết kế | TCVN 4253:2012
+10 | Kết cấu BT và BTCT thủy công - Tiêu chuẩn thiết kế | TCVN 4116:1985
+11 | Quy trình thiết kế kênh biển | Quyết định số 115-QĐ/KT4 12/01/1976 của Bộ GTVT
+12 | Quy chuẩn kỹ thuật quốc gia về báo hiệu hàng hải | QCVN 20:2010/BGTVT
+13 | Hệ bảo vệ catốt: yêu cầu thiết kế, lắp đặt và kiểm tra | TCVN 6051:1995
+14 | Prôtectơ nhôm: Yêu cầu kỹ thuật | TCVN 5741:1993
+15 | Cọc ống thép | TCVN 9245:2012
+16 | Cọc bê tông ly tâm ứng lực trước | TCVN 7888:2008
+III | Các tiêu chuẩn về vật liệu và thí nghiệm | 
+III.1 | Tiêu chuẩn về vật liệu | 
+1 | Xi măng - Phân loại | TCVN 5439 - 2005
+2 | Xi măng pooc lăng - Yêu cầu kỹ thuật | TCVN 2682:2009
+3 | Xi măng poóclăng hỗn hợp. | TCVN 6260-2009
+4 | Xi măng - Phương pháp lấy mẫu và chuẩn bị mẫu thử | TCVN 4787:2001
+5 | Bê tông - Phân mác theo cường độ nén | TCVN 6025:1995
+6 | Nước trộn bê tông và vữa - Yêu cầu kỹ thuật | TCVN 4506 :2012
+7 | Phụ gia hoá học cho bê tông | TCVN 8826:2011
+8 | Bu lông, vít, vít cấy và đai ốc. Yêu cầu kỹ thuật | TCVN 1916: 1995
+9 | Thép các bon cán nóng dùng cho xây dựng - yêu cầu kỹ thuật | TCVN 5709:1993
+10 | Thép cốt bê tông. Thép thanh vằn | TCVN 1651-2:2008
+11 | Thép cốt bê tông - Hàn hồ quang | TCVN 9392:2012
+12 | Vữa xây dựng. Yêu cầu kỹ thuật | TCVN 4314:2003
+13 | Cốt liệu và phương pháp thử | TCVN 7572:2006
+14 | Sơn tín hiệu bê tông dạng lỏng trên nền bê tông nhựa | TCVN 92:1995
+15 | Tiêu chuẩn kỹ thuật đối với bột khoáng để trộn hỗn hợp nhựa trải đường | AASHTO M017-11
+16 | Tiêu chuẩn kỹ thuật mạ kẽm (mạ nhúng nóng) lên các sản phẩm sắt và thép | AASHTO Ml 11-11
+17 | Tiêu chuẩn kỹ thuật mạ kẽm (mạ nhúng nóng) lên các cấu kiện sắt và thép | AASHTO M232-10
+18 | Tiêu chuẩn kỹ thuật đúc gang xám | ASTM A48/A48M
+- 03(2008)
+III.2 | Tiêu chuẩn thí nghiệm | 
+1 | Qui trình thí nghiệm bê tông xi măng | 22 TCN 60 -84
+2 | Bê tông nhựa - Phương pháp thử | TCVN 8860:2011
+3 | Cát xây dựng - Phương pháp xác định hàm lượng mica | TCVN 4376:1986
+4 | Bê tông - Kiểm tra và đánh gá độ bền - Qui định chung | TCVN 5440:1991
+5 | Thép thanh cốt bê tông. Thử uốn và uốn lại không hoàn toàn | TCVN 6287:1997
+6 | Vật liệu kim loại - Thử kéo ở nhiệt độ thường | TCVN 197:2002
+7 | Vật liệu kim loại - Thử uốn | TCVN 198:2008
+8 | Thép làm cốt bê tông và bê tông dự ứng lực - Phương pháp thử | TCVN 7937:2009
+9 | Thử phá hủy mối hàn vật liệu kim loại -Thử uốn | TCVN 5401:2010
+10 | Bê tông nặng - Phương pháp xác định cường độ lăng trụ và mô đun đàn hồi khi nén tĩnh | TCVN 5726:1993
+11 | Bê tông nặng - Các phương pháp xác định chỉ tiêu cơ lý | TCVN 3105:1993;
+TCVN 3107:1993
+TCVN 3120:1993
+12 | Hỗn hợp bê tông nặng - Phương pháp thử độ sụt | TCVN 3106:1993
+13 | Bê tông nặng - Phương pháp không phá hoại sử dụng kết hợp máy đo siêu âm và súng bật nẩy để xác định cường độ nén | TCVN 9335:2012
+14 | Cát tiêu chuẩn ISO để xác định cường độ của xi măng | TCVN 139-91
+15 | Vải địa kỹ thuật - Phương pháp thử | TCVN 8871:2011
+IV | Các tiêu chuẩn thi công và nghiệm thu | 
+1 | Sơn bảo vệ kết cấu thép – Thi công và nghiệm thu | TCVN 8790:2011
+2 | Mặt đường bê tông nhựa nóng- Yêu cầu thi công và nghiệm thu | TCVN 8819:2011
+3 | Bê tông khối lớn - Quy phạm thi công nghiệm thu | TCXDVN 305:2004
+4 | Kết cấu bê tông và bê tông cốt thép toàn khối – Quy phạm thi công và nghiệm thu | TCVN 4453:1995
+5 | Cốt liệu cho bê tông và vữa - Yêu cầu kỹ thuật | TCVN 7570:2006
+6 | Kết cấu bê tông và bê tông cốt thép lắp ghép-qui phạm thi công và nghiệm thu | TCVN 9115:2012
+7 | Sơn tín hiệu giao thông – Vật liệu kẻ đường phản quang nhiệt dẻo – Yêu cầu kỹ thuật, phương pháp thử, thi công và nghiệm thu | TCVN 8791:2011
+8 | Bê tông nặng - Yêu cầu bảo dưỡng ẩm tự nhiên | TCVN 8828:2011
+9 | Công tác nền móng - Thi công nghiệm thu | TCVN 9361:2012
+10 | Đóng và ép cọc - Thi công và nghiệm thu | TCVN 9394:2012
+11 | Kết  cấu  bê  tông  và  bê  tông  cốt  thép  - Hướng dẫn công tác bảo trì | TCVN 9343:2012
+12 | Quy trình kỹ thuật thi công và nghiệm thu công trình bến cảng | 22TCN289-02
+13 | Vải địa kỹ thuật trong xây dựng nền đắp trên đất yếu. Tiêu chuẩn thiết kế, thi công và nghiệm thu | 22TCN 248:1998
+V | Các tiêu chuẩn, tài liệu của nước ngoài tham khảo | 
+1 | Hướng dẫn thiết kế kênh chạy tàu nội địa | Liên Hợp Quốc
+2 | Hướng dẫn thiết kế luồng tàu (Approach channels - Aguide for design) | PIANC/IAPH 1997
+3 | Sổ tay kỹ sư thiết kế nạo vét    Dredging a handbook for engineers | R.N.Bray & A.D.Bates & J.M.Land.Arnold.USA
+4 | Tiêu chuẩn công trình cảng Vương Quốc Anh    British standard code maritime structures | BS 6349
+5 | Tiêu chuẩn kỹ thuật và chú giải đối với công trình cảng ở Nhật Bản (Technical standdard and commentaries for port and harbours facilities in Japan) | OCID - 2002
+6 | Sổ tay kỹ thuật cảng biển - Handbook for port and harbour engineering | Gregory.P.Tsinker 2003
+VI | Các phần mềm thiết kế | 
+1 | Phần mềm tính toán khối lượng nạo vét Mapsite | 
+2 | Phần mềm SAP2000 | 
+3 | Phần mềm SLOPE | 
+4 | Phần mềm dự toán 2004 | 
+5 | Phần mềm Plaxis 2D | 
+6 | Phần mềm Microsoft Office | 
+7 | Phần mềm AutoCAD | 
+
+=== TABLE 1 (2x12) ===
+P% | 1 | 3 | 5 | 10 | 20 | 50 | 70 | 90 | 95 | 97 | 99
+H(cm) | 443 | 426 | 417 | 405 | 392 | 373 | 364 | 354 | 350 | 349 | 346
+
+=== TABLE 2 (5x12) ===
+P%
+H(cm) | 1 | 3 | 5 | 10 | 20 | 50 | 70 | 90 | 95 | 97 | 99
+Hđỉnh | 383 | 377 | 362 | 352 | 338 | 305 | 277 | 235 | 225 | 211 | 204
+Hchân | 196 | 180 | 174 | 156 | 134 | 91 | 72 | 47 | 40 | 31 | 22
+Hgiờ | 355 | 338 | 325 | 305 | 275 | 195 | 149 | 90 | 71 | 64 | 43
+Ht.bình | 230 | 225 | 225 | 217 | 210 | 195 | 189 | 182 | 174 | 171 | 167
+
+=== TABLE 3 (4x9) ===
+Hệ số sa bồi | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc | Hệ số sa bồi tính toán theo số liệu các đợt đo đạc
+Hệ số sa bồi | 05/2006 | 08/2006 | 11/2006 | 06/2007 | 09/2007 | 12/2007 | 06/2008 | 12/2008
+P | 0,275 | 0,223 | 0,212 | 0,146 | 0,152 | 0,153 | 0,147 | 0,12
+Ptb | 0,234 | 0,234 | 0,234 | 0,144 | 0,144 | 0,144 | 0,144 | 0,144
+
+=== TABLE 4 (3x5) ===
+Loại tàu | Trọng tải | Chiều dài L (m) | Chiều rộng B (m) | Mớn nước đầy tải Tc (m)
+Tàu conatiner | 50.000DWT | 280 | 35 | 13,0
+Tàu conatiner | 100.000DWT | 330 | 45,5 | 14,8
+
+=== TABLE 5 (8x5) ===
+STT | Các trường hợp | Hướng tải trọng | Tải trọng lên 1 bánh xe (Tấn) | Tải trọng lên 1 bánh xe (Tấn)
+STT | Các trường hợp | Hướng tải trọng | Phía trước bến | Phía sau bến
+1 | Cần trục di chuyển làm hàng | Tải đứng | 76,7 | 59,2
+1 | Cần trục di chuyển làm hàng | Vuông góc với ray | 7,7T/cụm bánh | 5,92T/cụm bánh
+2 | Cần trục đứng yên làm hàng | Tải đứng | 40,6 | 43,6
+2 | Cần trục đứng yên làm hàng | Vuông góc với ray | 4,1T/cụm bánh | 4,36T/cụm bánh
+3 | Khi có gió bão | Tải đứng | 58,9 | 62,0
+3 | Khi có gió bão | Vuông góc với ray | 59,25T/Ray | 62,75T/Ray
+
+=== TABLE 6 (6x5) ===
+Tên điểm | Hệ toạ độ VN2000 (kinh tuyến trung tâm 105o45’, múi chiếu 3o) | Hệ toạ độ VN2000 (kinh tuyến trung tâm 105o45’, múi chiếu 3o) | Hệ WGS - 84 | Hệ WGS - 84
+Tên điểm | Hệ toạ độ VN2000 (kinh tuyến trung tâm 105o45’, múi chiếu 3o) | Hệ toạ độ VN2000 (kinh tuyến trung tâm 105o45’, múi chiếu 3o) | Vĩ độ (N) | Kinh độ (E)
+A | 2278044 | 623759 | 20o35’24,9” | 106o56’20,6”
+B | 2280174 | 628283 | 20o36’33,0” | 106o58’57,4”
+C | 2275650 | 630413 | 20o34’05,4” | 107o00’09,7”
+D | 2273520 | 625889 | 20o32’57,3” | 106o57’33,0”
+
+=== TABLE 7 (4x5) ===
+Thành phần hoá học | Thành phần hoá học | Thành phần hoá học | Thành phần hoá học | Thành phần hoá học
+C | Si | Mn | P | S
+Không vượt quá | Không vượt quá | Không vượt quá | Không vượt quá | Không vượt quá
+0,18% | 0,55% | 1,65% | 0,035% | 0,035%
+
+=== TABLE 8 (7x4) ===
+TT | Tên chỉ tiêu | Mác | Mác
+TT | Tên chỉ tiêu | PCB30 | PCB40
+1 | Cường độ chịu nén, N/mm2, không nhỏ hơn
+- 3 ngày ± 45 phút
+- 28 ngày ± 8 giờ | 14
+30 | 18
+40
+2 | Thời gian đông kết, min
+- Bắt đầu, không nhỏ hơn
+- Kết thúc, không lớn hơn | 45
+420 | 45
+420
+3 | Độ nghiền mịn:
+- Phần còn lại trên sàng 0,09mm, %, không lớn hơn
+- Bề mặt riêng xác định theo phương pháp Blaine, cm2/g, không nhỏ hơn | 10
+2800 | 10
+2800
+4 | Độ ổn định thể tích, xác định theo phương pháp Le Chatelier, mm, không lớn hơn | 10 | 10
+5 | Hàm lượng anhydric sunfuric (SO3), %, không lớn hơn | 3,5 | 3,5

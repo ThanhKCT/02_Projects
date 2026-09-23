@@ -13,8 +13,14 @@ df = pd.read_csv(os.path.join(BASE, "pile_hz_ltt_results_ALL.csv"))
 plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams["font.size"] = 10
 
-methods = ["M1", "M2", "M3", "M6"]
-labels = ["M1\n(22TCN 207-92)", "M2\n(20TCN21-86/\nTCXD 205-1998)", "M3\n(TCVN 10304:2014)", "M6\n(Nhật Bản, 2002)"]
+# internal keys match the CSV columns; on-paper scheme is now M1/M2/M3 only:
+#   M2 (paper) = l_tt_M2_NEW2  (TCVN 10304:2025, K=1350 kN/m4 -- boundary value at
+#                IL=1.0 in Bang A.1 muc 4, since measured IL=1.19 for Lop 2 exceeds
+#                the table's defined range; see Thuyet minh 06.12.doc)
+#   M3 (paper) = l_tt_M6      (virtual fixed-point / OCDI, kh=1500N -- unchanged physics, re-cited as TCVN 11820-5:2021)
+# old l_tt_M2 (20TCN21-86/TCXD205-1998) and l_tt_M3 (TCVN10304:2014, gamma_c=3) are dropped from the paper.
+methods = ["M1", "M2_NEW2", "M6"]
+labels = ["M1\n(22TCN 207-92)", "M2\n(TCVN 10304:2025)", "M3\n(TCVN 11820-5:2021/OCDI)"]
 data = [df[f"l_tt_{m}"].values for m in methods]
 
 fig, ax = plt.subplots(figsize=(6.0, 4.2), dpi=300)

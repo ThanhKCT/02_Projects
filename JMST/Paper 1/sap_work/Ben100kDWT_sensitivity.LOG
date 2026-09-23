@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2026/08/23  16:29:54
+ B E G I N   A N A L Y S I S                                2026/09/14  08:21:07
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -25,24 +25,24 @@
  UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = tonf, m, °C, sec
  GRAVITATIONAL ACCELERATION                =    9.806650
 
- ADDRESSABLE PHYSICAL MEMORY (RAM)         =      47.905 GB
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.733 GB
 
  PARALLELIZATION OF ANALYSIS OPERATIONS:
   (Env. variable SAPFIRE_NUM_THREADS not set)
- NUMBER OF THREADS: STATE (AUTOMATIC)      =          14
- NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =          14
- NUMBER OF THREADS: EVENT (AUTOMATIC)      =          14
- NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
- NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =          14
- NUMBER OF THREADS: SOLVE (AUTOMATIC)      =          14
- NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           4
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           4
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           4
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           4
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
 
 
- E L E M E N T   F O R M A T I O N                                      16:29:54
+ E L E M E N T   F O R M A T I O N                                      08:21:07
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        16:29:54
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        08:21:07
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -59,7 +59,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  16:29:55
+ L I N E A R   S T A T I C   C A S E S                                  08:21:08
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -84,7 +84,7 @@
  CASE: CT1(TINH Y)
 
 
- I N F L U E N C E   L O A D   C A S E                                  16:29:56
+ I N F L U E N C E   L O A D   C A S E                                  08:21:09
 
  CASE: <Influence>
 
@@ -98,7 +98,7 @@
  Saving Section-Cut response
 
 
- V E H I C L E   I N F L U E N C E   A N A L Y S I S                    16:30:10
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    08:21:20
 
  CASE: <Vehicle 1 0 0>
 
@@ -121,7 +121,7 @@
 
  NUMBER OF INFLUENCE LOAD POINTS           =         178
  CALCULATION METHOD (QUICK OR "EXACT")     =      "EXACT"
- NUMBER OF THREADS: MOVE (AUTOMATIC)       =          14
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           4
 
  ALLOW LOADS TO REDUCE RESPONSE SEVERITY   =          NO
 
@@ -133,18 +133,18 @@
                                                ----------
  TOTAL NUMBER OF RESPONSE POINTS           =       41326   NONE
 
- TIME FOR COMPUTING JOINT RESPONSE         =        2.12
+ TIME FOR COMPUTING JOINT RESPONSE         =        2.27
 
- TIME FOR COMPUTING SPRING RESPONSE        =        1.88
- TIME FOR COMPUTING REACTION RESPONSE      =        0.98
- TIME FOR COMPUTING FRAME RESPONSE         =        2.19
- TIME FOR COMPUTING SHELL RESPONSE         =       19.97
- TIME FOR CONTROLLING ANALYSIS             =        0.00
+ TIME FOR COMPUTING SPRING RESPONSE        =        2.71
+ TIME FOR COMPUTING REACTION RESPONSE      =        1.31
+ TIME FOR COMPUTING FRAME RESPONSE         =        2.98
+ TIME FOR COMPUTING SHELL RESPONSE         =       27.22
+ TIME FOR CONTROLLING ANALYSIS             =        0.01
                                                ----------
- TOTAL TIME FOR THIS ANALYSIS              =       27.14
+ TOTAL TIME FOR THIS ANALYSIS              =       36.55
 
 
- M O V I N G   L O A D   A N A L Y S I S                                16:30:38
+ M O V I N G   L O A D   A N A L Y S I S                                08:21:57
 
  CASE: CT1 (DI DONG)
 
@@ -155,7 +155,7 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- M O V I N G   L O A D   A N A L Y S I S                                16:30:52
+ M O V I N G   L O A D   A N A L Y S I S                                08:22:20
 
  CASE: CT2 (BAO)
 
@@ -166,4 +166,4 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- A N A L Y S I S   C O M P L E T E                          2026/08/23  16:31:07
+ A N A L Y S I S   C O M P L E T E                          2026/09/14  08:22:43

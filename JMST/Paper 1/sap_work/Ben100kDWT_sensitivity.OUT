@@ -26,14 +26,11 @@
     6070 TO     354    A   A   A   A   A   A
      266 TO      31    -   -   A   -   -   -
     6068 TO     368    A   A   A   A   A   A
-     382 TO     290    -   -   A   -   -   -
+     290 TO     288    -   -   A   -   -   -
      410               -   -   -   -   -   -
-     288               -   -   A   -   -   -
     6111 TO    1841    A   A   A   A   A   A
-     138               -   -   A   -   -   -
-    8693 TO    8692    A   A   A   A   A   A
-      86               -   -   A   -   -   -
-    6112 TO    1839    A   A   A   A   A   A
+     138 TO      86    -   -   A   -   -   -
+    8693 TO    1839    A   A   A   A   A   A
       41 TO     292    -   -   A   -   -   -
     6113 TO    8690    A   A   A   A   A   A
      400 TO     367    -   -   A   -   -   -
@@ -45,12 +42,10 @@
      411               -   -   -   -   -   -
     6108 TO     896    A   A   A   A   A   A
      294 TO      39    -   -   A   -   -   -
-    6109 TO     894    A   A   A   A   A   A
-      84               -   -   A   -   -   -
-    8685 TO    8684    A   A   A   A   A   A
-     136               -   -   A   -   -   -
+    6109 TO    8684    A   A   A   A   A   A
+      84 TO     136    -   -   A   -   -   -
     6110 TO     892    A   A   A   A   A   A
-     286 TO     402    -   -   A   -   -   -
+     286 TO     284    -   -   A   -   -   -
     8683 TO    8682    A   A   A   A   A   A
      370               -   -   A   -   -   -
     6066 TO     291    A   A   A   A   A   A
@@ -156,14 +151,11 @@
      307 TO     337    -   -   A   -   -   -
    10726 TO     724    A   A   A   A   A   A
      296 TO      35    -   -   A   -   -   -
-    6079 TO     752    A   A   A   A   A   A
-      80               -   -   A   -   -   -
-   10724 TO   10723    A   A   A   A   A   A
-     130               -   -   A   -   -   -
+    6079 TO   10723    A   A   A   A   A   A
+      80 TO     130    -   -   A   -   -   -
     6080 TO     755    A   A   A   A   A   A
-     274               -   -   A   -   -   -
      351               -   -   -   -   -   -
-     276 TO     319    -   -   A   -   -   -
+     274 TO     276    -   -   A   -   -   -
    10722 TO     404    A   A   A   A   A   A
      210 TO      94    -   -   A   -   -   -
       67 TO      48    A   A   A   A   A   A

@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Hinh 4 (4 panel): (a) mat bang 178 coc treatment + 14 coc control, danh dau coc 140;
-(b) l_tt trung binh (4 phuong phap) theo vi tri Y cua coc;
-(c) M_max (max qua 4 phuong phap) theo vi tri Y cua coc;
-(d) V_max (max qua 4 phuong phap) theo vi tri Y cua coc.
+Hinh 4 (4 panel): (a) mat bang 178 coc treatment + 14 coc control, danh dau coc chi phoi
+(dong theo M_max lon nhat qua 3 phuong phap -- co the khac coc 140 cua ban truoc);
+(b) l_tt trung binh (3 phuong phap) theo vi tri Y cua coc;
+(c) M_max (max qua 3 phuong phap) theo vi tri Y cua coc;
+(d) V_max (max qua 3 phuong phap) theo vi tri Y cua coc.
 """
 import pandas as pd
 import numpy as np
@@ -22,14 +23,18 @@ master = pd.read_csv(os.path.join(BASE, "pile_master_table.csv"))
 master.columns = [c.strip() for c in master.columns]
 ltt = pd.read_csv(os.path.join(BASE, "pile_hz_ltt_results_ALL.csv"))
 
-METHODS = ["M1", "M2", "M3", "M6"]
-GOV_PILE = 140
+# on-paper M1/M2/M3; M2(paper)=M2_NEW2 (TCVN 10304:2025), M3(paper)=M6 (virtual
+# fixed-point/OCDI, re-cited as TCVN 11820-5:2021, physics unchanged from old M6).
+METHODS = ["M1", "M2_NEW2", "M6"]
+LTT_COLS = {"M1": "l_tt_M1", "M2_NEW2": "l_tt_M2_NEW2", "M6": "l_tt_M6"}
+FORCE_FILES = {"M1": "M1", "M2_NEW2": "M2_NEW2", "M6": "M6"}
+GOV_PILE = None  # resolved below to the pile with the overall max M_max_across4
 
-# --- per-pile max M_res / V_res across the 4 methods ---
+# --- per-pile max M_res / V_res across the 3 methods ---
 per_method_M = {}
 per_method_V = {}
 for m in METHODS:
-    df = pd.read_csv(os.path.join(RESULTS_DIR, f"pile_force_{m}.csv"))
+    df = pd.read_csv(os.path.join(RESULTS_DIR, f"pile_force_{FORCE_FILES[m]}.csv"))
     df["M_res"] = np.sqrt(df["M2"]**2 + df["M3"]**2)
     df["V_res"] = np.sqrt(df["V2"]**2 + df["V3"]**2)
     per_method_M[m] = df.groupby("frame")["M_res"].max()
@@ -40,7 +45,7 @@ V_df = pd.DataFrame(per_method_V)
 M_df["M_max_across4"] = M_df.max(axis=1)
 V_df["V_max_across4"] = V_df.max(axis=1)
 
-ltt["l_tt_mean4"] = ltt[[f"l_tt_{m}" for m in METHODS]].mean(axis=1)
+ltt["l_tt_mean4"] = ltt[[LTT_COLS[m] for m in METHODS]].mean(axis=1)
 
 # merge everything on frame
 plot_df = ltt[["frame", "l_tt_mean4"]].merge(
@@ -52,6 +57,11 @@ plot_df = ltt[["frame", "l_tt_mean4"]].merge(
 )
 
 control = master[master["status"] != "treatment_spring"]
+
+# governing pile = highest M_max across the 3 methods -- resolves to pile 140
+# (consistent with M1/M3) now that M2 uses the correct K=1350 kN/m4 (boundary
+# value at IL=1.0, since measured IL=1.19 for Lop 2 exceeds Bang A.1's range).
+GOV_PILE = int(plot_df.loc[plot_df["M_max_across4"].idxmax(), "frame"])
 
 fig, axes = plt.subplots(2, 2, figsize=(7.5, 6.6), dpi=300)
 ax_a, ax_b, ax_c, ax_d = axes[0, 0], axes[0, 1], axes[1, 0], axes[1, 1]
@@ -84,9 +94,9 @@ def scatter_by_Y(ax, ycol, ylabel, title, fmt="{:.1f}"):
     ax.set_title(title, fontsize=10)
     ax.grid(linestyle=":", linewidth=0.5, color="0.85")
 
-scatter_by_Y(ax_b, "l_tt_mean4", "$l_{tt}$ trung bình 4 PP (m)", "(b) Chiều dài tính toán theo vị trí cọc")
-scatter_by_Y(ax_c, "M_max_across4", "$M_{max}$ (T.m)", "(c) Mô men lớn nhất theo vị trí cọc (max 4 PP)")
-scatter_by_Y(ax_d, "V_max_across4", "$V_{max}$ (T)", "(d) Lực cắt lớn nhất theo vị trí cọc (max 4 PP)")
+scatter_by_Y(ax_b, "l_tt_mean4", "$l_{tt}$ trung bình 3 PP (m)", "(b) Chiều dài tính toán theo vị trí cọc")
+scatter_by_Y(ax_c, "M_max_across4", "$M_{max}$ (T.m)", "(c) Mô men lớn nhất theo vị trí cọc (max 3 PP)")
+scatter_by_Y(ax_d, "V_max_across4", "$V_{max}$ (T)", "(d) Lực cắt lớn nhất theo vị trí cọc (max 3 PP)")
 
 plt.tight_layout()
 out = os.path.join(BASE, "figures", "Fig4_spatial_sensitivity.png")
