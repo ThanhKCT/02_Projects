@@ -11,18 +11,37 @@ Nrun = 20;
 
 f = figure('Visible','off','Position',[100 100 900 650]);
 hold on;
-cmap = lines(Nrun);
+blueColor = [0 0.16 0.60];
+redColor  = [0.85 0.05 0.05];
+hRuns = gobjects(1,1);
 for r = 1:Nrun
     fname = fullfile(resultsDir, sprintf('Bai6_MOSFOA_Np20_Maxit100_run%02d_FINAL.mat', r));
     S = load(fname);
-    scatter(S.REP.pos_fit(:,1), S.REP.pos_fit(:,2), 10, cmap(r,:), 'filled', 'MarkerFaceAlpha', 0.35);
+    h = scatter(S.REP.pos_fit(:,1), S.REP.pos_fit(:,2), 12, blueColor, 'filled', 'MarkerFaceAlpha', 0.5);
+    hRuns(1) = h;
 end
-scatter(A.paretoFit(:,1), A.paretoFit(:,2), 60, 'k', 'x', 'LineWidth', 1.5);
-xlabel('f1 - Khoi luong be tong (Tan)');
-ylabel('f2 - \eta_{max}');
-title(sprintf('20 lan chay doc lap (mau nhat) + mat Pareto tong the hop nhat (%d diem, X den)', size(A.paretoFit,1)));
+hPareto = scatter(A.paretoFit(:,1), A.paretoFit(:,2), 70, redColor, 'x', 'LineWidth', 2.0);
+
+% Danh dau 3 nghiem dai dien A/B/C (da hau kiem 408 to hop) tren mat Pareto
+R = load(fullfile(resultsDir, 'representative_solutions.mat'));
+repIdx = [R.iA, R.iB, R.iC];
+repLbl = {'A', 'B', 'C'};
+repOffsetX = [60, 60, 0];
+repOffsetY = [0, 0, 0.012];
+repHA = {'left', 'left', 'center'};
+repVA = {'middle', 'middle', 'bottom'};
+for k = 1:3
+    xk = R.T.f1_khoiluong_Tan(repIdx(k));
+    yk = R.T.f2_eta_max(repIdx(k));
+    text(xk + repOffsetX(k), yk + repOffsetY(k), repLbl{k}, 'FontWeight', 'bold', 'FontSize', 12, ...
+        'Color', 'k', 'HorizontalAlignment', repHA{k}, 'VerticalAlignment', repVA{k});
+end
+
+xlabel('f_1 - Khối lượng bê tông (Tấn)');
+ylabel('f_2 - \eta_{max} (Hệ số khai thác lớn nhất)');
+title('Mặt Pareto tổng thể từ 20 lần chạy độc lập', 'FontWeight', 'normal', 'FontSize', 11);
 grid on;
-legend({'20 runs (mau nhat)','Mat Pareto tong the'}, 'Location', 'northeast');
+legend([hRuns(1), hPareto], {'20 lần chạy','Mặt Pareto tổng thể'}, 'Location', 'northeast');
 saveas(f, fullfile(resultsDir, 'campaign_20runs_pareto_overlay.png'));
 close(f);
 fprintf('Da luu bieu do overlay 20 runs.\n');

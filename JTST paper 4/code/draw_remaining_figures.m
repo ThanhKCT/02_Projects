@@ -12,9 +12,9 @@ for r = 1:20
     S = load(fname, 'History');
     plot(0:100, S.History.BestObjectives(:,1), 'Color', [cmap(r,:) 0.5], 'LineWidth', 1);
 end
-xlabel('Vong lap (iteration)');
-ylabel('f_1 nho nhat tim duoc (Tan)');
-title('Duong cong hoi tu f_1 qua 20 lan chay doc lap');
+xlabel('Vòng lặp');
+ylabel('f_1 nhỏ nhất tìm được (Tấn)');
+title('Đường cong hội tụ f_1 qua 20 lần chạy độc lập');
 grid on; box on;
 saveas(f, fullfile(resultsDir, 'Hinh_hoitu_20runs.png'));
 close(f);
@@ -23,7 +23,7 @@ fprintf('Da luu Hinh_hoitu_20runs.png\n');
 %% --- Hinh 2: So sanh 3 nghiem dai dien A/B/C (khoi luong + eta tung cau kien) ---
 G = load(fullfile(resultsDir, 'governing_combos_analysis.mat'));
 labels = {'sol_A','sol_B','sol_C'};
-dispLabels = {'A (nhe nhat)','B (can bang)','C (dap ung tot nhat)'};
+dispLabels = {'A (nhẹ nhất)','B (cân bằng)','C (\eta_{max} nhỏ nhất)'};
 f1s = zeros(1,3); etaMat = zeros(3,4); % row=nghiem, col=[DN DD DCT BMC]
 T = readtable(fullfile(resultsDir, 'campaign_pareto_tongthe_20runs.csv'));
 [~, iA] = min(T.f1_khoiluong_Tan); [~, iC] = min(T.f2_eta_max);
@@ -41,16 +41,16 @@ f = figure('Visible','off','Position',[100 100 950 420]);
 subplot(1,2,1);
 bar(f1Vals, 'FaceColor', [0.2 0.4 0.7]);
 set(gca, 'XTickLabel', dispLabels);
-ylabel('f_1 - Khoi luong (Tan)');
-title('(a) Khoi luong 3 nghiem dai dien');
+ylabel('f_1 - Khối lượng (Tấn)');
+title('(a) Khối lượng 3 nghiệm đại diện');
 grid on;
 
 subplot(1,2,2);
 bar(etaMat);
 set(gca, 'XTickLabel', dispLabels);
-ylabel('\eta (he so khai thac)');
+ylabel('\eta (hệ số khai thác)');
 legend({'DN','DD','DCT','BMC'}, 'Location', 'northeast');
-title('(b) \eta tung nhom cau kien (BMC luon chi phoi)');
+title('(b) \eta từng nhóm cấu kiện (BMC luôn chi phối)');
 grid on;
 
 saveas(f, fullfile(resultsDir, 'Hinh_sosanh_ABC.png'));

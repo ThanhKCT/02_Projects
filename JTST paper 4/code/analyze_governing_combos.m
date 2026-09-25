@@ -41,6 +41,18 @@ for k = 1:3
     [MgovDCT, CgovDCT] = local_governing_frame_moment(cfg.sec.DCT_name);
     [MgovBMC, CgovBMC] = local_governing_area_moment(cfg.sec.BMC_name);
     [NgovPile, CgovPile] = local_governing_pile_axial(cfg.sec.pile_name);
+
+    % --- U_max: rieng cho g2, CHI 20 to hop SLSDH (khop dung co so
+    % BAO-SLSDH ma evaluate_superstructure_design.m dung that trong
+    % campaign, xem dong 98) - KHONG dung ca 408 to hop gop nhu M/N o
+    % tren, vi se lan mot to hop ULS (tai lon hon) vao ket qua
+    % displacement SLS-only, cho ra Umax vuot gioi han g2 mot cach gia
+    % tao (khong phai vi pham that).
+    slsdhList = arrayfun(@(i) sprintf('SLSDH-%02d', i), 1:20, 'UniformOutput', false);
+    SM.Results.Setup.DeselectAllCasesAndCombosForOutput();
+    for c = 1:numel(slsdhList)
+        SM.Results.Setup.SetComboSelectedForOutput(slsdhList{c}, true);
+    end
     [Ugov, CgovU] = local_governing_disp(cfg.deck_top_Z);
 
     MuDN  = mu_beam_tcvn5574(cfg.sec.DN_b,  R.T.h_DN_m(i),  cfg);
