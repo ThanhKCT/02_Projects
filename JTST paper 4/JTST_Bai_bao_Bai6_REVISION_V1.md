@@ -1,6 +1,6 @@
-# TỐI ƯU ĐA MỤC TIÊU HỆ KẾT CẤU BÊN TRÊN CẦU TÀU CHỊU NHIỀU TỔ HỢP TẢI TRỌNG SỬ DỤNG THUẬT TOÁN MOSFOA
+# ỨNG DỤNG THUẬT TOÁN MOSFOA TRONG TỐI ƯU ĐA MỤC TIÊU HỆ KẾT CẤU BÊN TRÊN CẦU TÀU CHỊU NHIỀU TỔ HỢP TẢI TRỌNG
 
-## MULTI-OBJECTIVE OPTIMIZATION OF PORT JETTY SUPERSTRUCTURE UNDER MULTIPLE LOAD COMBINATIONS USING MOSFOA
+## APPLICATION OF MOSFOA TO MULTI-OBJECTIVE OPTIMIZATION OF PORT JETTY SUPERSTRUCTURE UNDER MULTIPLE LOAD COMBINATIONS
 
 **[TÊN TÁC GIẢ — TO BE VERIFIED, đối chiếu lại với các bài trước cùng nhóm]**
 
@@ -60,7 +60,7 @@ với $\mathbf{x} = [x_1, x_2, x_3, x_4]$ là vector biến thiết kế, chịu
 
 ### 4.2. Thuật toán MOSFOA
 
-MOSFOA (Multi-objective Starfish Optimization Algorithm) là thuật toán tối ưu đa mục tiêu đã được công bố trước đó bởi nhóm tác giả [1], không được phát triển lại hay cải tiến trong nghiên cứu này. Cấu trúc thuật toán gồm: khởi tạo quần thể ngẫu nhiên trong không gian thiết kế; luân phiên giữa pha khám phá (exploration, dựa trên cơ chế "energy-step" cho không gian ≤5 biến) và pha khai thác (exploitation, dựa trên cơ chế "preying/regeneration") theo một hệ số điều khiển pha phụ thuộc số vòng lặp; đánh giá độ trội (dominance) giữa quần thể hiện tại và quần thể mới; cập nhật kho lưu trữ (archive/Repository) các nghiệm không bị trội theo cơ chế lưới (grid-based diversity maintenance); lựa chọn nghiệm dẫn hướng (leader) từ archive cho vòng lặp kế tiếp; tinh chỉnh Gaussian quanh nghiệm tốt nhất ở giai đoạn cuối (>80% tổng số vòng lặp). Tiêu chí dừng là đạt số vòng lặp tối đa đã định trước.
+MOSFOA (Multi-objective Starfish Optimization Algorithm) là thuật toán tối ưu đa mục tiêu đã được công bố trước đó bởi nhóm tác giả [1], không được phát triển lại hay cải tiến trong nghiên cứu này (sơ đồ khối đầy đủ xem Hình 1, chuyển thể từ [1]). Cấu trúc thuật toán gồm: khởi tạo quần thể (Xi) và tính đa mục tiêu Fit(Xi); khởi tạo kho lưu trữ A từ các nghiệm không bị trội và chia không gian mục tiêu thành các hypercube phục vụ duy trì đa dạng theo cơ chế lưới; trong mỗi vòng lặp, chọn nghiệm dẫn hướng (Xleader) từ A bằng kỹ thuật vòng quay roulette theo chất lượng từng hypercube, sau đó một hệ số điều khiển pha phụ thuộc số vòng lặp (GP) quyết định giữa pha khám phá (exploration) và pha khai thác (exploitation). Trong pha khám phá, thuật toán chọn giữa cơ chế đột biến thích nghi kiểu Differential Evolution có dẫn hướng bởi Xleader (áp dụng khi số biến thiết kế D>5) hoặc cơ chế "energy-step" giảm dần theo vòng lặp (áp dụng khi D≤5) — với D=4 biến thiết kế của nghiên cứu này, nhánh D≤5 (energy-step) luôn được sử dụng trên thực tế; nhánh đột biến DE (D>5) là một phần của thuật toán tổng quát đã công bố nhưng không được kích hoạt trong bài toán cụ thể này. Trong pha khai thác, các cá thể được cập nhật theo cơ chế tổ hợp hướng về Xleader, riêng cá thể cuối quần thể được cập nhật theo cơ chế suy giảm mũ riêng. Nghiệm mới chỉ được chấp nhận cập nhật vào quần thể và kho lưu trữ A khi hàm mục tiêu của nó tốt hơn cá thể cũ; ở giai đoạn cuối vòng lặp (>80% tổng số vòng lặp), một phần quần thể còn được tinh chỉnh Gaussian quanh nghiệm dẫn hướng tốt nhất trong kho lưu trữ. Tiêu chí dừng là đạt số vòng lặp tối đa (Max_it) đã định trước.
 
 ### 4.3. Mô hình liên kết MOSFOA–MATLAB–SAP2000
 
@@ -237,12 +237,15 @@ Kết quả Bảng 1 cho thấy quan hệ đánh đổi rõ ràng giữa 3 nghi�
 | $\eta_{DCT}$ | 0,1008 | 0,0931 | 0,0802 | **ULSB-024 (cả A, B, C)** |
 | $\eta_{BMC}$ | **0,3538** | **0,2082** | **0,1550** | ULSB-038 (A) / ULSB-029 (B,C) |
 | $N_{pile}$ (Tấn) | 210,00 | 218,01 | 227,62 | **ULSB-051 (cả A, B, C)** |
-| $U_{max}$ (m) | 0,0491 | 0,0490 | 0,0487 | **ULSB-051 (cả A, B, C)** |
+| $U_{max}$ (m) | 0,0049 | 0,0051 | 0,0059 | SLSDH-18 (A) / SLSDH-10 (B, C) |
 
-Hai phát hiện nhất quán **ở cả ba nghiệm đại diện được hậu kiểm** (không có ngoại lệ trong phạm vi đã kiểm tra):
+*(Lưu ý kỹ thuật: $U_{max}$ tra cứu đúng theo phạm vi 20 tổ hợp SLSDH — cùng cơ sở mà ràng buộc $g_2$ trong campaign thực sự dùng qua tổ hợp bao `BAO-SLSDH`, xem mục 6.6. Ở một phiên bản hậu kiểm trước đó, tổ hợp chi phối $U_{max}$ bị tra cứu nhầm trên cả 408 tổ hợp gộp — gồm cả 388 tổ hợp ULS có tải trọng lớn hơn hẳn — cho ra giá trị 0,0491/0,0490/0,0487 m (combo ULSB-051), vượt giới hạn $g_2$ một cách giả tạo dù campaign thật chưa từng dùng đại lượng đó cho $g_2$. Đã phát hiện và sửa lỗi phạm vi tổ hợp này, tính lại trực tiếp trên SAP2000 chỉ với 20 tổ hợp SLSDH, cho kết quả ở trên — cả ba nghiệm đều thỏa mãn $g_2$ với biên độ lớn.)*
+
+Các phát hiện nhất quán **ở cả ba nghiệm đại diện được hậu kiểm** (không có ngoại lệ trong phạm vi đã kiểm tra):
 
 1. **Bản mặt cầu (BMC) là cấu kiện chi phối hệ số khai thác lớn nhất ở cả ba nghiệm Pareto đại diện** — không phải các dầm, dù dầm cần trục có tiết diện lớn nhất trong 3 loại dầm. Trong phạm vi mô hình và tải trọng đang xét, điều này gợi ý rằng việc tăng chiều dày bản mặt cầu có ảnh hưởng đáng kể đến việc cải thiện $\eta_{max}$ đối với các nghiệm đã kiểm tra.
-2. **Tổ hợp ULSB-051 chi phối đồng thời cả lực dọc trục cọc và chuyển vị ngang lớn nhất** ở cả 3 nghiệm, và **tổ hợp ULSB-024 chi phối mô-men dầm cần trục ở cả 3 nghiệm**, không phụ thuộc vào việc kích thước hệ kết cấu bên trên thay đổi thế nào **trong phạm vi ba nghiệm đã kiểm tra**. Đây là bằng chứng trực tiếp (giới hạn ở ba nghiệm đại diện) góp phần trả lời câu hỏi nghiên cứu về việc xác định các tổ hợp tải trọng có xu hướng chi phối tính khả thi của nghiệm tối ưu.
+2. **Tổ hợp ULSB-051 chi phối lực dọc trục cọc lớn nhất** ở cả 3 nghiệm, và **tổ hợp ULSB-024 chi phối mô-men dầm cần trục ở cả 3 nghiệm**, không phụ thuộc vào việc kích thước hệ kết cấu bên trên thay đổi thế nào **trong phạm vi ba nghiệm đã kiểm tra**. Đây là bằng chứng trực tiếp (giới hạn ở ba nghiệm đại diện) góp phần trả lời câu hỏi nghiên cứu về việc xác định các tổ hợp tải trọng có xu hướng chi phối tính khả thi của nghiệm tối ưu.
+3. **Tổ hợp chi phối chuyển vị ngang lớn nhất không hoàn toàn nhất quán giữa ba nghiệm**: SLSDH-18 chi phối ở nghiệm A, còn SLSDH-10 chi phối ở cả nghiệm B và C — khác với $N_{pile}$/$M_{DCT}$ (luôn cùng 1 tổ hợp ở cả 3 nghiệm). Cả ba giá trị $U_{max}$ đều rất nhỏ so với giới hạn $g_2$ (0,0217 m), cho thấy chuyển vị ngang không phải yếu tố khống chế đối với các nghiệm đã kiểm tra.
 
 **Lưu ý phạm vi**: hai phát hiện trên chỉ được xác nhận cho **ba nghiệm đại diện A/B/C** (đã hậu kiểm đầy đủ 408 tổ hợp cơ bản), **không phải** cho toàn bộ 90 nghiệm trên mặt Pareto tổng thể — việc hậu kiểm 408 tổ hợp cho toàn bộ 90 nghiệm chưa được thực hiện trong nghiên cứu này.
 
@@ -270,7 +273,7 @@ Với nghiệm A, giá trị 0,4053 **không** được gọi là $\eta_{max,tru
 
 **Trade-off giữa khối lượng và đáp ứng kết cấu thể hiện như thế nào?** Mặt Pareto tổng thể (90 nghiệm) thể hiện quan hệ đánh đổi liên tục và trơn tru trên toàn dải khảo sát, không có bước nhảy bất thường, phản ánh đúng bản chất vật lý của bài toán (tiết diện lớn hơn → khối lượng tăng, hệ số khai thác giảm).
 
-**Việc xét đồng thời nhiều tổ hợp tải trọng ảnh hưởng thế nào đến các trường hợp tải trọng chi phối?** Kết quả tách riêng 408 tổ hợp cơ bản cho ba nghiệm đại diện cho thấy không phải mọi tổ hợp đều đóng vai trò như nhau: một số tổ hợp cụ thể (ULSB-024, ULSB-051) chi phối ổn định đối với cả ba nghiệm được kiểm tra, trong khi phần lớn các tổ hợp còn lại không xuất hiện là tổ hợp khống chế cho các cấu kiện đang xét, **trong phạm vi ba nghiệm đã kiểm tra**. Việc khái quát thành một tập tổ hợp rút gọn áp dụng cho các bài toán khác (hình học, tải trọng, hoặc phạm vi thiết kế khác) cần được đánh giá riêng và được dành cho các nghiên cứu tiếp theo.
+**Việc xét đồng thời nhiều tổ hợp tải trọng ảnh hưởng thế nào đến các trường hợp tải trọng chi phối?** Kết quả tách riêng 408 tổ hợp cơ bản cho ba nghiệm đại diện cho thấy không phải mọi tổ hợp đều đóng vai trò như nhau: một số tổ hợp cụ thể (ULSB-024 cho $M_{DCT}$, ULSB-051 cho $N_{pile}$) chi phối ổn định đối với cả ba nghiệm được kiểm tra, trong khi tổ hợp chi phối chuyển vị ngang ($U_{max}$) chỉ nhất quán giữa 2/3 nghiệm (SLSDH-10 cho B, C) và phần lớn các tổ hợp còn lại không xuất hiện là tổ hợp khống chế cho các cấu kiện đang xét, **trong phạm vi ba nghiệm đã kiểm tra**. Việc khái quát thành một tập tổ hợp rút gọn áp dụng cho các bài toán khác (hình học, tải trọng, hoặc phạm vi thiết kế khác) cần được đánh giá riêng và được dành cho các nghiên cứu tiếp theo.
 
 Phạm vi nghiên cứu này **không** mở rộng sang phân tích ảnh hưởng của quy mô công trình, điều kiện địa chất, hay so sánh giữa các dự án khác — các nội dung này thuộc phạm vi các bài nghiên cứu khác trong cùng chuỗi.
 
@@ -281,7 +284,7 @@ Phạm vi nghiên cứu này **không** mở rộng sang phân tích ảnh hư�
 1. MOSFOA có thể áp dụng để giải bài toán tối ưu đa mục tiêu hệ kết cấu bên trên cầu tàu với 4 biến thiết kế và ràng buộc rút ra trực tiếp từ mô hình phần tử hữu hạn chịu 410 tổ hợp tải trọng, trong phạm vi mô hình nghiên cứu giả định đã khảo sát trong bài báo này.
 2. Việc thay đổi các biến thiết kế phần trên tạo ra một mặt Pareto liên tục gồm 90 nghiệm không bị trội, thể hiện rõ quan hệ đánh đổi giữa khối lượng (dao động 2.311,93 – 3.820,83 Tấn trong số 90 nghiệm) và hệ số khai thác lớn nhất (dao động 0,1550 – 0,4053 trong số 90 nghiệm).
 3. Kết quả 20 lần chạy độc lập (seed hoàn toàn khác nhau, đã xác nhận không trùng lặp) cho thấy khối lượng nhỏ nhất tìm được giống hệt nhau (độ lệch chuẩn bằng 0) và hệ số khai thác nhỏ nhất gần như không đổi (độ lệch chuẩn ≈0,00005) — bằng chứng định lượng về tính ổn định hội tụ của MOSFOA **trên bài toán cụ thể này**.
-4. Hậu kiểm đầy đủ 408 tổ hợp tải trọng cơ bản cho ba nghiệm đại diện xác định bản mặt cầu là cấu kiện chi phối hệ số khai thác **ở cả ba nghiệm**, và xác định tổ hợp ULSB-051 chi phối đồng thời lực dọc trục cọc và chuyển vị ngang, tổ hợp ULSB-024 chi phối mô-men dầm cần trục, **ở cả ba nghiệm đại diện được kiểm tra**. Việc khái quát các tổ hợp chi phối này cho các cấu hình hoặc công trình cầu tàu khác cần được đánh giá riêng ở các nghiên cứu tiếp theo.
+4. Hậu kiểm đầy đủ 408 tổ hợp tải trọng cơ bản cho ba nghiệm đại diện xác định bản mặt cầu là cấu kiện chi phối hệ số khai thác **ở cả ba nghiệm**, và xác định tổ hợp ULSB-051 chi phối lực dọc trục cọc, tổ hợp ULSB-024 chi phối mô-men dầm cần trục, **ở cả ba nghiệm đại diện được kiểm tra**; chuyển vị ngang lớn nhất (tra cứu đúng phạm vi 20 tổ hợp SLSDH khớp cơ sở ràng buộc $g_2$) đều rất nhỏ so với giới hạn cho phép ở cả ba nghiệm, không phải yếu tố khống chế. Việc khái quát các tổ hợp chi phối này cho các cấu hình hoặc công trình cầu tàu khác cần được đánh giá riêng ở các nghiên cứu tiếp theo.
 
 Các kết quả trên cung cấp một minh chứng bổ sung cho khả năng áp dụng MOSFOA vào các bài toán tối ưu kết cấu cảng có nhiều biến thiết kế và hệ ràng buộc phức tạp, đồng thời làm rõ vai trò của việc phân biệt chỉ số tìm kiếm (search) và chỉ số đã xác minh (verification) khi lựa chọn phương pháp xử lý tổ hợp tải trọng, đối với độ chính xác của kết quả báo cáo. Kết luận không vượt quá dữ liệu thực nghiệm đã trình bày.
 
@@ -373,28 +376,25 @@ Dữ liệu campaign (20 file kết quả `.mat`, mặt Pareto tổng thể, d�
 - [x] Citation audit: mọi [n] trong thân bài (n=1..9) đều có mục tương ứng trong References, và mọi mục References đều được trích dẫn ít nhất 1 lần trong thân bài — không có reference mồ côi
 - [x] Không bịa số liệu (không có số liệu mới nào được thêm ngoài các thống kê đã có sẵn trong FINAL_VALIDATION_BAI6.md — f2 mean/std, archive mean được bổ sung vào mục 7.2, đều lấy nguyên từ nguồn đã khóa)
 - [x] Không bịa hình (3 hình giữ nguyên file đã tạo, không chỉnh sửa dữ liệu hình)
-- [ ] **Umax constraint/value consistency — CHƯA XÁC MINH ĐƯỢC, xem HIGH-PRIORITY TECHNICAL CHECK bên dưới**
+- [x] **Umax constraint/value consistency — ĐÃ GIẢI QUYẾT (2026-09-24)**: xem mục RESOLVED bên dưới.
 
-**Đối chiếu số liệu — không phát hiện mâu thuẫn nào giữa manuscript và FINAL_VALIDATION_BAI6.md, NGOẠI TRỪ mục Umax nêu trên (không phải mâu thuẫn với FINAL_VALIDATION_BAI6.md, mà là nghi vấn về bản chất đại lượng Umax được báo cáo trong Bảng ở mục 7.x so với đại lượng Umax thực sự dùng để kiểm tra g2 trong campaign — xem báo cáo chi tiết đã gửi kèm).**
+**Đối chiếu số liệu — không phát hiện mâu thuẫn nào giữa manuscript và FINAL_VALIDATION_BAI6.md.**
 
-## HIGH-PRIORITY TECHNICAL CHECK
+## RESOLVED — Umax constraint/value consistency (trước đây HIGH-PRIORITY TECHNICAL CHECK)
 
-**HIGH-PRIORITY TECHNICAL CHECK — Umax constraint/value inconsistency requires source-data verification before submission.**
-
-Đã xác định được nguyên nhân kỹ thuật khả dĩ (root cause) của nghi vấn, nhưng CHƯA sửa số liệu manuscript và CHƯA tự ý chạy lại phân tích — xem báo cáo (a)/(b)/(c) gửi kèm trong hội thoại. Cần người dùng xác nhận hướng xử lý trước khi coi mục này là LOCKED.
+Root cause xác nhận đúng như nghi vấn ban đầu: script hậu kiểm `analyze_governing_combos.m` tra cứu tổ hợp chi phối $U_{max}$ trên **toàn bộ 408 tổ hợp gộp** (388 ULS + 20 SLS), trong khi ràng buộc $g_2$ thật trong campaign (`evaluate_superstructure_design.m`, dòng 98) chỉ dùng tổ hợp bao `BAO-SLSDH` (20 tổ hợp SLS). Đã sửa script (tách riêng lựa chọn 20 tổ hợp SLSDH cho riêng bước tính $U_{max}$, không dùng chung danh sách 408 tổ hợp với M/N) và **chạy lại trực tiếp trên SAP2000** (không suy diễn/ước tính) cho cả 3 nghiệm A/B/C. Kết quả mới: $U_{max}$ = 0,0049 m (A, combo SLSDH-18) / 0,0051 m (B, combo SLSDH-10) / 0,0059 m (C, combo SLSDH-10) — **tất cả đều thỏa mãn $g_2$ (≤0,0217 m) với biên độ lớn**, không có vi phạm ràng buộc nào. Giá trị cũ (0,0491/0,0490/0,0487 m, combo ULSB-051) là sản phẩm của bug phạm vi tổ hợp ở bước hậu xử lý, không phải kết quả thật của campaign — đã cập nhật Bảng 2 (mục 7.6), phát hiện #2 (mục 7.6), mục 7.8 và Kết luận (mục 8) cho khớp số liệu mới; giá trị cũ vẫn được lưu lại trong `results/governing_combos_analysis.mat` (trường `*_OLD_408combo_BUGGED`) để đối chiếu/kiểm tra lại nếu cần. Đã xác nhận thêm `cfg.deck_top_Z=0,0` (dùng để lọc đúng nút tính $U_{max}$) là đúng bằng cách quét toàn bộ 1.942 joint của model (Z=0,0 là cao độ lớn nhất, không có joint nào cao hơn) — không phải một nguồn sai số khác.
 
 ## FINAL STATUS
 
 **SCIENTIFIC CONTENT: LOCKED — NO CHANGES TO RESULTS**
 
-**REASON**: Toàn bộ số liệu khoa học cốt lõi (campaign 20 run, 90 nghiệm Pareto, A/B/C, tổ hợp chi phối, đối chiếu search/verification, hội tụ) giữ nguyên, khớp tuyệt đối với FINAL_VALIDATION_BAI6.md. Các sửa đổi trong revision này chỉ giới hạn ở: phạm vi kết luận (BMC/governing combo scoped về đúng "ba nghiệm đại diện" thay vì "toàn dải Pareto"/"luôn luôn"), thuật ngữ (408 tổ hợp cơ bản vs 410 đối tượng tổng, search metric vs verified metric), tên nghiệm C, loại bỏ ngôn ngữ overclaim ("hiệu quả", "tốt nhất") không có đối chứng, bổ sung/làm sạch phần Tổng quan nghiên cứu (mục 3.2) và Tài liệu tham khảo (mục 10, [4]–[9]). Không có số liệu khoa học nào (A/B/C, campaign, Pareto, convergence) bị thay đổi trong bất kỳ vòng revision nào.
+**REASON**: Toàn bộ số liệu khoa học cốt lõi (campaign 20 run, 90 nghiệm Pareto, A/B/C, hội tụ) giữ nguyên, khớp tuyệt đối với FINAL_VALIDATION_BAI6.md. Các sửa đổi trong revision này giới hạn ở: phạm vi kết luận (BMC/governing combo scoped về đúng "ba nghiệm đại diện" thay vì "toàn dải Pareto"/"luôn luôn"), thuật ngữ (408 tổ hợp cơ bản vs 410 đối tượng tổng, search metric vs verified metric), tên nghiệm C, loại bỏ ngôn ngữ overclaim ("hiệu quả", "tốt nhất") không có đối chứng, bổ sung/làm sạch phần Tổng quan nghiên cứu (mục 3.2) và Tài liệu tham khảo (mục 10, [4]–[9]), và sửa lại giá trị $U_{max}$/tổ hợp chi phối ở Bảng 2 sau khi phát hiện và vá bug phạm vi tổ hợp trong script hậu kiểm (không phải sửa số liệu campaign — campaign gốc chưa từng dùng sai phạm vi này). Không có số liệu campaign nào (A/B/C f1/eta_max_true, 90 Pareto, convergence) bị thay đổi trong bất kỳ vòng revision nào.
 
 **REMAINING BEFORE SUBMISSION**:
-1. Xác minh/giải quyết nghi vấn Umax vs g2 (xem HIGH-PRIORITY TECHNICAL CHECK ở trên) — cần đối chiếu source data / quyết định của người dùng trước khi nộp.
-2. Thông tin tác giả, đơn vị công tác, email, funding/lời cảm ơn — điền theo mẫu JTST thật.
-3. Định dạng theo đúng template JTST (font, margin, style) khi chuyển sang .docx.
-4. Chèn hình/bảng còn thiếu theo danh sách ở mục "Hình và bảng cần chèn" (đặc biệt sửa nhãn Hình 3: "C — đáp ứng tốt nhất" → "C — η_max nhỏ nhất").
-5. Rà soát lần cuối metadata references (đặc biệt [2]/[3] khi có số báo/DOI chính thức, thay "forthcoming").
+1. Thông tin tác giả, đơn vị công tác, email, funding/lời cảm ơn — điền theo mẫu JTST thật.
+2. Định dạng theo đúng template JTST (font, margin, style) khi chuyển sang .docx.
+3. Chèn hình/bảng còn thiếu theo danh sách ở mục "Hình và bảng cần chèn" (đặc biệt sửa nhãn Hình 3: "C — đáp ứng tốt nhất" → "C — η_max nhỏ nhất").
+4. Rà soát lần cuối metadata references (đặc biệt [2]/[3] khi có số báo/DOI chính thức, thay "forthcoming").
 
 **REMAINING NON-SCIENTIFIC ITEMS**:
 - authors (tên, đơn vị, email liên hệ)

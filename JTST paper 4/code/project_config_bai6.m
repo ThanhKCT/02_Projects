@@ -63,7 +63,9 @@ cfg.gamma_n = 1.15;         % carry-over Bai 2 (cap hau qua C2, QCVN 03:2022/BXD
 
 % --- Rang buoc chuyen vi (g2) ---
 cfg.U_allow_m = 5.2/240;    % quy uoc L/240, L=khoang coc doc ben ~5.2m (neu ban dung)
-cfg.deck_top_Z = 0.0;       % TODO xac nhan: cao do dinh ben trong toa do Z cua model FEM nay (can kiem tra qua diagnose_bai6.m)
+cfg.deck_top_Z = 0.0;       % XAC NHAN 2026-09-24: quet toan bo 1942 joint trong "Ben so 1 Chan May.$2k" -
+                            % Z=0.0 la cao do LON NHAT trong mo hinh (1846/1942 joint nam dung Z=0), khong
+                            % joint nao cao hon -> dung la dinh ben, khong phai gia tri chua kiem chung.
 
 % --- To hop tai trong (da co san trong model, KHONG can dinh nghia lai) ---
 cfg.combo_ULSB  = 'BAO-ULSB';   % bao 388 to hop ULS -> dung cho M_Ed, N_max coc

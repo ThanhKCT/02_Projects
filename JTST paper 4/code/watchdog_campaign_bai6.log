@@ -15696,3 +15696,31 @@
 [2026-09-21 17:17:53] run20 : poll - elapsed=21284s log_stale=197s
 [2026-09-21 17:18:23] run20 : THANH CONG - D:\ResearchLab\02_Projects\02_Projects\JTST paper 4\code\results\Bai6_MOSFOA_Np20_Maxit100_run20_FINAL.mat da xuat hien.
 [2026-09-21 17:18:23] === HOAN THANH TOAN BO CAMPAIGN BAI 6 (20 lan chay) ===
+[2026-09-23 07:52:50] === watchdog_campaign_bai6 start: Nrun=20 Npop=30 Max_it=100 Num_work=4 ===
+[2026-09-23 07:52:53] ----- Bat dau run01 (1/20) -----
+[2026-09-23 07:52:57] run01 : launching MATLAB (attempt 1)
+[2026-09-23 07:53:27] run01 : tien trinh MATLAB da ket thuc nhung KHONG co file ket qua (loi/crash) - se relaunch.
+[2026-09-23 07:53:30] run01 : launching MATLAB (attempt 2)
+[2026-09-23 07:54:00] run01 : poll - elapsed=30s log_stale=5s
+[2026-09-23 07:54:30] run01 : poll - elapsed=60s log_stale=7s
+[2026-09-23 07:55:00] run01 : poll - elapsed=90s log_stale=37s
+[2026-09-23 07:55:30] run01 : poll - elapsed=120s log_stale=24s
+[2026-09-23 07:56:00] run01 : poll - elapsed=150s log_stale=54s
+[2026-09-23 07:56:30] run01 : poll - elapsed=180s log_stale=84s
+[2026-09-23 07:57:00] run01 : poll - elapsed=210s log_stale=114s
+[2026-09-23 07:57:30] run01 : poll - elapsed=240s log_stale=144s
+[2026-09-23 07:58:00] run01 : tien trinh MATLAB da ket thuc nhung KHONG co file ket qua (loi/crash) - se relaunch.
+[2026-09-23 07:58:03] run01 : launching MATLAB (attempt 3)
+[2026-09-23 07:58:33] run01 : poll - elapsed=30s log_stale=6s
+[2026-09-23 07:59:03] run01 : poll - elapsed=60s log_stale=2s
+[2026-09-23 07:59:33] run01 : poll - elapsed=90s log_stale=32s
+[2026-09-23 08:00:03] run01 : poll - elapsed=120s log_stale=62s
+[2026-09-23 08:00:33] run01 : poll - elapsed=150s log_stale=92s
+[2026-09-23 08:01:03] run01 : poll - elapsed=180s log_stale=122s
+[2026-09-23 08:01:33] run01 : poll - elapsed=210s log_stale=152s
+[2026-09-23 08:02:03] run01 : poll - elapsed=240s log_stale=182s
+[2026-09-23 08:02:33] run01 : poll - elapsed=270s log_stale=212s
+[2026-09-23 08:03:04] run01 : tien trinh MATLAB da ket thuc nhung KHONG co file ket qua (loi/crash) - se relaunch.
+[2026-09-23 08:03:07] run01 : launching MATLAB (attempt 4)
+[2026-09-23 08:03:37] run01 : poll - elapsed=30s log_stale=0s
+[2026-09-23 08:04:07] run01 : poll - elapsed=60s log_stale=15s

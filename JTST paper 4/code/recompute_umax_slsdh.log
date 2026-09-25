@@ -1,0 +1,15 @@
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+=== Nghiem A (nhe nhat): tinh lai U_max (chi 20 to hop SLSDH) ===
+  U_max=0.0049 m (combo SLSDH-18) [g2 limit = 0.0217 m]
+
+=== Nghiem B (can bang/knee): tinh lai U_max (chi 20 to hop SLSDH) ===
+  U_max=0.0051 m (combo SLSDH-10) [g2 limit = 0.0217 m]
+
+=== Nghiem C (dap ung tot nhat): tinh lai U_max (chi 20 to hop SLSDH) ===
+  U_max=0.0059 m (combo SLSDH-10) [g2 limit = 0.0217 m]
+
+Da cap nhat governing_combos_analysis.mat (U_max/CgovU sua lai, gia tri cu luu vao truong _OLD_408combo_BUGGED de doi chieu).

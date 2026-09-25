@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2026/09/21  22:55:59
+ B E G I N   A N A L Y S I S                                2026/09/24  08:06:39
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -37,11 +37,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =          14
 
 
- E L E M E N T   F O R M A T I O N                                      22:55:59
+ E L E M E N T   F O R M A T I O N                                      08:06:39
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        22:55:59
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        08:06:39
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -58,7 +58,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  22:56:00
+ L I N E A R   S T A T I C   C A S E S                                  08:06:40
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -89,7 +89,7 @@
  CASE: MT2-SLS
 
 
- I N F L U E N C E   L O A D   C A S E                                  22:56:00
+ I N F L U E N C E   L O A D   C A S E                                  08:06:40
 
  CASE: <Influence>
 
@@ -102,7 +102,7 @@
 
 
 
- V E H I C L E   I N F L U E N C E   A N A L Y S I S                    22:56:00
+ V E H I C L E   I N F L U E N C E   A N A L Y S I S                    08:06:40
 
  CASE: <Vehicle 1 0 0>
 
@@ -137,18 +137,18 @@
                                                ----------
  TOTAL NUMBER OF RESPONSE POINTS           =       13298   NONE
 
- TIME FOR COMPUTING JOINT RESPONSE         =        0.15
+ TIME FOR COMPUTING JOINT RESPONSE         =        0.14
 
- TIME FOR COMPUTING SPRING RESPONSE        =        0.13
+ TIME FOR COMPUTING SPRING RESPONSE        =        0.11
  TIME FOR COMPUTING REACTION RESPONSE      =        0.07
- TIME FOR COMPUTING FRAME RESPONSE         =        0.18
- TIME FOR COMPUTING SHELL RESPONSE         =        1.25
+ TIME FOR COMPUTING FRAME RESPONSE         =        0.15
+ TIME FOR COMPUTING SHELL RESPONSE         =        1.13
  TIME FOR CONTROLLING ANALYSIS             =        0.00
                                                ----------
- TOTAL TIME FOR THIS ANALYSIS              =        1.78
+ TOTAL TIME FOR THIS ANALYSIS              =        1.60
 
 
- M O V I N G   L O A D   A N A L Y S I S                                22:56:02
+ M O V I N G   L O A D   A N A L Y S I S                                08:06:42
 
  CASE: OTO
 
@@ -159,4 +159,4 @@
  CENTRIFUGAL DIRECTION FACTOR              =     .000000
 
 
- A N A L Y S I S   C O M P L E T E                          2026/09/21  22:56:04
+ A N A L Y S I S   C O M P L E T E                          2026/09/24  08:06:44

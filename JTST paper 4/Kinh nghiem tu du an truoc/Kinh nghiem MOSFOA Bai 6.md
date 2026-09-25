@@ -1,6 +1,6 @@
 # Kinh nghiệm từ dự án "MOSFOA Bài 6 — hệ kết cấu bên trên cầu tàu" — tổng hợp lỗi đã gặp để rút kinh nghiệm cho dự án sau
 
-> Viết sau khi campaign chính thức hoàn thành (20/20 lần chạy độc lập hợp lệ, Npop=20/Max_it=100/Num_work=8, ~5,8 giờ/run). File này **không lặp lại** những gì đã ghi ở các file dưới đây — chỉ ghi những gì MỚI phát sinh riêng ở dự án này, đặc biệt là **2 lỗi nghiêm trọng chỉ bị phát hiện NGAY TRƯỚC/TRONG khi chạy campaign dài ngày**, dù đã đọc kỹ cả 5 file kinh nghiệm cũ trước khi viết code. Đọc các file sau **trước**, rồi mới đọc file này:
+> Viết sau khi campaign chính thức hoàn thành (20/20 lần chạy độc lập hợp lệ, Npop=20/Max_it=100/Num_work=8, ~5,8 giờ/run), cập nhật thêm 2 lần sau đó khi phát hiện thêm lỗi trong giai đoạn viết/rà soát bản thảo và dọn dẹp hậu campaign (mục 7-8). File này **không lặp lại** những gì đã ghi ở các file dưới đây — chỉ ghi những gì MỚI phát sinh riêng ở dự án này, dù đã đọc kỹ cả 5 file kinh nghiệm cũ trước khi viết code. Đọc các file sau **trước**, rồi mới đọc file này:
 > - [Cach ket noi_SAP2000_MATLAB_OPTIMIZATION.md](Cach%20ket%20noi_SAP2000_MATLAB_OPTIMIZATION.md) — kinh nghiệm gốc SAP2000↔MATLAB.
 > - [Kinh nghiem MOSFOA Paper 2.md](Kinh%20nghiem%20MOSFOA%20Paper%202.md) — 3 lỗi "im lặng" đã biết (JointDispl GroupElm, tên combo, FrameForce off-by-one) + kiến trúc watchdog.
 > - [Kinh nghiem SFOA.md](Kinh%20nghiem%20SFOA.md), [Kinh nghiem MOFDA.md](Kinh%20nghiem%20MOFDA.md), [Kinh nghiem MOFDA vs MOSFOA.md](Kinh%20nghiem%20MOFDA%20vs%20MOSFOA.md).
@@ -89,7 +89,35 @@ Người dùng gửi 1 checklist rà soát rất chi tiết (25 mục: design va
 
 ---
 
-## 7. Checklist rút gọn cho dự án MOSFOA/SAP2000-optimization tiếp theo (bổ sung vào các checklist đã có)
+## 7. ⚠️ MỚI (phát hiện SAU khi manuscript đã viết xong) — script Startup/watchdog chống mất điện KHÔNG được gỡ sau khi campaign hoàn thành, và tham số mặc định trong wrapper LỆCH với giá trị chính thức đã khóa
+
+**Phát hiện**: nhiều ngày SAU khi campaign 20/20 run đã hoàn thành (16/09 và 21/09, đều đúng `Npop=20 Num_work=8`) và bản thảo đã khóa số liệu, người dùng phát hiện MATLAB + SAP2000 tự chạy lúc đăng nhập Windows dù không hề yêu cầu. Nguyên nhân: file `.vbs` đặt trong thư mục Startup của Windows (để chống mất điện trong lúc campaign dài ngày) **KHÔNG được gỡ đi sau khi campaign xong** — nó gọi `run_full_campaign_bai6.ps1` **KHÔNG kèm tham số**, và script này có **tham số mặc định** (`$Npop=30`, `$Num_work=4`) là giá trị **thử nghiệm sớm, chưa phải giá trị cuối cùng** (`Npop=20`/`Num_work=8`) — không được cập nhật lại sau khi campaign chính thức chốt tham số. Vì tên file checkpoint/kết quả có gắn `Npop` (`Bai6_MOSFOA_Np%d_Maxit%d..._CKPT.mat`), cơ chế "idempotent-skip" (nhận diện đã chạy xong để bỏ qua) **không nhận ra** vì nó tìm file `Np30` (không tồn tại) thay vì `Np20` (đã có, đã hoàn thành) — hệ quả: mỗi lần đăng nhập Windows, nó âm thầm khởi động một campaign "mới" với **sai tham số**, tốn tài nguyên máy vô ích trong nhiều ngày mà không ai để ý.
+
+**May mắn không có hậu quả dữ liệu**: vì tên file kết quả khác nhau (`Np30` vs `Np20`), campaign rác không hề đụng tới/ghi đè file kết quả chính thức đã khóa. Nhưng đây HOÀN TOÀN có thể đã tệ hơn nếu tham số mặc định trùng với tham số thật (VD nếu wrapper mặc định đúng `Npop=20` nhưng seed mới lại chạy tiếp/ghi đè checkpoint thật).
+
+**Khó dừng hơn tưởng — watchdog là một pattern "tự phục hồi", chống lại chính việc bạn cố tắt nó**: kill trực tiếp `MATLAB.exe` KHÔNG đủ — bản thân mục đích của watchdog (`watchdog_campaign_bai6.ps1`, chạy nền, không cửa sổ) là phát hiện MATLAB "chết"/treo rồi **tự khởi động lại**, nên chỉ vài giây sau khi kill MATLAB, một loạt `MATLAB.exe` MỚI (PID khác) lại xuất hiện — đúng như thiết kế, nhưng phản tác dụng trong tình huống này. Phải kill CẢ 2 tiến trình PowerShell cha (`run_full_campaignX.ps1` VÀ `watchdog_campaignX.ps1`, tìm qua `Get-CimInstance Win32_Process -Filter "Name='powershell.exe'"` rồi lọc `CommandLine` theo tên script) **TRƯỚC**, rồi mới kill `MATLAB.exe` — lúc đó mới thật sự dừng hẳn.
+
+**SAP2000 mồ côi, không cửa sổ, không tắt được bằng UI**: khi force-kill MATLAB giữa chừng, các tiến trình `SAP2000.exe` mà nó mở qua COM automation (mỗi parallel worker mở 1 instance riêng, ở đây là 4 instance khớp `Num_work=4`) **không được đóng đúng cách** (không có lệnh `Application.exit()` nào được gọi) — chúng tồn tại như tiến trình mồ côi, chạy **ẩn hoàn toàn không cửa sổ** (`MainWindowTitle` rỗng), nên người dùng KHÔNG THỂ đóng bằng cách bấm vào cửa sổ/taskbar như bình thường, phải tự tìm và kill bằng `Get-Process -Name SAP2000 | Stop-Process -Force`.
+
+**Bài học tổng quát — checklist bắt buộc khi campaign hoàn thành (không chỉ riêng dự án này)**:
+1. **Gỡ file `.vbs` khỏi thư mục Startup NGAY khi campaign chính thức hoàn thành** — coi đây là bước cuối cùng bắt buộc của "campaign hoàn thành", không phải việc "để đó cũng không sao, lỡ mất điện lại cần".
+2. **KHÔNG dựa vào tham số mặc định trong wrapper script** — nếu phải giữ mặc định, luôn cập nhật lại đúng bằng giá trị đã CHỐT ngay khi chốt xong tham số chính thức; tốt hơn nữa là bỏ hẳn giá trị mặc định (bắt buộc truyền tham số tường minh) để một lần gọi thiếu tham số **báo lỗi ngay** thay vì âm thầm chạy sai.
+3. Khi cần dừng một tiến trình sinh ra từ kiến trúc watchdog, luôn dừng **tiến trình cha điều phối trước** (`run_full_campaignX.ps1` + `watchdog_campaignX.ps1`), không chỉ dừng `MATLAB.exe`/`SAP2000.exe` — nếu không, watchdog sẽ tự khởi động lại đúng như thiết kế.
+4. Sau bất kỳ lần force-kill MATLAB nào (dù chủ động hay do máy treo), luôn kiểm tra và dọn `SAP2000.exe` mồ côi — không mặc định là nó tự đóng theo.
+
+---
+
+## 8. Bug hậu kiểm — script tách riêng tổ hợp tải trọng để kiểm ràng buộc PHẢI dùng ĐÚNG tập tổ hợp con mà hàm đánh giá chính đã dùng, không được tự ý gộp rộng hơn
+
+**Phát hiện**: khi rà soát cuối trước khi nộp bài, phát hiện bản thảo báo cáo `Umax` (chuyển vị ngang lớn nhất) của 3 nghiệm đại diện = 0,0491/0,0490/0,0487 m, **VƯỢT** giới hạn ràng buộc g2 đã công bố (≤0,0217 m) — thoạt nhìn giống như campaign đã chấp nhận các nghiệm vi phạm ràng buộc của chính nó, một lỗi khoa học nghiêm trọng nếu đúng vậy. Điều tra kỹ (không sửa số liệu, chỉ kiểm tra source code) phát hiện: hàm đánh giá CHÍNH THỨC (`evaluate_superstructure_design.m`) trích `U_max` cho ràng buộc g2 **CHỈ TỪ tổ hợp bao `BAO-SLSDH`** (bao của 20 tổ hợp trạng thái giới hạn khai thác, SLS) — đúng như thiết kế. Nhưng script HẬU KIỂM riêng (`analyze_governing_combos.m`, chạy sau campaign để tìm tổ hợp chi phối cho 3 nghiệm đại diện) lại **gộp CẢ 408 tổ hợp** (388 ULS + 20 SLS) vào 1 danh sách rồi tìm max chuyển vị trên toàn bộ danh sách gộp đó — vô tình lấy cả tổ hợp trạng thái giới hạn CỰC HẠN (ULS, vốn có tải trọng lớn hơn hẳn SLS và không chịu ràng buộc chuyển vị phục vụ) vào phép tìm max, cho ra tổ hợp chi phối "ULSB-051" (một tổ hợp ULS) — một đại lượng **hoàn toàn khác** với `U_max` mà g2 thực sự kiểm tra trong campaign thật.
+
+**Bản chất**: đây là bug ở bước HẬU XỬ LÝ (post-processing), không phải bug khoa học/trong campaign thật — 40.400 lần đánh giá thật của campaign chưa từng dùng sai tập tổ hợp này. Nhưng nếu không phát hiện trước khi nộp, bản thảo sẽ có 1 điểm tự mâu thuẫn rất dễ bị reviewer bắt lỗi.
+
+**Bài học tổng quát**: bất kỳ script hậu kiểm/phân tích nào "tách riêng tổ hợp cơ bản để kiểm tra lại 1 ràng buộc/đại lượng cụ thể" (ở đây là chuyển vị cho g2) **PHẢI dùng lại chính xác cùng 1 tập tổ hợp con** mà hàm đánh giá chính dùng cho đại lượng đó (ở đây là chỉ 20 tổ hợp SLSDH, không phải cả 408) — tốt nhất là **import/tái sử dụng trực tiếp danh sách tổ hợp từ `cfg`** (VD `cfg.combo_SLSDH`/danh sách 20 tổ hợp cấu thành nó) thay vì tự dựng lại danh sách riêng trong script hậu kiểm, vì tự dựng lại rất dễ vô tình gộp rộng hơn phạm vi đúng mà không có dấu hiệu lỗi rõ ràng nào (không crash, không NaN, chỉ là SAI PHẠM VI). Khi hậu kiểm cho ra một đại lượng "trông có vẻ vi phạm ràng buộc chính", câu hỏi đầu tiên luôn là "hậu kiểm này có đang dùng ĐÚNG tập tổ hợp mà ràng buộc đó thực sự dùng không?", trước khi nghi ngờ chính campaign.
+
+---
+
+## 9. Checklist rút gọn cho dự án MOSFOA/SAP2000-optimization tiếp theo (bổ sung vào các checklist đã có)
 
 1. [ ] Đã thêm `rng('shuffle')` (lần đầu) + lưu/khôi phục `rng()` state đúng cách khi resume checkpoint — đã TỰ KIỂM CHỨNG bằng cách chạy 2 tiến trình độc lập in `rand()` khác nhau, KHÔNG chỉ tin code "trông đúng" (mục 1)?
 2. [ ] Đã thêm 1 lớp "sanity check vật lý cuối cùng" trước khi chấp nhận fitness của mỗi lần đánh giá — phát hiện được trường hợp toàn bộ đại lượng phản hồi bằng 0 bất thường (mục 2)?
@@ -98,3 +126,5 @@ Người dùng gửi 1 checklist rà soát rất chi tiết (25 mục: design va
 5. [ ] Mọi đại lượng vector (chuyển vị, lực) trích từ SAP2000 đã xét đủ các phương liên quan, không chỉ 1 phương "trực giác" (mục 5)?
 6. [ ] Đã tự soạn/áp dụng 1 checklist rà soát kỹ thuật TOÀN DIỆN (biến thiết kế, objective/constraint, đơn vị, stale-result test, extreme-design test) TRƯỚC pilot đầu tiên, không đợi đến trước campaign chính thức (mục 6)?
 7. [ ] Nếu phát hiện 1 lần chạy/run bị lỗi giữa campaign dài ngày (archive sụp bất thường, log bất thường...) — đã cách ly (move sang thư mục `invalidated_*`) và chạy lại DUY NHẤT run đó với code đã vá, không trộn lẫn dữ liệu trước/sau vá, không phải huỷ bỏ toàn bộ campaign?
+8. [ ] Ngay khi campaign chính thức hoàn thành: đã gỡ file `.vbs` khỏi thư mục Startup, đã xóa/dừng mọi tiến trình watchdog PowerShell còn sót, và tham số mặc định trong mọi wrapper script (nếu còn giữ lại để dùng sau) đã khớp đúng giá trị CHÍNH THỨC đã khóa, không phải giá trị thử nghiệm sớm (mục 7)?
+9. [ ] Mọi script hậu kiểm tách riêng tổ hợp tải trọng để kiểm tra lại 1 ràng buộc cụ thể đã dùng ĐÚNG tập tổ hợp con mà hàm đánh giá chính dùng cho ràng buộc đó (import từ `cfg`, không tự dựng lại danh sách riêng) (mục 8)?
